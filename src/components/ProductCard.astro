@@ -10,38 +10,45 @@ interface Props {
   rank?: number;
   /** compact = no pros/cons, used in top-picks grids */
   compact?: boolean;
+  /** heavy outline + offset shadow, for the #1 pick in a row */
+  featured?: boolean;
+  /** award colour for the label pill and image glow */
+  accent?: string;
 }
-const { model: m, label, rank, compact = false } = Astro.props;
+const { model: m, label, rank, compact = false, featured = false, accent } = Astro.props;
 const acres = m.maxSqFt / ACRE;
 ---
 
-<div class:list={["product-card", compact && "compact"]}>
+<article class:list={["product-card", compact && "compact", featured && "featured"]} style={accent ? `--award:${accent}` : undefined}>
   {label && <span class="pc-label">{rank ? `#${rank} · ` : ""}{label}</span>}
-  <div class="pc-top">
-    <ProductImage model={m} size={compact ? 84 : 110} />
+  <div class="pc-media">
+    <ProductImage model={m} size={compact ? 150 : 190} />
+  </div>
+  <div class="pc-body">
     <div class="pc-head">
       <h3 class="pc-name"><a href={`/mowers/${m.id}/`}>{m.name}</a></h3>
-      <div class="pc-meta">
-        <span class="score" title="Guide score out of 10">{m.score.toFixed(1)}</span>
-        <span class="pc-price">{formatPrice(m)}</span>
+      <span class="score" title="Guide score out of 10">{m.score.toFixed(1)}</span>
+    </div>
+    <ul class="chips" aria-label="Key specs">
+      <li>Up to {acres >= 1 ? acres.toFixed(acres % 1 ? 1 : 0) : acres.toFixed(2)} ac</li>
+      <li>{m.maxSlopePct}% slope</li>
+      <li>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</li>
+      {m.drive === "AWD" && <li class="hi">AWD</li>}
+    </ul>
+    <p class="pc-best">{m.bestFor}</p>
+    {!compact && (
+      <div class="pc-proscons">
+        <ul class="pros" aria-label="Pros">{m.pros.slice(0, 3).map((p) => <li>{p}</li>)}</ul>
+        <ul class="cons" aria-label="Cons">{m.cons.slice(0, 1).map((c) => <li>{c}</li>)}</ul>
       </div>
+    )}
+    <div class="pc-price-row">
+      <span class="pc-price">{formatPrice(m)}</span>
+      <small>typical price</small>
+    </div>
+    <div class="pc-actions">
+      <BuyButton model={m} size="sm" block />
+      <a class="pc-review" href={`/mowers/${m.id}/`}>Read the full review</a>
     </div>
   </div>
-  <ul class="chips" aria-label="Key specs">
-    <li>Up to {acres >= 1 ? acres.toFixed(acres % 1 ? 1 : 0) : acres.toFixed(2)} ac</li>
-    <li>{m.maxSlopePct}% slope</li>
-    <li>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</li>
-    {m.drive === "AWD" && <li>AWD</li>}
-  </ul>
-  <p class="pc-best">{m.bestFor}</p>
-  {!compact && (
-    <div class="pc-proscons">
-      <ul class="pros" aria-label="Pros">{m.pros.slice(0, 3).map((p) => <li>{p}</li>)}</ul>
-      <ul class="cons" aria-label="Cons">{m.cons.slice(0, 2).map((c) => <li>{c}</li>)}</ul>
-    </div>
-  )}
-  <div class="pc-actions">
-    <BuyButton model={m} size="sm" />
-    <a class="pc-review" href={`/mowers/${m.id}/`}>Full review</a>
-  </div>
-</div>
+</article>

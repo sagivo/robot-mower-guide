@@ -174,5 +174,14 @@ const modelsJson = JSON.stringify(
       result.classList.add("show");
       result.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
+
+    // Arriving from the homepage quick matcher (?sqft=…&slope=…): prefill and show matches.
+    const params = new URLSearchParams(location.search);
+    if (params.has("sqft") || params.has("slope")) {
+      if (params.has("sqft")) area.value = params.get("sqft");
+      if (params.has("slope")) slope.value = params.get("slope");
+      sync();
+      $("match-btn").click();
+    }
   </script>
 </BaseLayout>

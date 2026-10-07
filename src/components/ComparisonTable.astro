@@ -31,16 +31,17 @@ const { models, sortable = false, caption } = Astro.props;
         <tr>
           <th scope="row" data-v={m.name}>
             <a href={`/mowers/${m.id}/`}>{m.name}</a>
+            <span class="score sm cmp-mscore" aria-hidden="true">{m.score.toFixed(1)}</span>
           </th>
-          <td data-v={m.score}><span class="score sm">{m.score.toFixed(1)}</span></td>
-          <td data-v={m.maxSqFt}>{(m.maxSqFt / 43560).toFixed(2)} ac</td>
-          <td data-v={m.maxSlopePct}>{m.maxSlopePct}%</td>
-          <td data-v={m.nav}>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</td>
-          <td data-v={m.drive}>{m.drive}</td>
-          <td data-v={m.priceLow}>{formatMoney(m.priceLow)}</td>
-          <td>
-            <a class="btn btn-xs" href={amazonLink(m.query, m.asin)} rel={AFFILIATE_REL} target="_blank">
-              Price
+          <td class="c-score" data-label="Score" data-v={m.score}><span class="score sm">{m.score.toFixed(1)}</span></td>
+          <td data-label="Max area" data-v={m.maxSqFt}>{(m.maxSqFt / 43560).toFixed(2)} ac</td>
+          <td data-label="Max slope" data-v={m.maxSlopePct}>{m.maxSlopePct}%</td>
+          <td class="c-nav" data-label="Navigation" data-v={m.nav}>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</td>
+          <td data-label="Drive" data-v={m.drive}>{m.drive}</td>
+          <td data-label="Price from" data-v={m.priceLow}>{formatMoney(m.priceLow)}</td>
+          <td class="c-buy">
+            <a class="btn btn-xs buy" href={amazonLink(m.query, m.asin)} rel={AFFILIATE_REL} target="_blank">
+              Check price<span class="sr-only"> of the {m.name} on Amazon</span>
             </a>
           </td>
         </tr>

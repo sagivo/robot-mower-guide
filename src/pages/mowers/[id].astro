@@ -85,22 +85,38 @@ const bars: [string, number][] = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical={url} ogImage={ogImage} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} canonical={url} ogImage={ogImage} jsonLd={jsonLd} hidePromo>
   <div class="wrap post-wrap">
     <Breadcrumbs crumbs={crumbs} />
 
     <div data-pagefind-body>
     <header class="review-hero">
-      <div class="rh-art"><ProductImage model={m} size={200} eager /></div>
+      <div class="rh-art">
+        <span class="ring lg" style={`--v:${m.score * 10}`} title="Guide score out of 10"><span>{m.score.toFixed(1)}</span></span>
+        <ProductImage model={m} size={300} eager />
+      </div>
       <div class="rh-body">
         <span class="post-tag">{m.brand} · {m.tier === "budget" ? "Budget" : m.tier === "mid" ? "Mid-range" : "Premium"}</span>
         <h1>{m.name} Review</h1>
         <p class="rh-best">{m.bestFor}</p>
+        <ul class="chips rh-chips" aria-label="Key specs">
+          <li>Up to {acresOf(m.maxSqFt)} ac</li>
+          <li>{m.maxSlopePct}% slope</li>
+          <li>{navShort}</li>
+          {m.drive !== "2WD" && <li class="hi">{m.drive}</li>}
+          {!m.needsRtkStation && <li>No base station</li>}
+        </ul>
         <div class="rh-meta">
-          <span class="score lg" title="Guide score out of 10">{m.score.toFixed(1)}<small>/10</small></span>
-          <span class="rh-price">{formatPrice(m)}<small>typical price</small></span>
+          <span class="rh-price">{formatPrice(m)}<small>typical price · check Amazon for today's</small></span>
         </div>
-        <BuyButton model={m} />
+        <div class="rh-buy">
+          <BuyButton model={m} size="lg" />
+          <a class="btn ghost" href="#alternatives">See alternatives</a>
+        </div>
+        <p class="buy-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z" fill="currentColor"/></svg>
+          Opens Amazon in a new tab. Our score is never influenced by commissions.
+        </p>
         <p class="byline">
           By <a href="/about/">{SITE_NAME} Editorial Team</a> ·
           <time datetime={updated.toISOString()}>Updated {fmtDate(updated)}</time> ·
@@ -166,6 +182,7 @@ const bars: [string, number][] = [
 
       <div class="inline-cta">
         <div>
+          <small>Ready to buy? · {m.score.toFixed(1)}/10</small>
           <strong>{m.name}</strong>
           <span>{formatPrice(m)} · up to {formatArea(m.maxSqFt)} · {m.maxSlopePct}% slopes</span>
         </div>
@@ -207,9 +224,14 @@ const bars: [string, number][] = [
     </article>
 
     </div>
-    <section aria-label="Alternatives">
-      <h2 class="section-title" style="margin-top:3rem;">Alternatives to the {m.shortName}</h2>
-      <div class="tp-grid alt-grid">
+    <section id="alternatives" aria-label="Alternatives">
+      <div class="section-head alt-head">
+        <div>
+          <span class="eyebrow">Not sold yet?</span>
+          <h2 class="section-title">Alternatives to the {m.shortName}</h2>
+        </div>
+      </div>
+      <div class="tp-grid alt-grid swipe">
         {alternatives.map((a) => <ProductCard model={a} compact />)}
       </div>
       <p style="margin-top:1.25rem;"><a class="section-link" href="/mowers/">Compare all {MODELS.length} models →</a></p>

@@ -16,9 +16,9 @@ const acres = (sqft: number) => +(sqft / ACRE).toFixed(2);
   <h2 class="tp-title">{title}</h2>
   <ol class="pick-rows">
     {rows.map(({ m, label }, i) => (
-      <li class="pick-row">
+      <li class:list={["pick-row", i === 0 && "winner"]}>
         <span class="pr-rank" aria-hidden="true">{i + 1}</span>
-        <span class="pr-img"><ProductImage model={m} size={76} /></span>
+        <span class="pr-img"><ProductImage model={m} size={84} /></span>
         <div class="pr-main">
           <span class="pr-label">{label}</span>
           <a class="pr-name" href={`/mowers/${m.id}/`}>{m.name}</a>
@@ -27,7 +27,7 @@ const acres = (sqft: number) => +(sqft / ACRE).toFixed(2);
         <span class="score sm" title="Guide score out of 10">{m.score.toFixed(1)}</span>
         <div class="pr-buy">
           <span class="pr-price">from {formatMoney(m.priceLow)}</span>
-          <BuyButton model={m} label="Check price" size="sm" />
+          <BuyButton model={m} label={i === 0 ? "Check price on Amazon" : "Check price"} size="sm" />
         </div>
       </li>
     ))}

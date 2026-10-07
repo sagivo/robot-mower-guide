@@ -6,11 +6,13 @@ import BuyButton from "./BuyButton.astro";
 interface Props {
   model: MowerModel;
   label?: string;
+  /** scroll distance (px) before the bar appears */
+  showAfter?: number;
 }
-const { model, label } = Astro.props;
+const { model, label, showAfter = 900 } = Astro.props;
 ---
 
-<div class="sticky-cta" id="sticky-cta" hidden>
+<div class="sticky-cta" id="sticky-cta" data-show-after={showAfter} hidden>
   <div class="sc-text">
     {label && <span class="sc-label">{label}</span>}
     <strong>{model.shortName}</strong>
@@ -25,7 +27,7 @@ const { model, label } = Astro.props;
   const bar = document.getElementById("sticky-cta");
   if (bar && !sessionStorage.getItem("cta-dismissed")) {
     const onScroll = () => {
-      bar.hidden = window.scrollY < 900;
+      bar.hidden = window.scrollY < Number(bar.dataset.showAfter ?? 900);
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     bar.querySelector(".sc-close")?.addEventListener("click", () => {

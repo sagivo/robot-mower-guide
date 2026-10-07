@@ -54,13 +54,15 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
     <Breadcrumbs crumbs={crumbs} />
     <div class="post-layout">
     <article class="prose" id="article" data-pagefind-body>
-      <span class="post-tag">{d.tag ?? CATEGORY_LABEL[d.category]}</span>
-      <h1>{d.title}</h1>
-      <p class="byline">
-        By <a href="/about/">{SITE_NAME} Editorial Team</a> ·
-        <time datetime={updated.toISOString()}>Updated {fmtDate(updated)}</time> ·
-        <a href="/how-we-research/">How we research</a>
-      </p>
+      <header class="post-head">
+        <span class="post-tag">{d.tag ?? CATEGORY_LABEL[d.category]}</span>
+        <h1>{d.title}</h1>
+        <p class="post-meta">
+          <span class="fresh"><time datetime={updated.toISOString()}>Updated {fmtDate(updated)}</time></span>
+          <span>By <a href="/about/">{SITE_NAME} Editorial Team</a></span>
+          <a href="/how-we-research/">How we research</a>
+        </p>
+      </header>
       <div class="affiliate-note">
         We may earn a commission when you buy through links on this page, at no extra cost to you.
         Prices are approximate and change often, so check the current price before you buy.
@@ -113,7 +115,8 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
     </article>
     <aside class="post-aside" aria-label="Our top pick">
       <div class="aside-sticky">
-        {pickModels[0] && <ProductCard model={pickModels[0]} label={picks[0].label} compact />}
+        {pickModels[0] && <p class="aside-kicker">Our #1 pick</p>}
+        {pickModels[0] && <ProductCard model={pickModels[0]} label={picks[0].label} compact featured />}
         <a class="aside-tool" href="/tools/size-matcher/">
           <strong>📐 Not sure which fits?</strong>
           <span>Match a mower to your lawn size, slope and budget in 30 seconds.</span>
