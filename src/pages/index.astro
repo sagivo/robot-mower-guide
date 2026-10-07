@@ -7,6 +7,14 @@ const posts = (await getCollection("posts")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
+const tags: Record<string, string> = {
+  "best-robot-lawn-mowers-2026": "Flagship guide",
+  "mammotion-luba-3-vs-segway-navimow-x4": "Head-to-head",
+  "robot-mower-vs-lawn-service-cost": "Cost breakdown",
+  "robot-mower-slope-limits": "Buying advice",
+  "robot-mower-navigation-explained": "Explainer",
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -17,48 +25,97 @@ const jsonLd = {
 ---
 
 <BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION} jsonLd={jsonLd}>
-  <div class="wrap">
-    <section class="hero">
-      <h1>Find the right wire-free robot lawn mower</h1>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <span class="hero-kicker">Wire-free only · No boundary wire</span>
+      <svg class="mower-illo" viewBox="0 0 160 110" aria-hidden="true">
+        <!-- signal waves -->
+        <g stroke="#b8e62e" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round">
+          <path d="M118 34a22 22 0 0 1 14-8" />
+          <path d="M122 46a34 34 0 0 1 22-12" opacity="0.6"/>
+          <path d="M42 34a22 22 0 0 0-14-8" opacity="0.6"/>
+        </g>
+        <!-- mower body -->
+        <rect x="40" y="52" width="80" height="34" rx="17" fill="#2f9e44"/>
+        <rect x="40" y="52" width="80" height="14" rx="7" fill="#40b955"/>
+        <circle cx="80" cy="59" r="5" fill="#0e2413"/>
+        <circle cx="80" cy="59" r="2" fill="#b8e62e"/>
+        <!-- wheels -->
+        <circle cx="58" cy="90" r="14" fill="#152419"/>
+        <circle cx="58" cy="90" r="6" fill="#5c6f60"/>
+        <circle cx="102" cy="90" r="14" fill="#152419"/>
+        <circle cx="102" cy="90" r="6" fill="#5c6f60"/>
+        <!-- cut grass lines -->
+        <g stroke="#b8e62e" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+          <path d="M20 100l6-8M32 102l6-8M128 100l6-8M140 102l6-8" />
+        </g>
+      </svg>
+      <h1>Find the right <em>wire-free</em> robot lawn mower</h1>
       <p class="lead">
         No boundary wires. No guesswork. Independent comparisons, sizing tools,
-        and real cost math for the new generation of GPS and vision-guided robot mowers.
+        and real cost math for the GPS and vision-guided mowers of 2026.
       </p>
       <div class="cta-row">
         <a class="btn" href="/tools/size-matcher/">Match a mower to my lawn</a>
         <a class="btn secondary" href="/posts/best-robot-lawn-mowers-2026/">Best mowers of 2026</a>
       </div>
-    </section>
+      <div class="hero-stats">
+        <div><strong>7</strong><span>models tracked</span></div>
+        <div><strong>3</strong><span>free calculators</span></div>
+        <div><strong>5</strong><span>in-depth guides</span></div>
+      </div>
+    </div>
+    <svg class="hero-hills" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,55 C240,20 480,80 720,50 C960,20 1200,75 1440,45 L1440,90 L0,90 Z" fill="#f6faf3"/>
+      <path d="M0,70 C260,45 520,85 780,65 C1040,45 1240,80 1440,62 L1440,90 L0,90 Z" fill="#eef5e9" opacity="0.7"/>
+    </svg>
+  </section>
 
-    <h2 class="section-title">Free tools</h2>
+  <div class="wrap wide">
+    <div class="section-head">
+      <h2 class="section-title">Free tools</h2>
+    </div>
     <div class="tool-grid">
       <a class="tool-card" href="/tools/size-matcher/">
-        <h3>📐 Mower Size Matcher</h3>
-        <p>Enter your lawn size, slope, and obstacles — get the models that actually fit.</p>
+        <div class="tool-icon">📐</div>
+        <h3>Mower Size Matcher</h3>
+        <p>Enter your lawn size, slope, and obstacles — get the models that actually fit your yard.</p>
+        <span class="go">Find my mower</span>
       </a>
       <a class="tool-card" href="/tools/cost-calculator/">
-        <h3>💰 Robot vs. Lawn Service Calculator</h3>
-        <p>See your payback period and 5-year savings versus paying a mowing service.</p>
+        <div class="tool-icon">💰</div>
+        <h3>Robot vs. Lawn Service</h3>
+        <p>See your payback period and 5-year savings versus paying a mowing crew.</p>
+        <span class="go">Do the math</span>
       </a>
       <a class="tool-card" href="/tools/slope-checker/">
-        <h3>⛰️ Slope Compatibility Checker</h3>
-        <p>Measure your hill once — find every mower rated to climb it.</p>
+        <div class="tool-icon">⛰️</div>
+        <h3>Slope Checker</h3>
+        <p>Measure your steepest hill once — find every mower rated to climb it.</p>
+        <span class="go">Check my hill</span>
       </a>
     </div>
 
-    <h2 class="section-title">Guides</h2>
-    <ul class="post-list">
+    <div class="section-head">
+      <h2 class="section-title">Buying guides</h2>
+    </div>
+    <div class="post-grid">
       {posts.map((post) => (
-        <li>
-          <a href={`/posts/${post.id}/`}>
-            <h3>{post.data.title}</h3>
-            <p>{post.data.description}</p>
-            <time datetime={post.data.pubDate.toISOString()}>
-              {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-            </time>
-          </a>
-        </li>
+        <a class="post-card" href={`/posts/${post.id}/`}>
+          <span class="post-tag">{tags[post.id] ?? "Guide"}</span>
+          <h3>{post.data.title}</h3>
+          <p>{post.data.description}</p>
+          <time datetime={post.data.pubDate.toISOString()}>
+            {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          </time>
+        </a>
       ))}
-    </ul>
+    </div>
+
+    <section class="strip" aria-label="Why trust this guide">
+      <div><div class="n">01</div><h3>Wire-free only</h3><p>Every model we cover navigates by GPS, vision, or LiDAR. No buried boundary wire, ever.</p></div>
+      <div><div class="n">02</div><h3>Specs, cross-checked</h3><p>Slope ratings and coverage claims verified across manufacturers, reviews, and owner reports.</p></div>
+      <div><div class="n">03</div><h3>Tools, not just words</h3><p>Calculators built from real specs turn "which mower?" into a number, not a guess.</p></div>
+    </section>
   </div>
 </BaseLayout>

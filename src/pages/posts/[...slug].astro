@@ -29,7 +29,7 @@ const jsonLd: Record<string, unknown>[] = [
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Guides", item: SITE_URL },
       { "@type": "ListItem", position: 3, name: post.data.title, item: url },
     ],
   },
@@ -58,8 +58,8 @@ if (post.data.faq?.length) {
     updatedDate: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
   }}
 >
-  <div class="wrap">
-    <article class="prose">
+  <div class="wrap" style="padding-top:2.5rem;">
+    <article class="prose" id="article">
       <h1>{post.data.title}</h1>
       <p class="byline">
         Published{" "}
@@ -75,7 +75,19 @@ if (post.data.faq?.length) {
         As an Amazon Associate {SITE_NAME} earns from qualifying purchases.
         Prices shown are approximate and change frequently — check the current price on Amazon.
       </div>
+      <nav class="toc" id="toc" aria-label="Table of contents" hidden>
+        <h2>On this page</h2>
+        <ol id="toc-list"></ol>
+      </nav>
       <Content />
+      <aside class="related-tools" aria-label="Related tools">
+        <h2>Don't guess — calculate</h2>
+        <ul>
+          <li><a href="/tools/size-matcher/">📐 Mower Size Matcher</a> — which models fit your lawn</li>
+          <li><a href="/tools/cost-calculator/">💰 Robot vs. Lawn Service</a> — your payback period</li>
+          <li><a href="/tools/slope-checker/">⛰️ Slope Checker</a> — can a mower climb your hill?</li>
+        </ul>
+      </aside>
       {post.data.faq?.length ? (
         <section class="faq" aria-label="Frequently asked questions">
           <h2>Frequently asked questions</h2>
@@ -89,4 +101,29 @@ if (post.data.faq?.length) {
       ) : null}
     </article>
   </div>
+
+  <script>
+    // Build a table of contents from h2s and anchor them.
+    const article = document.getElementById("article");
+    const toc = document.getElementById("toc");
+    const list = document.getElementById("toc-list");
+    if (article && toc && list) {
+      const heads = [...article.querySelectorAll("h2")].filter(
+        (h) => !h.closest(".toc") && !h.closest(".related-tools") && !h.closest(".faq")
+      );
+      if (heads.length >= 3) {
+        heads.forEach((h, i) => {
+          const id = h.id || `section-${i}`;
+          h.id = id;
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = `#${id}`;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          list.appendChild(li);
+        });
+        toc.hidden = false;
+      }
+    }
+  </script>
 </BaseLayout>

@@ -28,7 +28,7 @@ const jsonLd = [
         name: "What size robot lawn mower do I need?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Choose a mower rated for at least 15-20% more area than your lawn, and check its maximum slope rating against your steepest hill. Use the size matcher above — enter your square footage and slope to get matched models.",
+          text: "Choose a mower rated for at least 15-20% more area than your lawn, and check its maximum slope rating against your steepest hill. Use the size matcher — enter your square footage and slope to get matched models.",
         },
       },
       {
@@ -50,104 +50,104 @@ const modelsJson = JSON.stringify(
 
 <BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
   <div class="wrap">
-    <article class="prose">
+    <div class="calc-hero">
       <h1>What size robot lawn mower do I need?</h1>
       <p>
-        Buying an undersized robot mower is the most common (and most expensive)
-        mistake. A mower rated exactly for your lawn size will run constantly,
-        wear out faster, and struggle on hills. Use the matcher below — it filters
-        wire-free models by your actual yard.
+        Buying an undersized mower is the most common — and most expensive —
+        mistake. Drag the sliders to describe your yard and we'll match you with
+        wire-free models that actually fit.
       </p>
+    </div>
 
-      <div class="calc" id="size-calc">
-        <div class="row">
-          <div>
-            <label for="area">Lawn area</label>
-            <input id="area" type="number" min="500" max="60000" value="10000" />
-          </div>
-          <div>
-            <label for="area-unit">Unit</label>
-            <select id="area-unit">
-              <option value="sqft">Square feet</option>
-              <option value="acre">Acres</option>
-              <option value="sqm">Square meters</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div>
-            <label for="slope">Steepest slope (% grade)</label>
-            <input id="slope" type="number" min="0" max="80" value="15" />
-          </div>
-          <div>
-            <label for="obstacles">Trees & obstacles</label>
-            <select id="obstacles">
-              <option value="few">Few / open lawn</option>
-              <option value="some">Some trees and beds</option>
-              <option value="many">Many trees, narrow passages</option>
-            </select>
-          </div>
+    <div class="calc" id="size-calc">
+      <div>
+        <label for="area">Lawn area <output id="area-out">10,000 sq ft</output></label>
+        <input id="area" type="range" min="1000" max="50000" step="500" value="10000" />
+      </div>
+      <div>
+        <label for="slope">Steepest slope <output id="slope-out">15% grade</output></label>
+        <input id="slope" type="range" min="0" max="70" step="5" value="15" />
+      </div>
+      <div class="row">
+        <div>
+          <label for="obstacles">Trees &amp; obstacles</label>
+          <select id="obstacles">
+            <option value="few">Few / open lawn</option>
+            <option value="some">Some trees and beds</option>
+            <option value="many">Many trees, narrow passages</option>
+          </select>
         </div>
         <div>
-          <label for="budget">Max budget (USD, optional)</label>
-          <input id="budget" type="number" min="0" placeholder="e.g. 2000" />
+          <label for="budget">Max budget <output id="budget-out">no limit</output></label>
+          <input id="budget" type="range" min="800" max="3200" step="100" value="3200" />
         </div>
-        <p><button class="btn" id="match-btn" type="button">Find my mower</button></p>
-        <div class="calc-result" id="size-result" aria-live="polite"></div>
       </div>
+      <p style="margin-top:1.5rem;"><button class="btn" id="match-btn" type="button">Find my mower 🌱</button></p>
+      <div class="calc-result" id="size-result" aria-live="polite"></div>
+    </div>
 
-      <h2>How to read the results</h2>
+    <article class="prose">
+      <h2>How the matching works</h2>
       <p>
         We filter for mowers rated at least 15% above your lawn size (headroom for
-        charging time and narrow zones) and rated for your steepest slope. If your
-        yard has many obstacles, we prefer vision-guided models that handle
-        complex layouts without a boundary wire.
+        charging time and narrow zones) and rated for your steepest slope. Yards
+        with many obstacles get vision-guided models that handle complex layouts
+        without a boundary wire.
       </p>
       <p>
-        Still unsure about hills? Check the <a href="/tools/slope-checker/">slope compatibility checker</a>,
+        Still unsure about hills? Try the <a href="/tools/slope-checker/">slope compatibility checker</a>,
         or compare running costs with the <a href="/tools/cost-calculator/">robot vs. lawn service calculator</a>.
+        For the full picture, read our <a href="/posts/best-robot-lawn-mowers-2026/">best robot mowers of 2026</a> guide.
       </p>
     </article>
   </div>
 
-  <script define:vars={{ modelsJson }}>
+  <script define:vars={{ modelsJson, siteName: SITE_NAME }}>
     const MODELS = JSON.parse(modelsJson);
-    const btn = document.getElementById("match-btn");
-    const result = document.getElementById("size-result");
+    const $ = (id) => document.getElementById(id);
+    const area = $("area"), slope = $("slope"), budget = $("budget");
 
-    function toSqFt(v, unit) {
-      if (unit === "acre") return v * 43560;
-      if (unit === "sqm") return v * 10.7639;
-      return v;
+    function paint(el) {
+      const pct = ((el.value - el.min) / (el.max - el.min)) * 100;
+      el.style.setProperty("--fill", pct + "%");
     }
+    function fmt(n) { return Math.round(n).toLocaleString("en-US"); }
 
-    btn.addEventListener("click", () => {
-      const area = toSqFt(parseFloat(document.getElementById("area").value) || 0,
-        document.getElementById("area-unit").value);
-      const slope = parseFloat(document.getElementById("slope").value) || 0;
-      const obstacles = document.getElementById("obstacles").value;
-      const budget = parseFloat(document.getElementById("budget").value) || Infinity;
-      const need = area * 1.15;
+    function sync() {
+      [area, slope, budget].forEach(paint);
+      $("area-out").textContent = fmt(area.value) + " sq ft";
+      $("slope-out").textContent = slope.value + "% grade";
+      $("budget-out").textContent = +budget.value >= 3200 ? "no limit" : "$" + fmt(budget.value);
+    }
+    [area, slope, budget].forEach((el) => el.addEventListener("input", sync));
+    sync();
 
-      let picks = MODELS.filter((m) => m.maxSqFt >= need && m.maxSlopePct >= slope && m.priceLow <= budget);
+    $("match-btn").addEventListener("click", () => {
+      const need = parseFloat(area.value) * 1.15;
+      const hill = parseFloat(slope.value);
+      const obstacles = $("obstacles").value;
+      const maxBudget = +budget.value >= 3200 ? Infinity : parseFloat(budget.value);
+
+      let picks = MODELS.filter((m) => m.maxSqFt >= need && m.maxSlopePct >= hill && m.priceLow <= maxBudget);
       if (obstacles === "many") {
         const vision = picks.filter((m) => /vision/i.test(m.nav));
         if (vision.length) picks = vision;
       }
       picks.sort((a, b) => a.priceLow - b.priceLow);
+      const result = $("size-result");
 
       if (!picks.length) {
-        result.innerHTML = "<h3>No match found</h3><p>No wire-free mower in our database covers that combination. Try raising your budget or <a href='/contact/'>contact us</a> — large or very steep lawns may need a dealer-installed model.</p>";
+        result.innerHTML = "<h3>No match found</h3><p>No wire-free mower in our database covers that combination. Try raising your budget — very large or steep lawns may need a dealer-installed model.</p>";
       } else {
         const cards = picks.slice(0, 3).map((m, i) => `
           <div class="model-pick">
             <h4>${i === 0 ? "⭐ Best match: " : ""}${m.name}</h4>
-            <p class="specs">Covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres · climbs ${m.maxSlopePct}% grade · ${m.nav} · ~$${m.priceLow.toLocaleString()}–$${m.priceHigh.toLocaleString()}</p>
+            <p class="specs">Covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres · climbs ${m.maxSlopePct}% grade · ${m.nav} · ~$${fmt(m.priceLow)}–$${fmt(m.priceHigh)}</p>
             <p>${m.bestFor}</p>
             <a class="btn" href="${m.link}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a>
           </div>`).join("");
         result.innerHTML = `<h3>Top ${Math.min(3, picks.length)} matches for your lawn</h3>${cards}
-          <p class="disclosure">As an Amazon Associate {SITE_NAME} earns from qualifying purchases. Prices change — verify on Amazon.</p>`;
+          <p class="disclosure">As an Amazon Associate ${siteName} earns from qualifying purchases. Prices change — verify on Amazon.</p>`;
       }
       result.classList.add("show");
       result.scrollIntoView({ behavior: "smooth", block: "nearest" });
