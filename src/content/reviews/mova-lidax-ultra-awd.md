@@ -8,12 +8,12 @@ faq:
   - q: "How much does 4G cost on the MOVA LiDAX Ultra AWD?"
     a: "The first three years of 4G are included. SlashGear reports that renewing afterward costs €99 a year (about $114 when it published) and is arranged by emailing MOVA's after-sales team. US renewal pricing hasn't been confirmed. Without 4G, the mower still works over Wi-Fi, but remote tracking away from your network depends on that cellular link."
   - q: "Should I buy the LiDAX Ultra 2000 AWD or 3000 AWD?"
-    a: "The 2000 AWD maps up to 0.5 acre and was about $1,799 in October 2026; the 3000 AWD maps up to 0.75 acre and was about $2,199. Both share the same body, deck and drive system. If your lawn is near 0.4 acre or has awkward zones that add driving time, the 3000's extra headroom is worth the roughly $400. Prices change often, so compare both before buying."
+    a: "The 2000 AWD maps up to 0.5 acre and was a mid-range buy in October 2026; the 3000 AWD maps up to 0.75 acre and was premium-tier. Both share the same body, deck and drive system. If your lawn is near 0.4 acre or has awkward zones that add driving time, the 3000's extra headroom is worth the extra cost. Prices change often, so compare both before buying."
   - q: "Can the MOVA LiDAX Ultra AWD really climb 80% slopes?"
     a: "MOVA rates it at 80% grade, about 38.7 degrees, using four hub motors and suspension. Freshly Charged's tester saw it climb a steep, overgrown section but noted it visibly struggled for traction on dry, steep ground before working through. Treat 80% as a best-case figure for dry, short grass, and stay well below it on wet or loose ground."
 ---
 
-The MOVA LiDAX Ultra AWD is a LiDAR-guided, all-wheel-drive robot mower for steep, cluttered yards up to three-quarters of an acre, and it's the best-reviewed mower of its type so far. SlashGear called the 3000 AWD the most capable robot mower it has reviewed, and Freshly Charged said it handled a brutal test yard "without ever getting lost or needing intervention." At October 2026 sale prices of about $1,799 to $2,199, it undercuts most rivals with a similar spec sheet.
+The MOVA LiDAX Ultra AWD is a LiDAR-guided, all-wheel-drive robot mower for steep, cluttered yards up to three-quarters of an acre, and it's the best-reviewed mower of its type so far. SlashGear called the 3000 AWD the most capable robot mower it has reviewed, and Freshly Charged said it handled a brutal test yard "without ever getting lost or needing intervention." At its October 2026 sale prices (mid-range to premium), it undercuts most rivals with a similar spec sheet.
 
 ## Who the MOVA LiDAX Ultra AWD is for (and who should skip it)
 
@@ -53,7 +53,7 @@ The app covers zones, schedules, patterns and progress, but Freshly Charged desc
 
 - **4G after year three:** SlashGear reports renewal at €99 a year, arranged by emailing after-sales. US pricing is unconfirmed.
 - **Warranty:** MOVA's US store advertises up to a three-year warranty. Keep your proof of purchase.
-- **Pricing:** list prices are $2,299 (2000 AWD) and $2,999 (3000 AWD), but MOVA's October 2026 sale prices were $1,799 and $2,199. Don't pay list.
+- **Pricing:** MOVA's October 2026 sale prices were well below list: mid-range for the 2000 AWD and premium for the 3000 AWD. Don't pay list.
 - **Weight:** at about 52 lb, carrying it between disconnected yards is a two-handed job. A second dock on the second map is an option.
 - **Rain and storage:** MOVA sells a garage for the dock, and a cover helps keep the LiDAR and cameras clean between runs. See [best robot mower garages](/posts/best-robot-mower-garages/) and our [maintenance guide](/posts/robot-mower-maintenance/).
 
@@ -66,7 +66,7 @@ The closest rival is its near-twin, the [Dreame A3 AWD Pro](/mowers/dreame-a3-aw
 | Navigation | LiDAR + vision | LiDAR + vision | LiDAR + network RTK + vision |
 | Max area | 0.75 acre | 1.24 acres | 1.25 acres |
 | Max slope | 80% (~39°) | 80% (~39°) | 80% (~39°) |
-| Typical price (Oct 2026) | about $1,799–$2,199 | about $1,699–$2,799 | about $2,109–$3,299 |
+| Price tier | $$–$$$ | $$–$$$ | $$$–$$$$ |
 
 For more options, see [best robot mowers for hills](/posts/best-robot-mower-for-hills/) and [best robot mowers for complex yards](/posts/best-robot-mower-for-complex-yards/).
 

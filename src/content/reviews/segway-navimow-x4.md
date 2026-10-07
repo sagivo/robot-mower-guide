@@ -4,7 +4,7 @@ faq:
   - q: "Does the Segway Navimow X4 need an RTK antenna?"
     a: "Usually not. The X430 and X450 are designed to use Segway's network RTK service over the built-in 4G modem, and PCWorld found it activated automatically at no extra cost. If your address falls outside network RTK coverage, you have to assemble and mount the included RTK antenna instead. Check coverage for your area before buying, especially in rural locations."
   - q: "What is the difference between the Navimow X430 and X450?"
-    a: "Coverage and price. The X430 is rated for 1 acre and typically sells for about $2,499, while the X450 covers 1.5 acres for about $2,999 (October 2026). Both share the same 17-inch deck, 4WD chassis, 84% slope rating and navigation hardware. Buy the X430 unless your mowable area is clearly over about 0.85 acre."
+    a: "Coverage and price. The X430 is rated for 1 acre, while the X450 covers 1.5 acres and costs more; both are premium-tier mowers. Both share the same 17-inch deck, 4WD chassis, 84% slope rating and navigation hardware. Buy the X430 unless your mowable area is clearly over about 0.85 acre."
   - q: "Does the Navimow X4 have a subscription fee?"
     a: "The 4G Connect+ service, which covers network RTK and remote tracking, is included for the first year. PCWorld reports the renewal at $32.90 per year. That is modest, but factor it into long-term cost, since network RTK positioning depends on the cellular connection if you are not using the antenna."
   - q: "Can the Navimow X4 mow under trees?"

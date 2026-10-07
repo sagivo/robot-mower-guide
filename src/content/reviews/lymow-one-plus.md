@@ -13,7 +13,7 @@ faq:
     a: "About 78 pounds, according to both Tom's Guide and TechAeris. That's roughly two to three times the weight of a typical wheeled robot mower. Tom's Guide said the box needed two people to move, so plan for help on delivery day and think about where you'll store it in winter."
 ---
 
-The Lymow One Plus is a tracked, 16"-deck robot mower built for terrain that defeats wheels: steep banks, rough pasture-like grass and overgrown rural lots. On those properties it has few real competitors. On a tidy, flat suburban lawn, its weight, noise, RTK base and manual mapping are costs you don't need to pay. It typically sells for about $2,499 to $2,799 (October 2026).
+The Lymow One Plus is a tracked, 16"-deck robot mower built for terrain that defeats wheels: steep banks, rough pasture-like grass and overgrown rural lots. On those properties it has few real competitors. On a tidy, flat suburban lawn, its weight, noise, RTK base and manual mapping are costs you don't need to pay. It sits in the premium price tier (October 2026).
 
 ## Who the Lymow One Plus is for (and who should skip it)
 
@@ -66,7 +66,7 @@ The app shows live position and progress, supports scheduling, cutting height, b
 | Max slope | 100% (claimed) | 84% | 70% | 80% |
 | Deck | 16" | 17" | 8.7" | 15.7" |
 | RTK base needed | Yes | No | Yes | No |
-| Typical price | $2,499–$2,799 | $2,499–$2,999 | $4,999 | $2,109–$3,299 |
+| Price tier | $$$ | $$$ | $$$$ | $$$ |
 
 On a normal sloped lawn, the [Segway Navimow X4](/mowers/segway-navimow-x4/) is the better buy at a similar price: antenna-free, quieter, lighter, with a wider deck and an 84% rating. The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) adds LiDAR for yards with trees. The [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) is the dealer-backed steep-yard option, at about twice the price with a much narrower deck. The Lymow wins only when the ground itself is the problem.
 
@@ -74,6 +74,6 @@ See our [best robot mower for hills](/posts/best-robot-mower-for-hills/) and [ro
 
 ## Bottom line
 
-The Lymow One Plus is a specialist. If your property has steep banks, rough grass or terrain that strands wheeled robots, its tracks and real rotary blades make it one of the few robots worth trying, and TechAeris gave it a 9.7/10 Editor's Choice for exactly that use. If your lawn is a manicured suburban rectangle, it's the wrong tool. Expect to pay about $2,499 to $2,799 depending on the 5A or 10A version (October 2026), and confirm current pricing.
+The Lymow One Plus is a specialist. If your property has steep banks, rough grass or terrain that strands wheeled robots, its tracks and real rotary blades make it one of the few robots worth trying, and TechAeris gave it a 9.7/10 Editor's Choice for exactly that use. If your lawn is a manicured suburban rectangle, it's the wrong tool. Both the 5A and 10A versions sit in the premium tier, so check today's price.
 
 **[Check the current price on Amazon](amazon:lymow-one-plus)**

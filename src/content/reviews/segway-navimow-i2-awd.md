@@ -2,7 +2,7 @@
 updatedDate: 2026-10-07
 faq:
   - q: "What is the difference between the Navimow i206 AWD and i210 AWD?"
-    a: "Coverage and price. The i206 AWD is rated for 0.15 acre (about 6,500 sq ft) and typically sells for about $849, while the i210 AWD covers 0.25 acre (about 10,900 sq ft) for about $1,099 (October 2026). They share the same AWD chassis, 45% slope rating, deck and navigation. If your mowable area is over about 5,500 sq ft, buy the i210."
+    a: "Coverage and price. The i206 AWD is rated for 0.15 acre (about 6,500 sq ft) and typically sells in the budget tier, while the i210 AWD covers 0.25 acre (about 10,900 sq ft) and usually lands at the low end of the mid-range (October 2026). They share the same AWD chassis, 45% slope rating, deck and navigation. If your mowable area is over about 5,500 sq ft, buy the i210."
   - q: "Does the Navimow i2 AWD need an RTK antenna?"
     a: "Usually not. Segway markets the i2 AWD as antenna-free: it pulls RTK corrections over its built-in 4G connection, and Segway says network RTK access is included at no extra cost. Coverage varies by address, so check Segway's network RTK availability for your area before buying, especially if you live somewhere rural."
   - q: "Does the Navimow i2 AWD have a subscription?"
@@ -11,7 +11,7 @@ faq:
     a: "Moderate ones. Segway rates it for 45% slopes, about 24 degrees, and its all-wheel drive and 9.8-inch off-road wheels give it better grip than two-wheel budget mowers. That rating assumes dry, short grass. For banks steeper than about 35% or slopes that stay damp, look at an 80% AWD mower like the Dreame A3 AWD."
 ---
 
-The Segway Navimow i2 AWD (sold as the i206 and i210) is the cheapest way to get all-wheel drive from a major wire-free brand. At about $849 to $1,099, it brings traction and antenna-free setup to small lawns that are bumpy, rooty or gently sloped. The trade-off is scale: a quarter acre is the ceiling, and the 7.1" deck is narrow.
+The Segway Navimow i2 AWD (sold as the i206 and i210) is the cheapest way to get all-wheel drive from a major wire-free brand. At budget to low mid-range prices, it brings traction and antenna-free setup to small lawns that are bumpy, rooty or gently sloped. The trade-off is scale: a quarter acre is the ceiling, and the 7.1" deck is narrow.
 
 ## Who the Navimow i2 AWD is for (and who should skip it)
 
@@ -49,7 +49,7 @@ Anti-theft combines 4G GPS tracking with a geofence alarm. The first year of 4G 
 
 - **Running costs:** about $33 a year for 4G after year one, plus replacement blades.
 - **Weatherproofing:** EU and AU spec sheets list IP66 and 59 dB, which makes night mowing realistic. US listings don't always repeat these figures.
-- **Pricing:** the i206 and i210 list at $999 and $1,299, but sales are common. 9to5toys tracked them at $899 and $1,099 in May 2026. Prices change often, so check before buying.
+- **Pricing:** sales are common, and 9to5toys tracked both models well below list in May 2026. Prices change often, so check before buying.
 - **Narrow passages:** the compact chassis fits through side-yard gaps that stop larger AWD mowers.
 
 ## How the Navimow i2 AWD compares
@@ -59,7 +59,7 @@ Anti-theft combines 4G GPS tracking with a geofence alarm. The first year of 4G 
 | Max area | 0.25 ac | 0.5 ac | 0.25 ac |
 | Max slope | 45% | 80% | 30% |
 | Navigation | Network RTK + vision | LiDAR + vision | Network RTK + vision |
-| Typical price | $849–$1,099 | $1,099–$1,539 | $669–$849 |
+| Price tier | $ | $$ | $ |
 
 The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the toughest rival. On sale it costs about the same as the i210, adds LiDAR navigation that doesn't care about trees, and doubles the slope rating to 80%. Choose the Navimow if you prefer Segway's app and long track record, or if Dreame's sale price has jumped. The [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) is the budget choice for flat lawns. If your small yard is shaded rather than sloped, the [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) handles trees better. Our guides to the [best robot mowers for small yards](/posts/best-robot-mower-for-small-yards/) and [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/) put all of these side by side.
 

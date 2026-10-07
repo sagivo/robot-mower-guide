@@ -20,9 +20,9 @@ picks:
   - id: lymow-one-plus
     label: "Best for extreme, rough slopes"
 takeaways:
-  - "<strong>Best overall for hills:</strong> the Mammotion LUBA 3 AWD (80% / 38.7°, no base station), from about $2,109."
+  - "<strong>Best overall for hills:</strong> the Mammotion LUBA 3 AWD (80% / 38.7°, no base station), a premium-tier pick."
   - "<strong>Steepest wheeled ratings:</strong> the Segway Navimow X4 and WORX Landroid Vision Cloud 4WD, both rated for 84% (40°)."
-  - "<strong>Cheapest real hill climber:</strong> the Dreame A3 AWD, rated for 80% from about $1,099 on sale (up to half an acre)."
+  - "<strong>Cheapest real hill climber:</strong> the Dreame A3 AWD, rated for 80% at a mid-range price that often drops on sale (up to half an acre)."
   - "Buy at least <strong>20% more slope rating</strong> than your steepest spot. Ratings assume dry, short grass, and boundary limits are often lower."
   - "Measure first: our <a href=\"/tools/slope-checker/\">slope checker</a> turns a phone reading into a go/no-go in about a minute."
 faq:
@@ -38,34 +38,34 @@ faq:
     a: "They can, but with less margin. Wet grass cuts traction sharply, so a mower that climbs a grade comfortably in the afternoon may slip on the same hill at dawn. Schedule hill zones for midday or later, enable rain delay, and treat any slope near the mower's limit as a dry-weather-only area."
 ---
 
-The best robot lawn mower for hills in 2026 is the **Mammotion LUBA 3 AWD**: all-wheel drive, an 80% (38.7°) slope rating, and LiDAR plus network RTK navigation with no base station to install. If your hillside is bigger than 1.25 acres, the **Segway Navimow X4** climbs even steeper (84%) with a faster 17" deck, and if you're on a budget, the **Dreame A3 AWD** brings the same 80% rating to small lawns from about $1,099 on sale. Every pick below is wire-free, and every slope figure is the manufacturer's rating on dry, short grass, so read the caveats before you buy.
+The best robot lawn mower for hills in 2026 is the **Mammotion LUBA 3 AWD**: all-wheel drive, an 80% (38.7°) slope rating, and LiDAR plus network RTK navigation with no base station to install. If your hillside is bigger than 1.25 acres, the **Segway Navimow X4** climbs even steeper (84%) with a faster 17" deck, and if you're on a budget, the **Dreame A3 AWD** brings the same 80% rating to small lawns for a mid-range price. Every pick below is wire-free, and every slope figure is the manufacturer's rating on dry, short grass, so read the caveats before you buy.
 
 Not sure how steep your yard actually is? Run it through our [slope checker](/tools/slope-checker/) first. It's the single most useful minute you'll spend on this purchase.
 
 ## Quick picks: the best robot mowers for steep slopes
 
-| Model | Best for | Max area | Max slope | Price from |
+| Model | Best for | Max area | Max slope | Price tier |
 |---|---|---|---|---|
-| [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) | Best overall for hills | 1.25 ac | 80% (38.7°) | ~$2,109 |
-| [Segway Navimow X4](/mowers/segway-navimow-x4/) | Big, open hillsides | 1.5 ac | 84% (40°) | ~$2,499 |
-| [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | Steep yards under trees | 1.24 ac | 80% (38.7°) | ~$1,699 |
-| [Dreame A3 AWD](/mowers/dreame-a3-awd/) | Budget AWD for hills | 0.5 ac | 80% (38.7°) | ~$1,099 |
-| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Small, steep, cluttered yards | 0.37 ac | 80% (38.7°) | ~$1,699 |
-| [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | Big-box brand, easy returns | 1.5 ac | 84% (40°) | ~$1,999 |
-| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | Small, bumpy yards, low budget | 0.25 ac | 45% (24.2°) | ~$849 |
-| [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | Hills plus a striped finish | 1.5 ac | 70% (35°) | ~$2,499 |
-| [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | Dealer-backed steep yards | 1.3 ac | 70% (35°) | ~$4,999 |
-| [Lymow One Plus](/mowers/lymow-one-plus/) | Extreme, rough rural slopes | 1.73 ac/day | ~100% (45°, claimed) | ~$2,499 |
+| [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) | Best overall for hills | 1.25 ac | 80% (38.7°) | $$$ |
+| [Segway Navimow X4](/mowers/segway-navimow-x4/) | Big, open hillsides | 1.5 ac | 84% (40°) | $$$ |
+| [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | Steep yards under trees | 1.24 ac | 80% (38.7°) | $$ |
+| [Dreame A3 AWD](/mowers/dreame-a3-awd/) | Budget AWD for hills | 0.5 ac | 80% (38.7°) | $$ |
+| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Small, steep, cluttered yards | 0.37 ac | 80% (38.7°) | $$ |
+| [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | Big-box brand, easy returns | 1.5 ac | 84% (40°) | $$ |
+| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | Small, bumpy yards, low budget | 0.25 ac | 45% (24.2°) | $ |
+| [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | Hills plus a striped finish | 1.5 ac | 70% (35°) | $$$ |
+| [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | Dealer-backed steep yards | 1.3 ac | 70% (35°) | $$$$ |
+| [Lymow One Plus](/mowers/lymow-one-plus/) | Extreme, rough rural slopes | 1.73 ac/day | ~100% (45°, claimed) | $$$ |
 
 [[chart:slope]]
 
-Prices are typical US street prices as of October 2026 and move weekly, often by hundreds of dollars during sales. Check the live price before you buy. You can compare every spec side by side in our [robot mower comparison chart](/mowers/).
+Price tiers reflect typical US street prices for each model's cheapest configuration, checked October 2026: $ is under $1,000, $$ is $1,000–$2,000, $$$ is $2,000–$3,000 and $$$$ is over $3,000. Prices move weekly, often by hundreds of dollars during sales, so check today's price before you buy. You can compare every spec side by side in our [robot mower comparison chart](/mowers/).
 
 ## The best robot lawn mowers for hills, reviewed
 
 ### 1. Mammotion LUBA 3 AWD: best overall for hills
 
-**Why we picked it:** The LUBA 3 AWD gets our top terrain score (10/10) because it pairs serious climbing hardware with navigation that doesn't fall apart on a wooded slope. All-wheel drive and suspension give it an 80% (38.7°) rating, and Mammotion's Tri-Fusion system blends 360° LiDAR, network RTK and dual cameras, so there's no base station and no dead zone where the hill dips under trees. The 15.7" dual-disc deck mows quickly, which matters because climbing drains batteries faster than flat ground. Tiers run from 0.37 to 1.25 acres, and the 3000 tier (0.75 acre) is often cheaper than the 1500, at about $2,109.
+**Why we picked it:** The LUBA 3 AWD gets our top terrain score (10/10) because it pairs serious climbing hardware with navigation that doesn't fall apart on a wooded slope. All-wheel drive and suspension give it an 80% (38.7°) rating, and Mammotion's Tri-Fusion system blends 360° LiDAR, network RTK and dual cameras, so there's no base station and no dead zone where the hill dips under trees. The 15.7" dual-disc deck mows quickly, which matters because climbing drains batteries faster than flat ground. Tiers run from 0.37 to 1.25 acres, and the 3000 tier (0.75 acre) is often cheaper than the 1500.
 
 **Skip it if:** your lawn is flat or gently rolling. You're paying for capability you won't use, and at 41 lb it's heavy. Owners also report some app lag, and like most AWD robots it can scuff turf on tight turns, which shows most on soft, steep ground.
 
@@ -73,7 +73,7 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 ### 2. Segway Navimow X4: best for big, hilly lawns
 
-**Why we picked it:** The X4 shares the highest slope rating of any wheeled mower we track, 84% (40°), and backs it with the widest deck in its class at 17". That combination makes it the fastest way to keep 1 to 1.5 acres of rolling ground cut. The 4WD chassis uses Xero-Turn steering, and reviewers praise its easy auto or remote-control mapping and reliable obstacle avoidance. Navigation is network RTK plus 360° vision, designed to work without an antenna. The X430 covers 1 acre (about $2,499) and the X450 covers 1.5 acres (about $2,999).
+**Why we picked it:** The X4 shares the highest slope rating of any wheeled mower we track, 84% (40°), and backs it with the widest deck in its class at 17". That combination makes it the fastest way to keep 1 to 1.5 acres of rolling ground cut. The 4WD chassis uses Xero-Turn steering, and reviewers praise its easy auto or remote-control mapping and reliable obstacle avoidance. Navigation is network RTK plus 360° vision, designed to work without an antenna. The X430 covers 1 acre and the X450 covers 1.5 acres, both at premium-tier prices.
 
 **Skip it if:** your slopes sit under heavy tree canopy. RTK-plus-camera navigation is weaker there than the LiDAR rivals, and some yards still need the included RTK antenna. Reviewers also noted it occasionally misses spots and that EdgeSense can scuff raised edges. We go deeper in our [LUBA 3 vs Navimow X4 comparison](/posts/mammotion-luba-3-vs-segway-navimow-x4/).
 
@@ -81,7 +81,7 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 ### 3. Dreame A3 AWD Pro: best for steep yards under trees
 
-**Why we picked it:** Hills and trees often come together, and that's where satellite-based mowers lose their fix. The A3 AWD Pro navigates with 360° 3D LiDAR and binocular cameras, no satellites at all, and climbs the same 80% (38.7°) as the LUBA 3. It adds active suspension and an automatic deck lift, plus some of the strongest anti-theft features here (4G tracking, a lift alarm, an AirTag slot and a camera security patrol). At October 2026 sale prices it starts around $1,699 for 0.62 acre and tops out near $2,799 for 1.24 acres, well below its $3,099–$3,499 list prices.
+**Why we picked it:** Hills and trees often come together, and that's where satellite-based mowers lose their fix. The A3 AWD Pro navigates with 360° 3D LiDAR and binocular cameras, no satellites at all, and climbs the same 80% (38.7°) as the LUBA 3. It adds active suspension and an automatic deck lift, plus some of the strongest anti-theft features here (4G tracking, a lift alarm, an AirTag slot and a camera security patrol). Sizes run from 0.62 to 1.24 acres, and sale prices have run well below list, putting the smallest size in the mid-range tier.
 
 **Skip it if:** you want a hands-off finish. Obstacle avoidance is good but not perfect, one major review found missed patches, and you'll still need a string trimmer for edges. Expect to tweak the map after the first few runs. See how it stacks up in our [Dreame A3 AWD Pro vs LUBA 3 AWD comparison](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/).
 
@@ -89,15 +89,15 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 ### 4. Dreame A3 AWD: best budget AWD robot mower
 
-**Why we picked it:** This is the cheapest way to get LiDAR, all-wheel drive and an 80% (38.7°) slope rating in one machine. On sale it runs about $1,099 for the 1000 (0.25 acre) and about $1,539 for the 2000 (0.5 acre), roughly a third less than comparable rivals. There's no antenna or base station, and the EdgeMaster system cuts to about 1.9" from borders, closer than most.
+**Why we picked it:** This is the cheapest way to get LiDAR, all-wheel drive and an 80% (38.7°) slope rating in one machine. It comes as the 1000 (0.25 acre) and the 2000 (0.5 acre), and on sale both sit in the mid-range tier, roughly a third less than comparable rivals. There's no antenna or base station, and the EdgeMaster system cuts to about 1.9" from borders, closer than most.
 
-**Skip it if:** your lawn is bigger than half an acre. The 7.9" deck is narrow, so it needs more time per square foot, and on hills that time adds up. Obstacle avoidance also trails the flagships, and sale prices swing a lot, so don't pay its $1,999–$2,199 list price.
+**Skip it if:** your lawn is bigger than half an acre. The 7.9" deck is narrow, so it needs more time per square foot, and on hills that time adds up. Obstacle avoidance also trails the flagships, and sale prices swing a lot, so don't pay full list price.
 
 **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)** · [Read our full review](/mowers/dreame-a3-awd/)
 
 ### 5. Mammotion LUBA mini 2 AWD: best for small, steep, cluttered yards
 
-**Why we picked it:** Flagship terrain ability in a compact chassis. It's rated for 80% (38.7°), navigates with LiDAR and dual cameras (no RTK antenna), and according to reviewers, handles tight layouts full of beds and trees well. It also has a real edge-cutting disc that trims to about 2.1" from walls. Coverage is 0.37 acre, at about $1,699–$1,999.
+**Why we picked it:** Flagship terrain ability in a compact chassis. It's rated for 80% (38.7°), navigates with LiDAR and dual cameras (no RTK antenna), and according to reviewers, handles tight layouts full of beds and trees well. It also has a real edge-cutting disc that trims to about 2.1" from walls. Coverage is 0.37 acre, at a mid-range price.
 
 **Skip it if:** your small lawn is flat. A cheaper 2WD robot will do the same job. It's also pricey for its coverage, the edge disc height is fixed, and owners report grass building up underneath in wet conditions, which is worth noting on a hillside that holds dew.
 
@@ -105,15 +105,15 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 ### 6. WORX Landroid Vision Cloud 4WD: best big-box option for hills
 
-**Why we picked it:** It matches the X4's 84% (40°) rating, uses antenna-free network RTK with vision, and comes from a brand sold at Home Depot, Lowe's, Best Buy and Walmart, so returns and parts are easy. Models cover a quarter acre up to 1.5 acres, starting around $1,999 (the 1-acre model was about $2,400 in spring 2026). The battery also works with WORX Power Share tools.
+**Why we picked it:** It matches the X4's 84% (40°) rating, uses antenna-free network RTK with vision, and comes from a brand sold at Home Depot, Lowe's, Best Buy and Walmart, so returns and parts are easy. Models cover a quarter acre up to 1.5 acres, with the smallest at a mid-range price. The battery also works with WORX Power Share tools.
 
-**Skip it if:** you have a big lawn and want it done fast. The 8.7" deck is narrow for 1.5 acres, runtime per charge is short, and top tiers reach about $3,699, which is Navimow X4 money for a slower mower.
+**Skip it if:** you have a big lawn and want it done fast. The 8.7" deck is narrow for 1.5 acres, runtime per charge is short, and the top tiers cost more than a Navimow X4 for a slower mower.
 
 **[Check the Landroid Vision Cloud 4WD price on Amazon](amazon:worx-landroid-vision-cloud-4wd)** · [Read our full review](/mowers/worx-landroid-vision-cloud-4wd/)
 
 ### 7. Segway Navimow i2 AWD: best cheap robot mower for uneven ground
 
-**Why we picked it:** It's the cheapest AWD wire-free mower from a major brand, from about $849 (i206, 0.15 acre) or $1,099 (i210, 0.25 acre). Its slope rating is a moderate 45% (24.2°), but the off-road wheels handle roots and 1.5" steps, which makes it a good **robot lawn mower for uneven ground** on a small lot. Setup is antenna-free.
+**Why we picked it:** It's the cheapest AWD wire-free mower from a major brand, with the i206 (0.15 acre) in the budget tier and the i210 (0.25 acre) at the low end of mid-range. Its slope rating is a moderate 45% (24.2°), but the off-road wheels handle roots and 1.5" steps, which makes it a good **robot lawn mower for uneven ground** on a small lot. Setup is antenna-free.
 
 **Skip it if:** your slope is genuinely steep. At 45%, it's in a different class from the 80% machines above. The 7.1" deck is narrow, the cut height is set by hand, and 4G costs about $33 a year after the first year.
 
@@ -121,7 +121,7 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 ### 8. Sunseeker X7 Gen 2: best finish on hills
 
-**Why we picked it:** If you care how the lawn looks, the X7 Gen 2 had the best cut quality in Reviewed's testing, with stripes and checkerboard patterns, on an AWD chassis rated for 70% (35°). It cuts up to 4", needs no base station on Gen 2, and the X7 Plus Gen 2 covers 1.5 acres for about $2,499–$2,999.
+**Why we picked it:** If you care how the lawn looks, the X7 Gen 2 had the best cut quality in Reviewed's testing, with stripes and checkerboard patterns, on an AWD chassis rated for 70% (35°). It cuts up to 4", needs no base station on Gen 2, and the X7 Plus Gen 2 covers 1.5 acres at a premium-tier price.
 
 **Skip it if:** your steepest spot is near 60% or more, since that leaves little margin under a 70% rating. It's priced high against 2026 LiDAR rivals, carries only an IPX5 weather rating, and the original X7 (sold at Costco) still needs an RTK base station, so check which generation you're buying.
 
@@ -131,13 +131,13 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 **Why we picked it:** Husqvarna's articulated AWD platform is proven on steep, rough ground, and you get a local dealer and warranty support that newer brands can't match. It's rated 70% (35°) inside the work area and, unusually, Husqvarna publishes a separate 50% (26.6°) limit at the boundary. Coverage is 1.3 acres for systematic layouts and 0.9 acre for irregular ones.
 
-**Skip it if:** price matters. At about $4,999, it's one of the most expensive per acre of any model we track, it needs a reference station, it lacks LiDAR or AI vision, and its 2.8" max cut height is low. The LUBA 3 and A3 AWD Pro climb as well for far less. Our [Husqvarna vs Mammotion comparison](/posts/husqvarna-automower-vs-mammotion-luba/) covers the trade-off.
+**Skip it if:** price matters. At a flagship-tier price, it's one of the most expensive per acre of any model we track, it needs a reference station, it lacks LiDAR or AI vision, and its 2.8" max cut height is low. The LUBA 3 and A3 AWD Pro climb as well for far less. Our [Husqvarna vs Mammotion comparison](/posts/husqvarna-automower-vs-mammotion-luba/) covers the trade-off.
 
 **[Check the Automower 435 iQ AWD price on Amazon](amazon:husqvarna-automower-435-iq-awd)** · [Read our full review](/mowers/husqvarna-automower-435-iq-awd/)
 
 ### 10. Lymow One Plus: best for extreme, rough slopes
 
-**Why we picked it:** Tank tracks instead of wheels. Lymow claims 45° (about 100% grade), the highest of any mower here, though treat that as a marketing figure. The aluminum frame, LiFePO4 battery and powerful 16" deck are built for rough, overgrown rural ground that defeats wheeled robots. The 5A and 10A run about $2,499–$2,799 and are rated 1.1 and 1.73 acres per day, or about 0.57 acre per charge.
+**Why we picked it:** Tank tracks instead of wheels. Lymow claims 45° (about 100% grade), the highest of any mower here, though treat that as a marketing figure. The aluminum frame, LiFePO4 battery and powerful 16" deck are built for rough, overgrown rural ground that defeats wheeled robots. The 5A and 10A are premium-tier priced and rated 1.1 and 1.73 acres per day, or about 0.57 acre per charge.
 
 **Skip it if:** you have a manicured suburban lawn. It needs an RTK base, manual mapping takes 30 to 45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches.
 
@@ -147,10 +147,10 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 Several 2025–26 arrivals post strong slope numbers but have far less independent testing than the picks above, so treat them as promising rather than proven.
 
-- **[MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/)** (80% / 38.7°, about $1,799–$2,199): essentially the Dreame A3 AWD Pro platform under a MOVA badge, with LiDAR plus AI vision, AWD, a 15.8" deck and up to 0.75 acre. It's our highest-scored newcomer at 8.8/10, and SlashGear called it the best robot mower it has tested. The 80% figure comes from MOVA's Amazon listing, no IP rating is published for the AWD models, and at about 52 lb it can scuff soft turf when it turns. **[Check the LiDAX Ultra AWD price on Amazon](amazon:mova-lidax-ultra-awd)**
-- **[Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/)** and **[RockMow X1](/mowers/roborock-rockmow-x1/)** (80% / 38.7°): the same AWD chassis with active steering and suspension, either with antenna-free LiDAR (about $1,999–$2,299, 0.5 acre) or with RTK and an included base station (about $1,499–$2,499, up to 1 acre on the X130H). Neither has long-term independent reviews yet. Choose the LiDAR version if your slope sits under trees.
-- **[Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/)** (70% / 35°, tracks, about $4,899 as a bundle): a tracked yard robot rated for up to 6 acres that swaps to a snow blower module in winter. It needs a base station, setup is complex, and Freshly Charged found cut quality suffers in tight, cluttered areas.
-- **[Sunseeker X5](/mowers/sunseeker-x5-awd/)** (about 58% / 30°, about $1,999): tri-wheel AWD with a neat striped finish for half an acre. It needs an RTK base station (at least on Gen 1), 4G is an optional extra, and the Dreame A3 AWD climbs steeper for less.
+- **[MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/)** (80% / 38.7°, mid-range): essentially the Dreame A3 AWD Pro platform under a MOVA badge, with LiDAR plus AI vision, AWD, a 15.8" deck and up to 0.75 acre. It's our highest-scored newcomer at 8.8/10, and SlashGear called it the best robot mower it has tested. The 80% figure comes from MOVA's Amazon listing, no IP rating is published for the AWD models, and at about 52 lb it can scuff soft turf when it turns. **[Check the LiDAX Ultra AWD price on Amazon](amazon:mova-lidax-ultra-awd)**
+- **[Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/)** and **[RockMow X1](/mowers/roborock-rockmow-x1/)** (80% / 38.7°): the same AWD chassis with active steering and suspension, either with antenna-free LiDAR (mid-range, 0.5 acre) or with RTK and an included base station (cheaper to start, up to 1 acre on the X130H). Neither has long-term independent reviews yet. Choose the LiDAR version if your slope sits under trees.
+- **[Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/)** (70% / 35°, tracks, a flagship-priced bundle): a tracked yard robot rated for up to 6 acres that swaps to a snow blower module in winter. It needs a base station, setup is complex, and Freshly Charged found cut quality suffers in tight, cluttered areas.
+- **[Sunseeker X5](/mowers/sunseeker-x5-awd/)** (about 58% / 30°, mid-range): tri-wheel AWD with a neat striped finish for half an acre. It needs an RTK base station (at least on Gen 1), 4G is an optional extra, and the Dreame A3 AWD climbs steeper for less.
 
 ## Percent grade vs degrees: the slope conversion table
 

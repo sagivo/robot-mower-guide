@@ -46,40 +46,40 @@ These are manufacturer ratings from our [model database](/mowers/), sorted from 
 
 [[chart:slope]]
 
-| Model | Drive | Max slope (in-area) | Degrees | Boundary limit | Price (Oct 2026) |
+| Model | Drive | Max slope (in-area) | Degrees | Boundary limit | Price tier |
 |---|---|---|---|---|---|
-| [Lymow One Plus](/mowers/lymow-one-plus/) | Tracks | 100%* | 45°* | Not published | $2,499–$2,799 |
-| [Segway Navimow X4](/mowers/segway-navimow-x4/) | AWD | 84% | 40.0° | Not published | $2,499–$2,999 |
-| [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | AWD | 84% | 40.0° | Not published | $1,999–$3,699 |
-| [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) | AWD | 80% | 38.7° | Not published | $2,109–$3,299 |
-| [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | AWD | 80% | 38.7° | Not published | $1,699–$2,799 |
-| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | AWD | 80% | 38.7° | Not published | $1,699–$1,999 |
-| [Dreame A3 AWD](/mowers/dreame-a3-awd/) | AWD | 80% | 38.7° | Not published | $1,099–$1,539 |
-| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | AWD | 80% | 38.7° | Not published | $1,799–$2,199 |
-| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | AWD | 80% | 38.7° | Not published | $1,999–$2,299 |
-| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | AWD | 80% | 38.7° | Not published | $1,499–$2,499 |
-| [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | AWD | 70% | 35.0° | Not published | $2,499–$2,999 |
-| [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | AWD | 70% | 35.0° | 50% (26.6°) | $4,999 |
-| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | Tracks | 70% | 35.0° | Not published | $4,899–$5,999 |
-| [Airseekers TRON](/mowers/airseekers-tron/) | 2WD | 60%† | 31.0° | Not published | $1,099–$2,099 |
-| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | AWD | 58%‡ | 30.1° (stated 30°) | Not published | $1,999 |
-| [ECOVACS GOAT A2000/A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) | 2WD | 50% | 26.6° | 20% (11.3°) | $1,399–$1,849 |
-| [Segway Navimow X3](/mowers/segway-navimow-x3/) | 2WD | 50% | 26.6° | Not published | $1,799–$4,499 |
-| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | AWD | 45% | 24.2° | Not published | $849–$1,099 |
-| [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | 2WD | 45%** | 24.2° | Not published | $1,399–$1,599 |
-| [Husqvarna Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) | 2WD | 45% | 24.2° | 15% (8.5°) | $1,999–$3,399 |
-| [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | 2WD | 45% | 24.2° | Not published | $999–$1,499 |
-| [ANTHBOT M9](/mowers/anthbot-m9/) | 2WD | 45% | 24.2° | Not published | $769–$899 |
-| [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | 2WD | 45% | 24.2° | Not published | $1,399–$1,559 |
-| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | 2WD | 45% | 24.2° | Not published | $849–$2,499 |
-| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | 2WD | 45% | 24.2° | Not published | $799–$949 |
-| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | 2WD | 45% | 24.2° | Not published | $1,599 |
-| [Sunseeker S4](/mowers/sunseeker-s4/) | 2WD | 42%*** | 22.8° | Not published | $999–$1,599 |
-| [eufy E15 / E18](/mowers/eufy-e15-e18/) | 2WD | 32% | 17.7° (stated 18°) | Not published | $999–$1,399 |
-| [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) | 2WD | 30% | 16.7° | Not published | $669–$789 |
-| [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) | 2WD | 30% | 16.7° | Not published | $850–$1,840 |
+| [Lymow One Plus](/mowers/lymow-one-plus/) | Tracks | 100%* | 45°* | Not published | $$$ |
+| [Segway Navimow X4](/mowers/segway-navimow-x4/) | AWD | 84% | 40.0° | Not published | $$$ |
+| [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | AWD | 84% | 40.0° | Not published | $$ |
+| [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) | AWD | 80% | 38.7° | Not published | $$$ |
+| [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | AWD | 80% | 38.7° | Not published | $$ |
+| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | AWD | 80% | 38.7° | Not published | $$ |
+| [Dreame A3 AWD](/mowers/dreame-a3-awd/) | AWD | 80% | 38.7° | Not published | $$ |
+| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | AWD | 80% | 38.7° | Not published | $$ |
+| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | AWD | 80% | 38.7° | Not published | $$ |
+| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | AWD | 80% | 38.7° | Not published | $$ |
+| [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | AWD | 70% | 35.0° | Not published | $$$ |
+| [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | AWD | 70% | 35.0° | 50% (26.6°) | $$$$ |
+| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | Tracks | 70% | 35.0° | Not published | $$$$ |
+| [Airseekers TRON](/mowers/airseekers-tron/) | 2WD | 60%† | 31.0° | Not published | $$ |
+| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | AWD | 58%‡ | 30.1° (stated 30°) | Not published | $$ |
+| [ECOVACS GOAT A2000/A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) | 2WD | 50% | 26.6° | 20% (11.3°) | $$ |
+| [Segway Navimow X3](/mowers/segway-navimow-x3/) | 2WD | 50% | 26.6° | Not published | $$ |
+| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | AWD | 45% | 24.2° | Not published | $ |
+| [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | 2WD | 45%** | 24.2° | Not published | $$ |
+| [Husqvarna Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) | 2WD | 45% | 24.2° | 15% (8.5°) | $$ |
+| [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | 2WD | 45% | 24.2° | Not published | $ |
+| [ANTHBOT M9](/mowers/anthbot-m9/) | 2WD | 45% | 24.2° | Not published | $ |
+| [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | 2WD | 45% | 24.2° | Not published | $$ |
+| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | 2WD | 45% | 24.2° | Not published | $ |
+| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | 2WD | 45% | 24.2° | Not published | $ |
+| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | 2WD | 45% | 24.2° | Not published | $$ |
+| [Sunseeker S4](/mowers/sunseeker-s4/) | 2WD | 42%*** | 22.8° | Not published | $ |
+| [eufy E15 / E18](/mowers/eufy-e15-e18/) | 2WD | 32% | 17.7° (stated 18°) | Not published | $ |
+| [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) | 2WD | 30% | 16.7° | Not published | $ |
+| [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) | 2WD | 30% | 16.7° | Not published | $ |
 
-\*Lymow states 45°, which is a marketing claim rather than an independently verified figure. \*\*Navimow EU lists 45%; one secondary source lists 30%. \*\*\*From retailer listings. †Airseekers rates all TRON tiers at 60% (31°) while mowing and 65% (33°) while driving between zones. ‡Sunseeker lists "60% / 30°"; 30° is about 58% grade, which is the figure we use. The 80% ratings for the MOVA and Roborock models, and every rating for the newest arrivals, are manufacturer claims with little independent testing behind them yet. Prices change weekly, so check before you buy.
+\*Lymow states 45°, which is a marketing claim rather than an independently verified figure. \*\*Navimow EU lists 45%; one secondary source lists 30%. \*\*\*From retailer listings. †Airseekers rates all TRON tiers at 60% (31°) while mowing and 65% (33°) while driving between zones. ‡Sunseeker lists "60% / 30°"; 30° is about 58% grade, which is the figure we use. The 80% ratings for the MOVA and Roborock models, and every rating for the newest arrivals, are manufacturer claims with little independent testing behind them yet. Price tiers ($ budget to $$$$ flagship) reflect each model's lowest listed configuration. Prices change weekly, so check today's price before you buy.
 
 Two patterns jump out. First, drive type matters more than brand or price: every model rated above 50% has AWD or tracks, except the 2WD Airseekers TRON, whose 60% rating we'd treat with caution. Second, a "45%" sticker covers a huge spread of real ability, from the AWD Navimow i2 to 2WD machines with very different tires and weights.
 
@@ -145,9 +145,9 @@ Most budget and mid-range mowers drive the rear wheels and let small front caste
 
 Driving all four wheels spreads torque so no single tire spins out. AWD also helps on roots, ruts and small steps: the [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) handles 1.5" steps on off-road tires. The 2026 lineup has AWD at every price:
 
-- **Under $1,600:** [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) (45%, from about $849) and [Dreame A3 AWD](/mowers/dreame-a3-awd/) (80%, from about $1,099 on sale), plus the [Roborock RockMow X115H](/mowers/roborock-rockmow-x1/) (80%, about $1,499, RTK base station required).
-- **$1,700–$2,000:** [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/), all 80%, and the [Sunseeker X5](/mowers/sunseeker-x5-awd/) (about 58%).
-- **$2,100 and up:** [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) (80%), [Navimow X4](/mowers/segway-navimow-x4/) and [Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) (84%), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) (70%).
+- **Lowest cost:** [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) (45%, budget tier) and [Dreame A3 AWD](/mowers/dreame-a3-awd/) (80%, mid-range and often on sale), plus the [Roborock RockMow X115H](/mowers/roborock-rockmow-x1/) (80%, mid-range, RTK base station required).
+- **Mid-range:** [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/), all 80%, and the [Sunseeker X5](/mowers/sunseeker-x5-awd/) (about 58%).
+- **Top end:** [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) (80%), [Navimow X4](/mowers/segway-navimow-x4/) and [Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) (84%), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) (70%).
 
 AWD has trade-offs. These mowers are heavier (the LUBA 3 AWD weighs 41 lb), and reviewers note both the LUBA 3 and the X4 can scuff turf on tight turns or raised edges. On a flat lawn you're paying for capability you won't use.
 
@@ -155,7 +155,7 @@ AWD has trade-offs. These mowers are heavier (the LUBA 3 AWD weighs 41 lb), and 
 
 ### Tracks
 
-The [Lymow One Plus](/mowers/lymow-one-plus/) runs on tank tracks, which spread weight over a large contact patch. It's the only mainstream wire-free option built for rough, steep, overgrown rural ground, and its 45° claim tops the chart. The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) also runs on tracks (70%, up to 6 acres), but it's a modular yard platform that costs about $4,899 as a bundle and needs a base station. The catches: it needs an RTK base station, manual mapping takes 30–45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches. On a manicured suburban lawn it's the wrong tool.
+The [Lymow One Plus](/mowers/lymow-one-plus/) runs on tank tracks, which spread weight over a large contact patch. It's the only mainstream wire-free option built for rough, steep, overgrown rural ground, and its 45° claim tops the chart. The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) also runs on tracks (70%, up to 6 acres), but it's a modular yard platform sold as a flagship-priced bundle and needs a base station. The catches: it needs an RTK base station, manual mapping takes 30–45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches. On a manicured suburban lawn it's the wrong tool.
 
 **Good for:** rough acreage and embankments that defeat wheels.
 

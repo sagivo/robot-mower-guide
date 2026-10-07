@@ -31,7 +31,7 @@ faq:
   - q: "Do I need an all-wheel-drive robot mower?"
     a: "Only if your steepest section is above roughly 40–45% grade (22–24 degrees), or your ground is rough, rooty or often wet. Two-wheel-drive mowers typically top out at 30–50% on paper. AWD models like the Dreame A3 AWD and Navimow X4 are rated for 80–84%, which gives you margin on wet grass."
   - q: "How much should I spend on a robot lawn mower?"
-    a: "As of October 2026, credible wire-free mowers for small flat lawns start around $670–$900. LiDAR or AWD models for small and mid-size yards typically run $1,100–$1,900, and acre-plus AWD flagships cost about $2,100–$3,300. Prices change weekly, so check current listings before you buy."
+    a: "As of October 2026, credible wire-free mowers for small flat lawns start under $1,000. LiDAR or AWD models for small and mid-size yards typically fall between $1,000 and $2,000, and acre-plus AWD flagships cost over $2,000. Prices change weekly, so check current listings before you buy."
 ---
 
 To choose a robot lawn mower, measure three things first: how many square feet of grass you mow, how steep your steepest section is, and how much of the lawn sits under trees. Those numbers pick your coverage tier, your drive type (2WD or AWD) and your navigation type (RTK or LiDAR). Then use cutting height, edge handling, anti-theft, support and price to choose between the two or three models that are left.
@@ -58,7 +58,7 @@ The fastest way to measure: open Google Maps on a computer, right-click a corner
 
 Then add **20–30% headroom**. Manufacturer ratings assume open, flat, simple lawns. Husqvarna is unusually honest here: its Automower iQ ratings apply to systematic layouts, and irregular yards get roughly half. Slopes, narrow passages and multiple zones all cut real-world coverage.
 
-One pricing quirk worth knowing: bigger tiers are sometimes cheaper. In October 2026 the LUBA 3 AWD 3000 (0.75 ac) sells for about $2,109 while the smaller 1500 is about $2,399. Always compare tiers before buying.
+One pricing quirk worth knowing: bigger tiers are sometimes cheaper. In October 2026 the LUBA 3 AWD 3000 (0.75 ac) sold for less than the smaller 1500. Always compare tiers before buying.
 
 ## Step 2: Measure your steepest slope
 
@@ -109,7 +109,7 @@ If you want zero hardware to install, avoid models that need an RTK station. Not
 This follows directly from Step 2.
 
 - **2WD** is fine up to about 30–45% on paper. It's cheaper and lighter. Skip it if your slopes are steep, your ground is lumpy, or your lawn stays wet.
-- **AWD** handles 70–84% ratings and rough, rooty ground. The Dreame A3 AWD has brought it down to about $1,100 on sale, and the Navimow i2 AWD sits at about $849–$1,099 for small yards (45% rating). Some heavier AWD models, like the 41-lb LUBA 3, can scuff turf on tight turns.
+- **AWD** handles 70–84% ratings and rough, rooty ground. The Dreame A3 AWD has brought it down to a mid-range price on sale, and the Navimow i2 AWD brings it into the budget tier for small yards (45% rating). Some heavier AWD models, like the 41-lb LUBA 3, can scuff turf on tight turns.
 - **Tracks** (Lymow One Plus, Yarbo Mower Pro) are for rough, steep rural ground. On a manicured suburban lawn, they're the wrong tool.
 
 For a ranked shortlist, see the [best robot mowers for hills](/posts/best-robot-mower-for-hills/).
@@ -141,7 +141,7 @@ If you hate string trimming, this criterion can outrank everything else on a fla
 
 ## Step 9: 4G, anti-theft, weather, noise and the app
 
-**4G and anti-theft.** A mower visible from the street needs cellular GPS tracking. Read the fine print on subscriptions: the LUBA 3 AWD and Dreame A3 AWD Pro include 3 years of 4G, while the Navimow i2 AWD includes 1 year and then costs about $33/yr. The GOAT O1000 lists no 4G at all, and the YUKA mini 2 needs a $129 module. Our [theft protection guide](/posts/robot-mower-theft-protection/) covers what actually works.
+**4G and anti-theft.** A mower visible from the street needs cellular GPS tracking. Read the fine print on subscriptions: the LUBA 3 AWD and Dreame A3 AWD Pro include 3 years of 4G, while the Navimow i2 AWD includes 1 year and then costs about $33/yr. The GOAT O1000 lists no 4G at all, and the YUKA mini 2 needs an add-on module, sold separately. Our [theft protection guide](/posts/robot-mower-theft-protection/) covers what actually works.
 
 **Weather rating.** IPX6 or IP66 means the body resists powerful water jets. That covers most 2026 models. The Sunseeker X7 Gen 2, Sunseeker X5 and Automower iQ are IPX5, and the 435 iQ AWD is IPX4. For heavy-rain regions, read [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
 
@@ -153,14 +153,14 @@ If you hate string trimming, this criterion can outrank everything else on a fla
 
 **Support and warranty.** Husqvarna offers a 4-year warranty and local dealers, which is the main reason to buy one in 2026. WORX is sold at Home Depot, Lowe's, Best Buy and Walmart, so returns are easy. Direct-to-consumer brands vary, so check warranty length and where repairs happen before you buy. Our [lifespan guide](/posts/how-long-do-robot-mowers-last/) explains why support matters by year three.
 
-**Budget.** Typical October 2026 prices (they move weekly):
+**Budget.** Price bands as of October 2026 (individual prices move weekly, so check today's price):
 
 | Budget | What you get | Examples |
 |---|---|---|
-| Under $1,000 | Small, mostly flat lawns (LiDAR from ~$799) | Navimow i105N/i110N ($669–$789), Anthbot M9 (~$769), Anthbot M5 LiDAR (~$799), HOOKII Neomow X2 Air (~$899), GOAT O1000 (~$999) |
-| $1,000–$2,000 | LiDAR and/or AWD up to ~0.75 ac | Dreame A3 AWD ($1,099–$1,539), Navimow i215 (~$1,399), GOAT A3000 (~$1,849) |
-| $2,000–$3,300 | Acre-plus, steep or tree-heavy | Navimow X4 ($2,499–$2,999), LUBA 3 AWD ($2,109–$3,299) |
-| $3,300+ | Dealer-backed or extreme acreage | Automower 440 iQ (~$3,399), Navimow X390 (~$4,499), Yarbo Mower Pro (~$4,899, up to 6 ac), Automower 435 iQ AWD (~$4,999) |
+| Under $1,000 | Small, mostly flat lawns (including some LiDAR models) | Navimow i105N/i110N, Anthbot M9, Anthbot M5 LiDAR, HOOKII Neomow X2 Air, GOAT O1000 |
+| $1,000–$2,000 | LiDAR and/or AWD up to ~0.75 ac | Dreame A3 AWD, Navimow i215, GOAT A3000 |
+| $2,000–$3,000 | Acre-plus, steep or tree-heavy | Navimow X4, LUBA 3 AWD |
+| Over $3,000 | Dealer-backed or extreme acreage | Automower 440 iQ, Navimow X390, Yarbo Mower Pro (up to 6 ac), Automower 435 iQ AWD |
 
 Budget-only shoppers should start with the [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/). To check whether the spend pays off, run your numbers through the [cost calculator](/tools/cost-calculator/).
 
@@ -172,20 +172,20 @@ Skip it, or wait, if any of these apply. Your steepest section is above about 84
 
 Find the row closest to your yard, then confirm it in the [size matcher](/tools/size-matcher/), which uses the exact tier coverage and prices for every model.
 
-| Your yard | Recommended model | Why | Price (Oct 2026) |
+| Your yard | Recommended model | Why | Price tier |
 |---|---|---|---|
-| Under 0.25 ac, flat, open sky | [Navimow i105N / i110N](amazon:segway-navimow-i105n-i110n) | Cheapest credible RTK + vision, 58 dB | ~$669–$789 |
-| Under 0.25 ac, flat, simplest setup | [eufy E15 / E18](/mowers/eufy-e15-e18/) | No antenna, camera-only, very quiet | ~$999–$1,399 |
-| Under 0.25 ac, sloped or bumpy | [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | AWD for under $1,100 | ~$849–$1,099 |
-| Up to 0.37 ac, heavy tree cover | [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | LiDAR, near drop-and-go setup | ~$1,399 |
-| Up to 0.5 ac, steep and/or shaded | [Dreame A3 AWD](amazon:dreame-a3-awd) | LiDAR + AWD, 80% rating | ~$1,099–$1,539 |
-| Up to 0.37 ac, steep and cluttered | [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Compact AWD, edge disc | ~$1,699–$1,999 |
-| 0.5–0.75 ac, flat-ish, hate trimming | [GOAT A2000 / A3000](/mowers/ecovacs-goat-a-lidar-pro/) | Built-in edge trimmer | ~$1,399–$1,849 |
-| Flat up to 1 ac, want easy returns | [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) | Big-box support, simple app | ~$850–$1,840 |
-| 0.5–1.5 ac, hills, mostly open sky | [Navimow X4](amazon:segway-navimow-x4) | 17" deck, 84% rating | ~$2,499–$2,999 |
-| 0.5–1.25 ac, steep plus lots of trees | [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) or [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | LiDAR-based AWD flagships | ~$1,699–$3,299 |
-| 1.5–2.5 ac, gentle slopes | [Navimow X3 (X390)](/mowers/segway-navimow-x3/) | Largest mainstream rating | ~$4,499 (X390) |
-| Want a local dealer | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) | 4-year warranty, dealer service | ~$1,999–$3,399 |
-| Rough, very steep rural ground | [Lymow One Plus](/mowers/lymow-one-plus/) | Tank tracks | ~$2,499–$2,799 |
+| Under 0.25 ac, flat, open sky | [Navimow i105N / i110N](amazon:segway-navimow-i105n-i110n) | Cheapest credible RTK + vision, 58 dB | $ |
+| Under 0.25 ac, flat, simplest setup | [eufy E15 / E18](/mowers/eufy-e15-e18/) | No antenna, camera-only, very quiet | $ |
+| Under 0.25 ac, sloped or bumpy | [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | Budget-tier AWD | $ |
+| Up to 0.37 ac, heavy tree cover | [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | LiDAR, near drop-and-go setup | $$ |
+| Up to 0.5 ac, steep and/or shaded | [Dreame A3 AWD](amazon:dreame-a3-awd) | LiDAR + AWD, 80% rating | $$ |
+| Up to 0.37 ac, steep and cluttered | [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Compact AWD, edge disc | $$ |
+| 0.5–0.75 ac, flat-ish, hate trimming | [GOAT A2000 / A3000](/mowers/ecovacs-goat-a-lidar-pro/) | Built-in edge trimmer | $$ |
+| Flat up to 1 ac, want easy returns | [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) | Big-box support, simple app | $ |
+| 0.5–1.5 ac, hills, mostly open sky | [Navimow X4](amazon:segway-navimow-x4) | 17" deck, 84% rating | $$$ |
+| 0.5–1.25 ac, steep plus lots of trees | [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) or [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | LiDAR-based AWD flagships | $$ (A3 Pro) / $$$ (LUBA 3) |
+| 1.5–2.5 ac, gentle slopes | [Navimow X3 (X390)](/mowers/segway-navimow-x3/) | Largest mainstream rating | $$$$ |
+| Want a local dealer | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) | 4-year warranty, dealer service | $$ |
+| Rough, very steep rural ground | [Lymow One Plus](/mowers/lymow-one-plus/) | Tank tracks | $$$ |
 
 Still between two? Our head-to-heads settle the common ones: [LUBA 3 vs Navimow X4](/posts/mammotion-luba-3-vs-segway-navimow-x4/), [Dreame A3 AWD Pro vs LUBA 3 AWD](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/) and [ECOVACS GOAT vs Navimow](/posts/ecovacs-goat-vs-segway-navimow/). Or start from the full ranking in [the best robot lawn mowers of 2026](/posts/best-robot-lawn-mowers-2026/). Once it arrives, our [setup guide](/posts/robot-mower-setup-guide/) covers the first weekend.

@@ -11,7 +11,7 @@ faq:
     a: "The M9 Pro adds LiDAR on top of the M9's RTK and cameras, which helps in shaded spots where satellite signals weaken. The standard M9 relies on RTK and vision, so it's best for open lawns with a good view of the sky. If your quarter acre is under heavy trees, the Pro or a LiDAR-only mower is the safer pick."
 ---
 
-The ANTHBOT M9 is one of the cheapest wire-free robot mowers we'd actually trust on a real lawn. For about $769 to $899, you get full-band RTK navigation, dual HDR cameras for obstacle avoidance, and a quiet 58 dB motor, rated for about a quarter acre. Reviewed made it its Editor's Choice for small lawns. The compromises are a low 2.8" maximum cut height, an RTK antenna to install, and anti-theft features that aren't confirmed for the US model.
+The ANTHBOT M9 is one of the cheapest wire-free robot mowers we'd actually trust on a real lawn. For a budget-tier price, you get full-band RTK navigation, dual HDR cameras for obstacle avoidance, and a quiet 58 dB motor, rated for about a quarter acre. Reviewed made it its Editor's Choice for small lawns. The compromises are a low 2.8" maximum cut height, an RTK antenna to install, and anti-theft features that aren't confirmed for the US model.
 
 ## Who the ANTHBOT M9 is for (and who should skip it)
 
@@ -57,7 +57,7 @@ Anti-theft is the gray area. European reviews mention a geofence alarm and an op
 - **Noise.** About 58 dB, quiet enough that New Atlas called it impressively so.
 - **Weather.** Anthbot doesn't confirm an IP rating for the M9. See our [rain guide](/posts/do-robot-mowers-work-in-rain/) and consider a dock cover.
 - **Brand maturity.** ANTHBOT is a newer brand than Segway or WORX, so long-term parts and support are less proven. Our [how long robot mowers last](/posts/how-long-do-robot-mowers-last/) guide covers what to check.
-- **Price.** It has listed around $769 on sale versus $899 regular. Prices move.
+- **Price.** It's often on sale below its regular price. Prices move.
 
 ## How it compares
 
@@ -67,7 +67,7 @@ Anti-theft is the gray area. European reviews mention a geofence alarm and an op
 | Max slope | 45% | 30% | 45% | 32% |
 | RTK antenna | Required | No (network RTK) | No (network RTK) | No (vision only) |
 | Theft tracking | Not confirmed | GPS tracking, alarm | 4G GPS tracking | GPS + 4G tracking |
-| Typical price | $769–$899 | $669–$849 | $849–$1,099 | $999–$1,399 |
+| Price tier | $ | $ | $ | $ |
 
 The [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) is the closest rival. It's slightly cheaper, uses antenna-free network RTK and includes GPS tracking, but it's only rated for 30% slopes. The [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) adds AWD and 4G tracking for a bit more. The [eufy E15 / E18](/mowers/eufy-e15-e18/) needs no antenna at all but relies on cameras alone.
 
@@ -75,6 +75,6 @@ For more, see our [best budget robot lawn mower](/posts/best-budget-robot-lawn-m
 
 ## Bottom line
 
-The ANTHBOT M9 is a strong starter robot for an open quarter acre. It sets up fast, cuts neatly and runs quietly, at a price that undercuts most of the field. Keep it on lawns with good sky view and moderate slopes, and be realistic about the 2.8" height limit and unconfirmed anti-theft. Expect to pay about $769 to $899 (October 2026), and prices change often.
+The ANTHBOT M9 is a strong starter robot for an open quarter acre. It sets up fast, cuts neatly and runs quietly, at a price that undercuts most of the field. Keep it on lawns with good sky view and moderate slopes, and be realistic about the 2.8" height limit and unconfirmed anti-theft. It sits in the budget tier, and prices change often, so check today's price.
 
 **[Check the current price on Amazon](amazon:anthbot-m9)**

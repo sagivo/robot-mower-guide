@@ -11,7 +11,7 @@ faq:
     a: "The standard version cuts 0.8 to 2.6 inches, which suits Bermuda, zoysia and other short-kept grasses. The 1500H cuts 2.2 to 4.0 inches, the better choice for tall fescue, St. Augustine or any lawn you keep at 3 inches or more. Check your grass type's recommended height before choosing."
 ---
 
-The Mammotion LUBA mini 2 AWD takes flagship-class terrain ability and fits it into a mower for small yards. It climbs 80% slopes on all-wheel drive, navigates with LiDAR and cameras instead of satellites, and adds an edge disc. The catch is value: at about $1,699–$1,999 for 0.37 acre of coverage, it only makes sense if your small yard is also steep, shaded or cluttered.
+The Mammotion LUBA mini 2 AWD takes flagship-class terrain ability and fits it into a mower for small yards. It climbs 80% slopes on all-wheel drive, navigates with LiDAR and cameras instead of satellites, and adds an edge disc. The catch is value: it's a mid-range price for just 0.37 acre of coverage, so it only makes sense if your small yard is also steep, shaded or cluttered.
 
 ## Who the LUBA mini 2 AWD is for (and who should skip it)
 
@@ -48,18 +48,18 @@ The Mammotion app is feature-rich, with zones, no-go areas, patterns, scheduling
 - **Cleaning:** TechAeris found wet clippings build up around the disc housing and omnidirectional wheels, requiring a periodic hose-down of the underside. Avoid mowing soaking grass, and see our [maintenance guide](/posts/robot-mower-maintenance/).
 - **Subscription:** 4G is included for three years, and Mammotion hasn't published renewal pricing.
 - **Support:** owner feedback on Mammotion support is mixed, so buy where returns are easy.
-- **Price:** typically about $1,699–$1,999 (October 2026). That's a lot per square foot, so only pay it if you need the terrain ability.
+- **Price:** mid-range tier. That's a lot per square foot, so only pay it if you need the terrain ability.
 
 ## How the LUBA mini 2 AWD compares
 
-The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the most direct rival: LiDAR, AWD and an 80% rating, with up to 0.5 acre of coverage for about $1,099–$1,539 on sale, although its obstacle avoidance trails the flagships. The [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is the budget AWD option at about $849–$1,099, but it's rated for only 45% slopes and uses network RTK, so it's weaker under trees. If edging matters more than hills, the [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) has a real string trimmer for about $1,000.
+The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the most direct rival: LiDAR, AWD and an 80% rating, with up to 0.5 acre of coverage for less, especially on sale, although its obstacle avoidance trails the flagships. The [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is the budget AWD option, but it's rated for only 45% slopes and uses network RTK, so it's weaker under trees. If edging matters more than hills, the [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) has a real string trimmer for less.
 
 | | LUBA mini 2 AWD | Dreame A3 AWD | Navimow i2 AWD |
 |---|---|---|---|
 | Navigation | LiDAR + vision | LiDAR + vision | Network RTK + vision |
 | Max slope | 80% (~39°) | 80% (~39°) | 45% (~24°) |
 | Max area | 0.37 ac | 0.5 ac | 0.25 ac |
-| Typical price (Oct 2026) | about $1,699–$1,999 | about $1,099–$1,539 | about $849–$1,099 |
+| Price tier | $$ | $$ | $ |
 
 For more small-lot options, see our [best robot mowers for small yards](/posts/best-robot-mower-for-small-yards/) and [best robot mowers for complex yards](/posts/best-robot-mower-for-complex-yards/) guides.
 

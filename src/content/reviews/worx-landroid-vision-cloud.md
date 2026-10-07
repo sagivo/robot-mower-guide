@@ -6,7 +6,7 @@ faq:
   - q: "Can the WORX Landroid Vision Cloud handle hills?"
     a: "Only gentle ones. The standard two-wheel-drive Vision Cloud is rated for 30% slopes (about 17 degrees), and that rating assumes dry, short grass. If any part of your lawn is steeper, or it stays damp in the mornings, the Vision Cloud 4WD is rated for 84% (about 40 degrees) and is the better choice."
   - q: "Which Vision Cloud size should I buy?"
-    a: "Buy for your actual mowable area, not your lot size. The quarter-acre model is about $850 and the 1-acre model about $1,840 as of October 2026. Because runtime is short (roughly 60 to 80 minutes per charge), a lawn near the top of a tier means the mower runs most days. Our size matcher tool can help you pick a tier."
+    a: "Buy for your actual mowable area, not your lot size. As of October 2026, the quarter-acre model is budget-tier and the 1-acre model is mid-range. Because runtime is short (roughly 60 to 80 minutes per charge), a lawn near the top of a tier means the mower runs most days. Our size matcher tool can help you pick a tier."
   - q: "Where can I buy and return the WORX Vision Cloud?"
     a: "WORX sells the Vision Cloud through Home Depot, Lowe's, Best Buy, Walmart and Amazon, which is one of its biggest advantages over newer direct-to-consumer brands. Returns, replacement blades and batteries are easier to find locally. Check each retailer's return window, since robot mowers often have shorter policies than other tools."
 ---
@@ -59,7 +59,7 @@ Connectivity is 4G, Wi-Fi and Bluetooth, with GPS/4G tracking and an alarm for t
 | Max area | 1 acre | 0.25 acre | 2.5 acres |
 | Max slope | 30% | 30% | 50% |
 | Deck | 8.7" | 7.1" | 9.3" |
-| Typical price | $850–$2,299 | $669–$849 | $1,799–$4,499 |
+| Price tier | $–$$$ | $ | $$–$$$$ |
 
 For a small flat lawn on a tight budget, the [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) does a similar network-RTK-plus-vision job for less money. It just tops out at a quarter acre. For bigger, gently sloped properties, the [Navimow X3](/mowers/segway-navimow-x3/) covers more ground per hour and handles 50% grades. If your yard has hills, the same-family [Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) keeps the easy app and adds an 84% slope rating.
 
@@ -67,6 +67,6 @@ To see where it lands among every model, check our [best robot lawn mowers of 20
 
 ## Bottom line
 
-The Landroid Vision Cloud is the low-stress way into wire-free mowing: no antenna, an app that reviewers say even tech-shy owners can manage, and a store you can drive to if something goes wrong. Keep it on flat ground, size it with some headroom, and accept that it mows in short daily bursts. Prices run about $850 for the quarter-acre model and about $1,840 for the 1-acre model as of October 2026, and sales are frequent, so check before you buy.
+The Landroid Vision Cloud is the low-stress way into wire-free mowing: no antenna, an app that reviewers say even tech-shy owners can manage, and a store you can drive to if something goes wrong. Keep it on flat ground, size it with some headroom, and accept that it mows in short daily bursts. The quarter-acre model is budget-tier and the 1-acre model mid-range (October 2026), and sales are frequent, so check today's price before you buy.
 
 **[Check the current price on Amazon](amazon:worx-landroid-vision-cloud)**

@@ -36,7 +36,7 @@ faq:
 
 In the **ECOVACS GOAT vs Segway Navimow** matchup, the GOAT is the pick for flat lawns where you want the edges trimmed for you, and the Navimow is the pick for sloped yards, lawns over three-quarters of an acre, and anyone who wants 4G theft tracking. ECOVACS builds a real string trimmer into the mower and navigates with LiDAR. Segway mostly relies on network RTK and cameras, includes 4G on every model, and offers all-wheel drive up to an 84% slope rating.
 
-Both brands sell several sizes, so we've matched them by price band below. Prices are October 2026 street prices and change often.
+Both brands sell several sizes, so we've matched them by price band below, based on October 2026 street prices, which change often.
 
 ## The 30-second answer
 
@@ -48,7 +48,7 @@ Both brands sell several sizes, so we've matched them by price band below. Price
 
 | | GOAT O1000 LiDAR Pro | GOAT A2000 / A3000 LiDAR Pro | Navimow i105N / i110N | Navimow i2 AWD | Navimow i215 LiDAR | Navimow X4 (X430 / X450) |
 |---|---|---|---|---|---|---|
-| Price (Oct 2026) | about $999–$1,499 | about $1,399 / $1,849 | about $669 / $789 | about $849–$1,099 | about $1,399–$1,599 | about $2,499 / $2,999 |
+| Price tier | $ | $$ | $ | $ | $$ | $$$ |
 | Coverage | 0.25 ac | 0.5 / 0.75 ac | 0.125 / 0.25 ac | 0.15 / 0.25 ac | 0.37 ac | 1 / 1.5 ac |
 | Max slope | 45% (24.2°) | 50% (26.6°), 20% at boundaries | 30% (16.7°) | 45% (24.2°) | 45% (24.2°) | 84% (40.0°) |
 | Drive | 2WD | 2WD (rear) | 2WD | AWD | 2WD | AWD |
@@ -89,16 +89,16 @@ Manufacturer ratings assume dry, short grass, so leave a margin. Measure your st
 
 | Price band | ECOVACS GOAT | Segway Navimow | Who wins |
 |---|---|---|---|
-| Under $1,100, up to 0.25 ac | O1000: 0.25 ac, about $999 (up to $1,499), 45%, edge trimmer, no 4G | i110N: 0.25 ac, about $789, 30%, 4G / i210 AWD: 0.25 ac, about $1,099, 45% AWD, 4G | Navimow on price and 4G; GOAT for edges |
-| About $1,400–$1,600 | A2000: 0.5 ac, about $1,399, 13" deck, edge trimmer | i215 LiDAR: 0.37 ac, about $1,399–$1,599, 4G | GOAT on coverage and edges; i215 on 4G |
-| About $1,850–$2,500 | A3000: 0.75 ac, about $1,849, 50% | X430: 1 ac, about $2,499, 84% AWD, 17" deck | X430 if you have hills or 1 acre; A3000 if flat |
-| Over 0.75 ac | No GOAT option | X450: 1.5 ac, about $2,999 | Navimow |
+| Entry level, up to 0.25 ac | O1000: 0.25 ac, 45%, edge trimmer, no 4G | i110N: 0.25 ac, 30%, 4G / i210 AWD: 0.25 ac, 45% AWD, 4G | Navimow on price and 4G; GOAT for edges |
+| Mid-range | A2000: 0.5 ac, 13" deck, edge trimmer | i215 LiDAR: 0.37 ac, 4G | GOAT on coverage and edges; i215 on 4G |
+| Upper mid-range to premium | A3000: 0.75 ac, 50% | X430: 1 ac, 84% AWD, 17" deck | X430 if you have hills or 1 acre; A3000 if flat |
+| Over 0.75 ac | No GOAT option | X450: 1.5 ac | Navimow |
 
-**Under $1,100:** the i110N is $210 cheaper than the O1000's sale price and adds 4G tracking, but it's limited to flat ground. The i210 AWD costs about $100 more than the O1000 and adds AWD and 4G. The O1000's case rests on its edge trimmer and LiDAR.
+**Entry level:** the i110N costs less than the O1000, even on sale, and adds 4G tracking, but it's limited to flat ground. The i210 AWD costs a little more than the O1000 and adds AWD and 4G. The O1000's case rests on its edge trimmer and LiDAR.
 
-**$1,400 band:** this is the GOAT's strongest matchup. The A2000 covers 0.5 acre versus 0.37 on the i215, with a 13" deck versus 8.7", plus the trimmer. The i215 counters with 4G anti-theft and LiDAR navigation of its own.
+**Mid-range:** this is the GOAT's strongest matchup. The A2000 covers 0.5 acre versus 0.37 on the i215, with a 13" deck versus 8.7", plus the trimmer. The i215 counters with 4G anti-theft and LiDAR navigation of its own.
 
-**$1,850–$2,500:** the X430 costs about $650 more than the A3000 but buys AWD, an 84% rating, an extra quarter acre of coverage, a 17" deck and standard 4G. If your lawn is flat and under 0.75 acre, the A3000 plus edge trimming is the better use of the money.
+**Upper mid-range to premium:** the X430 costs noticeably more than the A3000 but buys AWD, an 84% rating, an extra quarter acre of coverage, a 17" deck and standard 4G. If your lawn is flat and under 0.75 acre, the A3000 plus edge trimming is the better use of the money.
 
 Our [size matcher](/tools/size-matcher/) picks the right tier from your square footage. For bigger lots, see [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/); for small ones, [best robot mowers for small yards](/posts/best-robot-mower-for-small-yards/).
 
@@ -117,7 +117,7 @@ This is the biggest practical gap between the brands.
 - **ECOVACS:** the O1000 connects over Wi-Fi and Bluetooth only, and ECOVACS lists no 4G or theft tracking. The A2000/A3000 use 2.4 GHz Wi-Fi with an optional cellular module, and ECOVACS doesn't list anti-theft features. Check the current spec sheet before buying, and plan on strong Wi-Fi across the lawn.
 - **Navimow:** every current model includes 4G and GPS tracking, with geofence alarms on the i2 AWD, i215 and X4. The i2 AWD and i215 include one year of 4G; after that, Navimow Connect+ costs about $33 a year ($32.90, per TechHive).
 
-A $1,400–$1,850 mower with no tracking is a real risk if your front lawn faces the street. Our [robot mower theft protection guide](/posts/robot-mower-theft-protection/) covers PIN locks, alarms, AirTags and garage options.
+A mid-range mower with no tracking is a real risk if your front lawn faces the street. Our [robot mower theft protection guide](/posts/robot-mower-theft-protection/) covers PIN locks, alarms, AirTags and garage options.
 
 On the apps themselves, de Looper found ECOVACS Home intuitive, and Gunther highlighted Navimow's scheduling, weather settings, night mowing, child lock and Alexa/Google voice control.
 
@@ -131,9 +131,9 @@ Either way, routine care matters more than the warranty length. The GOAT's trimm
 
 Our value subscores are close: GOAT A-series 9, GOAT O1000 9, Navimow i105N/i110N 10, i2 AWD 9.5, i215 8.5, X4 8.5. In practice:
 
-- **Cheapest decent mower:** Navimow i105N at about $669. Reviewed names it its value pick.
-- **Best value with edges:** GOAT A2000 at about $1,399, for half an acre with a trimmer and a 13" deck. Reviewed named the A3000 LiDAR Pro its best overall pick.
-- **Best value for big or hilly lawns:** Navimow X430 at about $2,499, our top-scored mower at 9.3.
+- **Cheapest decent mower:** Navimow i105N, the lowest-cost option here (budget tier). Reviewed names it its value pick.
+- **Best value with edges:** GOAT A2000, a mid-range price for half an acre with a trimmer and a 13" deck. Reviewed named the A3000 LiDAR Pro its best overall pick.
+- **Best value for big or hilly lawns:** Navimow X430, a premium-tier pick and our top-scored mower at 9.3.
 
 To compare any of these against what you pay a lawn crew, try the [cost calculator](/tools/cost-calculator/).
 
@@ -150,7 +150,7 @@ To compare any of these against what you pay a lawn crew, try the [cost calculat
 
 **[Check the GOAT A3000 LiDAR Pro price on Amazon](amazon:ecovacs-goat-a-lidar-pro)** · [Read our full review](/mowers/ecovacs-goat-a-lidar-pro/)
 
-For quarter-acre lots, the **[GOAT O1000 LiDAR Pro](amazon:ecovacs-goat-o1000-lidar-pro)** brings TruEdge to about $999.
+For quarter-acre lots, the **[GOAT O1000 LiDAR Pro](amazon:ecovacs-goat-o1000-lidar-pro)** brings TruEdge to the budget tier.
 
 ### Buy a Segway Navimow if...
 
@@ -163,18 +163,18 @@ For quarter-acre lots, the **[GOAT O1000 LiDAR Pro](amazon:ecovacs-goat-o1000-li
 
 **[Check the Navimow X4 price on Amazon](amazon:segway-navimow-x4)** · [Read our full review](/mowers/segway-navimow-x4/)
 
-For small lawns, the **[Navimow i2 AWD](amazon:segway-navimow-i2-awd)** handles bumps and slopes for about $849–$1,099, and the **[Navimow i105N](amazon:segway-navimow-i105n-i110n)** is the budget pick for flat lots.
+For small lawns, the **[Navimow i2 AWD](amazon:segway-navimow-i2-awd)** handles bumps and slopes at a budget-tier price, and the **[Navimow i105N](amazon:segway-navimow-i105n-i110n)** is the budget pick for flat lots.
 
 ## Consider instead
 
-- **[Dreame A3 AWD](/mowers/dreame-a3-awd/)** (about $1,099–$1,539, up to 0.5 acre): LiDAR like the GOAT plus AWD and an 80% rating, with 4G and EdgeMaster mowing to about 1.9" from edges. It fixes the GOAT's two weaknesses for similar money. **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)**
-- **[Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/)** (about $1,699–$1,999, 0.37 acre): AWD, 80% slopes, 4G and an edge disc for small, steep yards.
+- **[Dreame A3 AWD](/mowers/dreame-a3-awd/)** (mid-range, up to 0.5 acre): LiDAR like the GOAT plus AWD and an 80% rating, with 4G and EdgeMaster mowing to about 1.9" from edges. It fixes the GOAT's two weaknesses for similar money. **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)**
+- **[Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/)** (mid-range, 0.37 acre): AWD, 80% slopes, 4G and an edge disc for small, steep yards.
 - **[Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/)**: if you're weighing the X4 for a hilly, tree-heavy acre, read our [LUBA 3 vs Navimow X4 comparison](/posts/mammotion-luba-3-vs-segway-navimow-x4/).
 
 ## Final verdict
 
 For **flat, shaded lawns up to 0.75 acre**, the **ECOVACS GOAT A2000/A3000 LiDAR Pro** is the more hands-off mower: LiDAR that ignores trees, a wide 13" deck, and the only built-in edge trimmer in the mainstream market. Just factor in the missing 4G tracking.
 
-For **everything else** (slopes, bigger lots, street-facing yards), **Segway Navimow** is the better ecosystem. The X4 is our highest-scored mower, the i2 AWD brings AWD to small lots for about $1,000, and every model ships with 4G tracking.
+For **everything else** (slopes, bigger lots, street-facing yards), **Segway Navimow** is the better ecosystem. The X4 is our highest-scored mower, the i2 AWD brings AWD to small lots at a budget-tier price, and every model ships with 4G tracking.
 
 Still comparing? Read [how to choose a robot lawn mower](/posts/how-to-choose-a-robot-lawn-mower/), browse the [full comparison chart](/mowers/), or see [how we research](/how-we-research/) our picks.

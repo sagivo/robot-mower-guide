@@ -4,14 +4,14 @@ faq:
   - q: "Does the Sunseeker X7 Gen 2 need an RTK base station?"
     a: "Sunseeker markets the Gen 2 as wire-free, using its AONavi system that fuses RTK satellite positioning with VSLAM 2.0 vision. However, both Reviewed and Yanko Design describe placing an RTK antenna or base station with a clear sky view during setup. Check the box contents for the exact version you are buying and plan for an antenna location, just in case."
   - q: "What's the difference between the Sunseeker X7 Gen 2 and X7 Plus Gen 2?"
-    a: "The Plus costs about $500 more (about $2,999 vs $2,499) and includes 4G-GPS anti-theft tracking as standard, where it is optional on the regular Gen 2. Sunseeker advertises up to 1.5 acres for the series, while Yanko Design lists the regular Gen 2 at 0.75 acre, so confirm the rated area of your specific version before buying."
+    a: "The Plus costs more and includes 4G-GPS anti-theft tracking as standard, where it is optional on the regular Gen 2. Sunseeker advertises up to 1.5 acres for the series, while Yanko Design lists the regular Gen 2 at 0.75 acre, so confirm the rated area of your specific version before buying."
   - q: "Can the Sunseeker X7 Gen 2 mow stripes?"
     a: "Yes, and that is its biggest strength. Reviewed praised its manicured, striped results, and Yanko Design reported clean parallel stripes from the dual 14-inch floating discs. The app also offers multi-angle patterns and downloadable lawn-art designs. If a finished, striped look matters to you, it is the best-regarded choice among robots we track."
   - q: "Is the original Sunseeker X7 the same as the Gen 2?"
     a: "No. The original X7, sold at Costco and rated for 0.75 acre, requires an RTK base station and lacks the Gen 2's VSLAM 2.0 vision upgrade. Yanko Design reports Gen 2 can keep navigating on vision for up to an hour when satellite signal drops, versus about 10 minutes on the previous generation. Check the model name carefully before buying."
 ---
 
-The Sunseeker Elite X7 Gen 2 and X7 Plus Gen 2 are the finish-quality picks of the wire-free market. Reviewers consistently describe the neatest, most stripe-friendly cut of any robot we track, on AWD hardware rated for 70% slopes. The drawbacks are price and some setup ambiguity. At about $2,499–$2,999, they compete with 2026 LiDAR flagships that offer more navigation for similar money.
+The Sunseeker Elite X7 Gen 2 and X7 Plus Gen 2 are the finish-quality picks of the wire-free market. Reviewers consistently describe the neatest, most stripe-friendly cut of any robot we track, on AWD hardware rated for 70% slopes. The drawbacks are price and some setup ambiguity. At premium-tier prices, they compete with 2026 LiDAR flagships that offer more navigation for similar money.
 
 ## Who the Sunseeker X7 Gen 2 is for (and who should skip it)
 
@@ -48,7 +48,7 @@ Anti-theft is where the two versions differ. The Plus includes 4G-GPS tracking a
 - **Weather rating:** IPX5 is a step below the IPX6 rivals carry. It's fine for rain, but don't hose the top deck down. See [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
 - **Version confusion:** Gen 1, Gen 2 and Plus Gen 2 are sold side by side, with different coverage and positioning hardware. Check the exact model name.
 - **Warranty and support:** Sunseeker has a US presence, but confirm warranty terms with the seller.
-- **Pricing:** about $2,499 for the Gen 2 and $2,999 for the Plus (October 2026). At full price it's hard to recommend over LiDAR flagships, so watch for discounts.
+- **Pricing:** both the Gen 2 and the Plus sit in the premium tier, with the Plus costing more (October 2026). At full price it's hard to recommend over LiDAR flagships, so watch for discounts.
 
 ## How the Sunseeker X7 Gen 2 compares
 
@@ -59,7 +59,7 @@ The [Segway Navimow X4](/mowers/segway-navimow-x4/) costs the same or less, has 
 | Max slope | 70% (35°) | 84% (~40°) | 80% (~39°) |
 | Deck | 14" | 17" | 15.7" |
 | Cut height | 0.8–4.0" | 0.75–4.0" | 1.0–4.0" (by version) |
-| Typical price (Oct 2026) | about $2,499–$2,999 | about $2,499–$2,999 | about $2,109–$3,299 |
+| Price tier | $$$ | $$$ | $$$ |
 
 For more large-lot options, see [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) or compare all models on the [comparison chart](/mowers/).
 

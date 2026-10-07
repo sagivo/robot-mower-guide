@@ -8,7 +8,7 @@ faq:
   - q: "Does the GOAT A3000 LiDAR Pro have 4G or GPS theft tracking?"
     a: "Not as standard. It connects over 2.4 GHz Wi-Fi and Bluetooth, and ECOVACS offers an optional cellular module. ECOVACS does not clearly list anti-theft features on its spec sheet, and some owners describe the built-in alarm as weak. If your lawn is visible from the street, add the cellular module or extra physical security."
   - q: "What's the difference between the GOAT A2000 and A3000 LiDAR Pro?"
-    a: "Coverage and price. The A2000 is rated for about 0.5 acre and typically sells for around $1,399, while the A3000 covers about 0.75 acre for around $1,849 (October 2026). Both use the same dual-LiDAR navigation and TruEdge trimmer. Because coverage is slow, pick the size with some headroom over your mowable area."
+    a: "Coverage and price. The A2000 is rated for about 0.5 acre, while the A3000 covers about 0.75 acre and costs more. Both sit in the mid-range tier (October 2026). Both use the same dual-LiDAR navigation and TruEdge trimmer. Because coverage is slow, pick the size with some headroom over your mowable area."
 ---
 
 The ECOVACS GOAT A3000 LiDAR Pro (and the smaller A2000) is the closest any mainstream robot comes to fully hands-off lawn care. Its built-in TruEdge string trimmer handles the border strip every other robot leaves behind, and its dual-LiDAR navigation needs no antenna or satellites. The limits are terrain and speed: it's rear-wheel drive, rated for 50% slopes, and slow to cover its full rated area.
@@ -48,13 +48,13 @@ Connectivity is 2.4 GHz Wi-Fi and Bluetooth, with an optional cellular module. E
 - **Consumables:** BGR says the trimmer line needs replacing about every four to six weeks, on a similar schedule to the blades. It's a tool-free, few-minute job, but it's an extra cost.
 - **Known issues:** ECOVACS's support pages address trimmer line that fails to auto-feed, rain-sensor problems that stop the mower from returning on wet days, and base-station connection errors. Those are worth knowing about even if you never hit them.
 - **Weight:** about 40 lb, per BGR, with a carry handle for when it gets stuck.
-- **Pricing:** about $1,399 for the A2000 and $1,849 for the A3000 in October 2026, down from roughly $2,500 at launch. Prices change often.
+- **Pricing:** both sizes sat in the mid-range tier in October 2026, well below their launch prices. Prices change often.
 
 For routine upkeep, see our [maintenance guide](/posts/robot-mower-maintenance/).
 
 ## How the GOAT A LiDAR Pro compares
 
-The [Segway Navimow X4](/mowers/segway-navimow-x4/) is faster, AWD and far better on hills, but it leaves edges to you. Our [ECOVACS GOAT vs Segway Navimow](/posts/ecovacs-goat-vs-segway-navimow/) comparison weighs edging against speed and slopes. The [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) offers an edge disc and AWD for smaller, hillier lots. On a tighter budget, the [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) brings TruEdge to quarter-acre yards for around $1,000.
+The [Segway Navimow X4](/mowers/segway-navimow-x4/) is faster, AWD and far better on hills, but it leaves edges to you. Our [ECOVACS GOAT vs Segway Navimow](/posts/ecovacs-goat-vs-segway-navimow/) comparison weighs edging against speed and slopes. The [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) offers an edge disc and AWD for smaller, hillier lots. On a tighter budget, the [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) brings TruEdge to quarter-acre yards for less.
 
 | | GOAT A3000 LiDAR Pro | Navimow X4 | LUBA mini 2 AWD |
 |---|---|---|---|

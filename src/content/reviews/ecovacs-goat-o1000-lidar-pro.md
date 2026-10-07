@@ -13,7 +13,7 @@ faq:
     a: "ECOVACS rates it for about a quarter acre (10,764 sq ft). It runs about 90 minutes per charge and recharges in about 70 minutes. ECOVACS quotes about 120 to 180 square meters per hour depending on mode, so a full quarter acre takes several charge cycles."
 ---
 
-The ECOVACS GOAT O1000 LiDAR Pro is the cheapest robot mower that also trims your edges. It pairs dual-LiDAR navigation with a built-in TruEdge string trimmer, for a typical price of about $999 to $1,499. For a compact, flat-to-gentle yard where edging is the chore you hate most, little else at this price comes close. The big caveats are a quarter-acre ceiling, a loud trimmer, and no listed 4G or theft tracking.
+The ECOVACS GOAT O1000 LiDAR Pro is the cheapest robot mower that also trims your edges. It pairs dual-LiDAR navigation with a built-in TruEdge string trimmer, at a budget-to-mid-range price depending on sales. For a compact, flat-to-gentle yard where edging is the chore you hate most, little else at this price comes close. The big caveats are a quarter-acre ceiling, a loud trimmer, and no listed 4G or theft tracking.
 
 ## Who the GOAT O1000 is for (and who should skip it)
 
@@ -31,7 +31,7 @@ ECOVACS calls the system HoloScope 360: a spinning 360° LiDAR plus a 3D time-of
 
 There's no antenna and no wire. ECOVACS supports automatic mapping or remote-control mapping in the app, claims 0.79" positioning precision, and says the AIVI 3D system recognizes more than 200 obstacle types. On paper it squeezes through passages as narrow as 31.5", which helps in side yards.
 
-Independent US coverage of the O1000 LiDAR Pro is still thin. Most of what's online is spec recaps and deal posts, including 9to5Toys flagging a $999 low in July 2026. We'll update this page as more major reviewers publish. In the meantime, treat obstacle-avoidance claims as marketing until owners confirm them, and see our [setup guide](/posts/robot-mower-setup-guide/) for general mapping tips.
+Independent US coverage of the O1000 LiDAR Pro is still thin. Most of what's online is spec recaps and deal posts, including 9to5Toys flagging a sale in July 2026. We'll update this page as more major reviewers publish. In the meantime, treat obstacle-avoidance claims as marketing until owners confirm them, and see our [setup guide](/posts/robot-mower-setup-guide/) for general mapping tips.
 
 ## Mowing performance, slopes and terrain
 
@@ -56,7 +56,7 @@ The O1000 LiDAR Pro runs on the ECOVACS Home app over Wi-Fi and Bluetooth. You g
 - **Weatherproofing.** Both mower and dock are rated IPX6, so a hose-down is fine. Our [rain guide](/posts/do-robot-mowers-work-in-rain/) covers wet-weather mowing.
 - **Consumables.** You'll replace razor blades and trimmer line. ECOVACS sells blade-kit bundles, so price those in. See our [maintenance guide](/posts/robot-mower-maintenance/).
 - **Battery.** The 5,200 mAh pack is listed as non-removable in third-party spec listings, so long-term battery replacement may mean a service visit. See [how long robot mowers last](/posts/how-long-do-robot-mowers-last/).
-- **Price swings.** List is $1,499. It has sold for $999 in summer 2026, so watch for sales.
+- **Price swings.** It sold well below list in summer 2026, so watch for sales.
 
 ## How it compares
 
@@ -66,7 +66,7 @@ The O1000 LiDAR Pro runs on the ECOVACS Home app over Wi-Fi and Bluetooth. You g
 | Max slope | 45% | 50% | 42% | 80% |
 | Edge trimmer | Yes (TruEdge) | Yes (TruEdge) | No | No |
 | 4G tracking | Not listed | Optional cellular module | App tracking | Yes |
-| Typical price | $999–$1,499 | $1,399–$2,125 | $1,299–$1,599 | $1,099–$1,539 |
+| Price tier | $–$$ | $$–$$$ | $$ | $$ |
 
 The [GOAT A2000 / A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) is the step up: the same TruEdge idea with a 13" deck and up to 0.75 acre. The [Sunseeker S4](/mowers/sunseeker-s4/) is another LiDAR quarter-acre mower that's strong under trees but weak at edges. If your small yard has hills, the [Dreame A3 AWD](/mowers/dreame-a3-awd/) adds AWD and 4G at a similar price, though you'll trim edges yourself.
 
@@ -74,6 +74,6 @@ For more options, see our [best robot mower for small yards](/posts/best-robot-m
 
 ## Bottom line
 
-If you have a small, gently sloped yard and edging is the part of mowing you'd most like to quit, the GOAT O1000 LiDAR Pro is the cheapest way to get a robot that tries to do it for you. Accept that the trimmer is loud and won't make your string trimmer obsolete, and plan around the lack of theft tracking. It typically sells for about $999 to $1,499 (October 2026), and prices change often.
+If you have a small, gently sloped yard and edging is the part of mowing you'd most like to quit, the GOAT O1000 LiDAR Pro is the cheapest way to get a robot that tries to do it for you. Accept that the trimmer is loud and won't make your string trimmer obsolete, and plan around the lack of theft tracking. It typically sells at a budget-to-mid-range price, and prices change often, so check today's price.
 
 **[Check the current price on Amazon](amazon:ecovacs-goat-o1000-lidar-pro)**

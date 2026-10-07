@@ -2,7 +2,7 @@
 updatedDate: 2026-10-07
 faq:
   - q: "Which Navimow X3 model do I need?"
-    a: "Match the rating to your mowable area with some margin. The X315 covers 0.4 acre (about $1,799), the X330 0.75 acre (about $2,299), the X350 1.5 acres (about $2,799) and the X390 2.5 acres (about $4,499), per October 2026 prices. All four share the same chassis, deck and navigation. The bigger models mainly add battery capacity."
+    a: "Match the rating to your mowable area with some margin. The X315 covers 0.4 acre (mid-range), the X330 0.75 acre and the X350 1.5 acres (both premium), and the X390 2.5 acres (flagship), based on October 2026 prices. All four share the same chassis, deck and navigation. The bigger models mainly add battery capacity."
   - q: "Should I buy the Navimow X3 or the newer X4?"
     a: "For lawns up to 1.5 acres, the X4 is usually the better buy. It has a wider 17-inch deck, all-wheel drive and an 84% slope rating for similar money. The X3 still makes sense in two cases: you need more than 1.5 acres, where only the X390 reaches 2.5 acres, or you find an X315 or X330 deeply discounted for a flat lawn."
   - q: "Does the Navimow X3 need an RTK antenna?"
@@ -51,7 +51,7 @@ Anti-theft includes an out-of-bounds alarm, lift alerts and 4G GPS tracking, plu
 
 - **Handling:** it's a big mower, and TechRadar found there's no front grip, so you'll drag it more than carry it.
 - **Weather:** IP66-rated and 60 dB, so rain and evening runs aren't a problem. A garage roof still helps long term.
-- **Pricing:** TechRadar quoted list prices from $2,299 to $4,999 at launch. The X4's arrival pushed X3 prices down, and October 2026 prices start around $1,799. Prices change often.
+- **Pricing:** The X4's arrival pushed X3 prices well below their launch list prices, and in October 2026 the smallest model was mid-range. Prices change often.
 - **Availability:** TechRadar noted the X3 was mostly sold direct in the US at launch. Check retailer stock and return terms before ordering.
 
 ## How the Navimow X3 compares
@@ -61,7 +61,7 @@ Anti-theft includes an out-of-bounds alarm, lift alerts and 4G GPS tracking, plu
 | Max area | 2.5 ac (X390) | 1.5 ac (X450) | 2 ac (440 iQ) |
 | Max slope | 50% | 84% | 45% |
 | Drive / deck | 2WD / 9.3" | AWD / 17" | 2WD / 9.4" |
-| Typical price | $1,799–$4,499 | $2,499–$2,999 | $1,999–$3,399 |
+| Price tier | $$–$$$$ | $$$ | $$–$$$$ |
 
 The [Navimow X4](/mowers/segway-navimow-x4/) is the obvious alternative: wider deck, AWD and an 84% rating for similar money, but capped at 1.5 acres. The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) adds LiDAR for tree-heavy lots up to 1.25 acres. The [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-iq/) covers 2 acres with dealer support but older navigation. Our [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) guide and [LUBA 3 vs Navimow X4](/posts/mammotion-luba-3-vs-segway-navimow-x4/) comparison go deeper. If you're deciding between a robot and a rider for big acreage, see [robot mower vs riding mower](/posts/robot-mower-vs-riding-mower/).
 

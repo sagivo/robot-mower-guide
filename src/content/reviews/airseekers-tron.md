@@ -8,10 +8,10 @@ faq:
   - q: "Is the Airseekers Tron good at avoiding obstacles?"
     a: "Not especially, despite its five cameras. New Atlas saw it bump into people and objects, drive a branch into its camera, climb a low stone wall and repeatedly hit a fountain wall before shutting down. Android Headlines rated it pretty good but behind some competitors. Mark trees, walls, beds and fixtures as no-go zones from the start."
   - q: "What's the difference between the Tron SE, Tron and Tron PLUS?"
-    a: "Coverage, cameras and price. The SE covers 0.37 acre with a single camera and was about $1,099 in October 2026. The Tron covers 0.59 acre for about $1,299, and the PLUS covers 1 acre for about $2,099, both with the five-camera 300-degree system and support for an optional 11.8-inch disc. Airseekers says the PLUS adds a light module for night mowing."
+    a: "Coverage, cameras and price. The SE covers 0.37 acre with a single camera and is the cheapest; like the standard Tron, it's a mid-range buy. The Tron covers 0.59 acre and the premium-tier PLUS covers 1 acre, both with the five-camera 300-degree system and support for an optional 11.8-inch disc. Airseekers says the PLUS adds a light module for night mowing."
 ---
 
-The Airseekers Tron is an RTK-guided robot mower with the best mulching any reviewer has reported, wrapped in a body that looks like a sci-fi transport. At about $1,299 for the standard model, down from a $1,999 list price, it's now reasonably priced for 0.59 acre. It isn't a polished machine, though. Reviewers found weak obstacle avoidance, a bare-bones app and odd front wheels that make tight turns hard, so it suits simple, open yards with thick grass, not cluttered ones.
+The Airseekers Tron is an RTK-guided robot mower with the best mulching any reviewer has reported, wrapped in a body that looks like a sci-fi transport. Now selling well below its launch list price, the standard model is a reasonably priced mid-range pick for 0.59 acre. It isn't a polished machine, though. Reviewers found weak obstacle avoidance, a bare-bones app and odd front wheels that make tight turns hard, so it suits simple, open yards with thick grass, not cluttered ones.
 
 ## Who the Airseekers Tron is for (and who should skip it)
 
@@ -53,23 +53,23 @@ Anti-theft is limited to real-time GPS tracking with location alerts over 4G, wi
 - **Night mowing:** New Atlas advises against it on the standard Tron, which lacks a proper headlight and can drift into no-go zones in the dark.
 - **Parts:** the battery is removable, spare blades are included, and Airseekers sells discs and fan blades.
 - **Network RTK:** it's complimentary, but New Atlas couldn't find how long it stays free.
-- **Pricing:** list prices are $1,299, $1,999 and $2,299; October 2026 prices were about $1,099, $1,299 and $2,099.
+- **Pricing:** in October 2026 all three sold below list: the SE and standard Tron at mid-range prices, the PLUS at a premium-tier price.
 
 ## How the Airseekers Tron compares
 
-The [Segway Navimow X4](/mowers/segway-navimow-x4/) costs more, at about $2,499 to $2,999, but brings AWD, an 84% rating, a 17" deck and a far more polished app. The [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) is the budget network-RTK alternative: about $850 to $1,840, easy setup, and big-box-store support, though it's rated for only 30% slopes. For an acre or more of open grass, the [Segway Navimow X3](/mowers/segway-navimow-x3/) is a better-reviewed 2WD option rated for 50% slopes.
+The [Segway Navimow X4](/mowers/segway-navimow-x4/) costs more (premium tier) but brings AWD, an 84% rating, a 17" deck and a far more polished app. The [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) is the budget network-RTK alternative: budget to mid-range pricing, easy setup, and big-box-store support, though it's rated for only 30% slopes. For an acre or more of open grass, the [Segway Navimow X3](/mowers/segway-navimow-x3/) is a better-reviewed 2WD option rated for 50% slopes.
 
 | | Tron (standard) | Navimow X4 | Landroid Vision Cloud |
 |---|---|---|---|
 | Navigation | RTK base + VSLAM | Network RTK + vision | Network RTK + vision |
 | Max area | 0.59 acre | 1–1.5 acres | 0.25–1 acre |
 | Max slope | 65% (~33°) | 84% (~40°) | 30% (~17°) |
-| Price (Oct 2026) | about $1,299 | about $2,499–$2,999 | about $850–$1,840 |
+| Price tier | $$ | $$$ | $–$$ |
 
 See [robot mowers without a boundary wire](/posts/robot-mower-without-boundary-wire/) and [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) for more.
 
 ## Bottom line
 
-The Airseekers Tron is a likable oddball. On an open, simple lawn with thick grass, it mulches better than anything reviewers have tried, handles tall growth and runs for hours. Its navigation, obstacle avoidance and app trail the mainstream brands, and its wheels make cluttered yards hard work. At about $1,299 it's fair value for the right yard. Map generously with no-go zones and it rewards you.
+The Airseekers Tron is a likable oddball. On an open, simple lawn with thick grass, it mulches better than anything reviewers have tried, handles tall growth and runs for hours. Its navigation, obstacle avoidance and app trail the mainstream brands, and its wheels make cluttered yards hard work. At its current mid-range price it's fair value for the right yard. Map generously with no-go zones and it rewards you.
 
 **[Check the current price on Amazon](amazon:airseekers-tron)**

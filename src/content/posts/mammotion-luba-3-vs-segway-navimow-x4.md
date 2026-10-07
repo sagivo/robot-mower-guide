@@ -1,7 +1,7 @@
 ---
 title: "Mammotion LUBA 3 vs Segway Navimow X4 (2026): Which AWD Robot Mower Should You Buy?"
-seoTitle: "LUBA 3 vs Navimow X4 (2026): Specs, Prices, Verdict"
-description: "Mammotion LUBA 3 vs Segway Navimow X4: 80% vs 84% slopes, 15.7\" vs 17\" decks, LiDAR vs network RTK, and tier-by-tier prices from $2,109. See which wins."
+seoTitle: "LUBA 3 vs Navimow X4 (2026): Specs, Value, Verdict"
+description: "Mammotion LUBA 3 vs Segway Navimow X4: 80% vs 84% slopes, 15.7\" vs 17\" decks, LiDAR vs network RTK, and which costs less at each lawn size. See which wins."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: comparison
@@ -16,11 +16,11 @@ picks:
   - id: dreame-a3-awd-pro
     label: "Cheaper LiDAR alternative"
 takeaways:
-  - "<strong>Navimow X4</strong> wins on open lawns of 0.75 to 1.5 acres: wider 17\" deck, 84% slope rating, and about $800 cheaper than the LUBA 3 5000 at the 1-acre mark."
+  - "<strong>Navimow X4</strong> wins on open lawns of 0.75 to 1.5 acres: wider 17\" deck, 84% slope rating, and noticeably cheaper than the LUBA 3 5000 at the 1-acre mark."
   - "<strong>LUBA 3 AWD</strong> wins under trees and on rough ground: LiDAR + network RTK + cameras keep it positioned where satellite signal drops."
-  - "Under 0.75 acre, the LUBA 3 AWD 3000 (about $2,109) is cheaper than the smallest X4 (about $2,499)."
+  - "Under 0.75 acre, the LUBA 3 AWD 3000 is cheaper than the smallest X4."
   - "Neither needs a base station, though some X4 yards still need the included RTK antenna."
-  - "If both feel too expensive, the <a href=\"/mowers/dreame-a3-awd-pro/\">Dreame A3 AWD Pro</a> offers LiDAR and an 80% rating from about $1,699 on sale."
+  - "If both feel too expensive, the <a href=\"/mowers/dreame-a3-awd-pro/\">Dreame A3 AWD Pro</a> offers LiDAR and an 80% rating at a mid-range price on sale."
 faq:
   - q: "Is the LUBA 3 AWD better than the Navimow X4?"
     a: "Neither is better everywhere. The Navimow X4 is the better buy for open lawns of 0.75 to 1.5 acres, thanks to its 17-inch deck, 84% slope rating and lower price per acre. The LUBA 3 AWD is better for yards with trees, buildings or rough ground, because its LiDAR keeps working where satellite RTK loses its fix, and its 3000 tier is cheaper for lawns under 0.75 acre."
@@ -31,7 +31,7 @@ faq:
   - q: "Which is better under trees, the LUBA 3 or the Navimow X4?"
     a: "The LUBA 3 AWD. It combines 360-degree LiDAR with network RTK and dual cameras, so it can hold its position under dense canopy where satellite signals fade. The Navimow X4 relies on network RTK plus camera VSLAM and visual-inertial odometry, which handles light shade well but is a weaker spot under heavy canopy than LiDAR."
   - q: "Which is cheaper, the LUBA 3 AWD or the Navimow X4?"
-    a: "It depends on your lawn size. For lawns up to 0.75 acre, the LUBA 3 AWD 3000 at about $2,109 undercuts the X430 at about $2,499. From 0.75 to 1.25 acres, the X4 is cheaper by roughly $300 to $800. Above 1.25 acres, only the X450 (about $2,999) is rated to cover it. These are October 2026 prices and change often."
+    a: "It depends on your lawn size. For lawns up to 0.75 acre, the LUBA 3 AWD 3000 undercuts the X430. From 0.75 to 1.25 acres, the X4 is cheaper, by a wide margin at the 1-acre mark. Above 1.25 acres, only the X450 is rated to cover it. Prices change often, so check today's price."
 ---
 
 Mammotion LUBA 3 vs Segway Navimow X4 comes down to one question: how much sky can your mower see? The [Segway Navimow X4](amazon:segway-navimow-x4) is the better buy for open lawns of 0.75 to 1.5 acres, with a wider 17-inch deck, an 84% slope rating and a lower price per acre. The Mammotion LUBA 3 AWD wins on tree-heavy, rough or smaller lawns, where its LiDAR keeps working under canopy and its 3000 tier costs less. Both are wire-free, all-wheel-drive and base-station-free, and they're the two highest-scored mowers we track (9.3 and 9.2 out of 10).
@@ -47,7 +47,7 @@ Mammotion LUBA 3 vs Segway Navimow X4 comes down to one question: how much sky c
 | Spec | Segway Navimow X4 | Mammotion LUBA 3 AWD |
 |---|---|---|
 | Our score | 9.3 / 10 | 9.2 / 10 |
-| Street price (Oct 2026) | ~$2,499–$2,999 | ~$2,109–$3,299 |
+| Price tier | $$$ | $$$–$$$$ |
 | Tiers | X430 (1 ac), X450 (1.5 ac) | 1500 (0.37 ac), 3000 (0.75 ac), 5000 (1.25 ac) |
 | Max area | 65,340 sq ft (1.5 ac) | 53,820 sq ft (1.25 ac) |
 | Max slope | 84% (~40°) | 80% (~39°) |
@@ -66,15 +66,15 @@ Specs come from manufacturer US pages and reviews; see the full [Navimow X4 revi
 
 ## Price: tier-by-tier matchups
 
-Headline price ranges make these two look similar, but the tiers don't line up, so the cheaper mower depends on your lawn size. Here's what you'd actually pay for the smallest tier that covers each lawn, at October 2026 street prices:
+Headline price ranges make these two look similar, but the tiers don't line up, so the cheaper mower depends on your lawn size. Here's how the smallest tier that covers each lawn compares, based on October 2026 street prices:
 
 | Your lawn | LUBA 3 AWD tier | Navimow X4 tier | Cheaper option |
 |---|---|---|---|
-| Up to 0.37 ac | 3000 at ~$2,109 (the 1500 is ~$2,399) | X430 at ~$2,499 | LUBA 3 by ~$390 |
-| 0.37–0.75 ac | 3000 at ~$2,109 | X430 at ~$2,499 | LUBA 3 by ~$390 |
-| 0.75–1 ac | 5000 at ~$3,299 | X430 at ~$2,499 | X4 by ~$800 |
-| 1–1.25 ac | 5000 at ~$3,299 | X450 at ~$2,999 | X4 by ~$300 |
-| 1.25–1.5 ac | Not rated | X450 at ~$2,999 | X4 only |
+| Up to 0.37 ac | 3000, $$$ (the 1500 often costs more) | X430, $$$ | LUBA 3 |
+| 0.37–0.75 ac | 3000, $$$ | X430, $$$ | LUBA 3 |
+| 0.75–1 ac | 5000, $$$$ | X430, $$$ | X4, by a wide margin |
+| 1–1.25 ac | 5000, $$$$ | X450, $$$ | X4 |
+| 1.25–1.5 ac | Not rated | X450, $$$ | X4 only |
 
 Two quirks matter here. First, the LUBA 3 AWD 3000 is often discounted below the 1500's price, so there's rarely a reason to buy the 1500. Second, "up to" ratings assume ideal conditions. If your lawn sits within about 20% of a tier's limit, size up. A 0.7-acre lawn is a better match for the LUBA 3 5000 or the X430 than for the LUBA 3 3000. The [size matcher](/tools/size-matcher/) applies that margin automatically.
 
@@ -124,7 +124,7 @@ The main ownership complaint on the LUBA 3 is app lag, according to owners. On t
 
 If you like the LUBA 3's LiDAR approach but not its price, the [Dreame A3 AWD Pro](amazon:dreame-a3-awd-pro) is the one to look at. It navigates with 360° 3D LiDAR plus binocular vision and no satellites at all, matches the LUBA 3's 80% slope rating, and adds active suspension, an automatic deck lift and a camera security patrol mode. Its 15.8-inch deck is nearly identical to the LUBA 3's.
 
-At October 2026 sale prices it costs about $1,699 (2500 tier, 0.62 acre), $1,899 (3500, 0.87 acre) or $2,799 (5000, 1.24 acres). For a 0.75-acre lawn that's about $210 less than the LUBA 3 3000, and its top tier is about $500 less than the LUBA 3 5000. The catches: list prices are $3,099 to $3,499, so the value depends on the sale. Reviewers also note its obstacle avoidance is good but not perfect, and one major review found missed patches. We break it down in [Dreame A3 AWD Pro vs Mammotion LUBA 3 AWD](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/).
+It comes in 2500 (0.62 acre), 3500 (0.87 acre) and 5000 (1.24 acres) tiers. At October 2026 sale prices, the 2500 and 3500 are mid-range and the 5000 is premium, so for a 0.75-acre lawn it costs less than the LUBA 3 3000, and its top tier undercuts the LUBA 3 5000. The catches: list prices are flagship-level, so the value depends on the sale. Reviewers also note its obstacle avoidance is good but not perfect, and one major review found missed patches. We break it down in [Dreame A3 AWD Pro vs Mammotion LUBA 3 AWD](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/).
 
 ## Which should you buy?
 
@@ -132,12 +132,12 @@ Most buyers' yards fit one of these patterns. Find yours, then read the matching
 
 | Your yard | Better pick | Why |
 |---|---|---|
-| 0.8 acre, open, gently rolling | Navimow X4 (X430) | About $800 cheaper than the LUBA 3 5000, with a wider deck |
-| 1.2 acres, open, one steep bank | Navimow X4 (X450) | About $300 cheaper than the LUBA 3 5000, with more headroom (1.5 vs 1.25 ac) and an 84% rating |
-| 0.6 acre under mature oaks | LUBA 3 AWD (3000) | LiDAR holds position under canopy, and it's ~$390 cheaper |
+| 0.8 acre, open, gently rolling | Navimow X4 (X430) | Much cheaper than the LUBA 3 5000, with a wider deck |
+| 1.2 acres, open, one steep bank | Navimow X4 (X450) | Cheaper than the LUBA 3 5000, with more headroom (1.5 vs 1.25 ac) and an 84% rating |
+| 0.6 acre under mature oaks | LUBA 3 AWD (3000) | LiDAR holds position under canopy, and it's cheaper |
 | 0.9 acre, half open, half wooded | LUBA 3 AWD (5000) | Costs more, but avoids RTK dropouts in the wooded half |
 | 1 acre, rooty, bumpy hillside | LUBA 3 AWD (5000) | Suspension and LiDAR suit rough, shaded slopes |
-| 0.7 acre, open, tight budget | Dreame A3 AWD Pro (3500) | LiDAR and 80% slopes for about $1,899 on sale |
+| 0.7 acre, open, tight budget | Dreame A3 AWD Pro (3500) | LiDAR and 80% slopes at a mid-range price on sale |
 
 These are rules of thumb built from the specs and published reviews, not guarantees. Your local network-RTK coverage, grass type and how wet your lawn stays can tip a close call either way.
 
@@ -161,11 +161,11 @@ These are rules of thumb built from the specs and published reviews, not guarant
 
 ### Skip both if…
 
-Your lawn is small and flat (the Navimow i105N does the job for about $669), you want edges trimmed automatically (the GOAT A3000), or you have more than 1.5 acres (the [Navimow X3 X390](/mowers/segway-navimow-x3/) covers 2.5). The [best robot mower for large lawns](/posts/best-robot-mower-for-large-lawns/) guide has more big-property options.
+Your lawn is small and flat (the Navimow i105N does the job for far less), you want edges trimmed automatically (the GOAT A3000), or you have more than 1.5 acres (the [Navimow X3 X390](/mowers/segway-navimow-x3/) covers 2.5). The [best robot mower for large lawns](/posts/best-robot-mower-for-large-lawns/) guide has more big-property options.
 
 ## Verdict: LUBA 3 vs Navimow X4
 
-For a typical open suburban or semi-rural lawn of three-quarters of an acre to an acre and a half, the **Segway Navimow X4** is the better buy. It's faster, rated for slightly steeper slopes, and $300 to $800 cheaper than the LUBA 3 where their tiers overlap. That's why it's our best overall pick.
+For a typical open suburban or semi-rural lawn of three-quarters of an acre to an acre and a half, the **Segway Navimow X4** is the better buy. It's faster, rated for slightly steeper slopes, and cheaper than the LUBA 3 where their tiers overlap. That's why it's our best overall pick.
 
 The **Mammotion LUBA 3 AWD** is the better mower for difficult yards. If trees, buildings or rough ground would make an RTK-first mower struggle, its LiDAR-plus-RTK navigation and suspension are worth the premium. Below 0.75 acre, the 3000 tier is also simply the cheaper of the two.
 

@@ -6,20 +6,20 @@ faq:
   - q: "Has the Roborock RockMow X1 LiDAR been reviewed?"
     a: "Only lightly. The Smart Home Hookup published early hands-on impressions in June 2026, praising its obstacle avoidance and cut quality. When Techwalla wrote about the Amazon launch in July 2026, it noted that no independent reviewers had yet tested the X120H. We haven't found a full long-term review, so treat performance claims as promising rather than proven."
   - q: "Does the RockMow X1 LiDAR cut close to the edges?"
-    a: "Only with the optional PreciEdge module, which Roborock says reaches 1.2 inches from borders. Without it, Techwalla estimates roughly 4 inches is left uncut along edges. The module costs about €100 in Europe, and US pricing hadn't been confirmed as of October 2026. Budget for it, or for more string-trimmer time."
+    a: "Only with the optional PreciEdge module, which Roborock says reaches 1.2 inches from borders. Without it, Techwalla estimates roughly 4 inches is left uncut along edges. The module is sold separately, and US pricing hadn't been confirmed as of October 2026. Budget for it, or for more string-trimmer time."
   - q: "How steep a slope can the RockMow X1 LiDAR handle?"
     a: "Roborock rates it for 80% grade, or 38.7 degrees, and says it can climb obstacles up to 3.1 inches. It uses all-wheel drive, active front steering and spring suspension. Like every manufacturer rating, that figure assumes dry, short grass, and no independent outlet has published slope testing yet. Leave a margin on wet or loose ground."
   - q: "How much does the Roborock RockMow X1 LiDAR cost?"
-    a: "It launched on Amazon in July 2026 at an introductory $2,500 against a $3,200 list price. By October 2026, Roborock's US store listed it at $2,299, and a September comparison listing showed $1,999.99. Prices are moving quickly on this new model, so check the current price before you buy."
+    a: "It launched on Amazon in July 2026 at an introductory discount off its list price. By October 2026, Roborock's US store had cut the price further, and some listings have dipped into the mid-range tier. Prices are moving quickly on this new model, so check the current price before you buy."
 ---
 
-The Roborock RockMow X1 LiDAR is an all-wheel-drive robot mower that navigates by LiDAR, with no RTK antenna, and it's aimed at half-acre yards with trees, walls and slopes. On paper it has everything a hard yard needs: an 80% slope rating, active steering, suspension and solid anti-theft. The honest caveat is that it's barely been reviewed, and at about $2,000 to $2,300 it costs more than LiDAR rivals with similar coverage.
+The Roborock RockMow X1 LiDAR is an all-wheel-drive robot mower that navigates by LiDAR, with no RTK antenna, and it's aimed at half-acre yards with trees, walls and slopes. On paper it has everything a hard yard needs: an 80% slope rating, active steering, suspension and solid anti-theft. The honest caveat is that it's barely been reviewed, and it costs more than LiDAR rivals with similar coverage.
 
 ## Who the RockMow X1 LiDAR is for (and who should skip it)
 
 Roborock rates the X1 LiDAR (model X120H) for half an acre (2,000 m²) per day; Amazon lists it at 0.49 acre. That makes it a fit for suburban lots up to about 21,500 sq ft with mature trees, fences, garden walls or slopes, where RTK mowers lose their satellite fix. Techwalla summed up the decision neatly: whether it's worth buying "depends almost entirely on whether your yard has a clear view of the sky."
 
-Skip it if your yard is open, because Roborock's own [RockMow X1](/mowers/roborock-rockmow-x1/) uses RTK, has the same chassis and starts at $1,499. Skip it if you have more than half an acre, since the rating is per day and there's no bigger tier. And if you want proven, long-term reliability data before spending $2,000, wait a season. That data doesn't exist yet.
+Skip it if your yard is open, because Roborock's own [RockMow X1](/mowers/roborock-rockmow-x1/) uses RTK, has the same chassis and costs less. Skip it if you have more than half an acre, since the rating is per day and there's no bigger tier. And if you want proven, long-term reliability data before spending this much, wait a season. That data doesn't exist yet.
 
 ## Navigation and setup
 
@@ -37,7 +37,7 @@ Early impressions are positive. The Smart Home Hookup, which tried a pre-release
 
 Coverage is the weak point. The Smart Home Hookup listed "lower than average mowing capacity" as a downside, and Roborock doesn't publish a deck width. Its six-blade, double-layer disc cuts from 1.6" to 3.5", which is fine for most lawns but higher at the bottom than some rivals if you like a short cut.
 
-Edges depend on an accessory. The PreciEdge module reaches 1.2" from borders, and on open, flat boundaries Roborock says the mower rides over the edge for a flush finish. Without the module, Techwalla estimates about 4" is left uncut along walls and beds, and the Smart Home Hookup also flagged "larger edge borders." Techwalla reports the module costs about €100 in Europe, but US pricing is unconfirmed.
+Edges depend on an accessory. The PreciEdge module reaches 1.2" from borders, and on open, flat boundaries Roborock says the mower rides over the edge for a flush finish. Without the module, Techwalla estimates about 4" is left uncut along walls and beds, and the Smart Home Hookup also flagged "larger edge borders." Techwalla reports the module is sold separately in Europe, but US pricing is unconfirmed.
 
 ## App, connectivity and anti-theft
 
@@ -48,19 +48,19 @@ Anti-theft is solid: 4G real-time tracking, a PIN lockout, a high-decibel alarm 
 - **4G costs:** Techwalla, citing Gizmodo, reports three years of 4G are included, with post-trial pricing undisclosed.
 - **Hidden costs:** add the PreciEdge module and blades to the sticker price. Techwalla argues the true multi-year cost "isn't calculable" yet.
 - **Weight:** about 47.8 lb, heavy for a half-acre mower.
-- **Pricing:** launched at $2,500 (list $3,200), now $2,299 at Roborock US and seen at $1,999.99. Don't pay launch pricing.
+- **Pricing:** it launched at a discount off list and has since sold for noticeably less at Roborock US and elsewhere. Don't pay launch pricing.
 - **Support track record:** Roborock is a major robot-vacuum brand, but this is its first US mower generation, so mower-specific support history is thin.
 
 ## How the RockMow X1 LiDAR compares
 
-The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the value benchmark: LiDAR, AWD, an 80% rating and built-in EdgeMaster trimming for half an acre at about $1,099 to $1,539, though its 7.9" deck is narrow. The [MOVA LiDAX Ultra 2000 AWD](/mowers/mova-lidax-ultra-awd/) costs about $1,799 for the same half acre and adds a 15.8" deck, 1.2" edge trimming without an add-on, and strong reviews. For small, hilly yards, the [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) is the proven alternative.
+The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the value benchmark: LiDAR, AWD, an 80% rating and built-in EdgeMaster trimming for half an acre at a mid-range price, though its 7.9" deck is narrow. The [MOVA LiDAX Ultra 2000 AWD](/mowers/mova-lidax-ultra-awd/) also costs less for the same half acre and adds a 15.8" deck, 1.2" edge trimming without an add-on, and strong reviews. For small, hilly yards, the [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) is the proven alternative.
 
 | | RockMow X1 LiDAR | Dreame A3 AWD | MOVA LiDAX Ultra AWD |
 |---|---|---|---|
 | Max area | 0.5 acre | 0.5 acre | 0.5–0.75 acre |
 | Max slope | 80% (~39°) | 80% (~39°) | 80% (~39°) |
 | Edge gap | 1.2" with optional module | about 1.9" (EdgeMaster) | about 1.2" (UltraTrim) |
-| Typical price (Oct 2026) | about $1,999–$2,299 | about $1,099–$1,539 | about $1,799–$2,199 |
+| Price tier | $$–$$$ | $$ | $$–$$$ |
 
 Our guides to the [best robot mowers for complex yards](/posts/best-robot-mower-for-complex-yards/) and [best robot mowers for hills](/posts/best-robot-mower-for-hills/) rank these head to head.
 

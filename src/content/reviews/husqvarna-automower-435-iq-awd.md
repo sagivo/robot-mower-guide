@@ -8,7 +8,7 @@ faq:
   - q: "Can the Automower 435 iQ AWD use a boundary wire?"
     a: "Yes. Virtual boundaries via EPOS are the primary setup, but Husqvarna supports a physical boundary wire as a fallback, and the box includes about 33 feet of low-voltage cable. That flexibility helps in yards where tall trees or buildings block too much sky for satellite positioning to work reliably in some areas."
   - q: "Why is the Automower 435 iQ AWD so expensive?"
-    a: "You pay for Husqvarna's dealer network, a 4-year mower warranty, a 3-year battery warranty and a mature articulated AWD platform. At about $4,999 for 1.3 acres, it costs roughly $3,800 per acre of rated coverage, well above the Navimow X430 at about $2,499 for 1 acre. Choose it for support and longevity, not for specs."
+    a: "You pay for Husqvarna's dealer network, a 4-year mower warranty, a 3-year battery warranty and a mature articulated AWD platform. It sits in the flagship tier, and per acre of rated coverage it costs far more than the premium-tier Navimow X430 (1 acre). Choose it for support and longevity, not for specs."
   - q: "Is the 2.8-inch maximum cutting height a problem?"
     a: "It can be. Many cool-season lawns, especially tall fescue, do best at 3 to 4 inches in summer, and St. Augustine is often kept above 3 inches. The 435 iQ AWD tops out at 2.8 inches. For Bermuda, zoysia or Kentucky bluegrass kept shorter, it is fine. Check your grass type's recommended height first."
 ---
@@ -19,7 +19,7 @@ The Husqvarna Automower 435 iQ AWD is the conservative way to automate a steep y
 
 Buy it if you have a steep, rough yard of up to about an acre and value service above all: in-person dealer support, a long warranty and a brand with decades of robotic mowers behind it. It also suits buyers who want a boundary-wire fallback for tricky areas, which few newer brands offer.
 
-Skip it if price matters. At about $4,999, it's the most expensive mower per acre we track, roughly $3,800 per rated acre against about $2,500 for the Navimow X430. Skip it if you keep your grass taller than 2.8", if you want camera or LiDAR obstacle avoidance, or if your lawn sits under heavy tree cover that blocks satellites.
+Skip it if price matters. It's a flagship-tier mower and the most expensive per rated acre we track, far above the Navimow X430. Skip it if you keep your grass taller than 2.8", if you want camera or LiDAR obstacle avoidance, or if your lawn sits under heavy tree cover that blocks satellites.
 
 ## Navigation and setup
 
@@ -55,14 +55,14 @@ Automower Connect works over cellular and Bluetooth (there's no Wi-Fi), with sch
 
 ## How the Automower 435 iQ AWD compares
 
-The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) climbs 80% grades, mows a 15.7" swath, needs no base station, adds LiDAR and cameras, and costs about $3,299 for 1.25 acres. Our [Husqvarna Automower vs Mammotion LUBA](/posts/husqvarna-automower-vs-mammotion-luba/) comparison walks through the trade-offs. The [Segway Navimow X4](/mowers/segway-navimow-x4/) covers up to 1.5 acres at 84% for about $2,499–$2,999. Within Husqvarna, the 2WD [Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) covers up to 2 acres for less, if your lawn is gentle.
+The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) climbs 80% grades, mows a 15.7" swath, needs no base station, adds LiDAR and cameras, and costs considerably less for 1.25 acres. Our [Husqvarna Automower vs Mammotion LUBA](/posts/husqvarna-automower-vs-mammotion-luba/) comparison walks through the trade-offs. The [Segway Navimow X4](/mowers/segway-navimow-x4/) covers up to 1.5 acres at 84% for less still (premium tier). Within Husqvarna, the 2WD [Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) covers up to 2 acres for less, if your lawn is gentle.
 
 | | Automower 435 iQ AWD | LUBA 3 AWD | Navimow X4 |
 |---|---|---|---|
 | Max slope | 70% (35°) | 80% (~39°) | 84% (~40°) |
 | Base station | Required | Not required | Not required |
 | Max cut height | 2.8" | 4.0" (H version) | 4.0" |
-| Typical price (Oct 2026) | about $4,999 | about $2,109–$3,299 | about $2,499–$2,999 |
+| Price tier | $$$$ | $$$ | $$$ |
 
 For more steep-lawn options, see [best robot mowers for hills](/posts/best-robot-mower-for-hills/) and our [slope limits guide](/posts/robot-mower-slope-limits/).
 

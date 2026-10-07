@@ -10,11 +10,11 @@ order: 37
 heroKeywords: ["robot mower replacement blades", "how often to change robot mower blades", "robot mower blades compatible", "Mammotion blades", "Husqvarna Automower blades"]
 picks:
   - id: husqvarna-automower-iq
-    label: "Genuine 4-edge Endurance blades, ~$25"
+    label: "Genuine 4-edge Endurance blades"
   - id: mammotion-luba-3-awd
     label: "Widest choice of compatible blades"
   - id: ecovacs-goat-a-lidar-pro
-    label: "Genuine blade kit for ~$15"
+    label: "Low-cost genuine blade kit"
 takeaways:
   - "Robot mowers use small, cheap, pivoting razor blades that you replace, not sharpen. A full set usually costs <strong>$15–$50</strong>."
   - "Change them roughly <strong>every 1–3 months</strong> of mowing. Husqvarna recommends every 2 months; Mammotion says flip its double-edged blades at 50 hours and replace at 150."
@@ -36,7 +36,7 @@ faq:
 
 Robot mower replacement blades are small, double-edged razor blades that pivot on a spinning disc. They cost about $15–$50 a set and should be replaced roughly every 1–3 months of mowing: Husqvarna recommends every 2 months, and Mammotion says to flip its blades at about 50 hours and replace them at about 150. Buy genuine blades when your brand sells them on Amazon. Third-party packs are cheaper, but fit is the seller's claim, so check it.
 
-This guide is compiled from manufacturer product and support pages and the Amazon listings in our accessory database (prices checked October 2026, and they change). We don't hands-on test blades.
+This guide is compiled from manufacturer product and support pages and the Amazon listings in our accessory database (checked October 2026; listings change). We don't hands-on test blades.
 
 ## Why robot mowers use tiny pivoting razor blades
 
@@ -101,7 +101,7 @@ Every blade pack in our database, genuine and third-party, with the mowers each 
 
 ### Mammotion blades (LUBA 3, LUBA mini 2, YUKA mini 2)
 
-The genuine [Mammotion Blades (24-pack)](asin:B0DSBKKYM8) cost about $49. Mammotion's own store says they fit all of its mower series, but the Amazon listing names only the LUBA mini and YUKA mini, so [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) owners may prefer the [KuddinX Mammotion Blades (30)](asin:B0DC5M63VB), the only listing we found that names the LUBA 3 explicitly. The [FourShow Mammotion Blades (36)](asin:B0F3VRXK73) are the most-reviewed compatible pack, at about $22. Mammotion's [washstand](asin:B0H1LVB5N1) raises the chassis so you can swap blades without flipping the mower.
+The genuine [Mammotion Blades (24-pack)](asin:B0DSBKKYM8) are the safe first choice. Mammotion's own store says they fit all of its mower series, but the Amazon listing names only the LUBA mini and YUKA mini, so [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) owners may prefer the [KuddinX Mammotion Blades (30)](asin:B0DC5M63VB), the only listing we found that names the LUBA 3 explicitly. The [FourShow Mammotion Blades (36)](asin:B0F3VRXK73) are the most-reviewed compatible pack and cost less than the genuine one. Mammotion's [washstand](asin:B0H1LVB5N1) raises the chassis so you can swap blades without flipping the mower.
 
 ### Segway Navimow blades
 
@@ -109,21 +109,21 @@ For the i105N/i110N, [i2 AWD](/mowers/segway-navimow-i2-awd/) and i215 LiDAR, th
 
 ### Husqvarna Automower blades
 
-The genuine [Husqvarna Endurance Blades (6-pack)](asin:B08H7L54FR), about $25, fit the 410/420/440 iQ and the 435 iQ AWD. Husqvarna says they have cutting edges on all four sides, carbon steel hardened to 61 HRC, and more than twice the life of its classic blades. The [EMBerg Automower Endurance Blades (18)](asin:B08G8NK2DC) are a lower-cost-per-blade alternative. See our [Automower iQ review](/mowers/husqvarna-automower-iq/).
+The genuine [Husqvarna Endurance Blades (6-pack)](asin:B08H7L54FR) fit the 410/420/440 iQ and the 435 iQ AWD. Husqvarna says they have cutting edges on all four sides, carbon steel hardened to 61 HRC, and more than twice the life of its classic blades. The [EMBerg Automower Endurance Blades (18)](asin:B08G8NK2DC) are a lower-cost-per-blade alternative. See our [Automower iQ review](/mowers/husqvarna-automower-iq/).
 
 ### WORX Landroid blades
 
-The official [WORX WA0720 Long-Life Blades](asin:B0GQMFW8HC), about $29, are double-sided stainless and listed for US models WR310 through WR346, which covers both the Vision Cloud and Vision Cloud 4WD. The [FourShow WORX / eufy Blades (36)](asin:B0F5QN2XYQ) are a bulk alternative.
+The official [WORX WA0720 Long-Life Blades](asin:B0GQMFW8HC) are double-sided stainless and listed for US models WR310 through WR346, which covers both the Vision Cloud and Vision Cloud 4WD. The [FourShow WORX / eufy Blades (36)](asin:B0F5QN2XYQ) are a bulk alternative.
 
 ### ECOVACS GOAT blades
 
-The genuine [ECOVACS GOAT Blade Kit](asin:B0FL2CYMP7) is about $15. Its listing names the RTK and A3000 LiDAR models rather than the LiDAR PRO by name, but it's the same family and likely the same blade. The [FourShow ECOVACS Blades (36)](asin:B0GXZ8SWZ1) name the A2000 and A3000. If you own the [GOAT A LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) or O1000 LiDAR PRO, the [GOAT Trimmer Kit](asin:B0GSFNB68L) restocks the TruEdge edge trimmer.
+The genuine [ECOVACS GOAT Blade Kit](asin:B0FL2CYMP7) is one of the least expensive genuine kits here. Its listing names the RTK and A3000 LiDAR models rather than the LiDAR PRO by name, but it's the same family and likely the same blade. The [FourShow ECOVACS Blades (36)](asin:B0GXZ8SWZ1) name the A2000 and A3000. If you own the [GOAT A LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) or O1000 LiDAR PRO, the [GOAT Trimmer Kit](asin:B0GSFNB68L) restocks the TruEdge edge trimmer.
 
 ### Dreame, Sunseeker, ANTHBOT and eufy
 
-- **Dreame A3 AWD and A3 AWD Pro:** the genuine [Dreame Quick-Detach Blades (12)](asin:B0GTV9T4QC), about $20, are tool-free. The listing says "Dreame Roboticmower series" without naming models.
+- **Dreame A3 AWD and A3 AWD Pro:** the genuine [Dreame Quick-Detach Blades (12)](asin:B0GTV9T4QC) are tool-free. The listing says "Dreame Roboticmower series" without naming models.
 - **Sunseeker:** the genuine [Sunseeker Blades (12-pack)](asin:B0DKSHS83B) are listed for the S4 and "Orion X7"; X7 Gen 2 fit is unconfirmed. The [FourShow Sunseeker Blades (36)](asin:B0GY3ZVTWW) cover the S4, X7 Gen 2 and X5 AWD at about half the price per blade.
-- **ANTHBOT M5 LiDAR and M9:** the genuine [ANTHBOT Blades (15-pack)](asin:B0F1MTLNHK) cost about $17, or try the [Green Piece Anthbot Blades (30)](asin:B0FMYM5R21), sized for Anthbot's larger mounting hole.
+- **ANTHBOT M5 LiDAR and M9:** the genuine [ANTHBOT Blades (15-pack)](asin:B0F1MTLNHK) are the genuine option, or try the [Green Piece Anthbot Blades (30)](asin:B0FMYM5R21), sized for Anthbot's larger mounting hole.
 - **eufy E15/E18:** the [FourShow eufy Blades (36)](asin:B0GY4B3KM5).
 
 ### Brands with no confirmed blades on Amazon

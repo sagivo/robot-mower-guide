@@ -25,7 +25,7 @@ faq:
   - q: "How long does a robot mower battery last?"
     a: "Husqvarna says Automower batteries typically last 2 to 5 years. The range depends on lawn size, how many charge cycles the mower runs per day, heat exposure and winter storage. A mower working near its maximum rated area every day will wear its battery faster than one with spare capacity. Most batteries are replaceable."
   - q: "How much does it cost to replace a robot mower battery?"
-    a: "Generally about $100 to $300, depending on brand and capacity. For example, Mammotion's US store lists the battery for the LUBA mini AWD 1500 and YUKA mini 800 at $209. Third-party packs for older Husqvarna models sell for less in Europe. Check your model's genuine part price before buying, because cheap packs may void warranties."
+    a: "Generally about $100 to $300, depending on brand and capacity. For example, Mammotion's US store lists the battery for the LUBA mini AWD 1500 and YUKA mini 800 in the middle of that range. Third-party packs for older Husqvarna models sell for less in Europe. Check your model's genuine part price before buying, because cheap packs may void warranties."
   - q: "What is the average lifespan of a robot lawn mower?"
     a: "There's no independent lifespan study. A reasonable estimate for a quality robot mower is 5 to 10 years if you replace the battery when needed and store it indoors through freezing winters. Major brands back their mowers with 3- to 4-year warranties. Budget and first-generation models carry more uncertainty."
   - q: "Can you leave a robot mower outside all winter?"
@@ -77,7 +77,7 @@ Heat matters too. Lithium batteries age faster when they're stored or charged ho
 
 Most replacement batteries cost about **$100–$300**, depending on brand and capacity. Some reference points:
 
-- Mammotion's US store lists the battery for the LUBA mini AWD 1500 / YUKA mini 800 at **$209**.
+- Mammotion's US store lists the battery for the LUBA mini AWD 1500 / YUKA mini 800 in the middle of that range.
 - Third-party batteries for older Husqvarna Automowers sell in Europe for roughly €55–€75, though genuine packs cost more.
 
 On many models the pack is user-replaceable with a screwdriver. Mammotion describes its batteries as modular and plug-and-play. Others are a dealer job. Before buying a mower, look up its battery price and availability on the brand's parts store. A mower whose battery you can't buy is a mower with a fixed lifespan.

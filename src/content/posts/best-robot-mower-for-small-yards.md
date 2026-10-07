@@ -1,7 +1,7 @@
 ---
 title: "Best Robot Mowers for Small Yards (2026): Compact Picks for Lawns Up to 1/4 Acre"
 seoTitle: "Best Robot Mowers for Small Yards (2026)"
-description: "The best robot mower for small yards in 2026: 8 compact wire-free picks for lawns up to 1/4 acre, from the $669 Navimow i105N to AWD models for small slopes."
+description: "The best robot mower for small yards in 2026: 8 compact wire-free picks for lawns up to 1/4 acre, from the budget Navimow i105N to AWD models for small slopes."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: best
@@ -20,14 +20,14 @@ picks:
   - id: mammotion-luba-mini-2-awd
     label: "Best for small, steep, cluttered yards"
 takeaways:
-  - "<strong>Best overall:</strong> the Segway Navimow i105N / i110N. Network RTK plus cameras, 58 dB quiet, from about $669 for 1/8 acre or $789 for 1/4 acre."
-  - "<strong>Sloped or bumpy small yard?</strong> The Navimow i2 AWD brings all-wheel drive from about $849. For steep lots, the Dreame A3 AWD 1000 and LUBA mini 2 AWD are rated for 80%."
+  - "<strong>Best overall:</strong> the Segway Navimow i105N / i110N. Network RTK plus cameras, 58 dB quiet, and one of the cheapest wire-free options (budget tier)."
+  - "<strong>Sloped or bumpy small yard?</strong> The Navimow i2 AWD brings all-wheel drive at a budget-tier price. For steep lots, the Dreame A3 AWD 1000 and LUBA mini 2 AWD are rated for 80%."
   - "<strong>Lots of shade, walls or fences?</strong> Pick LiDAR (Sunseeker S4, GOAT O1000, Dreame A3 AWD). Side yards between houses are where satellite-only navigation struggles."
   - "If your turf is a full 1/4 acre, buy a mower rated above it. Several picks are rated for exactly 10,890 sq ft."
   - "Check our <a href=\"/tools/size-matcher/\">size matcher</a> with your real lawn square footage, not your lot size."
 faq:
   - q: "What is the best robot mower for a small yard?"
-    a: "For a small, flat lawn, the Segway Navimow i105N or i110N is the best value: network RTK plus AI vision, no antenna, 58 dB operation and prices from about $669. If your yard has slopes, the Navimow i2 AWD adds all-wheel drive from about $849. For heavy shade, the Sunseeker S4's LiDAR navigation is the better pick."
+    a: "For a small, flat lawn, the Segway Navimow i105N or i110N is the best value: network RTK plus AI vision, no antenna, 58 dB operation and a budget-tier price. If your yard has slopes, the Navimow i2 AWD adds all-wheel drive for only a little more. For heavy shade, the Sunseeker S4's LiDAR navigation is the better pick."
   - q: "Is a robot mower worth it for a small lawn?"
     a: "Usually, if your lawn is more than about 1,500 to 2,000 square feet of turf and you'd rather never mow again. Below that, a cordless push mower is cheaper and takes minutes. Robots shine on small lawns because they mow little and often, keep grass even, and run quietly enough to schedule early or late."
   - q: "What size robot mower do I need for 1/4 acre?"
@@ -38,30 +38,30 @@ faq:
     a: "Among our small-yard picks, the eufy E15/E18 is quietest at a rated 56 dB, followed by the Navimow i105N/i110N and Anthbot M9 at 58 dB. All are far quieter than a gas mower. Note that ECOVACS GOAT edge trimmers run much louder, at about 81 dB, while trimming."
 ---
 
-The best robot mower for small yards in 2026 is the **Segway Navimow i105N / i110N**: proven network RTK plus camera navigation, no antenna to install, a quiet 58 dB motor, and prices from about $669 for 1/8 acre or $789 for a quarter acre. If your small lawn has slopes or bumps, step up to the **Navimow i2 AWD**, and if it sits under heavy trees, the LiDAR-guided **Sunseeker S4** is the safer choice. Below are eight compact robot lawn mowers that suit lawns up to about a third of an acre, plus what really matters on a small lot: minimum size, narrow passages, storage and noise.
+The best robot mower for small yards in 2026 is the **Segway Navimow i105N / i110N**: proven network RTK plus camera navigation, no antenna to install, a quiet 58 dB motor, and a budget-tier price for both the 1/8-acre and quarter-acre sizes. If your small lawn has slopes or bumps, step up to the **Navimow i2 AWD**, and if it sits under heavy trees, the LiDAR-guided **Sunseeker S4** is the safer choice. Below are eight compact robot lawn mowers that suit lawns up to about a third of an acre, plus what really matters on a small lot: minimum size, narrow passages, storage and noise.
 
 Not sure how big your lawn really is? Our [robot mower size matcher](/tools/size-matcher/) turns your square footage into a short list.
 
 ## Quick picks: the best robot mowers for small lawns
 
-| Model | Best for | Max area | Max slope | Price from |
+| Model | Best for | Max area | Max slope | Price tier |
 |---|---|---|---|---|
-| [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) | Small, flat lawns on a budget | 0.25 ac | 30% (16.7°) | ~$669 |
-| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | Small sloped or bumpy yards | 0.25 ac | 45% (24.2°) | ~$849 |
-| [Sunseeker S4](/mowers/sunseeker-s4/) | Small, heavily shaded yards | 0.25 ac | 42% (22.8°) | ~$999 |
-| [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | Trimmed edges on a budget | 0.25 ac | 45% (24.2°) | ~$999 |
-| [ANTHBOT M9](/mowers/anthbot-m9/) | Cheapest option for open lawns | ~0.25 ac | 45% (24.2°) | ~$769 |
-| [eufy E15 / E18](/mowers/eufy-e15-e18/) | Simplest setup on a flat rectangle | 0.3 ac | 32% (18°) | ~$999 |
-| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Small, steep, cluttered yards | 0.37 ac | 80% (38.7°) | ~$1,699 |
-| [Dreame A3 AWD 1000](/mowers/dreame-a3-awd/) | Cheapest LiDAR + AWD | 0.25 ac | 80% (38.7°) | ~$1,099 |
+| [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) | Small, flat lawns on a budget | 0.25 ac | 30% (16.7°) | $ |
+| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | Small sloped or bumpy yards | 0.25 ac | 45% (24.2°) | $ |
+| [Sunseeker S4](/mowers/sunseeker-s4/) | Small, heavily shaded yards | 0.25 ac | 42% (22.8°) | $ |
+| [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | Trimmed edges on a budget | 0.25 ac | 45% (24.2°) | $ |
+| [ANTHBOT M9](/mowers/anthbot-m9/) | Cheapest option for open lawns | ~0.25 ac | 45% (24.2°) | $ |
+| [eufy E15 / E18](/mowers/eufy-e15-e18/) | Simplest setup on a flat rectangle | 0.3 ac | 32% (18°) | $ |
+| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | Small, steep, cluttered yards | 0.37 ac | 80% (38.7°) | $$ |
+| [Dreame A3 AWD 1000](/mowers/dreame-a3-awd/) | Cheapest LiDAR + AWD | 0.25 ac | 80% (38.7°) | $$ |
 
-Prices are typical US street prices as of October 2026 for the smallest tier, and they change often, especially during sales. Check the live price before buying. Every spec is side by side in our [robot mower comparison chart](/mowers/).
+Price tiers are based on typical US street prices for the smallest size, checked October 2026 ($ = under $1,000, $$ = $1,000–$2,000). Prices change often, especially during sales. Check the live price before buying. Every spec is side by side in our [robot mower comparison chart](/mowers/).
 
 ## The best robot mowers for small yards, reviewed
 
 ### 1. Segway Navimow i105N / i110N: best overall for small, flat yards
 
-**Why we picked it:** It's the lowest-cost credible RTK-plus-vision mower and Reviewed's value pick. The i105N covers 1/8 acre (5,445 sq ft) for about $669, and the i110N covers 1/4 acre (10,890 sq ft) for about $789. Network RTK with AI vision means no antenna and no boundary wire, the platform is widely reviewed, and at 58 dB it's quiet enough for early-morning or evening schedules. It carries an IP66 rating and includes GPS tracking with an alarm.
+**Why we picked it:** It's the lowest-cost credible RTK-plus-vision mower and Reviewed's value pick. The i105N covers 1/8 acre (5,445 sq ft) and the i110N covers 1/4 acre (10,890 sq ft), both at budget-tier prices. Network RTK with AI vision means no antenna and no boundary wire, the platform is widely reviewed, and at 58 dB it's quiet enough for early-morning or evening schedules. It carries an IP66 rating and includes GPS tracking with an alarm.
 
 **Skip it if:** your yard has any meaningful slope or stays soggy. It's rated for 30% (16.7°) and owners report it struggles on slopes and in mud. The 7.1" deck is narrow, and cutting height is set by hand. If your turf is a full quarter acre, the i110N has no headroom.
 
@@ -69,7 +69,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 2. Segway Navimow i2 AWD: best small-yard mower for slopes
 
-**Why we picked it:** AWD for under $1,100 is new for 2026, and the i2 AWD is the cheapest AWD wire-free mower from a major brand. The i206 (0.15 acre) is about $849 and the i210 (0.25 acre) is about $1,099. Off-road wheels handle roots and 1.5" steps, the slope rating is 45% (24.2°), setup is antenna-free, and it runs at a quiet 59 dB.
+**Why we picked it:** AWD at this price is new for 2026, and the i2 AWD is the cheapest AWD wire-free mower from a major brand. The i206 (0.15 acre) is budget tier and the i210 (0.25 acre) is low mid-range. Off-road wheels handle roots and 1.5" steps, the slope rating is 45% (24.2°), setup is antenna-free, and it runs at a quiet 59 dB.
 
 **Skip it if:** your small lawn is perfectly flat (the i105N does the job for less) or genuinely steep, where an 80% mower is the safer bet. The deck is a narrow 7.1", cutting height is manual, and 4G costs about $33 a year after the first year.
 
@@ -77,7 +77,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 3. Sunseeker S4: best for small, shady yards
 
-**Why we picked it:** Bob Vila's small-yard pick and a CES 2026 Innovation honoree. The S4 navigates with 360° 3D LiDAR and an AI camera, so dense tree canopy and tall walls don't matter. Reviewers say it maps in minutes and leaves an even cut. It covers 0.25 acre, runs at about 60 dB, and costs about $999–$1,599 (often near $1,000 on sale), with US warranty support.
+**Why we picked it:** Bob Vila's small-yard pick and a CES 2026 Innovation honoree. The S4 navigates with 360° 3D LiDAR and an AI camera, so dense tree canopy and tall walls don't matter. Reviewers say it maps in minutes and leaves an even cut. It covers 0.25 acre, runs at about 60 dB, and sits at the top of the budget tier (often discounted), with US warranty support.
 
 **Skip it if:** you hate trimming. It's weak at edges, so plan on hitting fence lines about every two weeks. The deck is a narrow 7", the slope rating is a moderate 42% (22.8°), and you may need to move the dock for a good 4G signal. Several specs come from retailer listings rather than Sunseeker directly.
 
@@ -85,7 +85,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 4. ECOVACS GOAT O1000 LiDAR Pro: best with a built-in edge trimmer
 
-**Why we picked it:** Small yards are mostly edges: fences, beds, paths and patios. The O1000 is the cheapest robot that trims them itself, thanks to a built-in TruEdge string trimmer at around $999. Dual LiDAR with 3D obstacle avoidance works under trees, and mapping is automatic. It covers 0.25 acre and is rated for 45% slopes.
+**Why we picked it:** Small yards are mostly edges: fences, beds, paths and patios. The O1000 is the cheapest robot that trims them itself, thanks to a built-in TruEdge string trimmer, at a budget-tier price. Dual LiDAR with 3D obstacle avoidance works under trees, and mapping is automatic. It covers 0.25 acre and is rated for 45% slopes.
 
 **Skip it if:** your yard is visible from the street. ECOVACS lists no 4G or theft tracking, which is a real gap. The trimmer is loud (about 81 dB), coverage is small, and it's 2WD. For the bigger, more capable GOAT models, see our [ECOVACS GOAT vs Segway Navimow comparison](/posts/ecovacs-goat-vs-segway-navimow/).
 
@@ -93,7 +93,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 5. ANTHBOT M9: cheapest dependable option for open lawns
 
-**Why we picked it:** Reviewed's small-lawn pick and one of the cheapest credible wire-free mowers, at about $769–$899. Full-band RTK with dual HDR cameras, about a 10-minute setup, a compact body for tight spaces and a quiet 58 dB make it a good starter robot for an open quarter acre.
+**Why we picked it:** Reviewed's small-lawn pick and one of the cheapest credible wire-free mowers (budget tier). Full-band RTK with dual HDR cameras, about a 10-minute setup, a compact body for tight spaces and a quiet 58 dB make it a good starter robot for an open quarter acre.
 
 **Skip it if:** you want hands-off ownership details settled. It needs an RTK antenna near the dock, mapping is a manual drive-around, max cut height is only 2.8", and anti-theft, IP rating and 4G aren't confirmed. Compared with the Navimow i105N, you give up confirmed tracking and taller cutting heights.
 
@@ -101,7 +101,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 6. eufy E15 / E18: easiest setup for a simple, flat lawn
 
-**Why we picked it:** If your lawn is a flat, open rectangle, eufy's camera-only mower is the least fussy robot to own. There's no antenna and no base, the app is polished, and at 56 dB it's the quietest mower here. The E15 covers 0.2 acre (about $999) and the E18 covers 0.3 acre (about $1,399), which gives a true quarter-acre lawn some headroom. GPS plus 4G tracking is included.
+**Why we picked it:** If your lawn is a flat, open rectangle, eufy's camera-only mower is the least fussy robot to own. There's no antenna and no base, the app is polished, and at 56 dB it's the quietest mower here. The E15 covers 0.2 acre (budget tier) and the pricier E18 covers 0.3 acre (mid-range), which gives a true quarter-acre lawn some headroom. GPS plus 4G tracking is included.
 
 **Skip it if:** your yard is complex, shaded or sloped. Vision-only navigation can get lost on complex lawns and in poor light, it slips on damp grass, its 18° rating is only about 32%, and owners say real-world coverage falls short of the rating.
 
@@ -109,7 +109,7 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 7. Mammotion LUBA mini 2 AWD: best for small, steep, cluttered yards
 
-**Why we picked it:** Flagship terrain ability in a compact robot lawn mower. It's AWD with an 80% (38.7°) rating, navigates with LiDAR and dual cameras (no RTK antenna), and handles tight layouts full of beds, trees and obstacles well. It also has a real edge disc that cuts to about 2.1" from walls. Coverage is 0.37 acre, about $1,699–$1,999, with 4G included for three years.
+**Why we picked it:** Flagship terrain ability in a compact robot lawn mower. It's AWD with an 80% (38.7°) rating, navigates with LiDAR and dual cameras (no RTK antenna), and handles tight layouts full of beds, trees and obstacles well. It also has a real edge disc that cuts to about 2.1" from walls. Coverage is 0.37 acre at a mid-range price, with 4G included for three years.
 
 **Skip it if:** your small lawn is flat and open. A cheaper 2WD model will do the same job. It's pricey for its coverage, the edge disc height is fixed, and owners report grass buildup underneath in wet conditions.
 
@@ -117,9 +117,9 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 ### 8. Dreame A3 AWD 1000: cheapest LiDAR plus AWD
 
-**Why we picked it:** About $1,099 on sale buys 360° 3D LiDAR, all-wheel drive and an 80% (38.7°) slope rating for a 1/4-acre lawn, roughly a third less than comparable rivals. There's no antenna or base station, and EdgeMaster cuts to about 1.9" from borders. If your lawn grows past a quarter acre, the A3 AWD 2000 covers half an acre for about $1,539.
+**Why we picked it:** A mid-range price, often on sale, buys 360° 3D LiDAR, all-wheel drive and an 80% (38.7°) slope rating for a 1/4-acre lawn, for noticeably less than comparable rivals. There's no antenna or base station, and EdgeMaster cuts to about 1.9" from borders. If your lawn grows past a quarter acre, the A3 AWD 2000 covers half an acre for a bit more money.
 
-**Skip it if:** you need polished obstacle avoidance, which trails the flagships. Sale prices fluctuate a lot (list prices are $1,999–$2,199), so don't buy it at full price. On a flat, open lawn, the Navimow i105N costs hundreds less.
+**Skip it if:** you need polished obstacle avoidance, which trails the flagships. Sale prices fluctuate a lot and list prices are much higher, so don't buy it at full price. On a flat, open lawn, the Navimow i105N costs far less.
 
 **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)** · [Read our full review](/mowers/dreame-a3-awd/)
 
@@ -127,8 +127,8 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 Both are 2026 arrivals with little independent testing so far, so they sit outside our main picks for now.
 
-- **[ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/)** (about $799, 1/8 acre): the cheapest LiDAR mower we track, with dual cameras and no antenna, so it suits tiny lots under trees where RTK can't hold a fix. It's quiet (58 dB), IPX6 and compact enough for 26" passages, but coverage is only 5,382 sq ft, the max cut is 2.8", and we found no independent reviews. **[Check the M5 LiDAR price on Amazon](amazon:anthbot-m5-lidar)**
-- **[HOOKII Neomow X2 Air](/mowers/hookii-neomow-x2/)** (about $849, 0.37 acre): antenna-free 3D LiDAR, an 11" deck and enough coverage to give a true quarter acre real headroom. Camera obstacle avoidance and auto-mapping need the $339 vision module, it's 2WD with a 45% rating, and X2 reviews are still thin.
+- **[ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/)** (budget tier, 1/8 acre): the cheapest LiDAR mower we track, with dual cameras and no antenna, so it suits tiny lots under trees where RTK can't hold a fix. It's quiet (58 dB), IPX6 and compact enough for 26" passages, but coverage is only 5,382 sq ft, the max cut is 2.8", and we found no independent reviews. **[Check the M5 LiDAR price on Amazon](amazon:anthbot-m5-lidar)**
+- **[HOOKII Neomow X2 Air](/mowers/hookii-neomow-x2/)** (budget tier, 0.37 acre): antenna-free 3D LiDAR, an 11" deck and enough coverage to give a true quarter acre real headroom. Camera obstacle avoidance and auto-mapping need the optional vision module, it's 2WD with a 45% rating, and X2 reviews are still thin.
 
 ## What's the minimum lawn size for a robot mower?
 

@@ -4,7 +4,7 @@ faq:
   - q: "Does the Husqvarna Automower 420 iQ need a reference station?"
     a: "In most US yards, yes. The iQ models use Husqvarna's EPOS satellite RTK, which normally needs a reference station with a clear view of the sky and its own power outlet. GearDiary notes Husqvarna's EPOS Cloud service can skip the station in areas with coverage, so check availability at your address with a dealer before buying."
   - q: "What's the difference between the Automower 410 iQ, 420 iQ and 440 iQ?"
-    a: "Mainly rated area and price. The 410 iQ is rated for 0.5 acre (about $1,999), the 420 iQ for 1 acre (about $2,599) and the 440 iQ for 2 acres (about $3,399), at October 2026 campaign prices. Those ratings assume open, systematic layouts. Irregular yards with lots of zones and obstacles get roughly half, so size up if your lawn is complicated."
+    a: "Mainly rated area and price. The 410 iQ is rated for 0.5 acre, the 420 iQ for 1 acre and the 440 iQ for 2 acres, with price rising at each step from mid-range (410 iQ on campaign) to flagship (440 iQ). Those ratings assume open, systematic layouts. Irregular yards with lots of zones and obstacles get roughly half, so size up if your lawn is complicated."
   - q: "Can the Automower iQ mow slopes?"
     a: "Moderate ones. Husqvarna rates the iQ models for 45% slopes (about 24 degrees) inside the work area but only 15% at the boundary. That boundary limit matters: if your lawn edge sits on a bank, the mower may not be able to work it safely. For steep yards, Husqvarna's AWD model or a rival AWD mower is the better fit."
   - q: "Can the Automower iQ use a boundary wire?"
@@ -48,7 +48,7 @@ Automower Connect works over cellular, Wi-Fi and Bluetooth, with firmware update
 - **Warranty and service:** a 4-year warranty and a nationwide dealer network are the main reasons to buy. Few rivals offer in-person repairs. See [how long robot mowers last](/posts/how-long-do-robot-mowers-last/).
 - **Extra outlet:** budget for an outdoor outlet near the reference station if you don't have one, or ask whether EPOS Cloud covers your address.
 - **Weather:** IPX5-rated and 62 dB. It handles rain, but a garage helps in hot climates.
-- **Pricing:** list prices run $2,600–$4,300. October 2026 campaign prices are about $1,999, $2,599 and $3,399. Husqvarna runs seasonal campaigns, so prices change often.
+- **Pricing:** October 2026 campaign prices ran well below list. Husqvarna runs seasonal campaigns, so prices change often; check today's price before you buy.
 - **Not set-and-forget:** The Inspect Aspect's 420 iQ review stressed that zone setup and app tuning take real effort up front.
 
 ## How the Automower iQ compares

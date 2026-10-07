@@ -2,18 +2,18 @@
 updatedDate: 2026-10-07
 faq:
   - q: "Can the Yarbo be used as a snow blower?"
-    a: "Yes. The Yarbo Core is a tracked base unit that accepts swappable modules, including a two-stage Snow Blower that Yarbo says throws snow up to 40 feet and handles 8 to 12 inches of accumulation. The Snow Blower Gen 2 module costs about $1,750 on its own, and Freshly Charged called it the standout attachment in its testing."
+    a: "Yes. The Yarbo Core is a tracked base unit that accepts swappable modules, including a two-stage Snow Blower that Yarbo says throws snow up to 40 feet and handles 8 to 12 inches of accumulation. The Snow Blower Gen 2 module is also sold on its own, and Freshly Charged called it the standout attachment in its testing."
   - q: "Does the Yarbo Lawn Mower Pro need a base station?"
     a: "Historically, yes. Reviewers from Stuff and Freshly Charged installed Yarbo's RTK base station, and Stuff mounted its antenna on a garage roof with a PoE cable. Yarbo now advertises NetRTK, a network correction service it describes as free for life that removes the need for a base station where coverage exists. Check Yarbo's coverage map for your address."
   - q: "How many acres can the Yarbo Lawn Mower Pro mow?"
     a: "Yarbo rates it for properties up to 6 acres and says it covers up to 1.7 acres per day. That daily figure matters more than the headline: a 6-acre lot would take several days to cover once. Size it with margin, and remember that obstacle-dense areas slow any mower down."
   - q: "How much does a Yarbo cost with the mower and snow blower?"
-    a: "On Yarbo's US store in early October 2026, the Y40 Core with Lawn Mower Pro was about $4,899 on sale ($5,999 list), and the Core with Snow Blower Gen 2 and Lawn Mower Pro was about $6,499. Adding the trimmer brought it to about $7,499. 4G service is a separate subscription. Prices change often, so check before buying."
+    a: "It's a flagship-tier purchase. On Yarbo's US store in early October 2026, the Y40 Core with Lawn Mower Pro was on sale below list, and bundles adding the Snow Blower Gen 2 and then the trimmer cost considerably more. 4G service is a separate subscription. Prices change often, so check before buying."
   - q: "Is the Yarbo hard to set up?"
     a: "Yes, by robot-mower standards. Stuff recommended setting aside a weekend and a second person, and Freshly Charged warned that a poorly placed base station forces a full remap. Boundaries are mapped by driving the robot around them. Yarbo's site now lists an onsite installation service, which is worth asking about if it's offered in your area."
 ---
 
-The Yarbo Y40 Core with Lawn Mower Pro is less a robot mower than a robotic yard platform: a tracked base unit that mows up to 6 acres in summer and, with extra modules, clears snow, blows leaves and trims. Stuff and Freshly Charged both found it capable on big, open properties, and both warned about involved setup and weaker results in tight spaces. At about $4,899 for the mower bundle alone (October 2026), buy it for acreage and winter duty, not because it's a better mower.
+The Yarbo Y40 Core with Lawn Mower Pro is less a robot mower than a robotic yard platform: a tracked base unit that mows up to 6 acres in summer and, with extra modules, clears snow, blows leaves and trims. Stuff and Freshly Charged both found it capable on big, open properties, and both warned about involved setup and weaker results in tight spaces. At a flagship-tier price for the mower bundle alone, buy it for acreage and winter duty, not because it's a better mower.
 
 ## Who the Yarbo Lawn Mower Pro is for (and who should skip it)
 
@@ -32,14 +32,14 @@ Everything starts with the Yarbo Core, the tracked, battery-powered rover that d
 
 | Module | What it does | Notes |
 |---|---|---|
-| Lawn Mower Pro | Autonomous mowing up to 6 acres | Dual 300W motors, straight blades; about $1,600 alone |
-| Snow Blower Gen 2 | Two-stage snow clearing | Yarbo claims 40 ft throw, 8–12" snow; about $1,750 alone |
+| Lawn Mower Pro | Autonomous mowing up to 6 acres | Dual 300W motors, straight blades; also sold alone |
+| Snow Blower Gen 2 | Two-stage snow clearing | Yarbo claims 40 ft throw, 8–12" snow; also sold alone |
 | Leaf Blower | Clears leaves and paths | Stuff cites 190 mph and 760 CFM, with a follow mode |
 | Trimmer | Edge trimming | Sold in bundles |
 
 A tow hitch is included, and Stuff found it useful for pulling a garden cart of mulch. Yarbo claims a towing capacity of 1,600 kg, which is more marketing than practical spec. Swapping modules isn't quick: Stuff described it as "less click-and-snap, more lift-and-sweat," though each module is "rock solid" once attached. Freshly Charged rated the snow blower the strongest performer, in a category with almost no autonomous alternatives.
 
-If you already own a Core, the Lawn Mower Pro module alone costs about $1,600. On Yarbo's store in early October 2026, the Core with Snow Blower Gen 2 and Lawn Mower Pro was about $6,499, and Stuff priced a fully kitted system at about $9,700.
+If you already own a Core, you can buy the Lawn Mower Pro module on its own. Bundles that add the Snow Blower Gen 2 cost considerably more, and a fully kitted system, as Stuff priced it, costs more again.
 
 ## Navigation and setup
 
@@ -77,7 +77,7 @@ The app handles mapping, zones, schedules, patterns and module settings. A highl
 | Max slope | 70% (35°) | 50% (27°) | 100% (45°) |
 | Drive | Tracks | 2WD | Tracks |
 | Year-round modules | Yes | No | No |
-| Typical price | about $4,899–$5,999 | about $1,799–$4,499 | about $2,499–$2,799 |
+| Price tier | $$$$ | $$–$$$$ | $$$ |
 
 The [Segway Navimow X3](/mowers/segway-navimow-x3/) is the better pure mower for large, gently sloped lawns up to 2.5 acres, with simpler setup. The [Lymow One Plus](/mowers/lymow-one-plus/) is the tracked alternative for steep, rough ground at about half the price, but it only mows. For broader context, see our [best mowers for large lawns](/posts/best-robot-mower-for-large-lawns/), [robot mower vs riding mower](/posts/robot-mower-vs-riding-mower/) and [best mowers for hills](/posts/best-robot-mower-for-hills/).
 

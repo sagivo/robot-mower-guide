@@ -4,14 +4,14 @@ faq:
   - q: "Does the Mammotion YUKA mini 2 need an RTK antenna?"
     a: "No. The YUKA mini 2 1000H navigates with a 360-degree LiDAR sensor and dual-camera AI vision, so there is no antenna to install and no reliance on satellites. That makes it a good fit for small yards with trees, fences or a house that blocks the sky, where RTK mowers can lose their fix."
   - q: "Does the YUKA mini 2 have 4G anti-theft tracking?"
-    a: "Only with an add-on. Out of the box it connects over Wi-Fi and Bluetooth. Mammotion sells a 4G module for about $129, which it pairs with a three-year free 4G service trial. Without it, you don't get remote location tracking, which matters if your lawn is visible from the street."
+    a: "Only with an add-on. Out of the box it connects over Wi-Fi and Bluetooth. Mammotion sells an optional 4G module, which it pairs with a three-year free 4G service trial. Without it, you don't get remote location tracking, which matters if your lawn is visible from the street."
   - q: "What is DropMow on the Mammotion YUKA mini 2?"
     a: "DropMow is Mammotion's no-mapping mode. You place the mower on a patch of grass and it mows that area without a saved map, which is handy for a side strip or a spot outside your mapped zones. EasyLawnMowing's review called it genuinely useful for temporary mowing. It's not a substitute for a proper map on your main lawn."
   - q: "Can the YUKA mini 2 mow slopes?"
     a: "Moderate ones. Mammotion rates it for 45% grade, about 24 degrees, on rear-wheel drive. That rating assumes dry, short grass. If your yard has steeper sections, the AWD Mammotion LUBA mini 2 (80%) or the Dreame A3 AWD (80%) is a safer choice."
 ---
 
-The Mammotion YUKA mini 2 1000H is a capable quarter-acre LiDAR mower: no antenna, strong obstacle avoidance, and setup that reviewers finished in about 10 to 15 minutes. The problem is the competition. At a typical $1,399 to $1,559, it costs about the same as the Segway Navimow i215 LiDAR and Dreame A3 AWD, which include 4G or AWD and have been easier to find in stock. It's a good mower that's hard to recommend over its neighbors.
+The Mammotion YUKA mini 2 1000H is a capable quarter-acre LiDAR mower: no antenna, strong obstacle avoidance, and setup that reviewers finished in about 10 to 15 minutes. The problem is the competition. At its typical mid-range price, it costs about the same as the Segway Navimow i215 LiDAR and Dreame A3 AWD, which include 4G or AWD and have been easier to find in stock. It's a good mower that's hard to recommend over its neighbors.
 
 ## Who the YUKA mini 2 is for (and who should skip it)
 
@@ -20,7 +20,7 @@ It suits flat to moderately sloped yards up to about 10,000 sq ft, especially on
 Skip it if:
 
 - **You have slopes steeper than about 45% (24°).** It's rear-wheel drive. Mammotion's own LUBA mini 2 AWD climbs much steeper ground.
-- **You want theft tracking included.** 4G is a $129 add-on.
+- **You want theft tracking included.** 4G is a paid add-on.
 - **You need it this week.** US stock has been patchy, so check availability before planning around it.
 
 ## Navigation and setup
@@ -47,13 +47,13 @@ Cutting height is listed as 2.0" to 3.5", though Mammotion's own pages disagree 
 
 ## App, connectivity and anti-theft
 
-The Mammotion app handles scheduling, mowing patterns, no-go zones and up to 10 zones. Connectivity is Wi-Fi and Bluetooth. Tracking requires the optional 4G module (about $129), which Mammotion pairs with a three-year free 4G service trial. Without it, you have no remote location tracking. If your yard faces the street, budget for the module. Our [theft protection guide](/posts/robot-mower-theft-protection/) covers what else helps.
+The Mammotion app handles scheduling, mowing patterns, no-go zones and up to 10 zones. Connectivity is Wi-Fi and Bluetooth. Tracking requires the optional 4G module, sold separately, which Mammotion pairs with a three-year free 4G service trial. Without it, you have no remote location tracking. If your yard faces the street, budget for the module. Our [theft protection guide](/posts/robot-mower-theft-protection/) covers what else helps.
 
 ## Ownership notes
 
 - **Weatherproofing.** IP67 is one of the better ratings in this class. See our [rain guide](/posts/do-robot-mowers-work-in-rain/).
 - **Stock.** US availability has been spotty. If it's out of stock, the rivals below are good substitutes.
-- **Pricing.** Mammotion has listed it at $1,399 on sale versus $1,559 regular. Add $129 if you want 4G.
+- **Pricing.** It's a mid-range mower that Mammotion discounts from time to time. Budget extra for the 4G module if you want tracking.
 - **Maintenance.** Razor blades wear quickly on sandy or debris-heavy lawns. See our [maintenance guide](/posts/robot-mower-maintenance/).
 
 ## How it compares
@@ -63,8 +63,8 @@ The Mammotion app handles scheduling, mowing patterns, no-go zones and up to 10 
 | Max area | 0.25 acre | 0.37 acre | 0.5 acre | 0.37 acre |
 | Max slope | 45% | 45% | 80% | 80% |
 | Drive | RWD | 2WD | AWD | AWD |
-| 4G tracking | $129 add-on | Yes (1 yr included) | Yes | Yes |
-| Typical price | $1,399–$1,559 | $1,399–$1,599 | $1,099–$1,539 | $1,699–$1,999 |
+| 4G tracking | Paid add-on | Yes (1 yr included) | Yes | Yes |
+| Price tier | $$ | $$ | $$ | $$ |
 
 The [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) covers more ground at the same price and includes a year of 4G. The [Dreame A3 AWD](/mowers/dreame-a3-awd/) adds AWD, an 80% slope rating, 4G tracking and twice the coverage, often for less. If you want to stay with Mammotion, the [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) costs more but brings AWD and built-in 4G.
 
@@ -72,6 +72,6 @@ See our [best robot mower for small yards](/posts/best-robot-mower-for-small-yar
 
 ## Bottom line
 
-The YUKA mini 2 1000H does the important things well. LiDAR mapping with no antenna, sharp obstacle avoidance and fast setup all earn praise from reviewers. But at about $1,399 to $1,559 (October 2026), it's up against rivals that include 4G or AWD for the same money. Buy it on a solid discount, or if it's in stock when the others aren't. Prices and stock change often.
+The YUKA mini 2 1000H does the important things well. LiDAR mapping with no antenna, sharp obstacle avoidance and fast setup all earn praise from reviewers. But at its mid-range price, it's up against rivals that include 4G or AWD for the same money. Buy it on a solid discount, or if it's in stock when the others aren't. Prices and stock change often.
 
 **[Check the current price on Amazon](amazon:mammotion-yuka-mini-2)**

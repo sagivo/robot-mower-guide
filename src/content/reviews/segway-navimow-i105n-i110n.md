@@ -2,7 +2,7 @@
 updatedDate: 2026-10-07
 faq:
   - q: "Should I buy the Navimow i105N or the i110N?"
-    a: "Buy by lawn size. The i105N is rated for 0.125 acre (about 5,400 sq ft) and typically costs about $669 on sale, while the i110N covers 0.25 acre (about 10,900 sq ft) for about $789 (October 2026). The hardware is otherwise the same. If your mowable area is over about 4,500 sq ft, the i110N's extra coverage is worth the roughly $120 difference."
+    a: "Buy by lawn size. The i105N is rated for 0.125 acre (about 5,400 sq ft), while the i110N covers 0.25 acre (about 10,900 sq ft) for a little more; both are budget-tier mowers. The hardware is otherwise the same. If your mowable area is over about 4,500 sq ft, the i110N's extra coverage is worth the small price difference."
   - q: "Does the Navimow i105N need an antenna?"
     a: "It depends on your address. Segway's current listings pitch network RTK, which delivers corrections over 4G with no antenna. But Reviewed and Tom's Guide both set up their units with a small antenna staked near the dock. Check Navimow's network RTK coverage for your area, and plan a sky-facing spot for the antenna in case you need it."
   - q: "Can the Navimow i105N mow slopes?"
@@ -11,11 +11,11 @@ faq:
     a: "Yes. It's rated at 58 dB, among the quietest mowers we track. Tom's Guide described it as near-silent, with the loudest moment sounding like tearing paper over rough patches of crabgrass. Check local rules and keep pets and wildlife in mind before scheduling night runs."
 ---
 
-The Segway Navimow i105N and i110N are the best-value wire-free mowers for small, flat lawns. For about $669 to $789, you get network RTK plus camera navigation from a brand with a long track record, a quiet 58 dB motor and one of the best apps in the category. Reviewed named the i105N an Editor's Choice for value. Just don't buy it for a hill.
+The Segway Navimow i105N and i110N are the best-value wire-free mowers for small, flat lawns. For a budget-tier price, you get network RTK plus camera navigation from a brand with a long track record, a quiet 58 dB motor and one of the best apps in the category. Reviewed named the i105N an Editor's Choice for value. Just don't buy it for a hill.
 
 ## Who the Navimow i105N / i110N is for (and who should skip it)
 
-This is the right robot for a simple, flat lawn up to a quarter acre: a suburban backyard, a front lawn, a townhouse strip. It's also the cheapest credible way to stop paying a mowing service. Our [robot mower vs lawn service cost guide](/posts/robot-mower-vs-lawn-service-cost/) shows how quickly a $669 mower pays for itself against weekly mowing visits.
+This is the right robot for a simple, flat lawn up to a quarter acre: a suburban backyard, a front lawn, a townhouse strip. It's also the cheapest credible way to stop paying a mowing service. Our [robot mower vs lawn service cost guide](/posts/robot-mower-vs-lawn-service-cost/) shows how quickly a budget mower like this pays for itself against weekly mowing visits.
 
 Skip it if your lawn has any meaningful slope. It's a two-wheel-drive mower rated for 30% (about 17°), and it struggles in mud and on damp grass. Skip it if your yard is mostly under trees, because satellite positioning weakens there. And if you have more than a quarter acre, it's simply too small.
 
@@ -45,10 +45,10 @@ The Navimow app is a highlight. Reviewed listed "advanced app" as a top pro, and
 
 ## Ownership notes
 
-- **Warranty:** 9to5toys lists a 3-year warranty, which is strong for a sub-$800 mower.
+- **Warranty:** 9to5toys lists a 3-year warranty, which is strong for a budget mower.
 - **Weather:** IP66-rated, so rain won't hurt it, though a garage still helps in hot sun.
 - **4G plan:** like other Navimows, expect a free first year of Connect+ and a modest annual fee after that. Check current terms when you buy.
-- **Pricing:** the i105N hit $669 in late September 2026, which 9to5toys called its best price of the year (regular price $799). Prices change often.
+- **Pricing:** the i105N is often discounted, and 9to5toys called its late-September 2026 sale price its best of the year. Prices change often, so check today's price.
 
 ## How the Navimow i105N / i110N compares
 
@@ -57,9 +57,9 @@ The Navimow app is a highlight. Reviewed listed "advanced app" as a top pro, and
 | Max area | 0.25 ac | 0.25 ac | ~0.25 ac |
 | Max slope | 30% | 45% | 45% |
 | Drive | 2WD | AWD | 2WD |
-| Typical price | $669–$789 | $849–$1,099 | $769–$899 |
+| Price tier | $ | $ | $ |
 
-The [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is the upgrade if your lawn is bumpy or sloped: same app, same deck width, all-wheel drive and a 45% rating for a couple of hundred dollars more. The [Anthbot M9](/mowers/anthbot-m9/) is Reviewed's small-lawn pick and similarly priced, but it needs an RTK antenna, tops out at a 2.8" cut and doesn't confirm theft tracking. The [eufy E15 / E18](/mowers/eufy-e15-e18/) skips RTK entirely for camera-only navigation, which is simpler to set up but less reliable on complex lawns. For a broader look, see our [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/) and [best robot mowers for small yards](/posts/best-robot-mower-for-small-yards/).
+The [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is the upgrade if your lawn is bumpy or sloped: same app, same deck width, all-wheel drive and a 45% rating for a bit more money. The [Anthbot M9](/mowers/anthbot-m9/) is Reviewed's small-lawn pick and similarly priced, but it needs an RTK antenna, tops out at a 2.8" cut and doesn't confirm theft tracking. The [eufy E15 / E18](/mowers/eufy-e15-e18/) skips RTK entirely for camera-only navigation, which is simpler to set up but less reliable on complex lawns. For a broader look, see our [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/) and [best robot mowers for small yards](/posts/best-robot-mower-for-small-yards/).
 
 ## Bottom line
 

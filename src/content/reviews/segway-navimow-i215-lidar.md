@@ -52,7 +52,7 @@ The Navimow app shows live position, coverage percentage and battery, and lets y
 - **Running costs:** about $33 a year for 4G after year one, plus blades.
 - **Map tuning:** budget an hour or two of edits after the first runs, especially near drop-offs and retaining walls.
 - **Weather:** Navimow doesn't publish an IP rating for the US model, so a garage or covered dock is worth considering.
-- **Price:** list is $1,599, but PCWorld found it at $1,399 at several retailers, and Tom's Guide saw it lower on Amazon. Prices move often.
+- **Price:** mid-range tier, but PCWorld found it below list at several retailers, and Tom's Guide saw it lower still on Amazon. Prices move often, so check today's price.
 
 ## How the Navimow i215 compares
 

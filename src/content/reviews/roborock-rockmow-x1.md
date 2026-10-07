@@ -4,7 +4,7 @@ faq:
   - q: "Does the Roborock RockMow X1 need an RTK base station?"
     a: "Yes, plan on it. An RTK reference station and extension cable come in the box, and the X1 navigates by full-band RTK fused with VSLAM cameras. The antenna needs open sky, so site it away from walls and trees. If your yard is heavily shaded, the LiDAR version, the RockMow X1 LiDAR, avoids satellites entirely."
   - q: "What's the difference between the RockMow X115H and X130H?"
-    a: "Coverage and price. The X115H is rated for up to 0.37 acre at a $1,499 list price, and the X130H is rated for up to 1 acre at $2,499. Both share the same all-wheel-drive chassis, 80% slope rating, cutting system and anti-theft features. If your lawn is close to 0.37 acre or has slow, sloped zones, step up to the X130H."
+    a: "Coverage and price. The X115H is rated for up to 0.37 acre and lists in the mid-range tier, while the X130H is rated for up to 1 acre and lists in the premium tier. Both share the same all-wheel-drive chassis, 80% slope rating, cutting system and anti-theft features. If your lawn is close to 0.37 acre or has slow, sloped zones, step up to the X130H."
   - q: "Is the Roborock RockMow X1 the same as the RockMow Z1?"
     a: "They're the same premium family under regional names. Roborock sells it as the RockMow X1 in the US (model codes X115H and X130H) and as the RockMow Z1 in Europe. Some European coverage and hands-on reports use the Z1 name, so search both, but buy by the exact US model code."
   - q: "Are there independent reviews of the Roborock RockMow X1?"
@@ -15,7 +15,7 @@ The Roborock RockMow X1 is an all-wheel-drive robot mower that navigates by RTK 
 
 ## Who the Roborock RockMow X1 is for (and who should skip it)
 
-The X1 suits open, sloped lawns where the sky is mostly unobstructed: a hillside backyard, a sloped front lawn without big trees, or an acre of rolling grass. At $1,499 for the X115H, it's one of the cheapest ways to get AWD and an 80% rating, and the $2,499 X130H covers an acre for the price of many half-acre rivals. SmartRobotReviews' Roborock lineup guide picks the X115H as the "best 4WD value" and notes the X130H is the only current US Roborock mower rated for an acre.
+The X1 suits open, sloped lawns where the sky is mostly unobstructed: a hillside backyard, a sloped front lawn without big trees, or an acre of rolling grass. With the X115H listed in the mid-range tier, it's one of the cheapest ways to get AWD and an 80% rating, and the X130H covers an acre for the price of many half-acre rivals. SmartRobotReviews' Roborock lineup guide picks the X115H as the "best 4WD value" and notes the X130H is the only current US Roborock mower rated for an acre.
 
 Skip it if your lawn sits under mature trees or between tall buildings. RTK needs a clean satellite view, and the [RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) exists for exactly that problem. Skip it if you want a mower with a proven track record, because this one has none yet. And if your lawn is flat, you're paying for an AWD chassis you won't use.
 
@@ -46,26 +46,26 @@ Anti-theft matches the LiDAR version: 4G real-time tracking (the mower must be p
 ## Ownership notes
 
 - **No reviews yet:** buy from a retailer with an easy return window, and test slopes and tree-edge areas during the first weeks.
-- **Pricing:** $1,499 (X115H) and $2,499 (X130H) are Roborock US list prices; we haven't verified discounts. Watch for sales.
+- **Pricing:** Roborock's US list prices put the X115H in the mid-range tier and the X130H in the premium tier; we haven't verified discounts. Check today's price and watch for sales.
 - **Extras:** budget for the PreciEdge module and spare blades.
 - **RTK caveat:** if you move the reference station later, expect to check or redo your map, as with most RTK mowers.
 - **Brand:** Roborock is a major robot-vacuum maker, but its mower support history in the US is only one season old.
 
 ## How the Roborock RockMow X1 compares
 
-The [Segway Navimow X4](/mowers/segway-navimow-x4/) is the proven choice for an acre of hills: an 84% rating, a 17" deck, network RTK that often needs no antenna, and the top score in our database, at about $2,499 for the 1-acre X430, the same as the X130H. For smaller lawns, the [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) covers the same 0.37 acre as the X115H with LiDAR navigation and an 80% rating, for about $1,699 to $1,999. Roborock's own [RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) is the pick if trees are your problem.
+The [Segway Navimow X4](/mowers/segway-navimow-x4/) is the proven choice for an acre of hills: an 84% rating, a 17" deck, network RTK that often needs no antenna, and the top score in our database, with the 1-acre X430 priced about the same as the X130H. For smaller lawns, the [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) covers the same 0.37 acre as the X115H with LiDAR navigation and an 80% rating, at a mid-range price. Roborock's own [RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) is the pick if trees are your problem.
 
 | | RockMow X1 (X130H) | Navimow X4 (X430) | RockMow X1 LiDAR |
 |---|---|---|---|
 | Navigation | RTK + base station + vision | Network RTK + vision | LiDAR + vision |
 | Max area | 1 acre | 1 acre | 0.5 acre |
 | Max slope | 80% (~39°) | 84% (~40°) | 80% (~39°) |
-| Price (Oct 2026) | about $2,499 | about $2,499 | about $1,999–$2,299 |
+| Price tier | $$$ | $$$ | $$ |
 
 Our [Navimow X4 vs LUBA 3](/posts/mammotion-luba-3-vs-segway-navimow-x4/) comparison and [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) cover the acre-class field.
 
 ## Bottom line
 
-The RockMow X1 pairs an impressive AWD chassis with conventional RTK navigation and aggressive pricing, especially the $1,499 X115H. For an open, hilly lawn it's a promising option, and for a shady one it's the wrong tool. Until independent reviews arrive, the better-tested Navimow X4 and LUBA mini 2 AWD are safer bets at similar money. If you do buy the X1, buy where returns are easy.
+The RockMow X1 pairs an impressive AWD chassis with conventional RTK navigation and aggressive pricing, especially the mid-range X115H. For an open, hilly lawn it's a promising option, and for a shady one it's the wrong tool. Until independent reviews arrive, the better-tested Navimow X4 and LUBA mini 2 AWD are safer bets at similar money. If you do buy the X1, buy where returns are easy.
 
 **[Check the current price on Amazon](amazon:roborock-rockmow-x1)**

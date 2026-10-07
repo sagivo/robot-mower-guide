@@ -20,8 +20,8 @@ picks:
   - id: husqvarna-automower-iq
     label: "Best dealer-backed for 2 acres"
 takeaways:
-  - "<strong>Best overall for big yards:</strong> the Segway Navimow X4. Its 17-inch deck is the widest in its class, and it covers 1 acre (X430, ~$2,499) or 1.5 acres (X450, ~$2,999)."
-  - "<strong>Best for 2+ acres:</strong> the Navimow X390, rated for 2.5 acres (~$4,499). It's 2WD, so it suits gentle ground."
+  - "<strong>Best overall for big yards:</strong> the Segway Navimow X4. Its 17-inch deck is the widest in its class, and it covers 1 acre (X430) or 1.5 acres (X450), both premium-tier."
+  - "<strong>Best for 2+ acres:</strong> the Navimow X390, rated for 2.5 acres (flagship tier). It's 2WD, so it suits gentle ground."
   - "Rated area is a best case. Husqvarna says irregular yards get <strong>roughly half</strong> its systematic rating, so buy <strong>15–20% headroom</strong> at minimum."
   - "Deck width matters more on big lawns: a 17-inch deck drives about 5.8 miles to cut an acre once, while an 8.7-inch deck drives about 11.4."
   - "Run your square footage and slope through our <a href=\"/tools/size-matcher/\">size matcher</a> to find the right tier."
@@ -29,13 +29,13 @@ faq:
   - q: "What is the best robot mower for 1 acre?"
     a: "For a full acre, buy a mower rated above an acre so it has headroom. The Mammotion LUBA 3 AWD 5000 (1.25 acres) and Dreame A3 AWD Pro 5000 (1.24 acres) fit well, as does the Segway Navimow X450 (1.5 acres). The Navimow X430 is rated for exactly 1 acre, so it's best for lawns closer to 0.85 acre."
   - q: "Can a robot mower handle 2 acres?"
-    a: "Yes, but only a few wire-free models are rated that high. The Segway Navimow X390 covers 2.5 acres, and the Husqvarna Automower 440 iQ is rated for 2 acres on open, systematic layouts. The tracked Yarbo Mower Pro claims up to 6 acres, but costs about $4,899. Husqvarna notes irregular yards get roughly half the rating, so a complex 2-acre property may need the X390 or two mowers."
+    a: "Yes, but only a few wire-free models are rated that high. The Segway Navimow X390 covers 2.5 acres, and the Husqvarna Automower 440 iQ is rated for 2 acres on open, systematic layouts. The tracked Yarbo Mower Pro claims up to 6 acres, but it's a flagship-tier purchase. Husqvarna notes irregular yards get roughly half the rating, so a complex 2-acre property may need the X390 or two mowers."
   - q: "How long does it take a robot mower to mow an acre?"
     a: "Robot mowers don't mow an acre in one go. They cut a little at a time across the week and return to charge between runs. Deck width is the biggest factor: a 17-inch deck covers about 83% more ground per pass than a 9.3-inch deck at the same speed. Slopes, obstacles and many small zones add more time."
   - q: "Should I buy one big robot mower or two smaller ones?"
     a: "One mower is cheaper and simpler for a connected lawn up to its rated area with headroom. Two mowers make sense when a property is split into separate zones that are hard to link, such as a front and back yard divided by a driveway, or when the total area is above about 2 acres."
   - q: "Are robot mowers worth it for large lawns?"
-    a: "Often, yes. The bigger the lawn, the more weekly mowing time a robot replaces, and a $2,500 to $4,500 mower compares well with a riding mower plus fuel or a lawn service over several seasons. Our cost calculator compares the numbers for your yard."
+    a: "Often, yes. The bigger the lawn, the more weekly mowing time a robot replaces, and a premium- or flagship-tier mower compares well with a riding mower plus fuel or a lawn service over several seasons. Our cost calculator compares the numbers for your yard."
 ---
 
 The best robot mower for large lawns in 2026 is the **Segway Navimow X4**: its 17" deck is the widest in its class, it climbs 84% slopes, and it covers 1 acre (X430) or 1.5 acres (X450) without a base station in most yards. For 2 acres and up, the **Navimow X390** is the only mainstream wire-free mower rated for 2.5 acres. If your big yard is steep or shaded, the **Mammotion LUBA 3 AWD 5000** and **Dreame A3 AWD Pro 5000** (both about 1.25 acres) handle trees and hills better. Whichever you pick, buy more rated area than you need. Here's why, and how much.
@@ -44,17 +44,17 @@ Have your square footage handy? Our [robot mower size matcher](/tools/size-match
 
 ## Quick picks: best robot mowers for big yards
 
-| Model | Best for | Max area | Max slope | Price from |
+| Model | Best for | Max area | Max slope | Price tier |
 |---|---|---|---|---|
-| [Segway Navimow X4 (X430 / X450)](/mowers/segway-navimow-x4/) | 1–1.5 acres, hills | 1.5 ac | 84% (40°) | ~$2,499 |
-| [Segway Navimow X3 X390](/mowers/segway-navimow-x3/) | 2–2.5 acres, gentle ground | 2.5 ac | 50% (26.6°) | ~$4,499 |
-| [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-iq/) | 2 open acres, dealer support | 2 ac | 45% (24.2°) | ~$3,399 |
-| [Mammotion LUBA 3 AWD 5000](/mowers/mammotion-luba-3-awd/) | Large, steep, tree-heavy lawns | 1.25 ac | 80% (38.7°) | ~$3,299 |
-| [Dreame A3 AWD Pro 5000](/mowers/dreame-a3-awd-pro/) | Large lawns under trees, value | 1.24 ac | 80% (38.7°) | ~$2,799 |
-| [Sunseeker X7 Plus Gen 2](/mowers/sunseeker-x7-gen-2/) | 1.5 acres with a striped finish | 1.5 ac | 70% (35°) | ~$2,499 |
-| [Lymow One Plus 10A](/mowers/lymow-one-plus/) | Rough, overgrown rural acreage | 1.73 ac/day | ~100% (claimed) | ~$2,799 |
+| [Segway Navimow X4 (X430 / X450)](/mowers/segway-navimow-x4/) | 1–1.5 acres, hills | 1.5 ac | 84% (40°) | $$$ |
+| [Segway Navimow X3 X390](/mowers/segway-navimow-x3/) | 2–2.5 acres, gentle ground | 2.5 ac | 50% (26.6°) | $$$$ |
+| [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-iq/) | 2 open acres, dealer support | 2 ac | 45% (24.2°) | $$$$ |
+| [Mammotion LUBA 3 AWD 5000](/mowers/mammotion-luba-3-awd/) | Large, steep, tree-heavy lawns | 1.25 ac | 80% (38.7°) | $$$$ |
+| [Dreame A3 AWD Pro 5000](/mowers/dreame-a3-awd-pro/) | Large lawns under trees, value | 1.24 ac | 80% (38.7°) | $$$ |
+| [Sunseeker X7 Plus Gen 2](/mowers/sunseeker-x7-gen-2/) | 1.5 acres with a striped finish | 1.5 ac | 70% (35°) | $$$ |
+| [Lymow One Plus 10A](/mowers/lymow-one-plus/) | Rough, overgrown rural acreage | 1.73 ac/day | ~100% (claimed) | $$$ |
 
-Prices are typical US street prices for the tier named, as of October 2026. They change weekly, so check the live price before you buy. All specs are side by side in our [robot mower comparison chart](/mowers/).
+Price tiers reflect typical US street prices for the model named, as of October 2026. Prices change weekly, so check the live price before you buy. All specs are side by side in our [robot mower comparison chart](/mowers/).
 
 ## Best robot mower for 1 acre
 
@@ -62,7 +62,7 @@ A one-acre lawn is 43,560 sq ft. With 15–20% headroom, you want a mower rated 
 
 ### Segway Navimow X430: best overall for about an acre
 
-**Why we picked it:** The X4 is our best overall pick for typical US lawns from half an acre up, and the X430 is the 1-acre version at about $2,499. The 17" deck is the widest in its class, so it simply covers ground faster than rivals. It adds 4WD with an 84% (40°) slope rating, Xero-Turn steering, easy auto or remote-control mapping and reliable obstacle avoidance. Navigation is network RTK plus 360° vision, designed to run without an antenna.
+**Why we picked it:** The X4 is our best overall pick for typical US lawns from half an acre up, and the X430 is the premium-tier 1-acre version. The 17" deck is the widest in its class, so it simply covers ground faster than rivals. It adds 4WD with an 84% (40°) slope rating, Xero-Turn steering, easy auto or remote-control mapping and reliable obstacle avoidance. Navigation is network RTK plus 360° vision, designed to run without an antenna.
 
 **Skip it if:** your lawn is a full acre or more. At exactly 1 acre of rated coverage, the X430 has no headroom, so step up to the X450. Also skip it for yards under heavy tree canopy, where LiDAR rivals hold position better, and note that some addresses still need the included RTK antenna. Reviewers report it occasionally misses spots that need a trim.
 
@@ -72,27 +72,27 @@ A one-acre lawn is 43,560 sq ft. With 15–20% headroom, you want a mower rated 
 
 **Why we picked it:** The 5000 tier covers 1.25 acres, enough headroom for a full acre, and it's the most capable all-rounder for difficult big yards. Tri-Fusion navigation (360° LiDAR, network RTK and dual cameras) means no base station and no dead zones under trees, and AWD with an 80% (38.7°) rating handles hills that strand two-wheel mowers. The 15.7" dual-disc deck mows quickly.
 
-**Skip it if:** your acre is flat and open. At about $3,299 for the 5000, you're paying for terrain and canopy capability you won't use, and the Navimow X4 mows faster for less. It's also heavy at 41 lb, can scuff turf on tight turns, and owners report some app lag. If you're choosing between these two, read our [LUBA 3 vs Navimow X4 comparison](/posts/mammotion-luba-3-vs-segway-navimow-x4/).
+**Skip it if:** your acre is flat and open. The 5000 is a flagship-tier purchase, so you're paying for terrain and canopy capability you won't use, and the Navimow X4 mows faster for less. It's also heavy at 41 lb, can scuff turf on tight turns, and owners report some app lag. If you're choosing between these two, read our [LUBA 3 vs Navimow X4 comparison](/posts/mammotion-luba-3-vs-segway-navimow-x4/).
 
 **[Check the LUBA 3 AWD price on Amazon](amazon:mammotion-luba-3-awd)** · [Read our full review](/mowers/mammotion-luba-3-awd/)
 
 ### Dreame A3 AWD Pro 5000: best value for an acre with trees
 
-**Why we picked it:** The A3 AWD Pro 5000 covers 1.24 acres for about $2,799 on sale, down from a list price of up to $3,499. It navigates with 360° 3D LiDAR and binocular cameras and uses no satellites, so big lots with mature trees, outbuildings or a tall house don't break its positioning. It also climbs 80% slopes, has active suspension and a 15.8" deck, and includes 4G tracking with three years of service.
+**Why we picked it:** The A3 AWD Pro 5000 covers 1.24 acres at a premium-tier sale price, well below its list price. It navigates with 360° 3D LiDAR and binocular cameras and uses no satellites, so big lots with mature trees, outbuildings or a tall house don't break its positioning. It also climbs 80% slopes, has active suspension and a 15.8" deck, and includes 4G tracking with three years of service.
 
 **Skip it if:** you want a perfect cut with no follow-up. One major review found missed patches, obstacle avoidance is good but not perfect, and you'll still need a string trimmer for edges. Plan to fine-tune the map after the first few runs. Our [Dreame A3 AWD Pro vs LUBA 3 AWD comparison](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/) breaks down the trade-offs.
 
 **[Check the A3 AWD Pro price on Amazon](amazon:dreame-a3-awd-pro)** · [Read our full review](/mowers/dreame-a3-awd-pro/)
 
-**Also consider for lawns a bit under an acre:** the [Roborock RockMow X130H](/mowers/roborock-rockmow-x1/) (1 acre, about $2,499) brings AWD and an 80% rating but needs its included RTK base station and hasn't been independently reviewed. The [Airseekers TRON PLUS](/mowers/airseekers-tron/) (1 acre, about $2,099) mulches thick grass better than anything reviewers have tried, but New Atlas found weak obstacle avoidance. Both are rated for exactly 1 acre, so treat them as fits for lawns closer to 0.85 acre.
+**Also consider for lawns a bit under an acre:** the [Roborock RockMow X130H](/mowers/roborock-rockmow-x1/) (1 acre, premium tier) brings AWD and an 80% rating but needs its included RTK base station and hasn't been independently reviewed. The [Airseekers TRON PLUS](/mowers/airseekers-tron/) (1 acre, premium tier) mulches thick grass better than anything reviewers have tried, but New Atlas found weak obstacle avoidance. Both are rated for exactly 1 acre, so treat them as fits for lawns closer to 0.85 acre.
 
 ## Best robot mower for 1.5 acres
 
-For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This band has the most choice, including the Navimow X350 (1.5 acres, about $2,799) and the WORX Landroid Vision Cloud 4WD (up to 1.5 acres), though its 8.7" deck is narrow for this much grass. The [HOOKII Neomow X2 Pro](/mowers/hookii-neomow-x2/) (about 1.5 acres, about $2,499) is a newer LiDAR option with an 11" deck and no antenna, but it's 2WD with a 45% limit and still lightly reviewed.
+For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This band has the most choice, including the Navimow X350 (1.5 acres, premium tier) and the WORX Landroid Vision Cloud 4WD (up to 1.5 acres), though its 8.7" deck is narrow for this much grass. The [HOOKII Neomow X2 Pro](/mowers/hookii-neomow-x2/) (about 1.5 acres, premium tier) is a newer LiDAR option with an 11" deck and no antenna, but it's 2WD with a 45% limit and still lightly reviewed.
 
 ### Segway Navimow X450: best for 1.25 to 1.5 acres
 
-**Why we picked it:** Same hardware as the X430, rated for 1.5 acres, at about $2,999. That's the sweet spot for a 1.25-acre lawn with comfortable headroom. For flat-to-hilly lawns in this range, no other mower combines a 17" deck, an 84% slope rating and antenna-free network RTK at this price, which is why we call the X4 the best large-lawn value of 2026.
+**Why we picked it:** Same hardware as the X430, rated for 1.5 acres, and still in the premium tier. That's the sweet spot for a 1.25-acre lawn with comfortable headroom. For flat-to-hilly lawns in this range, no other mower combines a 17" deck, an 84% slope rating and antenna-free network RTK at this price, which is why we call the X4 the best large-lawn value of 2026.
 
 **Skip it if:** your lawn is right at 1.5 acres with lots of obstacles or slopes. Climbing and dodging eat runtime, so a busy 1.5-acre lot may need a 2-acre-class mower. The same canopy caveat applies as with the X430.
 
@@ -100,7 +100,7 @@ For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This ban
 
 ### Sunseeker X7 Plus Gen 2: best finish on a big lawn
 
-**Why we picked it:** The X7 Plus Gen 2 covers up to 1.5 acres and had the best cut quality in Reviewed's testing, with stripes and checkerboard patterns. AWD and a 70% (35°) rating handle real slopes, the 4" max cut height suits cool-season grass, and Gen 2 needs no base station. 4G-GPS tracking is standard on the Plus. Expect about $2,499–$2,999.
+**Why we picked it:** The X7 Plus Gen 2 covers up to 1.5 acres and had the best cut quality in Reviewed's testing, with stripes and checkerboard patterns. AWD and a 70% (35°) rating handle real slopes, the 4" max cut height suits cool-season grass, and Gen 2 needs no base station. 4G-GPS tracking is standard on the Plus. Expect a premium-tier price.
 
 **Skip it if:** you care more about speed than looks. Its 14" deck is narrower than the X4's, it's priced high against 2026 LiDAR rivals, and the weather rating is only IPX5. Make sure you're buying Gen 2: the original X7 sold at Costco is a 0.75-acre model that needs an RTK base station.
 
@@ -108,7 +108,7 @@ For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This ban
 
 ### Lymow One Plus: best for rough, overgrown acreage
 
-**Why we picked it:** Tank tracks, a 16" deck, an aluminum frame and a LiFePO4 battery make it the large-lawn pick for rural ground that's rough, steep or rarely manicured. Lymow claims a 45° (about 100%) slope rating, which we treat as marketing, but tracks clearly go where wheels can't. The 5A (about $2,499) and 10A (about $2,799) are rated 1.1 and 1.73 acres.
+**Why we picked it:** Tank tracks, a 16" deck, an aluminum frame and a LiFePO4 battery make it the large-lawn pick for rural ground that's rough, steep or rarely manicured. Lymow claims a 45° (about 100%) slope rating, which we treat as marketing, but tracks clearly go where wheels can't. The 5A and 10A, both premium-tier, are rated 1.1 and 1.73 acres.
 
 **Skip it if:** you read the rating too literally or own a suburban lawn. Lymow's area figure is per day, and it covers about 0.57 acre per charge. It also needs an RTK base, manual mapping takes 30 to 45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches.
 
@@ -120,7 +120,7 @@ Above 1.5 acres, the field narrows to two serious options, plus one niche platfo
 
 ### Segway Navimow X3 X390: best robot mower for 2+ acres
 
-**Why we picked it:** The X390's 2.5-acre rating is unmatched among mainstream wire-free mowers, and it's the clear pick for a robot mower for 2 acres. It navigates with RTK (network or antenna) plus three wide-angle cameras and a ToF sensor, and reviewers note it's fast, accurate and holds position under trees. It cuts up to 4" and has 4G GPS tracking with a geofence alarm. Expect about $4,499 for the X390, and the X3 line has been discounted since the X4 arrived.
+**Why we picked it:** The X390's 2.5-acre rating is unmatched among mainstream wire-free mowers, and it's the clear pick for a robot mower for 2 acres. It navigates with RTK (network or antenna) plus three wide-angle cameras and a ToF sensor, and reviewers note it's fast, accurate and holds position under trees. It cuts up to 4" and has 4G GPS tracking with a geofence alarm. The X390 sits in the flagship tier, and the X3 line has been discounted since the X4 arrived.
 
 **Skip it if:** your acreage is hilly. The X3 is 2WD with a 50% (26.6°) limit, and its 9.3" deck is narrower than the X4's. For anything up to 1.5 acres, the newer X4 is the better buy.
 
@@ -128,7 +128,7 @@ Above 1.5 acres, the field narrows to two serious options, plus one niche platfo
 
 ### Husqvarna Automower 440 iQ: best dealer-backed mower for big properties
 
-**Why we picked it:** The 440 iQ is rated for 2 acres, at an October 2026 campaign price of about $3,399. You get Husqvarna's dealer network, a 4-year warranty and a mature platform that can fall back to boundary wire in spots with poor sky view. It uses EPOS satellite RTK with a reference station, plus radar object detection.
+**Why we picked it:** The 440 iQ is rated for 2 acres, at a flagship-tier October 2026 campaign price. You get Husqvarna's dealer network, a 4-year warranty and a mature platform that can fall back to boundary wire in spots with poor sky view. It uses EPOS satellite RTK with a reference station, plus radar object detection.
 
 **Skip it if:** your yard is irregular or sloped. Husqvarna rates the 440 iQ for 2 acres on open, systematic layouts and says irregular yards get roughly half that. Its slope limit is 45% inside the area and just 15% at the boundary, the reference station needs its own outlet, and radar avoidance trails LiDAR and vision. Our [Husqvarna vs Mammotion comparison](/posts/husqvarna-automower-vs-mammotion-luba/) covers who should still choose it.
 
@@ -136,7 +136,7 @@ Above 1.5 acres, the field narrows to two serious options, plus one niche platfo
 
 ### Also consider: Yarbo Mower Pro for 3 to 6 acres
 
-The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) is rated for up to 6 acres, far beyond any other consumer robot we track. It's a tracked yard platform (70% slopes, 20" deck on the original mower module) that swaps to snow blower and other modules, and the Y40 Core plus Mower Pro bundle runs about $4,899 on sale. It needs a base station, setup takes a weekend according to reviews, and Freshly Charged found cut quality suffers in tight, cluttered areas. Buy it for open acreage and winter snow clearing, not as a better mower. **[Check the Yarbo Mower Pro price on Amazon](amazon:yarbo-y40-lawn-mower-pro)**
+The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) is rated for up to 6 acres, far beyond any other consumer robot we track. It's a tracked yard platform (70% slopes, 20" deck on the original mower module) that swaps to snow blower and other modules, and the Y40 Core plus Mower Pro bundle is a flagship-tier purchase even on sale. It needs a base station, setup takes a weekend according to reviews, and Freshly Charged found cut quality suffers in tight, cluttered areas. Buy it for open acreage and winter snow clearing, not as a better mower. **[Check the Yarbo Mower Pro price on Amazon](amazon:yarbo-y40-lawn-mower-pro)**
 
 **Over 2.5 acres?** No mainstream wire-free robot is rated beyond the X390; the Yarbo above is the only exception we track. Split the property into two maps with two mowers, or let a robot handle the most-used acres and mow the rest occasionally. Our [robot mower vs riding mower guide](/posts/robot-mower-vs-riding-mower/) helps with that call.
 

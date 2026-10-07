@@ -1,7 +1,7 @@
 ---
 title: "Robot Mowers Without a Boundary Wire: How They Work and Which to Buy (2026)"
 seoTitle: "Robot Mower Without Boundary Wire: How It Works (2026)"
-description: "How a robot mower without boundary wire works: RTK, network RTK, LiDAR and vision compared, wire vs wire-free pros and cons, and picks from about $669."
+description: "How a robot mower without boundary wire works: RTK, network RTK, LiDAR and vision compared, wire vs wire-free pros and cons, and picks by navigation type."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: explainer
@@ -29,7 +29,7 @@ faq:
   - q: "How does a wireless robot lawn mower know where the lawn ends?"
     a: "During setup, you drive the mower around the edge of your lawn with the app, or let it map automatically, and it saves that outline as a virtual boundary. While mowing, it constantly works out its own position using satellites, lasers or cameras and stays inside the saved outline. Most models also add obstacle sensors as a backup."
   - q: "Is a perimeter wire free robot mower worth the extra cost?"
-    a: "For most buyers, yes. You skip hours of laying wire, avoid wire breaks for good, get efficient striped mowing instead of random bouncing, and can change zones in the app in seconds. And the price gap has shrunk: credible wire-free models like the Segway Navimow i105N now start around $669."
+    a: "For most buyers, yes. You skip hours of laying wire, avoid wire breaks for good, get efficient striped mowing instead of random bouncing, and can change zones in the app in seconds. And the price gap has shrunk: credible wire-free models like the Segway Navimow i105N now sell in the budget tier, under $1,000."
   - q: "Do wire-free robot mowers need Wi-Fi or a subscription?"
     a: "Not to mow. Navigation happens on the mower. Wi-Fi or 4G is used for the app, remote control and theft tracking, and network-RTK models use cellular data to receive position corrections. Some brands include several years of 4G service, while others, such as Segway Navimow on some models, charge about $33 a year after the first year."
   - q: "Can I reuse my old boundary wire with a wire-free mower?"
@@ -40,7 +40,7 @@ faq:
 
 A robot mower without a boundary wire follows a **virtual boundary**, a map of your lawn saved in an app, instead of a buried cable. It works out its position with satellite RTK, LiDAR lasers, cameras or a mix, so there's nothing to bury and nothing to break. For open lawns, a network-RTK model like the **Segway Navimow X4** is the default choice. Under trees, pick a LiDAR model like the **Dreame A3 AWD Pro**.
 
-This guide explains how virtual boundaries work, how the navigation types compare, the honest pros and cons of wire vs wire-free, and how to switch from a wired mower. Prices are typical US street prices as of October 2026 and change often.
+This guide explains how virtual boundaries work, how the navigation types compare, the honest pros and cons of wire vs wire-free, and how to switch from a wired mower. Price tiers reflect typical US street prices as of October 2026, which change often.
 
 ## How a robot mower without a boundary wire works
 
@@ -62,14 +62,14 @@ There are three underlying technologies (satellite RTK, LiDAR and vision) but fo
 
 [[diagram:navigation]]
 
-| Type | How it finds its position | Extra hardware | Under trees | Example models | Price from |
-|---|---|---|---|---|---|
-| **RTK with base station** | Satellites, corrected by an antenna in your yard | Base station or antenna, often with its own outlet | Weak | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/), [ANTHBOT M9](/mowers/anthbot-m9/), [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | ~$769 |
-| **Network RTK** | Satellites, corrected over cellular from a station network | None in most yards | Weak | [Navimow X4](/mowers/segway-navimow-x4/), [Navimow i105N](/mowers/segway-navimow-i105n-i110n/), [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) | ~$669 |
-| **LiDAR** | Laser scans of trees, walls and fences, matched to a map | None | Strong | [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/), [Sunseeker S4](/mowers/sunseeker-s4/), [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | ~$799 |
-| **Vision only** | Cameras and AI recognizing grass and landmarks | None | Fair in daylight | [eufy E15 / E18](/mowers/eufy-e15-e18/) | ~$999 |
+| Type | How it finds its position | Extra hardware | Under trees | Example models |
+|---|---|---|---|---|
+| **RTK with base station** | Satellites, corrected by an antenna in your yard | Base station or antenna, often with its own outlet | Weak | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/), [ANTHBOT M9](/mowers/anthbot-m9/), [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) |
+| **Network RTK** | Satellites, corrected over cellular from a station network | None in most yards | Weak | [Navimow X4](/mowers/segway-navimow-x4/), [Navimow i105N](/mowers/segway-navimow-i105n-i110n/), [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) |
+| **LiDAR** | Laser scans of trees, walls and fences, matched to a map | None | Strong | [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/), [Sunseeker S4](/mowers/sunseeker-s4/), [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) |
+| **Vision only** | Cameras and AI recognizing grass and landmarks | None | Fair in daylight | [eufy E15 / E18](/mowers/eufy-e15-e18/) |
 
-Prices are the cheapest model of each type in our database. Most RTK mowers also carry cameras for obstacle avoidance, and the flagship [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) fuses LiDAR, network RTK and vision.
+Every type includes at least one budget-tier (under $1,000) model in our database. Most RTK mowers also carry cameras for obstacle avoidance, and the flagship [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) fuses LiDAR, network RTK and vision.
 
 ### RTK with a base station
 
@@ -81,7 +81,7 @@ The same idea, but the corrections come over cellular from a network of permanen
 
 ### LiDAR
 
-A LiDAR mower scans its surroundings with lasers and recognizes where it is from fixed features: trunks, fences, walls, the house. No satellites are involved, so trees and buildings help rather than hurt. It also works in shade and darkness. LiDAR used to be a premium feature, but 13 of the 30 models we track now use it. It starts around $799 with the ANTHBOT M5 LiDAR (for lawns under about 1/8 acre) and $899 with the HOOKII Neomow X2 Air, and reaches AWD hill-climbers like the Dreame A3 AWD at about $1,099 on sale. Newer AWD entrants such as the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) look strong on paper, though they have less independent testing behind them so far.
+A LiDAR mower scans its surroundings with lasers and recognizes where it is from fixed features: trunks, fences, walls, the house. No satellites are involved, so trees and buildings help rather than hurt. It also works in shade and darkness. LiDAR used to be a premium feature, but 13 of the 30 models we track now use it. It now reaches the budget tier with the ANTHBOT M5 LiDAR (for lawns under about 1/8 acre) and the HOOKII Neomow X2 Air, and AWD hill-climbers like the Dreame A3 AWD sell at mid-range prices on sale. Newer AWD entrants such as the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) look strong on paper, though they have less independent testing behind them so far.
 
 ### Vision only
 
@@ -137,29 +137,29 @@ If you already own a boundary-wire mower, switching is easier than the original 
 
 ### Best network RTK: Segway Navimow X4
 
-The X4 series (X430 for 1 acre at about $2,499, X450 for 1.5 acres at about $2,999) is our best overall pick for typical US lawns from half an acre up. It has a 17-inch deck, AWD with an 84% slope rating (about 40 degrees), and network RTK plus 360° vision with no base station in most yards. **Skip it if** your lawn sits under heavy canopy, where LiDAR is stronger, or if your address has poor cellular coverage, in which case you'll need to install the included antenna.
+The X4 series (X430 for 1 acre, X450 for 1.5 acres, both premium tier) is our best overall pick for typical US lawns from half an acre up. It has a 17-inch deck, AWD with an 84% slope rating (about 40 degrees), and network RTK plus 360° vision with no base station in most yards. **Skip it if** your lawn sits under heavy canopy, where LiDAR is stronger, or if your address has poor cellular coverage, in which case you'll need to install the included antenna.
 
 **[Check the Navimow X4 price on Amazon](amazon:segway-navimow-x4)** · [Read our full review](/mowers/segway-navimow-x4/)
 
 ### Best LiDAR: Dreame A3 AWD Pro
 
-The A3 AWD Pro uses 3D LiDAR and binocular vision with no satellites at all, so trees, walls and fences don't affect positioning. It adds AWD, an 80% slope rating and three years of 4G, from about $1,699 on sale for 0.62 acre. **Skip it if** you want perfect edges without touch-ups. Obstacle avoidance is good but not perfect, and at least one major review reported missed patches.
+The A3 AWD Pro uses 3D LiDAR and binocular vision with no satellites at all, so trees, walls and fences don't affect positioning. It adds AWD, an 80% slope rating and three years of 4G, and the 0.62-acre version is often on sale at a mid-range price. **Skip it if** you want perfect edges without touch-ups. Obstacle avoidance is good but not perfect, and at least one major review reported missed patches.
 
 **[Check the Dreame A3 AWD Pro price on Amazon](amazon:dreame-a3-awd-pro)** · [Read our full review](/mowers/dreame-a3-awd-pro/)
 
 ### Best sensor fusion: Mammotion LUBA 3 AWD
 
-The LUBA 3 AWD combines 360° LiDAR, network RTK and dual cameras, so it's strong in open sun and under trees, with no base station. It covers up to 1.25 acres and climbs 80% slopes, from about $2,109. **Skip it if** your lawn is flat and simple. It's heavy (41 lb), expensive and overkill for a suburban rectangle.
+The LUBA 3 AWD combines 360° LiDAR, network RTK and dual cameras, so it's strong in open sun and under trees, with no base station. It covers up to 1.25 acres and climbs 80% slopes, at a premium-tier price. **Skip it if** your lawn is flat and simple. It's heavy (41 lb), expensive and overkill for a suburban rectangle.
 
 **[Check the LUBA 3 AWD price on Amazon](amazon:mammotion-luba-3-awd)** · [Read our full review](/mowers/mammotion-luba-3-awd/)
 
 ### Best budget wire-free: Segway Navimow i105N / i110N
 
-At about $669 (0.125 acre) or $789 (0.25 acre), the i105N / i110N is the cheapest credible way to go wire-free. Network RTK plus AI vision, no antenna, and a quiet 58 dB. **Skip it if** your lawn has slopes over 30% (about 17 degrees) or heavy shade. For more options, see our [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
+Covering 0.125 acre (i105N) or 0.25 acre (i110N) at a budget-tier price, the i105N / i110N is the cheapest credible way to go wire-free. Network RTK plus AI vision, no antenna, and a quiet 58 dB. **Skip it if** your lawn has slopes over 30% (about 17 degrees) or heavy shade. For more options, see our [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
 
 **[Check the Navimow i105N / i110N price on Amazon](amazon:segway-navimow-i105n-i110n)** · [Read our full review](/mowers/segway-navimow-i105n-i110n/)
 
-**Also worth knowing:** the [MOVA LiDAX Ultra AWD](amazon:mova-lidax-ultra-awd) (from about $1,799) is a close LiDAR alternative to the Dreame, built on essentially the same platform and rated 8.8/10 with us. The [eufy E15 / E18](/mowers/eufy-e15-e18/) (from about $999) is the simplest vision-only option for flat, open lawns, and the [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) (from about $1,999) is the base-station RTK pick for buyers who value dealer service.
+**Also worth knowing:** the [MOVA LiDAX Ultra AWD](amazon:mova-lidax-ultra-awd) (mid-range) is a close LiDAR alternative to the Dreame, built on essentially the same platform and rated 8.8/10 with us. The [eufy E15 / E18](/mowers/eufy-e15-e18/) (budget tier) is the simplest vision-only option for flat, open lawns, and the [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) (mid-range) is the base-station RTK pick for buyers who value dealer service.
 
 ## Common wire-free problems (and quick fixes)
 

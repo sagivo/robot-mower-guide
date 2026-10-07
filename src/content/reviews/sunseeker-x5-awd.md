@@ -4,7 +4,7 @@ faq:
   - q: "Does the Sunseeker X5 need an RTK base station?"
     a: "The original X5 does. Sunseeker's US box list includes an RTK base station with its own charger, and The Register was told there's no upgrade path to network RTK. The X5 Gen 2 page headlines it as \"antenna-free\" but doesn't explain how corrections arrive or list what's in the box, so confirm with the seller before you buy."
   - q: "What's the difference between the Sunseeker X5 and X5 Gen 2?"
-    a: "Both cover half an acre with the same tri-wheel AWD layout and 60% / 30° climbing claim. Gen 2 adds AONavi with VSLAM 2.0, a binocular plus iToF camera system for night mowing, and an edge-cutting disc Sunseeker says reaches within 1.2 inches of edges. Gen 2 lists at $1,999 in the US. Gen 1 is mainly worth it at a clear discount."
+    a: "Both cover half an acre with the same tri-wheel AWD layout and 60% / 30° climbing claim. Gen 2 adds AONavi with VSLAM 2.0, a binocular plus iToF camera system for night mowing, and an edge-cutting disc Sunseeker says reaches within 1.2 inches of edges. Gen 2 lists at a mid-range price in the US. Gen 1 is mainly worth it at a clear discount."
   - q: "Can the Sunseeker X5 really climb a 60% slope?"
     a: "Sunseeker lists \"60% / 30°\", but those numbers don't match: 30 degrees is about a 58% grade, which is the figure we use. The Register said the AWD handled undulating ground easily but couldn't verify the slope rating. As with any mower, the rating assumes dry, short grass, so leave a margin on wet or long turf."
   - q: "Does the Sunseeker X5 have 4G anti-theft tracking?"
@@ -13,7 +13,7 @@ faq:
     a: "The Register found the original X5's 5 Ah battery lasted just over an hour before the mower returned to its charger. On a half-acre lawn that means several charge cycles per full mow, which is normal for this size class. Sunseeker doesn't publish a runtime figure for Gen 2 on its US page."
 ---
 
-The Sunseeker Elite X5 AWD is a half-acre, all-wheel-drive robot mower that pairs RTK satellite positioning with camera-based VSLAM. The Register's hands-on review praised its quiet running and neat stripes. At $1,999 for the current Gen 2, though, it costs more than LiDAR AWD rivals that climb steeper slopes and skip the base station. It's a sound mower in a crowded price bracket, so whether it makes sense depends mostly on what you pay.
+The Sunseeker Elite X5 AWD is a half-acre, all-wheel-drive robot mower that pairs RTK satellite positioning with camera-based VSLAM. The Register's hands-on review praised its quiet running and neat stripes. At list price for the current Gen 2, though, it costs more than LiDAR AWD rivals that climb steeper slopes and skip the base station. It's a sound mower in a crowded price bracket, so whether it makes sense depends mostly on what you pay.
 
 ## Who the Sunseeker X5 is for (and who should skip it)
 
@@ -22,7 +22,7 @@ The X5 suits open, moderately sloped lawns up to about half an acre (21,780 sq f
 Skip it if:
 
 - **Your yard is under heavy tree cover.** RTK needs satellites, and VSLAM only partly fills the gaps. A LiDAR mower like the [Dreame A3 AWD](/mowers/dreame-a3-awd/) doesn't care about canopy.
-- **You'd pay full price.** At $1,999, the X5 Gen 2 costs more than the Dreame A3 AWD 2000 (about $1,539), which covers the same half acre and is rated for 80% slopes.
+- **You'd pay full price.** At list price, the X5 Gen 2 costs more than the Dreame A3 AWD 2000, which covers the same half acre and is rated for 80% slopes.
 - **You want hands-off theft protection.** The 4G-GPS module is an optional extra.
 
 ## Gen 1 vs Gen 2: which X5 are you buying?
@@ -60,7 +60,7 @@ The app covers multiple zones, no-go areas, schedules, mowing angles and map edi
 - **Rain:** the mower detects rain and returns to the dock. The Register lists the mower as IPX5, so it can be hosed down but not pressure-washed. The Gen 1 base station is IPX4. See [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
 - **Noise:** about 60 dB, quiet enough for daytime mowing without bothering neighbors.
 - **Power:** plan for two outdoor outlets on Gen 1, one for the dock and one for the base station.
-- **Pricing:** Gen 2 lists at $1,999 on Sunseeker's US site. The Register quoted €1,899 for Gen 1 in Europe. Prices change, and Gen 1 stock is where discounts tend to show up.
+- **Pricing:** Gen 2 sits in the mid-range tier on Sunseeker's US site. Prices change, and Gen 1 stock is where discounts tend to show up.
 
 Our [setup guide](/posts/robot-mower-setup-guide/) and [maintenance guide](/posts/robot-mower-maintenance/) apply here too.
 
@@ -72,12 +72,12 @@ Our [setup guide](/posts/robot-mower-setup-guide/) and [maintenance guide](/post
 | Max slope | 58% (30°) | 80% (39°) | 45% (24°) |
 | Navigation | RTK + VSLAM | LiDAR + vision | Network RTK + vision |
 | Base station | Yes (Gen 1) | No | No |
-| Typical price | about $1,999 | about $1,099–$1,539 | about $849–$1,099 |
+| Price tier | $$ | $$ | $ |
 
 The [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the main reason the X5 is hard to recommend at full price. It covers the same half acre, climbs steeper slopes and needs no satellites or base station. The [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is the budget AWD alternative for lawns up to a quarter acre, with no antenna to install. If you like Sunseeker but need more ground, the [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) covers up to 1.5 acres. For more options, see our [best robot mowers for hills](/posts/best-robot-mower-for-hills/) and the full [comparison chart](/mowers/).
 
 ## Bottom line
 
-The Sunseeker X5 is a capable AWD mower with a good finish, quiet running and a sensible app. Its problem is the competition: at $1,999 it costs more than LiDAR AWD rivals that climb steeper slopes and need no base station. Buy it if you find a real discount and your lawn has open sky. Otherwise, the Dreame A3 AWD is the better half-acre buy.
+The Sunseeker X5 is a capable AWD mower with a good finish, quiet running and a sensible app. Its problem is the competition: at list price it costs more than LiDAR AWD rivals that climb steeper slopes and need no base station. Buy it if you find a real discount and your lawn has open sky. Otherwise, the Dreame A3 AWD is the better half-acre buy.
 
 **[Check the current price on Amazon](amazon:sunseeker-x5-awd)**

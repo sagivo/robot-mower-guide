@@ -100,7 +100,7 @@ Most network-RTK mowers pair satellites with cameras running **VSLAM** (visual s
 - **Segway:** [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), with a solid-state LiDAR and a 140° camera.
 - **Sunseeker:** [S4](/mowers/sunseeker-s4/), a 360° 3D LiDAR model and CES 2026 Innovation honoree.
 - **Mammotion:** [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [YUKA mini 2](/mowers/mammotion-yuka-mini-2/) and the LUBA 3 AWD.
-- **Newer 2026 entrants:** the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) (360° 3D LiDAR plus AI dual vision, essentially the Dreame A3 AWD Pro platform), the [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) (3D LiDAR with vision-LiDAR fusion obstacle avoidance), the [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) (3D LiDAR, with cameras only on the Pro or via a $339 module) and the [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/), the cheapest LiDAR mower we track at about $799. All four are lightly reviewed so far, the M5 not at all.
+- **Newer 2026 entrants:** the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) (360° 3D LiDAR plus AI dual vision, essentially the Dreame A3 AWD Pro platform), the [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) (3D LiDAR with vision-LiDAR fusion obstacle avoidance), the [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) (3D LiDAR, with cameras only on the Pro or via an optional vision module) and the [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/), the cheapest LiDAR mower we track (budget tier). All four are lightly reviewed so far, the M5 not at all.
 
 **Strengths:** works under dense canopy and right up against buildings, where RTK loses its fix. Mapping is often automatic: the i215 is reviewed as one of the simplest setups of any mower, close to drop-and-go. Lasers don't need daylight, and close-range obstacle detection is strong.
 
@@ -127,7 +127,7 @@ Nearly every 2026 mower fuses at least two systems so one covers the other's gap
 - **Network RTK + vision:** Navimow X4, X3, i2 AWD and i105N; WORX Vision Cloud; Sunseeker X7 Gen 2. Satellites handle open areas, cameras handle obstacles and brief signal dropouts.
 - **Base-station RTK + vision:** Roborock RockMow X1, Airseekers TRON, Sunseeker X5, Greenworks AiMowbot C30Z, Yarbo, Lymow and ANTHBOT M9. Same idea, with a station in your yard supplying corrections.
 - **LiDAR + vision:** Dreame, MOVA, ECOVACS, Roborock X1 LiDAR, Navimow i215, Sunseeker S4, ANTHBOT M5 LiDAR, Mammotion's LUBA mini 2 and YUKA mini 2, and the HOOKII Neomow X2 Pro. LiDAR handles position, cameras identify obstacles. The cheaper Neomow X2 tiers run on LiDAR alone unless you add the camera module.
-- **LiDAR + network RTK + vision:** the [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) and its Tri-Fusion system, the only model we track that combines all three. That's why it scores highest on navigation in our database, and part of why it costs $2,109–$3,299.
+- **LiDAR + network RTK + vision:** the [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) and its Tri-Fusion system, the only model we track that combines all three. That's why it scores highest on navigation in our database, and part of why it sits in the premium-to-flagship price range.
 
 Fusion adds cost, so it's worth paying for only when your yard has the problems it solves. An open, sunny half-acre doesn't need three sensor systems.
 
@@ -203,7 +203,7 @@ Whatever the tech, a careful first map saves weeks of frustration. Our [robot mo
 
 ### Connectivity and anti-theft
 
-The same GPS and cellular hardware that guides the mower also tracks it if it's stolen. Most network-RTK and flagship LiDAR models include 4G: Mammotion and Dreame bundle three years on the LUBA 3 AWD and A3 AWD Pro, while Navimow's i2 AWD includes one. A few models, including the ECOVACS GOAT O1000 and Mammotion YUKA mini 2 (without its $129 module), lack built-in 4G tracking. If your lawn is visible from the street, that matters. See [robot mower theft protection](/posts/robot-mower-theft-protection/).
+The same GPS and cellular hardware that guides the mower also tracks it if it's stolen. Most network-RTK and flagship LiDAR models include 4G: Mammotion and Dreame bundle three years on the LUBA 3 AWD and A3 AWD Pro, while Navimow's i2 AWD includes one. A few models, including the ECOVACS GOAT O1000 and Mammotion YUKA mini 2 (without its optional 4G module), lack built-in 4G tracking. If your lawn is visible from the street, that matters. See [robot mower theft protection](/posts/robot-mower-theft-protection/).
 
 ## Bottom line
 

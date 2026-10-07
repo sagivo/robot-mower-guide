@@ -4,14 +4,14 @@ faq:
   - q: "Does the HOOKII Neomow X2 need an RTK antenna or GPS signal?"
     a: "No. Every Neomow X2 model navigates with a 360-degree 3D LiDAR scanner, with no RTK antenna or boundary wire. Because it doesn't depend on satellites, HOOKII even encourages installing the charging station indoors, such as in a garage, for theft protection. The mower does have GPS for its Find My Device tracking, which needs 4G or Wi-Fi to report its location."
   - q: "Do I need the HOOKII vision module?"
-    a: "Only the X2 Pro includes the AI triple-vision camera. On the X2 Air, SE and standard X2, the $339 module adds auto-mapping, camera-based obstacle recognition (HOOKII cites more than 500 object models), photo monitoring and improved edge-cutting algorithms. Without it, the mower relies on LiDAR and a physical bumper to detect obstacles. If you have kids' toys, pets or garden clutter on the lawn, budget for it."
+    a: "Only the X2 Pro includes the AI triple-vision camera. On the X2 Air, SE and standard X2, the optional add-on module adds auto-mapping, camera-based obstacle recognition (HOOKII cites more than 500 object models), photo monitoring and improved edge-cutting algorithms. Without it, the mower relies on LiDAR and a physical bumper to detect obstacles. If you have kids' toys, pets or garden clutter on the lawn, budget for it, and check its current price."
   - q: "Can the Neomow X2 handle hills?"
     a: "Gentle ones. HOOKII rates every X2 model for 45% grade, about 24 degrees, and lists the drive as front-wheel drive. That covers typical suburban lawns with mild grades, but not steep banks or hillsides. As with any rating, it assumes dry, short grass. If parts of your yard are steeper than about 24 degrees, look at an AWD mower instead."
   - q: "Which Neomow X2 size should I buy?"
-    a: "Amazon US prices in October 2026 were about $849 for the X2 Air (0.37 acre), $1,299 for the SE (0.75 acre), $1,699 for the X2 (1 acre) and $2,499 for the Pro (1.5 acres). The SE is the standout value. For the Air, SE or X2, add $339 if you want the camera module, which narrows the gap to the Pro."
+    a: "On Amazon US in October 2026, the X2 Air (0.37 acre) sat in the budget tier, the SE (0.75 acre) and X2 (1 acre) in the mid-range, and the Pro (1.5 acres) in the premium tier. The SE is the standout value. For the Air, SE or X2, add the camera module if you want it, which narrows the gap to the Pro. Check today's prices before choosing."
 ---
 
-The HOOKII Neomow X2 is the cheapest way to get LiDAR robot mowing on a large lawn: the SE covers three-quarters of an acre for about $1,300, and the Pro stretches to 1.5 acres for about $2,500. It needs no RTK antenna, cuts an 11" swath and runs quietly. The catches are real, though: a two-wheel-drive chassis rated for gentle slopes only, camera features that cost $339 extra below the Pro, and very little independent testing so far.
+The HOOKII Neomow X2 is the cheapest way to get LiDAR robot mowing on a large lawn: the SE covers three-quarters of an acre at a mid-range price, and the Pro stretches to 1.5 acres in the premium tier. It needs no RTK antenna, cuts an 11" swath and runs quietly. The catches are real, though: a two-wheel-drive chassis rated for gentle slopes only, camera features that cost extra below the Pro, and very little independent testing so far.
 
 ## Who the Neomow X2 is for (and who should skip it)
 
@@ -25,7 +25,7 @@ All X2 models use a 360° 3D LiDAR scanner that HOOKII says outputs 10 times mor
 
 Because LiDAR doesn't need open sky, HOOKII encourages putting the charging station indoors. That's a useful theft deterrent that RTK mowers can't match, and it keeps the dock out of the weather. HOOKII says installation takes about five minutes.
 
-How you map depends on the model. Only the X2 Pro auto-maps out of the box, because auto-mapping relies on the triple-vision camera. On the Air, SE and standard X2, you drive the boundary yourself in the app unless you add the $339 module. Our [setup guide](/posts/robot-mower-setup-guide/) has tips for manual mapping.
+How you map depends on the model. Only the X2 Pro auto-maps out of the box, because auto-mapping relies on the triple-vision camera. On the Air, SE and standard X2, you drive the boundary yourself in the app unless you add the optional vision module. Our [setup guide](/posts/robot-mower-setup-guide/) has tips for manual mapping.
 
 ## Mowing performance, slopes and terrain
 
@@ -49,25 +49,25 @@ HOOKII calls its anti-theft five-layer protection: indoor dock placement, a lift
 
 - **Lightly reviewed:** we haven't found a full independent review of the X2. The reviews on HOOKII's own store are uniformly five-star, which isn't a substitute for independent testing.
 - **Warranty and returns:** HOOKII's store advertises a two-year warranty and 30-day returns. Buying through Amazon gives you Amazon's return window too.
-- **Prices vary by store:** our tier prices are Amazon US, October 2026. HOOKII's own store has listed different tier names and higher prices, so compare before buying.
+- **Prices vary by store:** our price tiers are based on Amazon US, October 2026. HOOKII's own store has listed different tier names and higher prices, so compare before buying.
 - **Weather:** rated IPX6, below 58 dB, with a removable battery. HOOKII sells blades, discs and a rain cover.
 - **Weight:** about 37 lb (40 lb for the Pro), manageable for one person.
 
 ## How the Neomow X2 compares
 
-The [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) is the obvious rival on smaller lots: also LiDAR, also rated 45%, with an 8.7" deck and a camera as standard, for about $1,399 to $1,599 at 0.37 acre. It costs more than the X2 Air but has well-documented reviews. The [ECOVACS GOAT A LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) covers 0.5 to 0.75 acre with dual LiDAR, a camera, a 50% rating and automatic edge trimming, for about $1,399 to $1,849. That's more than the SE, but it's one of the best-reviewed mowers in our database.
+The [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) is the obvious rival on smaller lots: also LiDAR, also rated 45%, with an 8.7" deck and a camera as standard, in the mid-range tier at 0.37 acre. It costs more than the X2 Air but has well-documented reviews. The [ECOVACS GOAT A LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) covers 0.5 to 0.75 acre with dual LiDAR, a camera, a 50% rating and automatic edge trimming, also in the mid-range tier. It costs more than the SE, but it's one of the best-reviewed mowers in our database.
 
 | | Neomow X2 SE | GOAT A3000 LiDAR Pro | Navimow i215 LiDAR |
 |---|---|---|---|
 | Max area | 0.75 acre | 0.75 acre | 0.37 acre |
-| Camera included | No ($339 add-on) | Yes | Yes |
+| Camera included | No (paid add-on) | Yes | Yes |
 | Max slope | 45% (~24°) | 50% (~27°) | 45% (~24°) |
-| Price (Oct 2026) | about $1,299 | about $1,849 | about $1,399–$1,599 |
+| Price tier | $$ | $$ | $$ |
 
 Our [GOAT vs Navimow comparison](/posts/ecovacs-goat-vs-segway-navimow/), [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/) and [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) cover the wider field.
 
 ## Bottom line
 
-The Neomow X2 offers big-lawn LiDAR coverage at prices nobody else matches, and the SE at about $1,300 for 0.75 acre is the standout. Go in knowing the limits: gentle slopes only, LiDAR-only obstacle detection unless you pay for the camera, and almost no independent testing yet. For a large, flat, tree-dotted lawn on a budget, it deserves a look.
+The Neomow X2 offers big-lawn LiDAR coverage at prices nobody else matches, and the SE, with 0.75-acre coverage at a mid-range price, is the standout. Go in knowing the limits: gentle slopes only, LiDAR-only obstacle detection unless you pay for the camera, and almost no independent testing yet. For a large, flat, tree-dotted lawn on a budget, it deserves a look.
 
 **[Check the current price on Amazon](amazon:hookii-neomow-x2)**

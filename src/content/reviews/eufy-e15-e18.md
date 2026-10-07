@@ -2,7 +2,7 @@
 updatedDate: 2026-10-07
 faq:
   - q: "What's the difference between the eufy E15 and E18?"
-    a: "They're the same size and design. The E18 has a bigger battery, so it covers about 0.3 acre (12,917 sq ft) versus 0.2 acre (8,712 sq ft) for the E15. As of October 2026 the E15 typically sells for about $999 and the E18 for about $1,399, though both are discounted often. Buy the E18 only if your lawn is over 0.2 acre."
+    a: "They're the same size and design. The E18 has a bigger battery, so it covers about 0.3 acre (12,917 sq ft) versus 0.2 acre (8,712 sq ft) for the E15. The E15 is the cheaper of the two (budget tier), while the E18 typically costs more (mid-range), though both are discounted often. Buy the E18 only if your lawn is over 0.2 acre."
   - q: "Does the eufy robot mower need an RTK antenna or boundary wire?"
     a: "Neither. The E15 and E18 navigate with cameras only, using eufy's V-FSD vision system and AI to tell grass from beds and paths. That makes setup very easy: TechRadar said it took about 15 minutes. The tradeoff is that camera-only navigation struggles more in poor light and on complex layouts."
   - q: "Can the eufy E15 or E18 mow at night?"
@@ -57,7 +57,7 @@ The eufy app is a highlight. Reviewed called it "very good," and TechRadar noted
 - **Garage included.** TechRadar notes it ships with a roofed garage for the dock, which shields it from sun as well as rain. Both are IPX6.
 - **Rain sensor.** It returns to the dock when it detects rain. See our [rain guide](/posts/do-robot-mowers-work-in-rain/).
 - **Brand support.** eufy is an Anker brand, and reviewers praised the build quality.
-- **Pricing.** List prices have run much higher than street prices. Expect about $999 (E15) to $1,399 (E18) as of October 2026, and watch for sales.
+- **Pricing.** List prices have run much higher than street prices. Expect a budget-tier price for the E15 and a mid-range price for the E18, and watch for sales.
 
 ## How it compares
 
@@ -67,14 +67,14 @@ The eufy app is a highlight. Reviewed called it "very good," and TechRadar noted
 | Max area | 0.2–0.3 acre | 0.125–0.25 acre | 0.25 acre | 0.37 acre |
 | Max slope | 32% | 30% | 45% | 45% |
 | Antenna | None | None | Required | None |
-| Typical price | $999–$1,399 | $669–$849 | $769–$899 | $1,399–$1,599 |
+| Price tier | $–$$ | $ | $ | $$ |
 
-The [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) costs less and adds satellite positioning while still skipping the antenna, so it's more reliable on irregular lawns. The [ANTHBOT M9](/mowers/anthbot-m9/) is cheaper still and handles 45% slopes, but you'll install an antenna. For shady yards, the [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) is the more robust choice.
+The [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) costs less and adds satellite positioning while still skipping the antenna, so it's more reliable on irregular lawns. The [ANTHBOT M9](/mowers/anthbot-m9/) is also budget-tier and handles 45% slopes, but you'll install an antenna. For shady yards, the [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) is the more robust choice.
 
 See our [best robot mower for small yards](/posts/best-robot-mower-for-small-yards/), [best budget robot lawn mower](/posts/best-budget-robot-lawn-mower/) and [robot mower without boundary wire](/posts/robot-mower-without-boundary-wire/) guides for more.
 
 ## Bottom line
 
-If your lawn is a simple, flat, dry rectangle, the eufy E15 or E18 is the easiest robot mower to live with: quick to set up, very quiet and backed by a great app. If your yard has slopes, shade, holes or lots of zones, camera-only navigation will cost you time and patience, and a network-RTK or LiDAR mower is the better buy. It typically sells for about $999 to $1,399 (October 2026), and prices change often.
+If your lawn is a simple, flat, dry rectangle, the eufy E15 or E18 is the easiest robot mower to live with: quick to set up, very quiet and backed by a great app. If your yard has slopes, shade, holes or lots of zones, camera-only navigation will cost you time and patience, and a network-RTK or LiDAR mower is the better buy. It sits at the budget-to-mid-range end of the market, and prices change often, so check today's price.
 
 **[Check the current price on Amazon](amazon:eufy-e15-e18)**

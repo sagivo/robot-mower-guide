@@ -52,7 +52,7 @@ The Sunseeker app handles mapping, zones, schedules, maintenance reminders and o
 - **Rain and flooding:** the S4 is IPX6-rated and pauses for rain, but Tom's Guide's unit stopped working after two inches of rain in an hour left standing water overnight. It came back after a day of drying with the battery out. See [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
 - **Maintenance:** the app tracks blade swaps (every 120 hours) and disc washing (every 60 hours). The dock includes a brush that keeps the LiDAR dome clean. Our [maintenance guide](/posts/robot-mower-maintenance/) covers the rest.
 - **Support:** Sunseeker offers a 2-year warranty and a US phone line, seven days a week.
-- **Pricing:** list is $1,799. Launch SRP was $1,599, but Costco and Amazon have sold it for about $984–$1,000 this fall, which is where it becomes a strong value. Prices change often.
+- **Pricing:** Costco and Amazon have sold it well below list this fall, at a budget-tier price, which is where it becomes a strong value. Prices change often.
 
 ## How the Sunseeker S4 compares
 

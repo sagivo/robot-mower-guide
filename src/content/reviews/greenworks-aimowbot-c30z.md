@@ -8,12 +8,12 @@ faq:
   - q: "Can the Greenworks AiMowbot C30Z mow hills?"
     a: "Gentle ones. Greenworks rates the C30Z for a 45% grade, about 24°, with two-wheel drive and oversized wheels. That rating assumes dry, short grass. If your lawn has steeper sections, Greenworks' own G Series uses AWD and is rated to 80%, and AWD rivals from Dreame and Segway are proven on slopes."
   - q: "Where can I buy the Greenworks AiMowbot C30Z?"
-    a: "Greenworks sells it directly for $1,599.99, and the AiMowbot line is also sold at Walmart, which makes returns easy if it doesn't suit your yard. Prices change, so compare Greenworks, Walmart and Amazon before buying, and check that you're getting the C30Z (three-quarter acre) rather than a smaller C-series model."
+    a: "Greenworks sells it directly at a mid-range price, and the AiMowbot line is also sold at Walmart, which makes returns easy if it doesn't suit your yard. Prices change, so compare Greenworks, Walmart and Amazon before buying, and check that you're getting the C30Z (three-quarter acre) rather than a smaller C-series model."
   - q: "Has the Greenworks C30Z been independently reviewed?"
     a: "We couldn't find a professional review of the C30Z as of October 2026. The smaller sibling C20 averages about 3.2 out of 5 from Walmart buyers, which isn't encouraging. Our assessment is based on Greenworks' specs, manual and FAQ, so treat the C30Z as an unproven model until independent testing appears."
 ---
 
-The Greenworks AiMowbot C30Z is a three-quarter-acre, wire-free robot mower from a brand most people know from big-box tool aisles. It pairs RTK positioning (with an included reference antenna) and AI cameras, runs quietly at 54 dB, adjusts cutting height electronically, and carries a 3-year warranty, all for about $1,599. On paper it's competent. But it's 2WD, it needs an antenna, and we found no independent reviews, so it's hard to choose over proven alternatives.
+The Greenworks AiMowbot C30Z is a three-quarter-acre, wire-free robot mower from a brand most people know from big-box tool aisles. It pairs RTK positioning (with an included reference antenna) and AI cameras, runs quietly at 54 dB, adjusts cutting height electronically, and carries a 3-year warranty, all for a mid-range price. On paper it's competent. But it's 2WD, it needs an antenna, and we found no independent reviews, so it's hard to choose over proven alternatives.
 
 ## Who the Greenworks AiMowbot C30Z is for (and who should skip it)
 
@@ -67,7 +67,7 @@ Anti-theft starts with account binding: once the mower is linked to your app acc
 | Max area | 0.75 ac | 0.25 ac | 1 ac |
 | Max slope | 45% (24°) | 30% (17°) | 30% (17°) |
 | Antenna required | Yes | Included; may be needed | No |
-| Typical price | about $1,599 | about $669–$789 | about $850–$1,840 |
+| Price tier | $$ | $ | $–$$ |
 
 If your lawn is a quarter acre or less, the [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) does the same RTK-plus-camera job for less than half the price, with a track record from Reviewed and Tom's Guide. For larger lawns, the [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) covers up to an acre without an antenna and is sold at Home Depot, Lowe's, Best Buy and Walmart, though it's rated for gentler slopes. The [ECOVACS GOAT A2000 / A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) covers up to three-quarters of an acre with no satellites at all. Our [best mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) and [Ecovacs vs Navimow comparison](/posts/ecovacs-goat-vs-segway-navimow/) cover the field.
 

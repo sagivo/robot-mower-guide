@@ -8,10 +8,10 @@ faq:
   - q: "Why did Reviewed say to avoid the Dreame A3 AWD Pro?"
     a: "Reviewed's testers had a frustrating setup (an unclear 2.4 GHz Wi-Fi requirement and calibration stuck for two weeks), then saw the mower cross mapped boundaries into mulch beds and scalp turf when stuck. Other outlets, including Bob Vila, had much better results. Treat it as a mower that rewards careful setup and map tuning, and buy from a seller with an easy return window."
   - q: "Which Dreame A3 AWD Pro size should I get?"
-    a: "The 2500 covers about 0.62 acre, the 3500 about 0.87 acre and the 5000 about 1.24 acres. October 2026 sale prices were roughly $1,699, $1,899 and $2,799, against list prices of $3,099 to $3,499. The 3500 is often the sweet spot, since it costs only about $200 more than the 2500 for 40% more coverage."
+    a: "The 2500 covers about 0.62 acre, the 3500 about 0.87 acre and the 5000 about 1.24 acres. All three sizes are frequently discounted well below list, so check today's price before buying. The 3500 is often the sweet spot, since it usually costs only a little more than the 2500 for 40% more coverage."
 ---
 
-The Dreame A3 AWD Pro is a LiDAR-first, all-wheel-drive flagship that, at its October 2026 sale prices, undercuts the Mammotion LUBA 3 AWD by hundreds of dollars. It's built for big, steep, tree-shaded yards where satellite positioning struggles. It's also the most divisive mower in our database: one major outlet named it the best for slopes, and another told readers to avoid it.
+The Dreame A3 AWD Pro is a LiDAR-first, all-wheel-drive flagship that, on sale, typically costs noticeably less than the Mammotion LUBA 3 AWD. It's built for big, steep, tree-shaded yards where satellite positioning struggles. It's also the most divisive mower in our database: one major outlet named it the best for slopes, and another told readers to avoid it.
 
 ## Who the Dreame A3 AWD Pro is for (and who should skip it)
 
@@ -48,7 +48,7 @@ The app includes a live video feed, manual remote driving, mowing patterns and a
 - **Heat:** the most repeated owner complaint is the LiDAR overheating and pausing on hot afternoons, well below the manual's stated limit. In hot climates, schedule mowing for mornings and evenings.
 - **Map stability:** owners report maps that fail to save, the mower deciding the dock has moved, and occasional full remaps after a recovery.
 - **Early faults and support:** some owners describe blade-disc, wheel or deck-lift errors in the first weeks, followed by slow support responses. Buy from a retailer with an easy return window.
-- **Pricing:** list prices are $3,099–$3,499, but October 2026 sale prices run about $1,699–$2,799. Don't pay list.
+- **Pricing:** it is frequently discounted well below list, which puts the smaller sizes in mid-range territory. Don't pay list.
 
 More fixes for common faults are in our [troubleshooting guide](/posts/robot-mower-problems-troubleshooting/).
 
@@ -60,12 +60,12 @@ The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) adds network RTK to it
 |---|---|---|---|
 | Satellites needed | No | Partly (network RTK + LiDAR) | Yes (network RTK) |
 | Max slope | 80% (~39°) | 80% (~39°) | 84% (~40°) |
-| Typical price (Oct 2026) | about $1,699–$2,799 | about $2,109–$3,299 | about $2,499–$2,999 |
+| Price tier | $$ | $$$ | $$$ |
 
 For yards with lots of trees and zones, see [best robot mowers for complex yards](/posts/best-robot-mower-for-complex-yards/) and [best robot mowers for hills](/posts/best-robot-mower-for-hills/).
 
 ## Bottom line
 
-At sale prices, the A3 AWD Pro delivers flagship hardware for hundreds less than the LUBA 3: excellent hill-climbing, LiDAR that ignores tree cover, and the best anti-theft kit in the class. The software is the gamble. Expect to spend real time on mapping and no-go zones, keep an eye on heat and map stability, and buy where returns are easy. Prices swing a lot, so check the current deal before you commit.
+At sale prices, the A3 AWD Pro delivers flagship hardware for less than the LUBA 3: excellent hill-climbing, LiDAR that ignores tree cover, and the best anti-theft kit in the class. The software is the gamble. Expect to spend real time on mapping and no-go zones, keep an eye on heat and map stability, and buy where returns are easy. Prices swing a lot, so check the current deal before you commit.
 
 **[Check the current price on Amazon](amazon:dreame-a3-awd-pro)**

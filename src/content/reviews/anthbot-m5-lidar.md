@@ -13,7 +13,7 @@ faq:
     a: "Not that we could find as of October 2026. Our assessment is based on Anthbot's specifications, the brand's track record with the M9, and a small number of early Amazon owner reviews. That's thinner evidence than we have for rivals like the Sunseeker S4 or ECOVACS GOAT O1000, so weigh it accordingly."
 ---
 
-The Anthbot M5 LiDAR is the cheapest LiDAR robot mower in our database at about $799 on sale ($949 list, October 2026). For that price you get antenna-free 360° LiDAR navigation, dual cameras and a quiet, compact body suited to small lawns under trees. The catches are a tiny one-eighth-acre rating, a short battery, and no independent professional reviews yet, so this is a calculated bet on a small yard.
+The Anthbot M5 LiDAR is the cheapest LiDAR robot mower in our database, a budget-tier pick that's often on sale. For the money you get antenna-free 360° LiDAR navigation, dual cameras and a quiet, compact body suited to small lawns under trees. The catches are a tiny one-eighth-acre rating, a short battery, and no independent professional reviews yet, so this is a calculated bet on a small yard.
 
 ## Who the Anthbot M5 LiDAR is for (and who should skip it)
 
@@ -68,12 +68,12 @@ One practical plus: because LiDAR doesn't need open sky at the dock, Anthbot say
 | Max slope | 45% (24°) | 42% (22°) | 45% (24°) |
 | Navigation | LiDAR + dual cameras | 3D LiDAR + AI camera | Dual LiDAR |
 | Built-in edge trimmer | No | No | Yes (TruEdge) |
-| Typical price | about $799–$949 | about $999–$1,599 | about $999–$1,499 |
+| Price tier | $ | $ | $ |
 
-The [Sunseeker S4](/mowers/sunseeker-s4/) costs roughly $200 more on sale, covers twice the area and has been reviewed by Tom's Guide and Bob Vila. The [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) adds a built-in edge trimmer for a similar premium. If your yard has slopes as well as shade, the [Dreame A3 AWD](/mowers/dreame-a3-awd/) 1000 (about $1,099) brings LiDAR, AWD and an 80% rating. See our roundups of the [best mowers for small yards](/posts/best-robot-mower-for-small-yards/) and the [best budget robot mowers](/posts/best-budget-robot-lawn-mower/).
+The [Sunseeker S4](/mowers/sunseeker-s4/) costs a bit more, covers twice the area and has been reviewed by Tom's Guide and Bob Vila. The [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) adds a built-in edge trimmer for a similar premium. If your yard has slopes as well as shade, the mid-range [Dreame A3 AWD](/mowers/dreame-a3-awd/) 1000 brings LiDAR, AWD and an 80% rating. See our roundups of the [best mowers for small yards](/posts/best-robot-mower-for-small-yards/) and the [best budget robot mowers](/posts/best-budget-robot-lawn-mower/).
 
 ## Bottom line
 
-The Anthbot M5 LiDAR gets antenna-free LiDAR navigation below $800, which is useful for small yards under trees where RTK mowers struggle. But its coverage is tiny, owners already flag the battery, and no professional reviewer has tested it. Buy it for a flat lawn well under an eighth of an acre. If your yard is bigger or you want proven performance, spend the extra on the Sunseeker S4.
+The Anthbot M5 LiDAR gets antenna-free LiDAR navigation at a budget price, which is useful for small yards under trees where RTK mowers struggle. But its coverage is tiny, owners already flag the battery, and no professional reviewer has tested it. Buy it for a flat lawn well under an eighth of an acre. If your yard is bigger or you want proven performance, spend the extra on the Sunseeker S4.
 
 **[Check the current price on Amazon](amazon:anthbot-m5-lidar)**

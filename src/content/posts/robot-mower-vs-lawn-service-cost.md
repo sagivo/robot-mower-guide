@@ -1,7 +1,7 @@
 ---
 title: "Robot Lawn Mower vs Lawn Service: The Real 5-Year Cost (2026)"
 seoTitle: "Robot Mower vs Lawn Service Cost: 5-Year Math (2026)"
-description: "Is a robot lawn mower worth it? 5-year costs of $789, $1,699 and $2,799 mowers vs lawn service, with 4G fees, blades and battery. Most pay off in 1–2 seasons."
+description: "Is a robot lawn mower worth it? 5-year costs of budget, mid-range and premium mowers vs lawn service, with 4G fees, blades and battery. Most pay off in 1–2 seasons."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: cost
@@ -10,21 +10,21 @@ order: 23
 heroKeywords: ["is a robot lawn mower worth it", "robot lawn mower vs lawn service cost", "robot mower cost per year", "robot mower running costs"]
 picks:
   - id: segway-navimow-i105n-i110n
-    label: "Fastest payback: about $789"
+    label: "Fastest payback: budget tier"
   - id: dreame-a3-awd-pro
-    label: "Mid-range: 0.62 acre for about $1,699"
+    label: "Mid-range pick for 0.62 acre"
   - id: segway-navimow-x3
-    label: "Large lawns: 1.5 acres for about $2,799"
+    label: "Large lawns: 1.5 acres"
   - id: dreame-a3-awd
     label: "Best value for hilly small lots"
 takeaways:
   - "Weekly lawn service typically costs <strong>$1,200–$2,400 a season</strong> ($40–$80 a visit, about 30 visits)."
   - "A robot mower costs about <strong>$80 a year</strong> to run (blades and electricity), plus <strong>~$33 a year</strong> for 4G on some models after the free period, plus one battery in 5 years."
-  - "Over 5 years, our worked examples cost <strong>$1,471 (budget), $2,365 (mid) and $3,581 (premium)</strong>, vs about <strong>$8,760</strong> for $55-a-visit service."
+  - "Over 5 years, our worked examples cost <strong>$1,482 (budget), $2,366 (mid) and $3,582 (premium)</strong>, vs about <strong>$8,760</strong> for $55-a-visit service."
   - "Most buyers break even in the <strong>first or second season</strong>. Run your own numbers in the <a href=\"/tools/cost-calculator/\">cost calculator</a>."
 faq:
   - q: "Is a robot lawn mower cheaper than a lawn service?"
-    a: "Usually, if you'd otherwise pay for weekly mowing. In our examples, an $789 Navimow i110N pays for itself partway through its first season against $55-a-visit service, a $1,699 mower early in season two, and a $2,799 large-lawn mower late in season two. After that, running costs are roughly $80–$115 a year versus $1,200 or more for service."
+    a: "Usually, if you'd otherwise pay for weekly mowing. In our examples, a budget-tier mower pays for itself partway through its first season against $55-a-visit service, a mid-range mower early in season two, and a premium large-lawn mower late in season two. After that, running costs are roughly $80–$115 a year versus $1,200 or more for service."
   - q: "How much does a robot lawn mower cost to run per year?"
     a: "Budget about $80 a year for electricity and replacement blades. If your model uses 4G and the included period ends, add a data plan: Segway lists about $33 a year for the Navimow i2 AWD after year one, while Mammotion and Dreame include three years on the LUBA 3 AWD and A3 AWD Pro. Plan for one battery replacement in five years."
   - q: "Do robot mowers have a subscription fee?"
@@ -35,9 +35,9 @@ faq:
     a: "Weekly mowing in most US suburbs runs roughly $40–$80 per visit, depending on region, lawn size and whether edging and blowing are included. Over a 30-visit season that's about $1,200–$2,400. Larger lots and premium markets cost more, and most services raise rates every year or two."
 ---
 
-A robot lawn mower is worth it for most people who currently pay for weekly mowing. In our worked examples, a budget mower costs about **$1,471 over five years**, a mid-range one about **$2,365** and a premium large-lawn mower about **$3,581**, all-in. Five years of $55-a-visit lawn service costs about **$8,760**. Most buyers break even in the first or second season.
+A robot lawn mower is worth it for most people who currently pay for weekly mowing. In our worked examples, a budget mower costs about **$1,482 over five years**, a mid-range one about **$2,366** and a premium large-lawn mower about **$3,582**, all-in. Five years of $55-a-visit lawn service costs about **$8,760**. Most buyers break even in the first or second season.
 
-That's the short version. Below is the full math with real October 2026 models and prices: purchase price, electricity, blades, 4G data plans and a battery replacement, plus the situations where a robot mower isn't worth it. Want the answer for your own numbers? The [robot mower cost calculator](/tools/cost-calculator/) takes about 60 seconds.
+That's the short version. Below is the full math with real October 2026 models and example prices for each tier: purchase price, electricity, blades, 4G data plans and a battery replacement, plus the situations where a robot mower isn't worth it. Want the answer for your own numbers? The [robot mower cost calculator](/tools/cost-calculator/) takes about 60 seconds.
 
 ## What a lawn service actually costs
 
@@ -55,16 +55,16 @@ The service model has hidden costs too. You pay whether or not the grass needed 
 
 ## What a robot mower costs to buy in 2026
 
-Wire-free robot mowers from credible brands now start under $800. Here's where real models sit, using typical October 2026 street prices from our [comparison chart](/mowers/). Prices change weekly, so check before you buy.
+Wire-free robot mowers from credible brands now start well under $1,000. Here's where real models sit by price tier, based on October 2026 listings in our [comparison chart](/mowers/). Prices change weekly, so check today's price before you buy.
 
-| Budget | Example models | Typical price | Rated coverage |
-|---|---|---|---|
-| Up to about $1,100 | [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/), [ANTHBOT M9](/mowers/anthbot-m9/), [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/), [WORX Landroid Vision Cloud ¼ acre](/mowers/worx-landroid-vision-cloud/) | $669–$1,099 | 0.125–0.25 ac |
-| $1,000–$1,600 | [Dreame A3 AWD](/mowers/dreame-a3-awd/), [GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/), [eufy E15/E18](/mowers/eufy-e15-e18/), [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), [Sunseeker S4](/mowers/sunseeker-s4/) | $999–$1,599 | 0.2–0.5 ac |
-| $1,600–$2,100 | [Dreame A3 AWD Pro 2500/3500](/mowers/dreame-a3-awd-pro/), [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [GOAT A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/), [Navimow X315](/mowers/segway-navimow-x3/), [Automower 410 iQ](/mowers/husqvarna-automower-iq/) | $1,699–$1,999 | 0.37–0.87 ac |
-| $2,100 and up | [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/), [Navimow X4](/mowers/segway-navimow-x4/), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/), [Navimow X350/X390](/mowers/segway-navimow-x3/), [Automower 420/440 iQ](/mowers/husqvarna-automower-iq/) | $2,109–$4,499 | 0.37–2.5 ac |
+| Price tier | Example models | Rated coverage |
+|---|---|---|
+| $ Budget | [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/), [ANTHBOT M9](/mowers/anthbot-m9/), [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/), [WORX Landroid Vision Cloud ¼ acre](/mowers/worx-landroid-vision-cloud/) | 0.125–0.25 ac |
+| $–$$ Budget to mid-range | [Dreame A3 AWD](/mowers/dreame-a3-awd/), [GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/), [eufy E15/E18](/mowers/eufy-e15-e18/), [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), [Sunseeker S4](/mowers/sunseeker-s4/) | 0.2–0.5 ac |
+| $$ Mid-range | [Dreame A3 AWD Pro 2500/3500](/mowers/dreame-a3-awd-pro/), [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [GOAT A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/), [Navimow X315](/mowers/segway-navimow-x3/), [Automower 410 iQ](/mowers/husqvarna-automower-iq/) | 0.37–0.87 ac |
+| $$$–$$$$ Premium to flagship | [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/), [Navimow X4](/mowers/segway-navimow-x4/), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/), [Navimow X350/X390](/mowers/segway-navimow-x3/), [Automower 420/440 iQ](/mowers/husqvarna-automower-iq/) | 0.37–2.5 ac |
 
-Size drives price more than anything else. A quarter-acre flat lawn doesn't need a $2,800 mower, and the [size matcher](/tools/size-matcher/) finds the cheapest tier that covers yours. Slopes push you toward AWD, which costs more at every size (see our [slope limits guide](/posts/robot-mower-slope-limits/)).
+Size drives price more than anything else. A quarter-acre flat lawn doesn't need a premium-tier mower, and the [size matcher](/tools/size-matcher/) finds the cheapest tier that covers yours. Slopes push you toward AWD, which costs more at every size (see our [slope limits guide](/posts/robot-mower-slope-limits/)).
 
 ## Running costs: electricity, blades, 4G and the battery
 
@@ -83,7 +83,7 @@ Many 2026 mowers include a 4G connection for theft tracking, remote control and,
 | [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | 1 year | About $33/yr |
 | [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | 1 year | Fee applies after year one |
 | [Sunseeker X7 Plus Gen 2](/mowers/sunseeker-x7-gen-2/) | 5-year anti-theft service | Not published |
-| [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | No 4G built in | Optional module, $129 |
+| [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | No 4G built in | Optional module, sold separately |
 | [ECOVACS GOAT O1000](/mowers/ecovacs-goat-o1000-lidar-pro/) | No 4G listed | n/a |
 
 Where a brand doesn't publish renewal pricing, we budget **$33 a year** (Segway's published rate) once the included period ends. That's an assumption, so confirm current terms with the manufacturer before you buy.
@@ -98,21 +98,21 @@ Robot mowers have no engine, belts, spark plugs or oil. Warranty length varies; 
 
 ## The 5-year cost table at three price points
 
-Here are cumulative totals for three real mowers against three levels of weekly service:
+Here are cumulative totals for three example mowers against three levels of weekly service. To keep the math stable as prices move, we use a round example price for each tier rather than a current quote:
 
-- **Budget (~$800):** [Segway Navimow i110N](/mowers/segway-navimow-i105n-i110n/), about $789 for 0.25 acre. We assume one year of 4G included, then $33 a year.
-- **Mid (~$1,700):** [Dreame A3 AWD Pro 2500](/mowers/dreame-a3-awd-pro/), about $1,699 on sale for 0.62 acre, with 3 years of 4G included.
-- **Premium (~$2,800):** [Segway Navimow X350](/mowers/segway-navimow-x3/), about $2,799 for 1.5 acres. We assume one year of 4G included, then $33 a year.
+- **Budget ($800 example):** a typical budget-tier mower for about 0.25 acre. We assume one year of 4G included, then $33 a year.
+- **Mid ($1,700 example):** a typical mid-range mower for about 0.6 acre, with 3 years of 4G included.
+- **Premium ($2,800 example):** a typical premium-tier mower for about 1.5 acres. We assume one year of 4G included, then $33 a year.
 
 All three include $80 a year for blades and electricity and a battery in year 4. Service columns assume 30 visits a year and 3% annual price increases.
 
-| End of year | Budget mower ($789) | Mid mower ($1,699) | Premium mower ($2,799) | Service $40/visit | Service $55/visit | Service $80/visit |
+| End of year | Budget mower ($800) | Mid mower ($1,700) | Premium mower ($2,800) | Service $40/visit | Service $55/visit | Service $80/visit |
 |---|---|---|---|---|---|---|
-| 1 | $869 | $1,779 | $2,879 | $1,200 | $1,650 | $2,400 |
-| 2 | $982 | $1,859 | $2,992 | $2,436 | $3,350 | $4,872 |
-| 3 | $1,095 | $1,939 | $3,105 | $3,709 | $5,100 | $7,418 |
-| 4 | $1,358 | $2,252 | $3,468 | $5,020 | $6,903 | $10,041 |
-| **5** | **$1,471** | **$2,365** | **$3,581** | **$6,371** | **$8,760** | **$12,742** |
+| 1 | $880 | $1,780 | $2,880 | $1,200 | $1,650 | $2,400 |
+| 2 | $993 | $1,860 | $2,993 | $2,436 | $3,350 | $4,872 |
+| 3 | $1,106 | $1,940 | $3,106 | $3,709 | $5,100 | $7,418 |
+| 4 | $1,369 | $2,253 | $3,469 | $5,020 | $6,903 | $10,041 |
+| **5** | **$1,482** | **$2,366** | **$3,582** | **$6,371** | **$8,760** | **$12,742** |
 
 **Break-even points:**
 
@@ -161,12 +161,12 @@ Be honest with yourself here. The math is weaker, or doesn't work, if:
 
 - **Large lawns.** Service prices climb with lot size, while a robot's running costs barely change. The premium column above saves the most against $80 service.
 - **Long seasons.** In the South, where grass grows 35–40 weeks a year, service costs more and the robot pays back faster.
-- **Discounts.** Dreame's A3 AWD Pro is selling well below its $3,099–$3,499 list price, and the [Navimow X3](/mowers/segway-navimow-x3/) is discounted now that the X4 is out.
+- **Discounts.** Dreame's A3 AWD Pro is selling well below its list price, and the [Navimow X3](/mowers/segway-navimow-x3/) is discounted now that the X4 is out.
 
 ## Which mower gives the fastest payback?
 
-- **Small, flat lawn:** the [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) at $669–$789 pays back fastest. See [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
-- **Small but hilly:** the [Dreame A3 AWD](amazon:dreame-a3-awd) (about $1,099 on sale) adds LiDAR and an 80% slope rating.
+- **Small, flat lawn:** the [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/), one of the cheapest wire-free options (budget tier), pays back fastest. See [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
+- **Small but hilly:** the [Dreame A3 AWD](amazon:dreame-a3-awd) (mid-range, often on sale) adds LiDAR and an 80% slope rating.
 - **Half to one acre:** the [Dreame A3 AWD Pro](amazon:dreame-a3-awd-pro) or [Navimow X4](/mowers/segway-navimow-x4/). See [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/).
 - **1.5 to 2.5 acres, gentle ground:** the [Navimow X3](amazon:segway-navimow-x3) series.
 

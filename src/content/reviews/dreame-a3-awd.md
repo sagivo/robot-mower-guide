@@ -4,7 +4,7 @@ faq:
   - q: "What's the difference between the Dreame A3 AWD and the A3 AWD Pro?"
     a: "Size, deck and price. The A3 AWD comes in 0.25-acre and 0.5-acre versions with a single 7.9-inch deck and a 23.6-inch minimum passage. The Pro covers 0.62 to 1.24 acres with a 15.8-inch dual deck and gets closer to edges (about 1.2 inches vs 1.9). Both use the same LiDAR-plus-camera navigation, AWD and 80% slope rating."
   - q: "Should I buy the Dreame A3 AWD 1000 or 2000?"
-    a: "Buy by lawn size. The 1000 is rated for 0.25 acre (about 10,900 sq ft) at about $1,099 on sale, and the 2000 covers 0.5 acre (about 21,800 sq ft) at about $1,539 (October 2026). With a narrow 7.9-inch deck, it pays to leave margin. If you're above about 9,000 sq ft, the 2000 is the safer choice."
+    a: "Buy by lawn size. The 1000 is rated for 0.25 acre (about 10,900 sq ft), and the 2000 covers 0.5 acre (about 21,800 sq ft) for somewhat more; both sit in the mid-range tier on sale. With a narrow 7.9-inch deck, it pays to leave margin. If you're above about 9,000 sq ft, the 2000 is the safer choice."
   - q: "Does the Dreame A3 AWD need an RTK antenna or GPS signal?"
     a: "No. It navigates with 360-degree 3D LiDAR and binocular cameras, with no satellites, antenna or boundary wire. That makes it a good fit for yards with trees, fences and buildings that block GPS. It uses 4G only for app access and theft tracking."
   - q: "Is the Dreame A3 AWD's 80% slope rating realistic?"
@@ -13,7 +13,7 @@ faq:
     a: "Yes. Dreame includes one year of complimentary 4G data, which powers remote access and real-time tracking. Check renewal pricing in the Dreamehome app before year one ends. The A3 AWD also supports a PIN lock, a lift alarm and AirTag compatibility."
 ---
 
-The Dreame A3 AWD is the cheapest way to get LiDAR navigation and serious hill-climbing in one mower. At about $1,099 on sale, it pairs a 360° 3D LiDAR and camera system with all-wheel drive and an 80% slope rating, specs that cost twice as much a year ago. The trade-offs are a narrow 7.9" deck, prices that swing a lot, and an obstacle-avoidance record that trails the flagships.
+The Dreame A3 AWD is the cheapest way to get LiDAR navigation and serious hill-climbing in one mower. Often on sale at a mid-range price, it pairs a 360° 3D LiDAR and camera system with all-wheel drive and an 80% slope rating, specs that cost twice as much a year ago. The trade-offs are a narrow 7.9" deck, prices that swing a lot, and an obstacle-avoidance record that trails the flagships.
 
 ## Who the Dreame A3 AWD is for (and who should skip it)
 
@@ -47,7 +47,7 @@ The Dreamehome app supports up to 150 zones, with separate height, frequency and
 
 ## Ownership notes
 
-- **Pricing swings:** list prices are $1,999 and $2,199. October 2026 sales are $1,099 and $1,539, and those discounts come and go. Prices change often, so check before buying.
+- **Pricing swings:** October 2026 sales cut both sizes far below list, but those discounts come and go. Prices change often, so check today's price before buying.
 - **Warranty and returns:** Dreame offers a 3-year warranty and 30-day returns on direct orders. Gizmodo suggested knowing the return policy before you commit.
 - **Weather:** IPX6-rated and washable with a hose. It returns to the dock when it senses rain, snow or frost.
 - **Weight:** about 35 lb, heavier than most quarter-acre mowers.
@@ -59,7 +59,7 @@ The Dreamehome app supports up to 150 zones, with separate height, frequency and
 | Max area | 0.5 ac | 0.25 ac | 0.37 ac |
 | Max slope | 80% | 45% | 80% |
 | Navigation | LiDAR + vision | Network RTK + vision | LiDAR + vision |
-| Typical price | $1,099–$1,539 | $849–$1,099 | $1,699–$1,999 |
+| Price tier | $$ | $ | $$ |
 
 The [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) offers the same kind of navigation and slope rating with a real edge disc, but at a higher price and only 0.37 acre. The [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) is cheaper and has a more polished app, but tops out at 45% and relies on satellites. If you need more than half an acre, step up to the A3 AWD Pro. Our [Dreame A3 AWD Pro vs LUBA 3 AWD](/posts/dreame-a3-awd-pro-vs-mammotion-luba-3-awd/) comparison covers that tier, and our [best robot mowers for hills](/posts/best-robot-mower-for-hills/) and [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/) guides rank the wider field.
 

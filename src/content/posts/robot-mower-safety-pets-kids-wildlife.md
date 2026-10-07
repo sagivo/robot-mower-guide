@@ -136,7 +136,7 @@ In practice, look for a UL, ETL or CSA certification mark on the mower or in the
 
 If safety around pets and kids is a priority, prioritize LiDAR plus cameras.
 
-The [Mammotion LUBA 3 AWD](amazon:mammotion-luba-3-awd) pairs 360° LiDAR with dual AI cameras and works under trees too. It's our pick for complex, hilly yards up to 1.25 acres, though it's expensive (about $2,109–$3,299 in October 2026; prices change often). Read the [full LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/).
+The [Mammotion LUBA 3 AWD](amazon:mammotion-luba-3-awd) pairs 360° LiDAR with dual AI cameras and works under trees too. It's our pick for complex, hilly yards up to 1.25 acres, though it's expensive (premium tier; prices change often, so check today's price). Read the [full LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/).
 
 The [ECOVACS GOAT A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) uses dual LiDAR plus a camera and earned Reviewed's top spot. It's limited to 50% slopes, and its built-in edge trimmer is loud (about 82 dB), so keep kids clear when it trims borders.
 

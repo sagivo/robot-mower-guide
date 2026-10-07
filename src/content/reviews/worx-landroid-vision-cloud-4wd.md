@@ -21,7 +21,7 @@ Skip it if:
 
 - **You have a big, open, mostly flat lawn.** A wider deck will finish in a fraction of the time. Look at the Navimow X4 or LUBA 3 AWD (below).
 - **Your zones connect through a narrow side yard.** One hands-on test found it stalled in tight passages (details below).
-- **You want the lowest price per acre.** Top tiers run up to about $3,699, which puts it against mowers with twice the deck width.
+- **You want the lowest price per acre.** Top tiers reach flagship pricing, which puts it against mowers with twice the deck width.
 
 ## Navigation and setup
 
@@ -52,7 +52,7 @@ One app gripe from Freshly Charged: you can pause an active job but not cancel i
 ## Ownership notes
 
 - **Retail and parts.** WORX is sold at Home Depot, Lowe's, Best Buy, Walmart and Amazon, which makes returns and replacement parts easier than with direct-only brands.
-- **Pricing.** The 1-acre model was about $2,400 in spring 2026. The series runs about $1,999 to $3,699 across four sizes (WR341 to WR346, ¼ to 1½ acres). Prices move often.
+- **Pricing.** The series spans four sizes (WR341 to WR346, ¼ to 1½ acres), priced from the top of the mid-range tier up to flagship. Prices move often.
 - **Handling.** It weighs about 40 lbs with the battery. Freshly Charged noted the handle placement means lifting it from the side when it's docked.
 - **Not published:** WORX doesn't list a noise figure or IP rating for this model. See our [rain guide](/posts/do-robot-mowers-work-in-rain/) for general weather advice.
 
@@ -63,7 +63,7 @@ One app gripe from Freshly Charged: you can pause an active job but not cancel i
 | Max area | 1.5 acres | 1.5 acres | 1.24 acres | 1.5 acres |
 | Max slope | 84% | 84% | 80% | 70% |
 | Deck | 8.7" | 17" | 15.7" | 14" |
-| Typical price | $1,999–$3,699 | $2,499–$2,999 | $2,109–$3,299 | $2,499–$2,999 |
+| Price tier | $$–$$$$ | $$$ | $$$–$$$$ | $$$ |
 
 The [Navimow X4](/mowers/segway-navimow-x4/) is the obvious rival. It has the same slope rating and antenna-free network RTK with a deck nearly twice as wide, so on big lawns it simply finishes faster. The [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) adds LiDAR, which helps under trees. The [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) is another wide-deck AWD option at a similar price. Where the WORX wins is retail convenience, shared tool batteries and free cellular.
 
@@ -71,6 +71,6 @@ For more context, see our [best robot mower for hills](/posts/best-robot-mower-f
 
 ## Bottom line
 
-The Vision Cloud 4WD gives you flagship-level hill climbing without an antenna in the yard, from a brand you can return at Home Depot. It's an easy recommendation for steep lawns up to about an acre with no tight passages. On bigger, flatter properties, the narrow deck becomes the story, and a wider-cutting rival is the better buy. Expect to pay about $2,000 to $3,700 depending on size (October 2026), and check for sales.
+The Vision Cloud 4WD gives you flagship-level hill climbing without an antenna in the yard, from a brand you can return at Home Depot. It's an easy recommendation for steep lawns up to about an acre with no tight passages. On bigger, flatter properties, the narrow deck becomes the story, and a wider-cutting rival is the better buy. Depending on size, it runs from the top of the mid-range tier to flagship (October 2026), so check today's price and look for sales.
 
 **[Check the current price on Amazon](amazon:worx-landroid-vision-cloud-4wd)**
