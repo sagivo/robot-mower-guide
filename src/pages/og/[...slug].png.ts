@@ -4,7 +4,7 @@ import type { APIRoute, GetStaticPaths } from "astro";
 import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { getPosts, CATEGORY_LABEL } from "../../lib/posts";
-import { MODELS, formatPrice, ACRE } from "../../data/models";
+import { MODELS, ACRE } from "../../data/models";
 
 // Load the CommonJS builds: satori's ESM build reads __dirname at import time,
 // which doesn't exist in Astro's ESM prerender bundle.
@@ -37,7 +37,7 @@ export const getStaticPaths = (async () => {
       props: {
         kicker: `${m.brand} review`,
         title: `${m.name}`,
-        sub: `${formatPrice(m)} · up to ${+(m.maxSqFt / ACRE).toFixed(2)} acres · ${m.maxSlopePct}% slopes`,
+        sub: `${m.drive} · up to ${+(m.maxSqFt / ACRE).toFixed(2)} acres · ${m.maxSlopePct}% slopes`,
         score: m.score.toFixed(1),
       } as Card,
     })),

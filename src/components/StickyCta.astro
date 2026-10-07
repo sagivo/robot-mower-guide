@@ -1,7 +1,7 @@
 ---
 import type { MowerModel } from "../data/models";
-import { formatMoney } from "../data/models";
 import BuyButton from "./BuyButton.astro";
+import PriceTier from "./PriceTier.astro";
 
 interface Props {
   model: MowerModel;
@@ -16,7 +16,7 @@ const { model, label, showAfter = 900 } = Astro.props;
   <div class="sc-text">
     {label && <span class="sc-label">{label}</span>}
     <strong>{model.shortName}</strong>
-    <span class="sc-price">from {formatMoney(model.priceLow)}</span>
+    <span class="sc-price"><PriceTier model={model} /></span>
   </div>
   <BuyButton model={model} label="Check price" size="sm" />
   <button class="sc-close" type="button" aria-label="Dismiss">×</button>

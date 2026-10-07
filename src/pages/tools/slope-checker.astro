@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { MODELS } from "../../data/models";
+import { MODELS, priceTier } from "../../data/models";
 import { amazonLink } from "../../lib/amazon";
 import { SITE_URL } from "../../lib/site";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
@@ -34,7 +34,7 @@ const modelsJson = JSON.stringify(
     drive: m.drive,
     maxSlopePct: m.maxSlopePct,
     nav: m.nav,
-    price: `$${m.priceLow.toLocaleString()}–$${m.priceHigh.toLocaleString()}`,
+    tier: `${priceTier(m).sym} ${priceTier(m).label}`,
     link: amazonLink(m.query, m.asin),
   }))
 );
@@ -116,7 +116,7 @@ const modelsJson = JSON.stringify(
       const cards = ok.map((m) => `
         <div class="model-pick">
           <h4>✅ <a href="/mowers/${m.id}/">${m.name}</a></h4>
-          <p class="specs">Rated to ${m.maxSlopePct}% grade · ${m.drive} · ${m.nav} · ~${m.price}</p>
+          <p class="specs">Rated to ${m.maxSlopePct}% grade · ${m.drive} · ${m.nav} · ${m.tier} price tier</p>
           <div class="pc-actions"><a class="btn buy btn-sm" href="${m.link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
         </div>`).join("");
 

@@ -187,7 +187,7 @@ export const MODELS: MowerModel[] = [
       { name: "A3 AWD Pro 5000", sqft: 53820, price: 2799 },
     ],
     specNotes: [
-      "Tiers: 2500 (0.62 ac), 3500 (0.87 ac), 5000 (1.24 ac). List prices are $3,099–$3,499; October 2026 sale prices are shown.",
+      "Tiers: 2500 (0.62 ac), 3500 (0.87 ac), 5000 (1.24 ac). Sale prices are often well below list.",
     ],
     query: "Dreame A3 AWD Pro robot lawn mower",
     asin: "B0GT5CBH8H",
@@ -355,7 +355,7 @@ export const MODELS: MowerModel[] = [
     score: 8.5,
     scores: { navigation: 8, terrain: 8, coverage: 6.5, value: 9.5 },
     verdict:
-      "The best-value small-yard mower if your lawn isn't perfectly flat. AWD traction for under $1,100 was unheard of a year ago. Coverage tops out at a quarter acre and the deck is narrow, so it's strictly a small-lot machine.",
+      "The best-value small-yard mower if your lawn isn't perfectly flat. AWD traction at a budget price was unheard of a year ago. Coverage tops out at a quarter acre and the deck is narrow, so it's strictly a small-lot machine.",
     sources: [
       "https://9to5toys.com/2026/05/15/segway-navimow-summer-sale-i2-awd-series-robot-mowers-from-899-more/",
       "https://navimow.segway.com/collections/navimow-i2-awd-robotic-lawn-mower",
@@ -507,7 +507,7 @@ export const MODELS: MowerModel[] = [
     antiTheft: "App tracking (GPS tracking needs the 4G add-on)",
     priceLow: 999,
     priceHigh: 1599,
-    specNotes: ["Covers 0.25 acre. Slope, width and height are from retailer listings.", "Sunseeker says it is not compatible with St. Augustine or Zoysia grass.", "Minimum edge distance is about 4.3\" (110 mm), so expect to trim borders.", "Launch SRP was $1,599; Costco and Amazon have sold it for about $984–$1,000 in fall 2026."],
+    specNotes: ["Covers 0.25 acre. Slope, width and height are from retailer listings.", "Sunseeker says it is not compatible with St. Augustine or Zoysia grass.", "Minimum edge distance is about 4.3\" (110 mm), so expect to trim borders.", "Costco and Amazon have sold it well below its launch price in fall 2026."],
     query: "Sunseeker S4 LiDAR robot lawn mower",
     asin: "B0G7ZFMQZ5",
     bestFor: "Small, heavily shaded yards.",
@@ -547,11 +547,11 @@ export const MODELS: MowerModel[] = [
       { name: "Dreame A3 AWD 1000", sqft: 10890, price: 1099, asin: "B0H8XPKK9L" },
       { name: "Dreame A3 AWD 2000", sqft: 21780, price: 1539 },
     ],
-    specNotes: ["1000 covers 0.25 acre, 2000 covers 0.5 acre. List prices are $1,999–$2,199; October 2026 sale prices are shown. EdgeMaster cuts to about 1.9\" from edges."],
+    specNotes: ["1000 covers 0.25 acre, 2000 covers 0.5 acre. Sale prices are often well below list. EdgeMaster cuts to about 1.9\" from edges."],
     query: "Dreame A3 AWD robot lawn mower",
     asin: "B0H8XPKK9L",
     bestFor: "The cheapest way to get LiDAR plus AWD on a hilly small-to-mid lawn.",
-    pros: ["LiDAR + AWD + 80% slope rating for about $1,100 on sale", "No antenna or base station", "EdgeMaster gets closer to borders than most"],
+    pros: ["LiDAR + AWD + 80% slope rating at a mid-range price when on sale", "No antenna or base station", "EdgeMaster gets closer to borders than most"],
     cons: ["Narrow 7.9\" deck", "Sale prices fluctuate a lot", "Obstacle avoidance trails the flagships"],
     score: 8.5,
     scores: { navigation: 8.5, terrain: 9.5, coverage: 7, value: 9.5 },
@@ -617,7 +617,7 @@ export const MODELS: MowerModel[] = [
     antiTheft: "GPS/4G tracking, alarm",
     priceLow: 1999,
     priceHigh: 3699,
-    specNotes: ["Models WR341–WR346 cover ¼ to 1.5 acres. The 1-acre model was about $2,400 in spring 2026. Noise and IP rating not published.", "WORX lists the Cut-to-Zero blade for the 4WD, but at least one review says it ships separately. Check the box contents.", "WORX advertises lifetime free RTK Cloud corrections and free 4G. Confirm the current terms before buying."],
+    specNotes: ["Models WR341–WR346 cover ¼ to 1.5 acres. Noise and IP rating not published.", "WORX lists the Cut-to-Zero blade for the 4WD, but at least one review says it ships separately. Check the box contents.", "WORX advertises lifetime free RTK Cloud corrections and free 4G. Confirm the current terms before buying."],
     query: "WORX Landroid Vision Cloud 4WD",
     asin: "B0GQBR2P79",
     bestFor: "Hilly lawns up to 1.5 acres, from a big-box brand.",
@@ -654,7 +654,7 @@ export const MODELS: MowerModel[] = [
     query: "ECOVACS GOAT O1000 LiDAR PRO",
     asin: "B0GJ4F8MLF",
     bestFor: "Small yards that want trimmed edges on a budget.",
-    pros: ["Built-in edge trimmer at around $1,000", "LiDAR works under trees", "Automatic mapping"],
+    pros: ["Built-in edge trimmer at a budget price", "LiDAR works under trees", "Automatic mapping"],
     cons: ["Small coverage", "Loud trimmer (~81 dB)", "No 4G, so no GPS theft tracking"],
     score: 8.1,
     scores: { navigation: 8.5, terrain: 6.5, coverage: 6, value: 9 },
@@ -733,7 +733,7 @@ export const MODELS: MowerModel[] = [
     specNotes: [
       "Rated 0.5 / 1 / 2 acres for open, systematic layouts; irregular yards get roughly half that.",
       "Slope is 45% inside the area and 15% at the boundary. The reference station needs its own outlet; Husqvarna says EPOS Cloud can replace it in areas with coverage.",
-      "October 2026 campaign prices are shown; list prices are $2,600–$4,300.",
+      "Seasonal sales often cut well below list price.",
     ],
     query: "Husqvarna Automower 420 iQ",
     asin: "B0DTV7TR6W",
@@ -810,7 +810,7 @@ export const MODELS: MowerModel[] = [
     query: "ANTHBOT M9 robot lawn mower",
     asin: "B0GCHGYF8C",
     bestFor: "The cheapest dependable wire-free option for small, open lawns.",
-    pros: ["RTK + vision for under $800", "About a 10-minute setup", "Compact for tight spaces, and quiet"],
+    pros: ["RTK + vision at a budget price", "About a 10-minute setup", "Compact for tight spaces, and quiet"],
     cons: ["Manual drive-around mapping", "Max 2.8\" cut height", "Needs an RTK antenna"],
     score: 7.9,
     scores: { navigation: 7.5, terrain: 6, coverage: 6, value: 9.5 },
@@ -946,7 +946,7 @@ export const MODELS: MowerModel[] = [
       { name: "LiDAX Ultra 3000 AWD", sqft: 32292, price: 2199, asin: "B0GGR6NJBK" },
     ],
     specNotes: [
-      "2000 AWD covers 0.5 acre, 3000 AWD covers 0.75 acre. List prices are $2,299 and $2,999; October 2026 MOVA US sale prices are shown.",
+      "2000 AWD covers 0.5 acre, 3000 AWD covers 0.75 acre. Sale prices are often well below list.",
       "MOVA's US spec table lists 80% (38.6°) slopes, IPX6 and a 3-year warranty for both the 2000 and 3000 AWD.",
       "Noise level is not published for the AWD models (the 2WD LiDAX Ultra 1000 is rated 57 dB).",
       "SlashGear reports 4G costs €99/year after the included 3 years; US renewal pricing is unconfirmed. Weight is about 52 lb.",
@@ -968,7 +968,7 @@ export const MODELS: MowerModel[] = [
     score: 8.8,
     scores: { navigation: 9, terrain: 9.5, coverage: 8.5, value: 9 },
     verdict:
-      "Essentially a Dreame A3 AWD Pro platform under a different badge, and so far it has reviewed better: SlashGear called it the best robot mower it has tested. LiDAR and AWD on a 15.8\" deck for about $1,800 to $2,200 is strong value for hilly, complex yards. Flat, simple lawns don't need this much machine.",
+      "Essentially a Dreame A3 AWD Pro platform under a different badge, and so far it has reviewed better: SlashGear called it the best robot mower it has tested. LiDAR and AWD on a 15.8\" deck at a mid-range price is strong value for hilly, complex yards. Flat, simple lawns don't need this much machine.",
     sources: [
       "https://us.mova.tech/products/mova-lidax-ultra-3000-awd-robotic-lawn-mower",
       "https://www.slashgear.com/2228296/mova-lidax-ultra-3000-awd-review-robot-lawn-mower-testing/",
@@ -999,7 +999,7 @@ export const MODELS: MowerModel[] = [
       "Deck width and noise level are not published by Roborock.",
       "Roborock lists AI auto-mapping, obstacle-behavior modes, pattern mowing and multi-zone management as coming in an upcoming over-the-air update.",
       "The optional PreciEdge module cuts to 1.2\" from borders; without it, Techwalla estimates about 4\" is left uncut. US module pricing is unconfirmed.",
-      "Launched on Amazon in July 2026 at an introductory $2,500 (list $3,200). Roborock's US store shows $2,299 and a September 2026 comparison listed $1,999.99. Weight is about 47.8 lb.",
+      "Launched on Amazon in July 2026 at an introductory price, and has been discounted several times since. Weight is about 47.8 lb.",
     ],
     query: "roborock RockMow X120H LiDAR robot lawn mower",
     asin: "B0GS17LYCH",
@@ -1057,7 +1057,7 @@ export const MODELS: MowerModel[] = [
     query: "roborock RockMow X130H robot lawn mower",
     bestFor: "Open, sloped lawns up to an acre with a clear view of the sky.",
     pros: [
-      "AWD and an 80% slope rating at $1,499 for the small tier",
+      "AWD and an 80% slope rating at a mid-range price for the small tier",
       "1-acre X130H for the price of many half-acre rivals",
       "Optional edge module reaches 1.2\" from borders",
     ],
@@ -1104,7 +1104,7 @@ export const MODELS: MowerModel[] = [
     ],
     specNotes: [
       "Tiers cover 0.37 / 0.75 / 1 / 1.5 acres (1,500 / 3,000 / 4,000 / 6,000 m²). Prices are Amazon US, October 2026, and move often.",
-      "HOOKII's own US store names the tiers LE / SE / X2 / PRO at $1,799 / $2,099 / $2,499 / $2,999; Amazon sells the smallest as the \"X2 Air\" and usually for far less.",
+      "HOOKII's own US store names the tiers LE / SE / X2 / PRO; Amazon sells the smallest as the \"X2 Air\" and usually for far less.",
       "Only the Pro includes the AI triple-vision camera and auto-mapping. Other tiers need the $339 vision module for auto-mapping and camera obstacle avoidance.",
       "Slope is stated as 45% (24°). HOOKII lists the drive as front-wheel drive. Deck is 28 cm (11\"). Noise is \"below 58 dB\".",
     ],
@@ -1112,7 +1112,7 @@ export const MODELS: MowerModel[] = [
     asin: "B0GQ2VCL25",
     bestFor: "Budget buyers who want LiDAR coverage on large, gentle lawns.",
     pros: [
-      "Cheapest route to 0.75 acre of LiDAR mowing (SE at about $1,300)",
+      "Cheapest route to 0.75 acre of LiDAR mowing (SE tier)",
       "Wide 11\" deck for the price",
       "Quiet, with IPX6 and 4G GPS anti-theft",
     ],
@@ -1154,7 +1154,7 @@ export const MODELS: MowerModel[] = [
       { name: "TRON PLUS", sqft: 43056, price: 2099 },
     ],
     specNotes: [
-      "Tiers cover 0.37 / 0.59 / 1 acre (1,500 / 2,400 / 4,000 m²). List prices are $1,299 / $1,999 / $2,299.",
+      "Tiers cover 0.37 / 0.59 / 1 acre (1,500 / 2,400 / 4,000 m²).",
       "Airseekers rates all three tiers at 60% (31°) while mowing and 65% (33°) while driving between zones.",
       "Deck is 8.66\" standard; TRON and PLUS accept an optional 11.8\" disc. Android Headlines lists a narrower deck, which conflicts with Airseekers' spec.",
       "Airseekers advertises network RTK, but New Atlas and Android Headlines both set up the included RTK base. RTK and network-RTK maps aren't interchangeable.",
@@ -1164,7 +1164,7 @@ export const MODELS: MowerModel[] = [
     pros: [
       "Excellent dual-blade mulching; New Atlas saw no clumps after 8 weeks",
       "Long runtime (about 3 hours), and handles tall grass and wet slopes",
-      "Deep discount brings the standard TRON to $1,299",
+      "Deep discounts bring the standard TRON into mid-range territory",
     ],
     cons: [
       "Weak obstacle avoidance despite five cameras (New Atlas)",
@@ -1174,7 +1174,7 @@ export const MODELS: MowerModel[] = [
     score: 7.6,
     scores: { navigation: 7, terrain: 7.5, coverage: 7.5, value: 8 },
     verdict:
-      "A striking mower with the best mulching reviewers have reported, and at $1,299 it's no longer overpriced. Navigation and the app lag behind the mainstream brands, and reviewers saw it bump into obstacles. It suits simple yards with thick grass, not cluttered ones.",
+      "A striking mower with the best mulching reviewers have reported, and after recent discounts it's no longer overpriced. Navigation and the app lag behind the mainstream brands, and reviewers saw it bump into obstacles. It suits simple yards with thick grass, not cluttered ones.",
     sources: [
       "https://www.airseekers-robotics.com/products/airseekers-tron-robotic-lawn-mower",
       "https://newatlas.com/around-the-home/airseekers-tron-review/",
@@ -1206,7 +1206,7 @@ export const MODELS: MowerModel[] = [
       "Covers 0.5 acre. Sunseeker lists \"60% / 30°\" climbing; 30° is about 58% grade, which is the figure we use.",
       "The original X5 ships with an RTK base station. Sunseeker's US Gen 2 page headlines \"Wire-Free, Antenna-Free\" but doesn't explain how or list box contents, so treat antenna-free as unconfirmed.",
       "Deck width and cutting height are from Sunseeker's US X5 page; The Register's EU review lists 22 cm and 20–60 mm.",
-      "IPX5 is from The Register's Gen 1 review. $1,999 is Sunseeker's US price for Gen 2.",
+      "IPX5 is from The Register's Gen 1 review.",
     ],
     query: "Sunseeker X5 AWD robot lawn mower",
     bestFor: "Half-acre lawns with moderate slopes and open sky.",
@@ -1219,7 +1219,7 @@ export const MODELS: MowerModel[] = [
     score: 7.6,
     scores: { navigation: 7.5, terrain: 8.5, coverage: 7, value: 6.5 },
     verdict:
-      "A competent AWD mower with a good finish, but hard to recommend at $1,999 when LiDAR AWD rivals cost less and climb steeper slopes. If you find Gen 1 heavily discounted and your yard has open sky, it's a reasonable buy. Otherwise look elsewhere.",
+      "A competent AWD mower with a good finish, but hard to recommend at its price when LiDAR AWD rivals cost less and climb steeper slopes. If you find Gen 1 heavily discounted and your yard has open sky, it's a reasonable buy. Otherwise look elsewhere.",
     sources: ["https://sunseekerelite.com/us/x5-gen-2", "https://sunseekerelite.com/us/x5", "https://www.theregister.com/2025/11/01/robotic_lawnmower_ai"],
   },
   {
@@ -1246,12 +1246,12 @@ export const MODELS: MowerModel[] = [
     specNotes: [
       "Covers 500 m² (about 1/8 acre). Slope is 45% (24°).",
       "Drive type isn't stated (assumed 2WD like the rest of the M series). Whether 4G is included or a paid service is unconfirmed.",
-      "The standard M5 ($649–$679) uses RTK with an antenna and is essentially a smaller M9.",
+      "The standard M5 (a budget model) uses RTK with an antenna and is essentially a smaller M9.",
     ],
     query: "ANTHBOT M5 LiDAR robot lawn mower",
     asin: "B0H4R2SS14",
     bestFor: "Very small, shaded yards on a tight budget.",
-    pros: ["LiDAR with no antenna for about $800", "Quiet (58 dB) and IPX6", "Fits passages as narrow as 27.6\""],
+    pros: ["LiDAR with no antenna at a budget price", "Quiet (58 dB) and IPX6", "Fits passages as narrow as 27.6\""],
     cons: ["Tiny 1/8-acre rating", "Max cut height only 2.8\"", "No independent reviews found yet"],
     score: 7.6,
     scores: { navigation: 8, terrain: 6, coverage: 4.5, value: 8.5 },
@@ -1283,7 +1283,7 @@ export const MODELS: MowerModel[] = [
     specNotes: [
       "Covers 0.75 acre. Slope is stated as 45% (24°). Cutting height adjusts electronically.",
       "The box includes an RTK reference antenna kit and two power supplies, so plan for two outlets or cable runs.",
-      "$1,599.99 is Greenworks' own price. Greenworks also sells AWD G-series models not covered here.",
+      "Greenworks also sells AWD G-series models not covered here.",
     ],
     query: "Greenworks AiMowbot C30Z robotic mower",
     bestFor: "Open, flat-to-gentle three-quarter-acre lawns, from a big-box brand.",
@@ -1322,9 +1322,9 @@ export const MODELS: MowerModel[] = [
     specNotes: [
       "Rated for up to 6 acres. Slope is stated as 70% (35°).",
       "The 20\" dual-disc deck and 1.2–4.0\" height come from reviews of the original mower module. Yarbo says the Mower Pro cuts as low as 0.8\"; its deck width isn't published.",
-      "Price is the Y40 Core + Lawn Mower Pro bundle: $4,899 sale, $5,999 list. The module alone is $1,600 if you already own a Core. Snow blower and other modules are extra.",
+      "Price tier is for the Y40 Core + Lawn Mower Pro bundle. The mower module is sold alone if you already own a Core. Snow blower and other modules are extra.",
       "Yarbo now advertises NetRTK network corrections, \"free for life\", with no base station needed where coverage exists.",
-      "4G is a separate plan (about $29.90). Snow Blower Gen 2 module: $1,750; Core + Snow Blower + Mower Pro bundle: $6,499.",
+      "4G is a separate plan (about $29.90).",
       "Noise (60 dB) is from Freshly Charged. IP rating not published. Warranty is 2 years.",
     ],
     query: "Yarbo Lawn Mower Pro robot",
@@ -1335,7 +1335,7 @@ export const MODELS: MowerModel[] = [
       "Swaps to snow blower, leaf blower and trimmer modules for year-round use",
     ],
     cons: [
-      "About $4,900 before any other modules",
+      "Flagship pricing before any other modules",
       "Complex setup; base station placement errors force a remap",
       "Cut quality suffers in tight, cluttered areas (Freshly Charged)",
     ],
@@ -1367,6 +1367,27 @@ export function formatPrice(m: MowerModel): string {
   return m.priceLow === m.priceHigh
     ? formatMoney(m.priceLow)
     : `${formatMoney(m.priceLow)}–${formatMoney(m.priceHigh)}`;
+}
+
+/**
+ * Price bands shown instead of dollar figures. Amazon Associates rules only
+ * allow exact prices pulled live from Amazon's API, so pages show a band and
+ * send readers to Amazon for today's price. Bands use the cheapest version.
+ */
+export const PRICE_TIERS = [
+  { level: 1, sym: "$", label: "Budget", range: "under $1,000" },
+  { level: 2, sym: "$$", label: "Mid-range", range: "$1,000–$2,000" },
+  { level: 3, sym: "$$$", label: "Premium", range: "$2,000–$3,000" },
+  { level: 4, sym: "$$$$", label: "Flagship", range: "over $3,000" },
+] as const;
+export type PriceTier = (typeof PRICE_TIERS)[number];
+
+export function priceTierOf(price: number): PriceTier {
+  return PRICE_TIERS[price < 1000 ? 0 : price < 2000 ? 1 : price < 3000 ? 2 : 3];
+}
+
+export function priceTier(m: MowerModel): PriceTier {
+  return priceTierOf(m.priceLow);
 }
 
 export function formatArea(sqft: number): string {

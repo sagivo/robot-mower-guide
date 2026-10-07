@@ -1,6 +1,5 @@
 import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, OG_DEFAULT } from "./site";
 import type { MowerModel } from "../data/models";
-import { amazonLink } from "./amazon";
 
 type Ld = Record<string, unknown>;
 
@@ -109,13 +108,6 @@ export function productLd(m: MowerModel, url: string, reviewDate: Date, image: s
     description: m.bestFor,
     image,
     url,
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "USD",
-      lowPrice: m.priceLow,
-      highPrice: m.priceHigh,
-      url: amazonLink(m.query, m.asin),
-    },
     review: {
       "@type": "Review",
       name: `${m.name} review`,

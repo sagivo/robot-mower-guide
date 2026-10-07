@@ -2,7 +2,6 @@
 import type { MowerModel } from "../data/models";
 import { accessoriesFor, universalGarages, KIND_LABEL } from "../data/accessories";
 import { AFFILIATE_REL, amazonLink } from "../lib/amazon";
-import { formatMoney } from "../data/models";
 
 interface Props {
   model: MowerModel;
@@ -33,12 +32,11 @@ const rows = [...items, ...extras];
             <p>{a.why}{a.fitNote ? ` ${a.fitNote}` : ""}</p>
           </div>
           <div class="acc-buy">
-            <span>~{formatMoney(a.price)}</span>
-            <a class="btn buy btn-xs" href={amazonLink(a.name, a.asin)} rel={AFFILIATE_REL} target="_blank">View on Amazon</a>
+            <a class="btn buy btn-xs" href={amazonLink(a.name, a.asin)} rel={AFFILIATE_REL} target="_blank">Check price</a>
           </div>
         </li>
       ))}
     </ul>
-    <p class="fine">Prices checked October 2026 and change often. More in our <a href="/posts/best-robot-mower-garages/">robot mower garage guide</a> and <a href="/posts/robot-mower-replacement-blades/">replacement blade guide</a>.</p>
+    <p class="fine">Compatibility checked October 2026. More in our <a href="/posts/best-robot-mower-garages/">robot mower garage guide</a> and <a href="/posts/robot-mower-replacement-blades/">replacement blade guide</a>.</p>
   </section>
 )}

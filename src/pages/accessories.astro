@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { ACCESSORIES, KIND_LABEL, type AccessoryKind } from "../data/accessories";
-import { MODELS, formatMoney } from "../data/models";
+import { MODELS } from "../data/models";
 import { AFFILIATE_REL, amazonLink } from "../lib/amazon";
 import { SITE_URL } from "../lib/site";
 import { breadcrumbLd, type Crumb } from "../lib/schema";
@@ -74,8 +74,7 @@ const jsonLd = [
                   </p>
                 </div>
                 <div class="acc-buy">
-                  <span>~{formatMoney(a.price)}</span>
-                  <a class="btn buy btn-xs" href={amazonLink(a.name, a.asin)} rel={AFFILIATE_REL} target="_blank">View on Amazon</a>
+                  <a class="btn buy btn-xs" href={amazonLink(a.name, a.asin)} rel={AFFILIATE_REL} target="_blank">Check price</a>
                 </div>
               </li>
             ))}

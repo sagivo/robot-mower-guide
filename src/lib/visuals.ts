@@ -7,7 +7,7 @@
  * Palette (validated for CVD separation and 3:1 contrast on #fff):
  *   AWD / tracks = #2f9e44, 2WD = #2a78d6. Text always uses ink tokens.
  */
-import { MODELS, ACRE, gradeToDegrees, formatMoney, type MowerModel } from "../data/models";
+import { MODELS, ACRE, gradeToDegrees, priceTier, PRICE_TIERS, type MowerModel } from "../data/models";
 import { garagesTable, bladesTable } from "./accessory-tables";
 
 const AWD = "#2f9e44";
@@ -79,17 +79,20 @@ export function valueChart(models: MowerModel[] = MODELS): string {
       const offScale = m.maxSqFt / ACRE > xMax;
       const name = offScale ? `${m.shortName} (${+(m.maxSqFt / ACRE).toFixed(1)} ac) →` : m.shortName;
       const label = labels[m.id] ? `<span class="sc-lbl ${labels[m.id]}">${esc(name)}</span>` : "";
-      return `<a class="sc-dot" href="/mowers/${m.id}/" style="left:${x}%;bottom:${y}%" data-tip-value="${formatMoney(m.priceLow)} · ${(m.maxSqFt / ACRE).toFixed(2)} ac" data-tip-label="${esc(m.shortName)}" aria-label="${esc(m.shortName)}: from ${formatMoney(m.priceLow)}, up to ${(m.maxSqFt / ACRE).toFixed(2)} acres"><i></i>${label}</a>`;
+      return `<a class="sc-dot" href="/mowers/${m.id}/" style="left:${x}%;bottom:${y}%" data-tip-value="${priceTier(m).sym} ${priceTier(m).label} · ${(m.maxSqFt / ACRE).toFixed(2)} ac" data-tip-label="${esc(m.shortName)}" aria-label="${esc(m.shortName)}: ${priceTier(m).label} price tier, up to ${(m.maxSqFt / ACRE).toFixed(2)} acres"><i></i>${label}</a>`;
     })
     .join("");
-  const yTicks = [0, 1000, 2000, 3000, 4000, 5000];
+  // Gridlines at the price-tier boundaries, labelled with the tier symbol mid-band.
+  const yTicks = [0, 1000, 2000, 3000];
+  const yBands = [500, 1500, 2500, 4000];
   const xTicks = [0, 0.5, 1, 1.5, 2, 2.5];
   const grid =
-    yTicks.map((t) => `<span class="sc-gy" style="bottom:${(t / yMax) * 100}%"><em>${t ? "$" + t / 1000 + "k" : "$0"}</em></span>`).join("") +
+    yTicks.map((t) => `<span class="sc-gy" style="bottom:${(t / yMax) * 100}%"></span>`).join("") +
+    yBands.map((t, i) => `<span class="sc-gy sc-band" style="bottom:${(t / yMax) * 100}%"><em>${PRICE_TIERS[i].sym}</em></span>`).join("") +
     xTicks.map((t) => `<span class="sc-gx" style="left:${(t / xMax) * 100}%"><em>${t}</em></span>`).join("");
   return figure(
-    "Starting price vs. rated coverage",
-    "Each dot is one model (largest tier's area, cheapest tier's price). Lower and further right is better value. Models over 2.5 acres sit on the right edge.",
+    "Price tier vs. rated coverage",
+    "Each dot is one model (largest version's area, cheapest version's price tier, from $ to $$$$). Lower and further right is better value. Models over 2.5 acres sit on the right edge.",
     `<div class="sc-wrap"><div class="sc-plot">${grid}${dots}</div><div class="sc-xlab">Rated coverage (acres)</div></div>`,
     `Hover or tap a dot for details. Full numbers are in the <a href="/mowers/">comparison chart</a>.`
   );

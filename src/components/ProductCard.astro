@@ -1,8 +1,9 @@
 ---
 import type { MowerModel } from "../data/models";
-import { formatPrice, NAV_LABEL, ACRE } from "../data/models";
+import { NAV_LABEL, ACRE } from "../data/models";
 import BuyButton from "./BuyButton.astro";
 import ProductImage from "./ProductImage.astro";
+import PriceTier from "./PriceTier.astro";
 
 interface Props {
   model: MowerModel;
@@ -43,8 +44,8 @@ const acres = m.maxSqFt / ACRE;
       </div>
     )}
     <div class="pc-price-row">
-      <span class="pc-price">{formatPrice(m)}</span>
-      <small>typical price</small>
+      <span class="pc-price"><PriceTier model={m} /></span>
+      <small>today's price on Amazon</small>
     </div>
     <div class="pc-actions">
       <BuyButton model={m} size="sm" block />

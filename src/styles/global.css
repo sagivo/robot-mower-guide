@@ -925,8 +925,19 @@ section[id] { scroll-margin-top: 90px; }
   .cmp tbody th { order: 0; }
   .cmp td { order: 2; }
   .cmp td.c-nav { order: 4; grid-column: span 2; }
-  .cmp td[data-label="Price from"] { order: 5; }
+  .cmp td[data-label="Price tier"] { order: 5; }
   .cmp td.c-buy { order: 6; }
 }
 @media (max-width: 640px) { .pr-buy .btn { max-width: none; flex: 0 1 auto; white-space: nowrap; } }
 .disclosure a { font-size: inherit; text-decoration: underline; }
+
+/* ---------- price tier ($–$$$$) ---------- */
+.price-tier { display: inline-flex; align-items: baseline; gap: .45rem; white-space: nowrap; }
+.pt-sym { font-family: var(--font-display); font-weight: 800; letter-spacing: .04em; color: var(--line-2); }
+.pt-sym b { color: var(--ink); font-weight: 800; }
+.pt-label { font-size: .82em; font-weight: 700; color: var(--muted); }
+.cmp .pt-label { display: none; }
+.sticky-cta .pt-sym, .inline-cta .pt-sym { color: rgba(255,255,255,.25); }
+.sticky-cta .pt-sym b, .inline-cta .pt-sym b { color: var(--lime); }
+.sticky-cta .pt-label, .inline-cta .pt-label { color: #a7c0ac; }
+.sc-gy.sc-band { border-top: 0; } .sc-gy.sc-band em { font-weight: 800; color: #52514e; }

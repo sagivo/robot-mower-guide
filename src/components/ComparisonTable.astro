@@ -1,6 +1,7 @@
 ---
 import type { MowerModel } from "../data/models";
-import { formatMoney, NAV_LABEL } from "../data/models";
+import { NAV_LABEL } from "../data/models";
+import PriceTier from "./PriceTier.astro";
 import { AFFILIATE_REL, amazonLink } from "../lib/amazon";
 
 interface Props {
@@ -22,7 +23,7 @@ const { models, sortable = false, caption } = Astro.props;
         <th scope="col" data-sort="num">Max slope</th>
         <th scope="col" data-sort="text">Navigation</th>
         <th scope="col" data-sort="text">Drive</th>
-        <th scope="col" data-sort="num">Price from</th>
+        <th scope="col" data-sort="num">Price tier</th>
         <th scope="col"><span class="sr-only">Buy</span></th>
       </tr>
     </thead>
@@ -38,7 +39,7 @@ const { models, sortable = false, caption } = Astro.props;
           <td data-label="Max slope" data-v={m.maxSlopePct}>{m.maxSlopePct}%</td>
           <td class="c-nav" data-label="Navigation" data-v={m.nav}>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</td>
           <td data-label="Drive" data-v={m.drive}>{m.drive}</td>
-          <td data-label="Price from" data-v={m.priceLow}>{formatMoney(m.priceLow)}</td>
+          <td data-label="Price tier" data-v={m.priceLow}><PriceTier model={m} label={false} /></td>
           <td class="c-buy">
             <a class="btn btn-xs buy" href={amazonLink(m.query, m.asin)} rel={AFFILIATE_REL} target="_blank">
               Check price<span class="sr-only"> of the {m.name} on Amazon</span>

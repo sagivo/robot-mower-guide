@@ -6,8 +6,9 @@ import ComparisonTable from "../components/ComparisonTable.astro";
 import ProductImage from "../components/ProductImage.astro";
 import BuyButton from "../components/BuyButton.astro";
 import StickyCta from "../components/StickyCta.astro";
+import PriceTier from "../components/PriceTier.astro";
 import { SITE_NAME, SITE_DESCRIPTION } from "../lib/site";
-import { MODELS, getModel, formatPrice } from "../data/models";
+import { MODELS, getModel, priceTier } from "../data/models";
 import { getPosts } from "../lib/posts";
 import { websiteLd, faqLd, itemListLd } from "../lib/schema";
 import { HOME_PICKS } from "../data/picks";
@@ -93,7 +94,7 @@ const jsonLd = [websiteLd(), itemListLd("Top wire-free robot lawn mowers of 2026
           <div class="sp-meta">
             <span class="ring" style={`--v:${top.score * 10}`}><span>{top.score.toFixed(1)}</span></span>
             <span class="ring-label"><strong>Guide score</strong>out of 10</span>
-            <span class="sp-price">{formatPrice(top)}<small>typical price</small></span>
+            <span class="sp-price"><PriceTier model={top} label={false} /><small>{priceTier(top).label} price tier</small></span>
           </div>
           <ul class="sp-points">{top.pros.slice(0, 3).map((p) => <li>{p}</li>)}</ul>
           <BuyButton model={top} size="lg" block />
@@ -110,7 +111,7 @@ const jsonLd = [websiteLd(), itemListLd("Top wire-free robot lawn mowers of 2026
     <ul>
       <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Commissions never decide rankings</li>
       <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Specs cross-checked across sources</li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Prices refreshed October 2026</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Specs refreshed October 2026</li>
       <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9M12 19V5M19 19v-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>Free sizing &amp; cost calculators</li>
     </ul>
   </section>

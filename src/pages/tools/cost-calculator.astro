@@ -3,11 +3,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL } from "../../lib/site";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { breadcrumbLd } from "../../lib/schema";
-import { MODELS } from "../../data/models";
+import { MODELS, priceTier } from "../../data/models";
 import { amazonLink } from "../../lib/amazon";
 
 const modelsJson = JSON.stringify(
-  MODELS.map((m) => ({ id: m.id, name: m.name, priceLow: m.priceLow, maxSqFt: m.maxSqFt, score: m.score, link: amazonLink(m.query, m.asin) }))
+  MODELS.map((m) => ({ id: m.id, name: m.name, priceLow: m.priceLow, tier: `${priceTier(m).sym} ${priceTier(m).label}`, maxSqFt: m.maxSqFt, score: m.score, link: amazonLink(m.query, m.asin) }))
 );
 
 const title = "Robot Mower vs. Lawn Service Cost Calculator — Is It Worth It?";
@@ -111,7 +111,7 @@ const jsonLd = [breadcrumbLd(crumbs), {
       const cards = picks.map((m) => `
         <div class="model-pick">
           <h4><a href="/mowers/${m.id}/">${m.name}</a> <span class="score sm">${m.score.toFixed(1)}</span></h4>
-          <p class="specs">From ${fmt(m.priceLow)} · covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres</p>
+          <p class="specs">${m.tier} price tier · covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres</p>
           <div class="pc-actions"><a class="btn buy btn-sm" href="${m.link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
         </div>`).join("");
       return `<h3 style="margin-top:1.5rem;">Top-rated mowers around ${fmt(budget)}</h3>${cards}
