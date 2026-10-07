@@ -1,0 +1,156 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { MODELS } from "../../data/models";
+import { amazonLink } from "../../lib/amazon";
+import { SITE_NAME, SITE_URL } from "../../lib/site";
+
+const title = "Robot Mower Size Matcher — What Size Robot Lawn Mower Do I Need?";
+const description =
+  "Enter your lawn size, slope, and obstacles to find which wire-free robot lawn mowers actually fit your yard. Free sizing tool with model recommendations.";
+const url = `${SITE_URL}/tools/size-matcher/`;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Robot Mower Size Matcher",
+    applicationCategory: "UtilitiesApplication",
+    operatingSystem: "Any",
+    offers: { "@type": "Offer", price: "0" },
+    url,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What size robot lawn mower do I need?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Choose a mower rated for at least 15-20% more area than your lawn, and check its maximum slope rating against your steepest hill. Use the size matcher above — enter your square footage and slope to get matched models.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can one robot mower handle a full acre?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — models like the Segway Navimow X4 Pro and Mammotion LUBA 2 AWD 5000H are rated for up to an acre or more. Larger areas mean longer mowing schedules, so buy headroom above your actual lawn size.",
+        },
+      },
+    ],
+  },
+];
+
+const modelsJson = JSON.stringify(
+  MODELS.map((m) => ({ ...m, link: amazonLink(m.query) }))
+);
+---
+
+<BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
+  <div class="wrap">
+    <article class="prose">
+      <h1>What size robot lawn mower do I need?</h1>
+      <p>
+        Buying an undersized robot mower is the most common (and most expensive)
+        mistake. A mower rated exactly for your lawn size will run constantly,
+        wear out faster, and struggle on hills. Use the matcher below — it filters
+        wire-free models by your actual yard.
+      </p>
+
+      <div class="calc" id="size-calc">
+        <div class="row">
+          <div>
+            <label for="area">Lawn area</label>
+            <input id="area" type="number" min="500" max="60000" value="10000" />
+          </div>
+          <div>
+            <label for="area-unit">Unit</label>
+            <select id="area-unit">
+              <option value="sqft">Square feet</option>
+              <option value="acre">Acres</option>
+              <option value="sqm">Square meters</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="slope">Steepest slope (% grade)</label>
+            <input id="slope" type="number" min="0" max="80" value="15" />
+          </div>
+          <div>
+            <label for="obstacles">Trees & obstacles</label>
+            <select id="obstacles">
+              <option value="few">Few / open lawn</option>
+              <option value="some">Some trees and beds</option>
+              <option value="many">Many trees, narrow passages</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label for="budget">Max budget (USD, optional)</label>
+          <input id="budget" type="number" min="0" placeholder="e.g. 2000" />
+        </div>
+        <p><button class="btn" id="match-btn" type="button">Find my mower</button></p>
+        <div class="calc-result" id="size-result" aria-live="polite"></div>
+      </div>
+
+      <h2>How to read the results</h2>
+      <p>
+        We filter for mowers rated at least 15% above your lawn size (headroom for
+        charging time and narrow zones) and rated for your steepest slope. If your
+        yard has many obstacles, we prefer vision-guided models that handle
+        complex layouts without a boundary wire.
+      </p>
+      <p>
+        Still unsure about hills? Check the <a href="/tools/slope-checker/">slope compatibility checker</a>,
+        or compare running costs with the <a href="/tools/cost-calculator/">robot vs. lawn service calculator</a>.
+      </p>
+    </article>
+  </div>
+
+  <script define:vars={{ modelsJson }}>
+    const MODELS = JSON.parse(modelsJson);
+    const btn = document.getElementById("match-btn");
+    const result = document.getElementById("size-result");
+
+    function toSqFt(v, unit) {
+      if (unit === "acre") return v * 43560;
+      if (unit === "sqm") return v * 10.7639;
+      return v;
+    }
+
+    btn.addEventListener("click", () => {
+      const area = toSqFt(parseFloat(document.getElementById("area").value) || 0,
+        document.getElementById("area-unit").value);
+      const slope = parseFloat(document.getElementById("slope").value) || 0;
+      const obstacles = document.getElementById("obstacles").value;
+      const budget = parseFloat(document.getElementById("budget").value) || Infinity;
+      const need = area * 1.15;
+
+      let picks = MODELS.filter((m) => m.maxSqFt >= need && m.maxSlopePct >= slope && m.priceLow <= budget);
+      if (obstacles === "many") {
+        const vision = picks.filter((m) => /vision/i.test(m.nav));
+        if (vision.length) picks = vision;
+      }
+      picks.sort((a, b) => a.priceLow - b.priceLow);
+
+      if (!picks.length) {
+        result.innerHTML = "<h3>No match found</h3><p>No wire-free mower in our database covers that combination. Try raising your budget or <a href='/contact/'>contact us</a> — large or very steep lawns may need a dealer-installed model.</p>";
+      } else {
+        const cards = picks.slice(0, 3).map((m, i) => `
+          <div class="model-pick">
+            <h4>${i === 0 ? "⭐ Best match: " : ""}${m.name}</h4>
+            <p class="specs">Covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres · climbs ${m.maxSlopePct}% grade · ${m.nav} · ~$${m.priceLow.toLocaleString()}–$${m.priceHigh.toLocaleString()}</p>
+            <p>${m.bestFor}</p>
+            <a class="btn" href="${m.link}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a>
+          </div>`).join("");
+        result.innerHTML = `<h3>Top ${Math.min(3, picks.length)} matches for your lawn</h3>${cards}
+          <p class="disclosure">As an Amazon Associate {SITE_NAME} earns from qualifying purchases. Prices change — verify on Amazon.</p>`;
+      }
+      result.classList.add("show");
+      result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
+  </script>
+</BaseLayout>

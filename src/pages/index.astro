@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { SITE_NAME, SITE_DESCRIPTION } from "../lib/site";
+
+const posts = (await getCollection("posts")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  description: SITE_DESCRIPTION,
+  url: "https://robot-mower-guide.pages.dev",
+};
+---
+
+<BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION} jsonLd={jsonLd}>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Find the right wire-free robot lawn mower</h1>
+      <p class="lead">
+        No boundary wires. No guesswork. Independent comparisons, sizing tools,
+        and real cost math for the new generation of GPS and vision-guided robot mowers.
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="/tools/size-matcher/">Match a mower to my lawn</a>
+        <a class="btn secondary" href="/posts/best-robot-lawn-mowers-2026/">Best mowers of 2026</a>
+      </div>
+    </section>
+
+    <h2 class="section-title">Free tools</h2>
+    <div class="tool-grid">
+      <a class="tool-card" href="/tools/size-matcher/">
+        <h3>📐 Mower Size Matcher</h3>
+        <p>Enter your lawn size, slope, and obstacles — get the models that actually fit.</p>
+      </a>
+      <a class="tool-card" href="/tools/cost-calculator/">
+        <h3>💰 Robot vs. Lawn Service Calculator</h3>
+        <p>See your payback period and 5-year savings versus paying a mowing service.</p>
+      </a>
+      <a class="tool-card" href="/tools/slope-checker/">
+        <h3>⛰️ Slope Compatibility Checker</h3>
+        <p>Measure your hill once — find every mower rated to climb it.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">Guides</h2>
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <a href={`/posts/${post.id}/`}>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+            <time datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+            </time>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

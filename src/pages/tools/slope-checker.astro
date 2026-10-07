@@ -1,0 +1,121 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { MODELS, gradeToDegrees } from "../../data/models";
+import { amazonLink } from "../../lib/amazon";
+import { SITE_URL } from "../../lib/site";
+
+const title = "Robot Mower Slope Checker — Can a Robot Mower Handle My Hill?";
+const description =
+  "Enter your slope as percent, degrees, or rise-over-run to see which wire-free robot lawn mowers are rated to climb it safely.";
+const url = `${SITE_URL}/tools/slope-checker/`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Robot Mower Slope Compatibility Checker",
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0" },
+  url,
+};
+
+const modelsJson = JSON.stringify(
+  MODELS.map((m) => ({
+    name: m.name,
+    maxSlopePct: m.maxSlopePct,
+    nav: m.nav,
+    price: `$${m.priceLow.toLocaleString()}–$${m.priceHigh.toLocaleString()}`,
+    link: amazonLink(m.query),
+  }))
+);
+---
+
+<BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
+  <div class="wrap">
+    <article class="prose">
+      <h1>Can a robot mower handle your slope?</h1>
+      <p>
+        Slope rating is the spec buyers ignore until the mower slides downhill.
+        Manufacturers rate max slope as <strong>percent grade</strong> — a 45%
+        grade is about 24°, much steeper than it sounds. Measure your steepest
+        hill and check it below.
+      </p>
+
+      <h2>Quick conversions</h2>
+      <table>
+        <thead><tr><th>Percent grade</th><th>Degrees</th><th>What it feels like</th></tr></thead>
+        <tbody>
+          <tr><td>15%</td><td>~8.5°</td><td>Gentle — every mower handles this</td></tr>
+          <tr><td>30%</td><td>~16.7°</td><td>Noticeable hill — check mid-range models</td></tr>
+          <tr><td>45%</td><td>~24°</td><td>Steep — most standard mowers max out here</td></tr>
+          <tr><td>60%+</td><td>~31°+</td><td>Very steep — AWD models only</td></tr>
+        </tbody>
+      </table>
+
+      <div class="calc">
+        <div class="row">
+          <div>
+            <label for="slope-val">Your steepest slope</label>
+            <input id="slope-val" type="number" min="0" max="100" value="30" />
+          </div>
+          <div>
+            <label for="slope-unit">Measured as</label>
+            <select id="slope-unit">
+              <option value="pct">Percent grade (%)</option>
+              <option value="deg">Degrees (°)</option>
+            </select>
+          </div>
+        </div>
+        <p style="font-size:.9rem;color:#5a6b5d;">Tip: measure rise over a 10-ft run — 3 ft of rise = 30% grade.</p>
+        <p><button class="btn" id="slope-btn" type="button">Check compatibility</button></p>
+        <div class="calc-result" id="slope-result" aria-live="polite"></div>
+      </div>
+
+      <h2>A note on real-world slopes</h2>
+      <p>
+        Manufacturer ratings assume dry grass and good traction. Wet slopes,
+        loose soil, and side-hill (traverse) mowing all reduce real capability —
+        buy 10–15 percentage points of headroom above your measured grade. AWD
+        models like the Mammotion LUBA 2 series genuinely outperform two-wheel
+        mowers on hills; it's not just marketing.
+      </p>
+      <p>
+        Next: <a href="/tools/size-matcher/">match a mower to your full lawn</a> or
+        read <a href="/posts/robot-mower-slope-limits/">our slope limits guide</a>.
+      </p>
+    </article>
+  </div>
+
+  <script define:vars={{ modelsJson }}>
+    const MODELS = JSON.parse(modelsJson);
+    const btn = document.getElementById("slope-btn");
+    const result = document.getElementById("slope-result");
+
+    btn.addEventListener("click", () => {
+      const val = parseFloat(document.getElementById("slope-val").value) || 0;
+      const unit = document.getElementById("slope-unit").value;
+      const pct = unit === "deg" ? Math.tan((val * Math.PI) / 180) * 100 : val;
+      const deg = (Math.atan(pct / 100) * 180) / Math.PI;
+      const withMargin = pct * 1.12;
+
+      const ok = MODELS.filter((m) => m.maxSlopePct >= withMargin)
+        .sort((a, b) => b.maxSlopePct - a.maxSlopePct);
+      const no = MODELS.filter((m) => m.maxSlopePct < withMargin);
+
+      const cards = ok.map((m) => `
+        <div class="model-pick">
+          <h4>✅ ${m.name}</h4>
+          <p class="specs">Rated to ${m.maxSlopePct}% grade · ${m.nav} · ~${m.price}</p>
+          <a class="btn" href="${m.link}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a>
+        </div>`).join("");
+
+      result.innerHTML = `
+        <h3>Your slope: ${pct.toFixed(0)}% grade (~${deg.toFixed(0)}°)</h3>
+        <p>With a 12% safety margin, look for mowers rated to at least <strong>${withMargin.toFixed(0)}%</strong>.</p>
+        ${ok.length ? `<h4>Compatible models</h4>${cards}` : "<p><strong>No compatible models</strong> in our database at that grade with margin. Consider terracing the hill or a walk-behind mower for that section.</p>"}
+        ${no.length ? `<p style="font-size:.88rem;color:#5a6b5d;">Not rated high enough: ${no.map((m) => m.name).join(", ")}.</p>` : ""}`;
+      result.classList.add("show");
+      result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
+  </script>
+</BaseLayout>

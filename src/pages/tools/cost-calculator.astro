@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE_NAME, SITE_URL } from "../../lib/site";
+
+const title = "Robot Mower vs. Lawn Service Cost Calculator — Is It Worth It?";
+const description =
+  "Compare the true cost of a robot lawn mower vs. paying a lawn service. Enter your mowing price to see payback time and 5-year savings.";
+const url = `${SITE_URL}/tools/cost-calculator/`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Robot Mower vs Lawn Service Cost Calculator",
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0" },
+  url,
+};
+---
+
+<BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
+  <div class="wrap">
+    <article class="prose">
+      <h1>Is a robot lawn mower worth it? Do the math.</h1>
+      <p>
+        A good wire-free robot mower costs $1,000–$2,900 — roughly one to two
+        seasons of a mowing service. But the real question is your payback period.
+        Plug in your numbers:
+      </p>
+
+      <div class="calc">
+        <div class="row">
+          <div>
+            <label for="mower-price">Robot mower price (USD)</label>
+            <input id="mower-price" type="number" min="300" max="6000" value="1500" />
+          </div>
+          <div>
+            <label for="service-price">Lawn service cost per visit (USD)</label>
+            <input id="service-price" type="number" min="10" max="500" value="60" />
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="visits">Mowing visits per year</label>
+            <input id="visits" type="number" min="1" max="60" value="28" />
+          </div>
+          <div>
+            <label for="years">Mower lifespan (years)</label>
+            <input id="years" type="number" min="1" max="12" value="6" />
+          </div>
+        </div>
+        <div>
+          <label for="upkeep">Yearly upkeep: blades + electricity (USD)</label>
+          <input id="upkeep" type="number" min="0" max="500" value="80" />
+        </div>
+        <p><button class="btn" id="calc-btn" type="button">Calculate savings</button></p>
+        <div class="calc-result" id="cost-result" aria-live="polite"></div>
+      </div>
+
+      <h2>What the numbers usually show</h2>
+      <p>
+        At typical US mowing rates ($50–$80 per visit, ~28 visits a year), a
+        $1,500 robot mower pays for itself in under a year. Over a 6-year mower
+        lifespan, total savings often exceed $8,000 — before counting the value
+        of never scheduling, waiting for, or tipping a crew again.
+      </p>
+      <p>
+        Ready to pick one? Use the <a href="/tools/size-matcher/">mower size matcher</a> to
+        find models that fit your lawn, or read our <a href="/posts/best-robot-lawn-mowers-2026/">best robot mowers of 2026</a> roundup.
+      </p>
+    </article>
+  </div>
+
+  <script>
+    const btn = document.getElementById("calc-btn");
+    const result = document.getElementById("cost-result");
+
+    btn.addEventListener("click", () => {
+      const price = parseFloat(document.getElementById("mower-price").value) || 0;
+      const perVisit = parseFloat(document.getElementById("service-price").value) || 0;
+      const visits = parseFloat(document.getElementById("visits").value) || 0;
+      const years = parseFloat(document.getElementById("years").value) || 0;
+      const upkeep = parseFloat(document.getElementById("upkeep").value) || 0;
+
+      const yearlyService = perVisit * visits;
+      if (!yearlyService || !price) {
+        result.innerHTML = "<p>Please enter a mower price and service cost above zero.</p>";
+        result.classList.add("show");
+        return;
+      }
+      const yearlyNet = yearlyService - upkeep;
+      const paybackMonths = yearlyNet > 0 ? (price / yearlyNet) * 12 : Infinity;
+      const totalService = yearlyService * years;
+      const totalRobot = price + upkeep * years;
+      const savings = totalService - totalRobot;
+      const fmt = (n) => "$" + Math.round(n).toLocaleString("en-US");
+
+      result.innerHTML = `
+        <h3>Your result</h3>
+        <p><strong>Payback period:</strong> ${isFinite(paybackMonths) ? (paybackMonths < 1 ? "under a month" : "about " + Math.round(paybackMonths) + " months") : "never at these numbers"}</p>
+        <p><strong>${years}-year lawn service cost:</strong> ${fmt(totalService)}</p>
+        <p><strong>${years}-year robot mower cost:</strong> ${fmt(totalRobot)} (mower + upkeep)</p>
+        <p><strong>You save:</strong> <span style="color:#1b5e20;font-weight:800;font-size:1.25rem;">${fmt(Math.max(0, savings))}</span>${savings < 0 ? " — at these prices the service is cheaper." : ""}</p>
+        <p style="font-size:.88rem;color:#5a6b5d;">Assumes the mower lasts ${years} years with ${fmt(upkeep)}/year in blades and electricity. Service prices tend to rise; mower costs are fixed — real savings are usually higher.</p>`;
+      result.classList.add("show");
+      result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
+  </script>
+</BaseLayout>

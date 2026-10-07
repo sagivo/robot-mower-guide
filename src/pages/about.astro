@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE_NAME, SITE_URL } from "../lib/site";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: `${SITE_URL}/about/`,
+  name: `About ${SITE_NAME}`,
+};
+---
+
+<BaseLayout title="About" description={`What ${SITE_NAME} is and how our robot mower guides are researched.`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <article class="prose">
+      <h1>About {SITE_NAME}</h1>
+      <p>
+        {SITE_NAME} is an independent buyer's guide to wire-free robot lawn mowers —
+        the new generation of GPS, RTK, and vision-guided mowers that need no
+        boundary wire. We publish detailed comparisons, sizing calculators, and
+        cost breakdowns so you can buy the right mower the first time.
+      </p>
+      <h2>How we research</h2>
+      <p>
+        We compile manufacturer specifications, professional reviews, and owner
+        feedback, then cross-check claims (like slope ratings and coverage area)
+        across multiple sources. Specs and prices change — we mark them as
+        approximate and always recommend verifying on the retailer page before buying.
+      </p>
+      <h2>How we make money</h2>
+      <p>
+        {SITE_NAME} participates in the Amazon Services LLC Associates Program. When
+        you click a product link and buy, we may earn a commission at no extra cost
+        to you. This supports our independent testing and calculator tools.
+      </p>
+    </article>
+  </div>
+</BaseLayout>
