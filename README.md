@@ -42,6 +42,30 @@ site picks it up automatically. Until then, links are untagged.
 Add an `asin` to a model in `src/data/models.ts` to link straight to its Amazon
 product page instead of a search results page (converts much better).
 
+## Amazon product photos
+
+Product photos come from Amazon's Creators API (PA-API's replacement). Amazon's
+Associates policies forbid downloading or storing product images and allow keeping
+an image link for at most 24 hours, so the site hotlinks the URLs the API returns
+at build time and rebuilds twice a day.
+
+To enable (requires 10+ qualifying sales in the past 30 days):
+1. Associates Central → Tools → Creators API → Create application → add credential.
+2. Cloudflare Pages → Settings → Environment variables (Production): set
+   `AMAZON_CREATORS_CREDENTIAL_ID` and `AMAZON_CREATORS_CREDENTIAL_SECRET`.
+3. Cloudflare Pages → Settings → Builds → Deploy hooks: create one for `main`, and
+   save its URL as the GitHub Actions secret `CF_DEPLOY_HOOK`
+   (`.github/workflows/rebuild.yml` calls it twice a day).
+
+Only models with an `asin` get photos. Without credentials, or if the API fails,
+the build falls back to illustrations. A licensed photo placed at
+`src/assets/mowers/<model-id>.jpg` takes priority over both.
+
+## Search
+
+`npm run build` runs Pagefind after Astro to index pages marked `data-pagefind-body`;
+the UI lives at `/search/`.
+
 ## Deploy
 
 Cloudflare Pages project `robot-mower-guide` is connected to this repo:

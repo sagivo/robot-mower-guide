@@ -543,3 +543,12 @@ a.pr-name:hover { color: var(--green-700); text-decoration: underline; }
 .toc details[open] summary span::after { content: " ▴"; }
 .toc details[open] summary { margin-bottom: .8rem; }
 .toc { padding: 1rem 1.5rem; }
+
+/* search */
+#primary-nav a.nav-search { display: inline-flex; align-items: center; gap: .35rem; }
+@media (min-width: 821px) { .nav-search-label { display: none; } }
+.search-box { --pagefind-ui-primary: #1e6b32; --pagefind-ui-text: #152419; --pagefind-ui-background: #fff; --pagefind-ui-border: #dde8d8; --pagefind-ui-tag: #eef5e9; --pagefind-ui-border-radius: 10px; --pagefind-ui-font: var(--font-body); margin: 1.5rem 0 3rem; }
+.amazon-photo { display: inline-block; line-height: 0; background: #fff; border-radius: 10px; padding: 4px; }
+.amazon-photo img { display: block; height: auto; max-height: 220px; object-fit: contain; }
+.pc-top .amazon-photo img { max-height: 90px; }
+.pr-img .amazon-photo img { max-height: 70px; width: auto; max-width: 76px; }

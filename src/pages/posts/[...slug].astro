@@ -53,7 +53,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
   <div class="wrap wide post-wrap">
     <Breadcrumbs crumbs={crumbs} />
     <div class="post-layout">
-    <article class="prose" id="article">
+    <article class="prose" id="article" data-pagefind-body>
       <span class="post-tag">{d.tag ?? CATEGORY_LABEL[d.category]}</span>
       <h1>{d.title}</h1>
       <p class="byline">
@@ -73,7 +73,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
         </aside>
       ) : null}
 
-      {picks.length ? <TopPicks picks={picks} /> : null}
+      {picks.length ? <div data-pagefind-ignore><TopPicks picks={picks} /></div> : null}
 
       {toc.length >= 3 && (
         <nav class="toc" aria-label="Table of contents">
@@ -89,7 +89,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
 
       <Content />
 
-      <aside class="related-tools" aria-label="Related tools">
+      <aside class="related-tools" aria-label="Related tools" data-pagefind-ignore>
         <h2>Don't guess. Calculate.</h2>
         <ul>
           <li><a href="/tools/size-matcher/">📐 Mower Size Matcher</a>: which models fit your lawn</li>

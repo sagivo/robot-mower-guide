@@ -18,7 +18,7 @@ const acres = (sqft: number) => +(sqft / ACRE).toFixed(2);
     {rows.map(({ m, label }, i) => (
       <li class="pick-row">
         <span class="pr-rank" aria-hidden="true">{i + 1}</span>
-        <a class="pr-img" href={`/mowers/${m.id}/`} tabindex="-1" aria-hidden="true"><ProductImage model={m} size={76} /></a>
+        <span class="pr-img"><ProductImage model={m} size={76} /></span>
         <div class="pr-main">
           <span class="pr-label">{label}</span>
           <a class="pr-name" href={`/mowers/${m.id}/`}>{m.name}</a>
