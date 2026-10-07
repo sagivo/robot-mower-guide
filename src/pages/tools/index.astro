@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { SITE_URL } from "../../lib/site";
+import { breadcrumbLd, type Crumb } from "../../lib/schema";
+
+const crumbs: Crumb[] = [
+  { name: "Home", href: "/" },
+  { name: "Tools", href: "/tools/" },
+];
+const tools = [
+  { href: "/tools/size-matcher/", icon: "📐", name: "Mower Size Matcher", text: "Enter lawn size, slope, obstacles and budget. Get the wire-free models that fit your yard.", go: "Find my mower" },
+  { href: "/tools/cost-calculator/", icon: "💰", name: "Robot vs. Lawn Service Calculator", text: "Your payback period and 5-year savings compared with paying a mowing crew.", go: "Do the math" },
+  { href: "/tools/slope-checker/", icon: "⛰️", name: "Slope Checker", text: "Convert degrees to percent grade and see every mower rated to climb your steepest hill.", go: "Check my hill" },
+  { href: "/mowers/", icon: "📊", name: "Comparison Chart", text: "Every model side by side: coverage, slope, navigation, drive and price. Sortable.", go: "Compare models" },
+];
+---
+
+<BaseLayout
+  title="Free Robot Lawn Mower Calculators & Tools"
+  description="Free robot mower tools: size matcher, robot vs. lawn service cost calculator, slope checker and a sortable comparison chart of every wire-free model."
+  canonical={`${SITE_URL}/tools/`}
+  jsonLd={breadcrumbLd(crumbs)}
+>
+  <div class="wrap wide">
+    <Breadcrumbs crumbs={crumbs} />
+    <div class="calc-hero">
+      <h1>Free robot mower tools</h1>
+      <p>Turn "which mower should I buy?" into numbers. Every tool runs in your browser, and nothing you enter leaves your device.</p>
+    </div>
+    <div class="tool-grid">
+      {tools.map((t) => (
+        <a class="tool-card" href={t.href}>
+          <div class="tool-icon">{t.icon}</div>
+          <h2 class="h3">{t.name}</h2>
+          <p>{t.text}</p>
+          <span class="go">{t.go}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -10,7 +10,7 @@ const jsonLd = {
 };
 ---
 
-<BaseLayout title="About" description={`What ${SITE_NAME} is and how our robot mower guides are researched.`} jsonLd={jsonLd}>
+<BaseLayout title="About" description={`About ${SITE_NAME}: an independent, research-based buyer's guide to wire-free robot lawn mowers, with comparisons, calculators and transparent scoring.`} canonical={`${SITE_URL}/about/`} jsonLd={jsonLd}>
   <div class="wrap">
     <article class="prose">
       <h1>About {SITE_NAME}</h1>
@@ -24,14 +24,17 @@ const jsonLd = {
       <p>
         We compile manufacturer specifications, professional reviews, and owner
         feedback, then cross-check claims (like slope ratings and coverage area)
-        across multiple sources. Specs and prices change — we mark them as
+        across multiple sources. Specs and prices change, so we mark them as
         approximate and always recommend verifying on the retailer page before buying.
+        The full process, including how our 10-point scores work, is on our
+        <a href="/how-we-research/">how we research</a> page.
       </p>
       <h2>How we make money</h2>
       <p>
         {SITE_NAME} participates in the Amazon Services LLC Associates Program. When
         you click a product link and buy, we may earn a commission at no extra cost
-        to you. This supports our independent testing and calculator tools.
+        to you. This funds our research and free calculator tools. Commissions never
+        decide which products we recommend or how they rank.
       </p>
     </article>
   </div>

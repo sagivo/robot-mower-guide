@@ -3,35 +3,46 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { MODELS } from "../../data/models";
 import { amazonLink } from "../../lib/amazon";
 import { SITE_URL } from "../../lib/site";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import Visual from "../../components/Visual.astro";
+import { breadcrumbLd } from "../../lib/schema";
 
 const title = "Robot Mower Slope Checker — Can a Robot Mower Handle My Hill?";
 const description =
   "Enter your slope as percent or degrees to see which wire-free robot lawn mowers are rated to climb it safely.";
 const url = `${SITE_URL}/tools/slope-checker/`;
 
-const jsonLd = {
+const crumbs = [
+  { name: "Home", href: "/" },
+  { name: "Tools", href: "/tools/" },
+  { name: "Slope checker", href: "/tools/slope-checker/" },
+];
+const jsonLd = [breadcrumbLd(crumbs), {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Robot Mower Slope Compatibility Checker",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
-  offers: { "@type": "Offer", price: "0" },
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   url,
-};
+}];
 
 const modelsJson = JSON.stringify(
   MODELS.map((m) => ({
+    id: m.id,
     name: m.name,
+    drive: m.drive,
     maxSlopePct: m.maxSlopePct,
     nav: m.nav,
     price: `$${m.priceLow.toLocaleString()}–$${m.priceHigh.toLocaleString()}`,
-    link: amazonLink(m.query),
+    link: amazonLink(m.query, m.asin),
   }))
 );
 ---
 
 <BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
   <div class="wrap">
+    <Breadcrumbs crumbs={crumbs} />
     <div class="calc-hero">
       <h1>Can a robot mower handle your hill?</h1>
       <p>
@@ -44,7 +55,7 @@ const modelsJson = JSON.stringify(
     <div class="calc">
       <div>
         <label for="slope-val">Your steepest slope <output id="slope-out">30% grade · ~17°</output></label>
-        <input id="slope-val" type="range" min="0" max="70" step="1" value="30" />
+        <input id="slope-val" type="range" min="0" max="100" step="1" value="30" />
       </div>
       <p style="font-size:.9rem;color:#5c6f60;">Tip: measure rise over a 10-ft run — 3 ft of rise = 30% grade.</p>
       <p style="margin-top:1.25rem;"><button class="btn" id="slope-btn" type="button">Check compatibility ⛰️</button></p>
@@ -52,6 +63,7 @@ const modelsJson = JSON.stringify(
     </div>
 
     <article class="prose">
+      <Visual name="diagram:slope" />
       <h2>What the grades mean</h2>
       <table>
         <thead><tr><th>Percent grade</th><th>Degrees</th><th>What it feels like</th></tr></thead>
@@ -59,16 +71,18 @@ const modelsJson = JSON.stringify(
           <tr><td>15%</td><td>~8.5°</td><td>Gentle — every mower handles this</td></tr>
           <tr><td>30%</td><td>~16.7°</td><td>Noticeable hill — check mid-range models</td></tr>
           <tr><td>45%</td><td>~24°</td><td>Steep — most standard mowers max out here</td></tr>
-          <tr><td>60%+</td><td>~31°+</td><td>Very steep — AWD models only</td></tr>
+          <tr><td>60%</td><td>~31°</td><td>Very steep: AWD models only</td></tr>
+          <tr><td>80%+</td><td>~39°+</td><td>Extreme: top AWD flagships or tracked mowers</td></tr>
         </tbody>
       </table>
+      <Visual name="chart:slope" />
       <h2>A note on real-world slopes</h2>
       <p>
         Manufacturer ratings assume dry grass and good traction. Wet slopes,
         loose soil, and side-hill mowing all reduce real capability — we build a
-        12% safety margin into the results above. AWD models like the Mammotion
-        LUBA 2 series genuinely outperform two-wheel mowers on hills; it's not
-        just marketing.
+        12% safety margin into the results above. All-wheel-drive models like the Mammotion LUBA 3 AWD,
+        Segway Navimow X4 and Dreame A3 AWD genuinely outperform two-wheel mowers on hills.
+        That's not just marketing.
       </p>
       <p>
         Next: <a href="/tools/size-matcher/">match a mower to your full lawn</a> or
@@ -101,9 +115,9 @@ const modelsJson = JSON.stringify(
 
       const cards = ok.map((m) => `
         <div class="model-pick">
-          <h4>✅ ${m.name}</h4>
-          <p class="specs">Rated to ${m.maxSlopePct}% grade · ${m.nav} · ~${m.price}</p>
-          <a class="btn" href="${m.link}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a>
+          <h4>✅ <a href="/mowers/${m.id}/">${m.name}</a></h4>
+          <p class="specs">Rated to ${m.maxSlopePct}% grade · ${m.drive} · ${m.nav} · ~${m.price}</p>
+          <div class="pc-actions"><a class="btn buy btn-sm" href="${m.link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
         </div>`).join("");
 
       result.innerHTML = `

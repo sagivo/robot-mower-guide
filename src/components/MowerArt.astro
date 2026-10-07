@@ -1,0 +1,86 @@
+---
+// Side-view mower illustration generated from the model's real hardware:
+// AWD shows two big drive wheels, 2WD a small front caster, tracks a belt;
+// LiDAR adds a sensor puck, RTK an antenna mast, vision a front camera.
+// Used whenever no licensed product photo exists in src/assets/mowers/.
+import type { MowerModel } from "../data/models";
+
+interface Props {
+  model: MowerModel;
+  size?: number;
+}
+const { model: m, size = 96 } = Astro.props;
+
+const COLORS: Record<string, [string, string]> = {
+  Mammotion: ["#1f2937", "#3b82f6"],
+  Segway: ["#1b1f24", "#d1d5db"],
+  Husqvarna: ["#2b3f66", "#f97316"],
+  WORX: ["#1a1a1a", "#f97316"],
+  ECOVACS: ["#e2e8f0", "#0ea5e9"],
+  Lymow: ["#3f3f46", "#84cc16"],
+  ANTHBOT: ["#1e293b", "#22d3ee"],
+  Dreame: ["#d9dde3", "#475569"],
+  eufy: ["#f1f5f9", "#22c55e"],
+  Sunseeker: ["#111827", "#facc15"],
+};
+const [body, accent] = COLORS[m.brand] ?? ["#2f9e44", "#b8e62e"];
+const light = ["ECOVACS", "Dreame", "eufy"].includes(m.brand);
+const hub = light ? "#94a3b8" : "#4b5563";
+const lidar = m.navTech.includes("lidar");
+const rtk = m.navTech.includes("rtk");
+const vision = m.navTech.includes("vision");
+const awd = m.drive === "AWD";
+const tracks = m.drive === "Tracks";
+const uid = `g-${m.id}-${Math.random().toString(36).slice(2, 7)}`;
+---
+
+<svg class="mower-art" width={size} height={Math.round(size * 0.7)} viewBox="0 0 170 120" role="img" aria-label={`Illustration of the ${m.name}`}>
+  <defs>
+    <linearGradient id={uid} x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color={body} stop-opacity=".8" />
+      <stop offset="1" stop-color={body} />
+    </linearGradient>
+  </defs>
+  <ellipse cx="85" cy="113" rx="72" ry="5" fill="rgba(20,51,27,.14)" />
+  {rtk && !lidar && (
+    <g>
+      <rect x="40" y="20" width="3" height="32" rx="1.5" fill={light ? "#64748b" : "#9ca3af"} />
+      <circle cx="41.5" cy="18" r="6" fill={accent} />
+    </g>
+  )}
+  <path d="M22 88 C20 66 34 50 58 46 L112 44 C136 44 150 60 150 80 L150 90 L22 90 Z" fill={`url(#${uid})`} stroke={light ? "#cbd5e1" : "none"} stroke-width="1.5" />
+  <path d="M40 52 C56 47 96 45 124 48" stroke="rgba(255,255,255,.35)" stroke-width="3" fill="none" stroke-linecap="round" />
+  <rect x="26" y="75" width="122" height="6" rx="3" fill={accent} opacity=".9" />
+  {lidar && (
+    <g>
+      <rect x="70" y="31" width="30" height="15" rx="5" fill={light ? "#334155" : "#0b0f14"} />
+      <rect x="66" y="27" width="38" height="7" rx="3.5" fill={light ? "#475569" : "#1f2937"} />
+      <rect x="72" y="37" width="26" height="3" rx="1.5" fill="#eda100" />
+    </g>
+  )}
+  {vision && (
+    <g>
+      <rect x="137" y="58" width="11" height="11" rx="3" fill="#0b0f14" />
+      <circle cx="143" cy="63.5" r="3" fill="#2a78d6" />
+    </g>
+  )}
+  {tracks ? (
+    <g>
+      <rect x="18" y="85" width="134" height="25" rx="12.5" fill="#111" />
+      <rect x="22" y="89" width="126" height="17" rx="8.5" fill="#262626" />
+      {[34, 60, 86, 112, 138].map((x) => <circle cx={x} cy="97.5" r="6" fill="#525252" />)}
+    </g>
+  ) : (
+    <g>
+      <circle cx="48" cy="95" r="16" fill="#111" /><circle cx="48" cy="95" r="7" fill={hub} />
+      {awd ? (
+        <><circle cx="124" cy="95" r="16" fill="#111" /><circle cx="124" cy="95" r="7" fill={hub} /></>
+      ) : (
+        <><circle cx="128" cy="102" r="9" fill="#111" /><circle cx="128" cy="102" r="3.5" fill={hub} /></>
+      )}
+    </g>
+  )}
+  {(awd || tracks) && (
+    <text x="86" y="70" text-anchor="middle" font-size="11" font-weight="800" fill={light ? "#0f172a" : accent} font-family="system-ui, sans-serif" letter-spacing=".08em">{tracks ? "TRACKS" : "AWD"}</text>
+  )}
+</svg>

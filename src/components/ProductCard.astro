@@ -1,0 +1,47 @@
+---
+import type { MowerModel } from "../data/models";
+import { formatPrice, NAV_LABEL, ACRE } from "../data/models";
+import BuyButton from "./BuyButton.astro";
+import ProductImage from "./ProductImage.astro";
+
+interface Props {
+  model: MowerModel;
+  label?: string;
+  rank?: number;
+  /** compact = no pros/cons, used in top-picks grids */
+  compact?: boolean;
+}
+const { model: m, label, rank, compact = false } = Astro.props;
+const acres = m.maxSqFt / ACRE;
+---
+
+<div class:list={["product-card", compact && "compact"]}>
+  {label && <span class="pc-label">{rank ? `#${rank} · ` : ""}{label}</span>}
+  <div class="pc-top">
+    <ProductImage model={m} size={compact ? 84 : 110} />
+    <div class="pc-head">
+      <h3 class="pc-name"><a href={`/mowers/${m.id}/`}>{m.name}</a></h3>
+      <div class="pc-meta">
+        <span class="score" title="MowPilot score out of 10">{m.score.toFixed(1)}</span>
+        <span class="pc-price">{formatPrice(m)}</span>
+      </div>
+    </div>
+  </div>
+  <ul class="chips" aria-label="Key specs">
+    <li>Up to {acres >= 1 ? acres.toFixed(acres % 1 ? 1 : 0) : acres.toFixed(2)} ac</li>
+    <li>{m.maxSlopePct}% slope</li>
+    <li>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</li>
+    {m.drive === "AWD" && <li>AWD</li>}
+  </ul>
+  <p class="pc-best">{m.bestFor}</p>
+  {!compact && (
+    <div class="pc-proscons">
+      <ul class="pros" aria-label="Pros">{m.pros.slice(0, 3).map((p) => <li>{p}</li>)}</ul>
+      <ul class="cons" aria-label="Cons">{m.cons.slice(0, 2).map((c) => <li>{c}</li>)}</ul>
+    </div>
+  )}
+  <div class="pc-actions">
+    <BuyButton model={m} size="sm" />
+    <a class="pc-review" href={`/mowers/${m.id}/`}>Full review</a>
+  </div>
+</div>

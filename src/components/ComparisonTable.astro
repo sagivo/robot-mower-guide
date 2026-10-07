@@ -1,0 +1,82 @@
+---
+import type { MowerModel } from "../data/models";
+import { formatMoney, NAV_LABEL } from "../data/models";
+import { AFFILIATE_REL, amazonLink } from "../lib/amazon";
+
+interface Props {
+  models: MowerModel[];
+  sortable?: boolean;
+  caption?: string;
+}
+const { models, sortable = false, caption } = Astro.props;
+---
+
+<div class="cmp-wrap">
+  <table class:list={["cmp", sortable && "sortable"]}>
+    {caption && <caption>{caption}</caption>}
+    <thead>
+      <tr>
+        <th scope="col" data-sort="text">Model</th>
+        <th scope="col" data-sort="num">Score</th>
+        <th scope="col" data-sort="num">Max area</th>
+        <th scope="col" data-sort="num">Max slope</th>
+        <th scope="col" data-sort="text">Navigation</th>
+        <th scope="col" data-sort="text">Drive</th>
+        <th scope="col" data-sort="num">Price from</th>
+        <th scope="col"><span class="sr-only">Buy</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {models.map((m) => (
+        <tr>
+          <th scope="row" data-v={m.name}>
+            <a href={`/mowers/${m.id}/`}>{m.name}</a>
+          </th>
+          <td data-v={m.score}><span class="score sm">{m.score.toFixed(1)}</span></td>
+          <td data-v={m.maxSqFt}>{(m.maxSqFt / 43560).toFixed(2)} ac</td>
+          <td data-v={m.maxSlopePct}>{m.maxSlopePct}%</td>
+          <td data-v={m.nav}>{m.navTech.map((t) => NAV_LABEL[t]).join(" + ")}</td>
+          <td data-v={m.drive}>{m.drive}</td>
+          <td data-v={m.priceLow}>{formatMoney(m.priceLow)}</td>
+          <td>
+            <a class="btn btn-xs" href={amazonLink(m.query, m.asin)} rel={AFFILIATE_REL} target="_blank">
+              Price
+            </a>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+{sortable && (
+  <script>
+    document.querySelectorAll<HTMLTableElement>("table.sortable").forEach((table) => {
+      const tbody = table.tBodies[0];
+      table.querySelectorAll<HTMLTableCellElement>("th[data-sort]").forEach((th, col) => {
+        th.tabIndex = 0;
+        th.setAttribute("role", "button");
+        th.title = "Sort by this column";
+        let asc = false;
+        const sort = () => {
+          asc = !asc;
+          const num = th.dataset.sort === "num";
+          const rows = [...tbody.rows];
+          rows.sort((a, b) => {
+            const av = a.cells[col].dataset.v ?? "";
+            const bv = b.cells[col].dataset.v ?? "";
+            const r = num ? parseFloat(av) - parseFloat(bv) : av.localeCompare(bv);
+            return asc ? r : -r;
+          });
+          rows.forEach((r) => tbody.appendChild(r));
+          table.querySelectorAll("th[aria-sort]").forEach((h) => h.removeAttribute("aria-sort"));
+          th.setAttribute("aria-sort", asc ? "ascending" : "descending");
+        };
+        th.addEventListener("click", sort);
+        th.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sort(); }
+        });
+      });
+    });
+  </script>
+)}

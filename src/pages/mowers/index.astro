@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import ComparisonTable from "../../components/ComparisonTable.astro";
+import ProductCard from "../../components/ProductCard.astro";
+import Visual from "../../components/Visual.astro";
+import { MODELS } from "../../data/models";
+import { SITE_URL } from "../../lib/site";
+import { breadcrumbLd, itemListLd, faqLd, type Crumb } from "../../lib/schema";
+
+const byScore = [...MODELS].sort((a, b) => b.score - a.score);
+const url = `${SITE_URL}/mowers/`;
+const crumbs: Crumb[] = [
+  { name: "Home", href: "/" },
+  { name: "Compare mowers", href: "/mowers/" },
+];
+const faq = [
+  {
+    q: "Which wire-free robot mower has the best specs in 2026?",
+    a: `By our research-based score, the ${byScore[0].name} currently ranks highest (${byScore[0].score}/10). The best mower for you depends on lawn size, slope, and tree cover, so sort the table by the spec that matters most for your yard.`,
+  },
+  {
+    q: "How do I compare robot mower coverage ratings?",
+    a: "Manufacturer coverage figures assume ideal conditions. Pick a model rated at least 15–20% above your actual lawn area so it has headroom for spring growth, recharging time, and complex layouts.",
+  },
+  {
+    q: "What does the slope percentage mean?",
+    a: "Slope is quoted as percent grade: rise divided by run. 50% equals about 27 degrees and 80% equals about 39 degrees. Use our slope checker to convert and match your yard.",
+  },
+];
+const jsonLd = [breadcrumbLd(crumbs), itemListLd("Wire-free robot lawn mowers compared", byScore), faqLd(faq)];
+
+const brands = [...new Set(MODELS.map((m) => m.brand))].sort();
+---
+
+<BaseLayout
+  title="Robot Lawn Mower Comparison Chart (2026): Every Wire-Free Model"
+  description={`Compare ${MODELS.length} wire-free robot lawn mowers side by side: coverage, max slope, navigation (RTK, LiDAR, vision), drive, price and our score. Sortable chart.`}
+  canonical={url}
+  jsonLd={jsonLd}
+>
+  <div class="wrap wide">
+    <Breadcrumbs crumbs={crumbs} />
+    <div class="calc-hero">
+      <h1>Robot lawn mower comparison chart</h1>
+      <p>
+        Every wire-free model we track, side by side. Click any column to sort by it.
+        Covers {MODELS.length} models from {brands.join(", ")}.
+      </p>
+    </div>
+
+    <ComparisonTable models={byScore} sortable caption="Wire-free robot mowers, sorted by MowPilot score (click headers to re-sort)" />
+    <p class="fine">Max area and slope are manufacturer ratings. Prices are typical US street prices as of October 2026 and change often.</p>
+
+    <div class="section-head"><h2 class="section-title">Value and slope ability at a glance</h2></div>
+    <div class="viz-pair">
+      <Visual name="chart:value" />
+      <Visual name="chart:slope" />
+    </div>
+
+    <div class="section-head"><h2 class="section-title">Highest-rated models</h2></div>
+    <div class="tp-grid">
+      {byScore.slice(0, 6).map((m, i) => <ProductCard model={m} rank={i + 1} label="Top rated" />)}
+    </div>
+
+    <div class="prose" style="margin-top:3rem;">
+      <h2>How to read this chart</h2>
+      <p>
+        <strong>Max area</strong> is the manufacturer's rated coverage. Buy at least 15–20% of headroom
+        over your real lawn size. Our <a href="/tools/size-matcher/">size matcher</a> does that math for you.
+        <strong>Max slope</strong> is percent grade, not degrees: 50% is about 27°. Check your steepest
+        section with the <a href="/tools/slope-checker/">slope checker</a>.
+        <strong>Navigation</strong> tells you how the mower finds its way: RTK-GPS needs open sky,
+        LiDAR handles trees and darkness, and vision follows grass edges. Our
+        <a href="/posts/robot-mower-navigation-explained/">navigation explainer</a> covers the trade-offs.
+      </p>
+      <section class="faq" aria-label="FAQ">
+        <h2>FAQ</h2>
+        {faq.map((f) => <details><summary>{f.q}</summary><div>{f.a}</div></details>)}
+      </section>
+    </div>
+  </div>
+</BaseLayout>

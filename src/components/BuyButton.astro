@@ -1,0 +1,22 @@
+---
+import type { MowerModel } from "../data/models";
+import { AFFILIATE_REL, amazonLink } from "../lib/amazon";
+
+interface Props {
+  model: MowerModel;
+  label?: string;
+  size?: "sm" | "md";
+}
+const { model, label = "Check price on Amazon", size = "md" } = Astro.props;
+---
+
+<a
+  class:list={["btn", "buy", size === "sm" && "btn-sm"]}
+  href={amazonLink(model.query, model.asin)}
+  rel={AFFILIATE_REL}
+  target="_blank"
+  data-model={model.id}
+>
+  {label}
+  <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>

@@ -1,5 +1,11 @@
 ---
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from "../lib/site";
+import "@fontsource-variable/inter/wght.css";
+import "@fontsource-variable/sora/wght.css";
+import interLatin from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
+import soraLatin from "@fontsource-variable/sora/files/sora-latin-wght-normal.woff2?url";
+import "../styles/global.css";
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, OG_DEFAULT, NAV } from "../lib/site";
+import { organizationLd } from "../lib/schema";
 
 interface Props {
   title: string;
@@ -15,14 +21,18 @@ const {
   title,
   description = SITE_DESCRIPTION,
   canonical,
-  ogImage = `${SITE_URL}/og-default.png`,
+  ogImage = OG_DEFAULT,
   jsonLd,
   noindex = false,
   article,
 } = Astro.props;
 
 const pageUrl = canonical ?? new URL(Astro.url.pathname, SITE_URL).toString();
-const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+const fullTitle = title === SITE_NAME || title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+const ld = [organizationLd(), ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === "/" ? path === "/" : path.startsWith(href));
+const year = new Date().getFullYear();
 ---
 
 <!doctype html>
@@ -33,14 +43,21 @@ const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={pageUrl} />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {noindex ? <meta name="robots" content="noindex, follow" /> : <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    <meta name="theme-color" content="#14331b" />
+
+    <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={soraLatin} as="font" type="font/woff2" crossorigin />
 
     <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
@@ -49,17 +66,11 @@ const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
     {article?.updatedDate && <meta property="article:modified_time" content={article.updatedDate} />}
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} guides`} href="/rss.xml" />
 
-    {jsonLd && (
-      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    )}
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <slot name="head" />
   </head>
   <body>
@@ -72,11 +83,14 @@ const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
           </span>
           <span>{SITE_NAME}</span>
         </a>
-        <nav aria-label="Primary">
-          <a href="/posts/best-robot-lawn-mowers-2026/">Best Mowers</a>
-          <a href="/tools/size-matcher/">Size Matcher</a>
-          <a href="/tools/cost-calculator/">Cost Calculator</a>
-          <a href="/tools/slope-checker/">Slope Checker</a>
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav">
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </button>
+        <nav id="primary-nav" aria-label="Primary">
+          {NAV.map((n) => (
+            <a href={n.href} aria-current={isActive(n.href) ? "page" : undefined}>{n.label}</a>
+          ))}
+          <a class="nav-cta" href="/tools/size-matcher/">Find my mower</a>
         </nav>
       </div>
     </header>
@@ -95,22 +109,34 @@ const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
               </span>
               {SITE_NAME}
             </div>
-            <p style="font-size:.92rem;max-width:34ch;">Independent guides to wire-free robot lawn mowers — comparisons, sizing tools, and real cost math.</p>
+            <p class="footer-blurb">Independent guides to wire-free robot lawn mowers: comparisons, sizing tools, and real cost math. We cross-check every spec against several sources.</p>
+            <p class="footer-blurb"><a href="/how-we-research/">How we research &amp; score →</a></p>
           </div>
           <div>
-            <h4>Free tools</h4>
+            <h2 class="footer-h">Best of 2026</h2>
+            <ul>
+              <li><a href="/posts/best-robot-lawn-mowers-2026/">Best robot mowers overall</a></li>
+              <li><a href="/posts/best-robot-mower-for-hills/">Best for hills &amp; slopes</a></li>
+              <li><a href="/posts/best-robot-mower-for-large-lawns/">Best for large lawns</a></li>
+              <li><a href="/posts/best-robot-mower-for-small-yards/">Best for small yards</a></li>
+              <li><a href="/posts/best-budget-robot-lawn-mower/">Best budget picks</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="footer-h">Free tools</h2>
             <ul>
               <li><a href="/tools/size-matcher/">Mower size matcher</a></li>
               <li><a href="/tools/cost-calculator/">Robot vs. lawn service</a></li>
               <li><a href="/tools/slope-checker/">Slope checker</a></li>
+              <li><a href="/mowers/">Compare all mowers</a></li>
             </ul>
           </div>
           <div>
-            <h4>Guides</h4>
+            <h2 class="footer-h">{SITE_NAME}</h2>
             <ul>
-              <li><a href="/posts/best-robot-lawn-mowers-2026/">Best robot mowers 2026</a></li>
-              <li><a href="/posts/mammotion-luba-3-vs-segway-navimow-x4/">Mammotion vs Segway</a></li>
+              <li><a href="/guides/">All guides</a></li>
               <li><a href="/about/">About</a></li>
+              <li><a href="/how-we-research/">How we research</a></li>
               <li><a href="/contact/">Contact</a></li>
               <li><a href="/privacy/">Privacy</a></li>
             </ul>
@@ -121,12 +147,36 @@ const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
           Product prices and availability are accurate as of the date/time indicated
           and are subject to change.
         </p>
-        <p class="copy">© 2026 {SITE_NAME}. All rights reserved.</p>
+        <p class="copy">© {year} {SITE_NAME}. All rights reserved.</p>
       </div>
     </footer>
+    <div class="viz-tip" id="viz-tip" role="tooltip" hidden><strong></strong><span></span></div>
+    <script>
+      // Shared tooltip for chart marks: any element with data-tip-value / data-tip-label.
+      const tip = document.getElementById("viz-tip")!;
+      const show = (el: HTMLElement) => {
+        tip.querySelector("strong")!.textContent = el.dataset.tipValue ?? "";
+        tip.querySelector("span")!.textContent = el.dataset.tipLabel ?? "";
+        tip.hidden = false;
+        const r = el.getBoundingClientRect();
+        const t = tip.getBoundingClientRect();
+        const left = Math.min(Math.max(8, r.left + r.width / 2 - t.width / 2), window.innerWidth - t.width - 8);
+        const top = r.top - t.height - 8 < 8 ? r.bottom + 8 : r.top - t.height - 8;
+        tip.style.transform = `translate(${left}px, ${top}px)`;
+      };
+      const target = (e: Event) => (e.target as HTMLElement).closest?.<HTMLElement>("[data-tip-value]");
+      document.addEventListener("pointerover", (e) => { const el = target(e); if (el) show(el); });
+      document.addEventListener("focusin", (e) => { const el = target(e); if (el) show(el); });
+      document.addEventListener("pointerout", (e) => { if (target(e)) tip.hidden = true; });
+      document.addEventListener("focusout", (e) => { if (target(e)) tip.hidden = true; });
+      window.addEventListener("scroll", () => (tip.hidden = true), { passive: true });
+
+      const btn = document.querySelector<HTMLButtonElement>(".menu-btn");
+      const nav = document.getElementById("primary-nav");
+      btn?.addEventListener("click", () => {
+        const open = nav?.classList.toggle("open") ?? false;
+        btn.setAttribute("aria-expanded", String(open));
+      });
+    </script>
   </body>
 </html>
-
-<style is:global>
-  @import "../styles/global.css";
-</style>

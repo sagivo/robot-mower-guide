@@ -1,68 +1,77 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
+import ProductCard from "../components/ProductCard.astro";
+import PostCard from "../components/PostCard.astro";
+import ComparisonTable from "../components/ComparisonTable.astro";
 import { SITE_NAME, SITE_DESCRIPTION } from "../lib/site";
+import { MODELS, getModel } from "../data/models";
+import { getPosts } from "../lib/posts";
+import { websiteLd, faqLd, itemListLd } from "../lib/schema";
+import { HOME_PICKS } from "../data/picks";
 
-const posts = (await getCollection("posts")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+const posts = await getPosts();
+const latest = [...posts].sort(
+  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
 );
+const guides = latest.filter((p) => p.data.category !== "best").slice(0, 6);
+const topModels = [...MODELS].sort((a, b) => b.score - a.score).slice(0, 6);
+const picks = HOME_PICKS.map((p) => ({ ...p, model: getModel(p.id) }));
 
-const tags: Record<string, string> = {
-  "best-robot-lawn-mowers-2026": "Flagship guide",
-  "mammotion-luba-3-vs-segway-navimow-x4": "Head-to-head",
-  "robot-mower-vs-lawn-service-cost": "Cost breakdown",
-  "robot-mower-slope-limits": "Buying advice",
-  "robot-mower-navigation-explained": "Explainer",
-};
+const yardTypes = [
+  { href: "/posts/best-robot-mower-for-small-yards/", icon: "🏡", title: "Small yards", text: "Under ¼ acre: compact, affordable, easy to store." },
+  { href: "/posts/best-robot-mower-for-large-lawns/", icon: "🌾", title: "Large lawns", text: "1 acre and up: big batteries, wide decks, multi-zone maps." },
+  { href: "/posts/best-robot-mower-for-hills/", icon: "⛰️", title: "Hills & slopes", text: "AWD mowers rated for steep, uneven ground." },
+  { href: "/posts/best-budget-robot-lawn-mower/", icon: "💵", title: "Budget", text: "The best wire-free mowers you can buy for less." },
+  { href: "/posts/best-robot-mower-for-complex-yards/", icon: "🌳", title: "Trees & complex yards", text: "LiDAR and vision for shade, beds and narrow passages." },
+  { href: "/posts/robot-mower-without-boundary-wire/", icon: "📡", title: "No boundary wire", text: "How wire-free mowers work and which tech to pick." },
+];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: SITE_NAME,
-  description: SITE_DESCRIPTION,
-  url: "https://robot-mower-guide.pages.dev",
-};
+const faq = [
+  {
+    q: "What is the best robot lawn mower in 2026?",
+    a: `It depends on your yard. Our top-rated pick overall is the ${picks[0].model.name}. For steep slopes, choose an all-wheel-drive model; for small flat lawns, a budget vision or RTK model saves you a lot of money. Our best robot mowers guide ranks them by yard type.`,
+  },
+  {
+    q: "Do I need a boundary wire for a robot mower?",
+    a: "Not anymore. Every mower we cover is wire-free: it navigates with RTK-GPS, LiDAR, AI cameras or a combination, and you set boundaries by driving the mower around the edge in an app.",
+  },
+  {
+    q: "How much does a good robot lawn mower cost?",
+    a: "Wire-free models start around $700–$1,000 for small lawns. Mid-range models for half-acre to one-acre lawns run about $1,500–$2,500, and premium AWD or multi-acre models cost $2,500–$4,000+.",
+  },
+  {
+    q: "Are robot lawn mowers worth it?",
+    a: "For most lawns over about 3,000 sq ft, yes. Compared with a weekly lawn service, a robot mower typically pays for itself in two to three seasons. Our cost calculator shows the payback for your numbers.",
+  },
+];
+
+const jsonLd = [websiteLd(), itemListLd("Top wire-free robot lawn mowers of 2026", picks.map((p) => p.model)), faqLd(faq)];
 ---
 
-<BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION} jsonLd={jsonLd}>
+<BaseLayout
+  title={`${SITE_NAME}: Best Wire-Free Robot Lawn Mowers of 2026, Compared`}
+  description={SITE_DESCRIPTION}
+  jsonLd={jsonLd}
+>
   <section class="hero">
     <div class="wrap hero-inner">
-      <span class="hero-kicker">Wire-free only · No boundary wire</span>
-      <svg class="mower-illo" viewBox="0 0 160 110" aria-hidden="true">
-        <!-- signal waves -->
-        <g stroke="#b8e62e" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round">
-          <path d="M118 34a22 22 0 0 1 14-8" />
-          <path d="M122 46a34 34 0 0 1 22-12" opacity="0.6"/>
-          <path d="M42 34a22 22 0 0 0-14-8" opacity="0.6"/>
-        </g>
-        <!-- mower body -->
-        <rect x="40" y="52" width="80" height="34" rx="17" fill="#2f9e44"/>
-        <rect x="40" y="52" width="80" height="14" rx="7" fill="#40b955"/>
-        <circle cx="80" cy="59" r="5" fill="#0e2413"/>
-        <circle cx="80" cy="59" r="2" fill="#b8e62e"/>
-        <!-- wheels -->
-        <circle cx="58" cy="90" r="14" fill="#152419"/>
-        <circle cx="58" cy="90" r="6" fill="#5c6f60"/>
-        <circle cx="102" cy="90" r="14" fill="#152419"/>
-        <circle cx="102" cy="90" r="6" fill="#5c6f60"/>
-        <!-- cut grass lines -->
-        <g stroke="#b8e62e" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
-          <path d="M20 100l6-8M32 102l6-8M128 100l6-8M140 102l6-8" />
-        </g>
-      </svg>
+      <span class="hero-kicker">Updated October 2026 · {MODELS.length} wire-free models compared</span>
       <h1>Find the right <em>wire-free</em> robot lawn mower</h1>
       <p class="lead">
-        No boundary wires. No guesswork. Independent comparisons, sizing tools,
-        and real cost math for the GPS and vision-guided mowers of 2026.
+        No boundary wires and no guesswork. Independent comparisons, sizing tools and real cost
+        math for the GPS, LiDAR and vision-guided mowers of 2026.
       </p>
       <div class="cta-row">
         <a class="btn" href="/tools/size-matcher/">Match a mower to my lawn</a>
-        <a class="btn secondary" href="/posts/best-robot-lawn-mowers-2026/">Best mowers of 2026</a>
+        <a class="btn secondary" href="/posts/best-robot-lawn-mowers-2026/">See the best of 2026</a>
       </div>
-      <div class="hero-stats">
-        <div><strong>7</strong><span>models tracked</span></div>
-        <div><strong>3</strong><span>free calculators</span></div>
-        <div><strong>5</strong><span>in-depth guides</span></div>
+      <div class="yard-chooser" role="list" aria-label="Shop by yard">
+        <span class="yc-label">My yard is…</span>
+        <a role="listitem" href="/posts/best-robot-mower-for-small-yards/">Small</a>
+        <a role="listitem" href="/posts/best-robot-mower-for-large-lawns/">1+ acre</a>
+        <a role="listitem" href="/posts/best-robot-mower-for-hills/">Hilly</a>
+        <a role="listitem" href="/posts/best-robot-mower-for-complex-yards/">Full of trees</a>
+        <a role="listitem" href="/posts/best-budget-robot-lawn-mower/">On a budget</a>
       </div>
     </div>
     <svg class="hero-hills" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
@@ -73,13 +82,37 @@ const jsonLd = {
 
   <div class="wrap wide">
     <div class="section-head">
+      <h2 class="section-title">Our top picks for 2026</h2>
+      <a class="section-link" href="/posts/best-robot-lawn-mowers-2026/">Full ranking →</a>
+    </div>
+    <div class="tp-grid four">
+      {picks.map((p) => <ProductCard model={p.model} label={p.label} />)}
+    </div>
+
+    <div class="section-head">
+      <h2 class="section-title">Best robot mower for your yard</h2>
+      <a class="section-link" href="/guides/">All guides →</a>
+    </div>
+    <div class="tool-grid yard-grid">
+      {yardTypes.map((y) => (
+        <a class="tool-card" href={y.href}>
+          <div class="tool-icon">{y.icon}</div>
+          <h3>{y.title}</h3>
+          <p>{y.text}</p>
+          <span class="go">See picks</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="section-head">
       <h2 class="section-title">Free tools</h2>
+      <a class="section-link" href="/tools/">All tools →</a>
     </div>
     <div class="tool-grid">
       <a class="tool-card" href="/tools/size-matcher/">
         <div class="tool-icon">📐</div>
         <h3>Mower Size Matcher</h3>
-        <p>Enter your lawn size, slope, and obstacles — get the models that actually fit your yard.</p>
+        <p>Enter your lawn size, slope and obstacles to get the models that actually fit your yard.</p>
         <span class="go">Find my mower</span>
       </a>
       <a class="tool-card" href="/tools/cost-calculator/">
@@ -91,31 +124,34 @@ const jsonLd = {
       <a class="tool-card" href="/tools/slope-checker/">
         <div class="tool-icon">⛰️</div>
         <h3>Slope Checker</h3>
-        <p>Measure your steepest hill once — find every mower rated to climb it.</p>
+        <p>Measure your steepest hill once and find every mower rated to climb it.</p>
         <span class="go">Check my hill</span>
       </a>
     </div>
 
     <div class="section-head">
-      <h2 class="section-title">Buying guides</h2>
+      <h2 class="section-title">Highest-rated models at a glance</h2>
+      <a class="section-link" href="/mowers/">Compare all {MODELS.length} →</a>
+    </div>
+    <ComparisonTable models={topModels} />
+
+    <div class="section-head">
+      <h2 class="section-title">Comparisons &amp; buying advice</h2>
+      <a class="section-link" href="/guides/">All guides →</a>
     </div>
     <div class="post-grid">
-      {posts.map((post) => (
-        <a class="post-card" href={`/posts/${post.id}/`}>
-          <span class="post-tag">{tags[post.id] ?? "Guide"}</span>
-          <h3>{post.data.title}</h3>
-          <p>{post.data.description}</p>
-          <time datetime={post.data.pubDate.toISOString()}>
-            {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-          </time>
-        </a>
-      ))}
+      {guides.map((post) => <PostCard post={post} />)}
     </div>
 
     <section class="strip" aria-label="Why trust this guide">
-      <div><div class="n">01</div><h3>Wire-free only</h3><p>Every model we cover navigates by GPS, vision, or LiDAR. No buried boundary wire, ever.</p></div>
-      <div><div class="n">02</div><h3>Specs, cross-checked</h3><p>Slope ratings and coverage claims verified across manufacturers, reviews, and owner reports.</p></div>
+      <div><div class="n">01</div><h3>Wire-free only</h3><p>Every model we cover navigates by GPS, vision or LiDAR. No buried boundary wire, ever.</p></div>
+      <div><div class="n">02</div><h3>Specs, cross-checked</h3><p>Slope ratings and coverage claims verified across manufacturers, reviews and owner reports. <a href="/how-we-research/">Our method →</a></p></div>
       <div><div class="n">03</div><h3>Tools, not just words</h3><p>Calculators built from real specs turn "which mower?" into a number, not a guess.</p></div>
+    </section>
+
+    <section class="faq home-faq" aria-label="Frequently asked questions">
+      <h2 class="section-title">Robot mower FAQ</h2>
+      {faq.map((f) => <details><summary>{f.q}</summary><div>{f.a}</div></details>)}
     </section>
   </div>
 </BaseLayout>

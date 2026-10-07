@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+import { SITE_NAME, SITE_URL } from "../lib/site";
+import { breadcrumbLd, type Crumb } from "../lib/schema";
+
+const crumbs: Crumb[] = [
+  { name: "Home", href: "/" },
+  { name: "How we research", href: "/how-we-research/" },
+];
+---
+
+<BaseLayout
+  title="How We Research & Score Robot Lawn Mowers"
+  description={`How ${SITE_NAME} researches wire-free robot mowers: where our specs come from, how the 10-point score works, how we handle affiliate links, and how often guides are updated.`}
+  canonical={`${SITE_URL}/how-we-research/`}
+  jsonLd={breadcrumbLd(crumbs)}
+>
+  <div class="wrap post-wrap">
+    <Breadcrumbs crumbs={crumbs} />
+    <article class="prose">
+      <h1>How we research and score robot mowers</h1>
+      <p class="lead-p">
+        We'd rather tell you exactly how our recommendations are made than imply something they
+        aren't. Here's the process behind every guide, review and calculator on {SITE_NAME}.
+      </p>
+
+      <h2>What we do (and don't do)</h2>
+      <p>
+        {SITE_NAME} is a <strong>research-based</strong> buyer's guide. We don't run a lab, and our
+        reviews are not hands-on tests. Instead, for every model we:
+      </p>
+      <ul>
+        <li><strong>Start from the manufacturer's spec sheet</strong>: rated area, slope, navigation stack, cutting width and height, weather rating.</li>
+        <li><strong>Cross-check with independent reviews</strong> from publications that do test hands-on, and note where their results differ from the marketing claims.</li>
+        <li><strong>Read owner reports</strong> (forums, retailer reviews, support threads) for the problems that only show up after months of use: RTK dropouts, firmware regressions, traction on wet grass, support response times.</li>
+        <li><strong>Flag uncertainty.</strong> When a spec can't be confirmed, or sources disagree, we say so rather than guess.</li>
+      </ul>
+      <p>Each model page lists the sources we relied on.</p>
+
+      <h2>How the 10-point score works</h2>
+      <p>Every model gets four sub-scores, each out of 10:</p>
+      <ul>
+        <li><strong>Navigation</strong>: how reliably it maps, localizes and avoids obstacles. Multi-sensor systems (RTK + LiDAR + vision) score higher than single-sensor ones, adjusted by real-world reports.</li>
+        <li><strong>Terrain &amp; slopes</strong>: rated slope, drive type (AWD vs. 2WD), wheel design and how it handles wet or uneven ground.</li>
+        <li><strong>Coverage</strong>: rated area, cutting width, runtime and multi-zone support.</li>
+        <li><strong>Value</strong>: typical street price against what you get, including warranty and support.</li>
+      </ul>
+      <p>
+        The overall score is a weighted blend of the four, rounded to one decimal, plus small adjustments for
+        reliability and support reputation. A 9+ is exceptional, 8–9 is a strong buy for the right yard,
+        and under 7.5 means real compromises.
+      </p>
+      <p>
+        A higher score doesn't mean it's the right mower for <em>you</em>. A 9.0 AWD flagship is a bad buy for a
+        flat 3,000 sq ft lawn. That's why we built the <a href="/tools/size-matcher/">size matcher</a>.
+      </p>
+
+      <h2>Prices</h2>
+      <p>
+        Prices are typical US street prices at the time of our last update and are shown as ranges because
+        robot mowers are discounted heavily and often. Always check the current price on the retailer page.
+      </p>
+
+      <h2>Affiliate links and independence</h2>
+      <p>
+        {SITE_NAME} is reader-supported. As an Amazon Associate we earn from qualifying purchases made through
+        our links, at no extra cost to you. Commissions never decide which products we recommend or how they
+        are ranked. Brands cannot pay for placement, and we don't accept free products in exchange for coverage.
+      </p>
+
+      <h2>Updates and corrections</h2>
+      <p>
+        We review our main buying guides at least monthly during mowing season and whenever a significant
+        model launches. Each page shows its last-updated date. Spot an error? <a href="/contact/">Tell us</a>
+        and we'll fix it.
+      </p>
+    </article>
+  </div>
+</BaseLayout>

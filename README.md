@@ -1,7 +1,8 @@
 # MowPilot — robot-mower-guide
 
-Wire-free robot lawn mower buyer's guide: Astro static site with 5 SEO guides
-and 3 interactive calculators (size matcher, cost vs. lawn service, slope checker).
+Wire-free robot lawn mower buyer's guide: Astro static site with buying guides,
+comparisons, a review page per model, a sortable comparison chart, and 3 interactive
+calculators (size matcher, cost vs. lawn service, slope checker).
 Deploys to Cloudflare Pages on every merge to `main`.
 
 ## Develop
@@ -12,12 +13,34 @@ npm run dev     # http://localhost:4321
 npm run build   # outputs to dist/
 ```
 
+## Content structure
+
+| What | Where | URL |
+|---|---|---|
+| Model database (specs, tiers, prices, scores, pros/cons) | `src/data/models.ts` | drives `/mowers/`, `/mowers/<id>/`, all tools |
+| Homepage top picks | `src/data/picks.ts` | `/` |
+| Guides & comparisons | `src/content/posts/*.md` | `/posts/<file>/` |
+| Long-form model reviews | `src/content/reviews/<model-id>.md` | appended to `/mowers/<model-id>/` |
+
+Post frontmatter supports `category`, `tag`, `order`, `picks` (model ids rendered as
+product cards + sidebar + sticky mobile CTA), `takeaways`, and `faq` (rendered + FAQPage schema).
+See `src/content.config.ts`.
+
+In markdown, link products as `[LUBA 3 AWD](amazon:mammotion-luba-3-awd)`. The build
+resolves the model id to its Amazon link, adds the Associates tag and
+`rel="sponsored nofollow"`, and fails on unknown ids.
+
+Regenerate social images (`og-default.png`, `logo.png`, `apple-touch-icon.png`) with
+`node scripts/make-images.mjs`.
+
 ## Amazon Associates
 
 Product links are built by `src/lib/amazon.ts`. Set your Associates tag in
-`src/lib/site.ts` (`AMAZON_TAG`) once approved — every product link on the
-site picks it up automatically. Until then, links point to untagged Amazon
-search results.
+`src/lib/site.ts` (`AMAZON_TAG`) once approved; every product link on the
+site picks it up automatically. Until then, links are untagged.
+
+Add an `asin` to a model in `src/data/models.ts` to link straight to its Amazon
+product page instead of a search results page (converts much better).
 
 ## Deploy
 
