@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import rehypeAffiliate from './src/lib/rehype-affiliate.ts';
 import rehypeVisuals from './src/lib/rehype-visuals.ts';
 
-const SITE = 'https://robot-mower-guide.pages.dev';
+const SITE = 'https://robot-mower-guide-9oz.pages.dev';
 
 // Real per-page lastmod from frontmatter (Google ignores lastmod that's always "now").
 function lastmodMap() {
