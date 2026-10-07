@@ -24,7 +24,7 @@ const acres = (sqft: number) => +(sqft / ACRE).toFixed(2);
           <a class="pr-name" href={`/mowers/${m.id}/`}>{m.name}</a>
           <span class="pr-specs">Up to {acres(m.maxSqFt)} ac · {m.maxSlopePct}% slope · {m.drive}</span>
         </div>
-        <span class="score sm" title="MowPilot score out of 10">{m.score.toFixed(1)}</span>
+        <span class="score sm" title="Guide score out of 10">{m.score.toFixed(1)}</span>
         <div class="pr-buy">
           <span class="pr-price">from {formatMoney(m.priceLow)}</span>
           <BuyButton model={m} label="Check price" size="sm" />

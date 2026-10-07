@@ -58,7 +58,7 @@ export const GET: APIRoute = async ({ props }) => {
       h("div", { display: "flex", alignItems: "center", gap: 18 }, [
         h("div", { width: 56, height: 56, borderRadius: 14, background: "linear-gradient(135deg,#2f9e44,#14331b)", border: "2px solid #40b955", display: "flex", alignItems: "center", justifyContent: "center" },
           h("div", { width: 14, height: 14, borderRadius: 999, background: "#b8e62e" })),
-        h("div", { fontFamily: "Sora", fontWeight: 800, fontSize: 38 }, "MowPilot"),
+        h("div", { fontFamily: "Sora", fontWeight: 800, fontSize: 28 }, "Robot Lawn Mower Guide"),
         h("div", { marginLeft: "auto", fontSize: 22, color: "#b8e62e", border: "2px solid rgba(184,230,46,.45)", borderRadius: 999, padding: "8px 22px", textTransform: "uppercase", letterSpacing: 3, fontWeight: 700 }, kicker),
       ]),
       h("div", { display: "flex", alignItems: "flex-end", gap: 40 }, [

@@ -1,4 +1,4 @@
-# MowPilot — robot-mower-guide
+# Robot Lawn Mower Guide — robotlawnmowerguide.com
 
 Wire-free robot lawn mower buyer's guide: Astro static site with buying guides,
 comparisons, a review page per model, a sortable comparison chart, and 3 interactive

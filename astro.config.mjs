@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import rehypeAffiliate from './src/lib/rehype-affiliate.ts';
 import rehypeVisuals from './src/lib/rehype-visuals.ts';
 
-const SITE = 'https://robot-mower-guide-9oz.pages.dev';
+const SITE = 'https://robotlawnmowerguide.com';
 
 // Real per-page lastmod from frontmatter (Google ignores lastmod that's always "now").
 function lastmodMap() {
@@ -20,7 +20,7 @@ function lastmodMap() {
 }
 const LASTMOD = lastmodMap();
 
-// Keep in sync with SITE_URL in src/lib/site.ts when the domain is finalized.
+// Keep in sync with SITE_URL in src/lib/site.ts.
 export default defineConfig({
   site: SITE,
   trailingSlash: 'always',

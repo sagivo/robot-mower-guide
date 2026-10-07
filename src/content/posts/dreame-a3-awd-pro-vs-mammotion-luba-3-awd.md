@@ -61,7 +61,7 @@ Prices on both have swung by hundreds of dollars this year, so check the current
 | Connectivity | 4G eSIM (3 years included), Wi-Fi, Bluetooth | 4G (3 years included), Wi-Fi, Bluetooth |
 | Anti-theft | PIN, lift alarm, 4G tracking, AirTag slot, camera patrol | 4G GPS tracking, live camera view, PIN |
 | Warranty | 3 years | 3 years |
-| MowPilot score | 8.7 / 10 | 9.2 / 10 |
+| Guide score | 8.7 / 10 | 9.2 / 10 |
 
 On our research-based subscores, the LUBA 3 leads on navigation (9.5 vs 8.5) and terrain (10 vs 9.5), they tie on coverage (9), and the Dreame wins clearly on value (9 vs 7.5). The Dreame's lower navigation score reflects split reviews: Bob Vila named it best for steep slopes and Gizmodo was positive, but Reviewed reported a difficult setup, boundary crossings into mulch beds and turf scalping when it got stuck. Full spec sheets live on our [Dreame A3 AWD Pro review](/mowers/dreame-a3-awd-pro/) and [LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/), and you can line both up against the other 19 models on the [comparison chart](/mowers/).
 

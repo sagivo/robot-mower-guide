@@ -58,7 +58,7 @@ Both brands sell several sizes, so we've matched them by price band below. Price
 | Cutting height | 1.18–3.15" | 1.18–3.54" | 2.0–3.6" (manual) | 2.0–3.6" (manual) | 0.8–2.8" (motorized) | 0.75–4.0" |
 | Noise | 61 dB (trimmer ~81 dB) | 62 dB (trimmer ~82 dB) | 58 dB | 59 dB | 59 dB | 60 dB (per PCWorld) |
 | 4G / anti-theft | No 4G; none listed | Optional cellular module; none listed | 4G; GPS tracking, alarm | 4G; GPS tracking, geofence | 4G; tracking, geofence | 4G; GPS tracking, geofence alarm |
-| MowPilot score | 8.1 | 8.9 | 8.3 | 8.5 | 8.4 | 9.3 |
+| Guide score | 8.1 | 8.9 | 8.3 | 8.5 | 8.4 | 9.3 |
 
 Full specs are on our reviews of the [GOAT O1000](/mowers/ecovacs-goat-o1000-lidar-pro/), [GOAT A2000/A3000](/mowers/ecovacs-goat-a-lidar-pro/), [Navimow i105N/i110N](/mowers/segway-navimow-i105n-i110n/), [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/), [Navimow i215](/mowers/segway-navimow-i215-lidar/) and [Navimow X4](/mowers/segway-navimow-x4/).
 

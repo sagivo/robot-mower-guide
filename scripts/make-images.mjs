@@ -20,7 +20,7 @@ const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" vi
   <path d="M0,540 C240,500 480,580 720,540 C960,500 1100,560 1200,530 L1200,630 L0,630 Z" fill="#2f9e44" opacity=".55"/>
   <path d="M0,580 C260,555 520,605 780,580 C1040,555 1140,600 1200,585 L1200,630 L0,630 Z" fill="#40b955" opacity=".6"/>
   <g transform="translate(80,80)">${mark(2.2)}</g>
-  <text x="170" y="134" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#fff">MowPilot</text>
+  <text x="170" y="134" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#fff">Robot Lawn Mower Guide</text>
   <text x="80" y="290" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#fff">Wire-free robot</text>
   <text x="80" y="375" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#b8e62e">lawn mower guides</text>
   <text x="80" y="450" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#cfe3d2">Reviews · Comparisons · Sizing &amp; cost calculators</text>

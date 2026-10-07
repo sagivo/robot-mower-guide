@@ -225,7 +225,7 @@ Plug your own numbers into the [cost calculator](/tools/cost-calculator/) to see
 
 ## How we chose these picks
 
-We don't run a test lawn. MowPilot is a research-based guide: for each model we compiled specs from manufacturer US pages, dated October 2026 street prices from retailer and deal listings, and findings from hands-on reviews by outlets including Reviewed, Bob Vila, Tom's Guide, TechAeris, Gizmodo, BGR, How-To Geek and TechRadar, plus owner reports. We score each mower on navigation, terrain, coverage and value, then match winners to the yard types US buyers actually have. Boundary-wire-only models were excluded. Our full method is on the [how we research](/how-we-research/) page.
+We don't run a test lawn. Robot Lawn Mower Guide is a research-based guide: for each model we compiled specs from manufacturer US pages, dated October 2026 street prices from retailer and deal listings, and findings from hands-on reviews by outlets including Reviewed, Bob Vila, Tom's Guide, TechAeris, Gizmodo, BGR, How-To Geek and TechRadar, plus owner reports. We score each mower on navigation, terrain, coverage and value, then match winners to the yard types US buyers actually have. Boundary-wire-only models were excluded. Our full method is on the [how we research](/how-we-research/) page.
 
 This October 2026 update replaces the discontinued LUBA 2 AWD and older Landroid Vision models with the current lineup.
 

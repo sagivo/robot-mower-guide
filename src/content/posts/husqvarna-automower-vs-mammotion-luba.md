@@ -61,7 +61,7 @@ Prices below are October 2026 street and campaign prices, and Husqvarna's in par
 | Weather rating | IPX5 | IPX4 | IPX6 | IPX6 |
 | Anti-theft | GPS tracking, alarm, PIN, geofence | GPS tracking, alarm, PIN, geofence | 4G GPS tracking, live camera, PIN | 4G tracking, live view, PIN |
 | Warranty | 4 years | Dealer-backed (confirm term) | 3 years | Check listing |
-| MowPilot score | 8.0 | 7.6 | 9.2 | 8.6 |
+| Guide score | 8.0 | 7.6 | 9.2 | 8.6 |
 
 Full specs and tier tables are on our reviews of the [Automower iQ](/mowers/husqvarna-automower-iq/), [Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/), [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) and [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/).
 

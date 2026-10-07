@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://robot-mower-guide-9oz.pages.dev/sitemap-index.xml
+Sitemap: https://robotlawnmowerguide.com/sitemap-index.xml
