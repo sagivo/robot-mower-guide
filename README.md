@@ -61,6 +61,30 @@ Only models with an `asin` get photos. Without credentials, or if the API fails,
 the build falls back to illustrations. A licensed photo placed at
 `src/assets/mowers/<model-id>.jpg` takes priority over both.
 
+## Analytics (PostHog)
+
+Visitors, link clicks, and performance are tracked with PostHog via
+`src/components/PostHog.astro` (included in `BaseLayout`):
+
+- **Visitors:** automatic `$pageview` / `$pageleave`.
+- **Links:** autocapture plus a custom `affiliate_click` event for Amazon /
+  `.aff` / `data-model` links (destination, model id, link text, page) and
+  `outbound_click` for other external links.
+- **Performance:** navigation timing plus `$web_vitals` (LCP, INP, CLS…).
+
+Setup:
+
+1. Create a PostHog project and copy its project API key.
+2. Set build env vars (locally in `.env`, in Cloudflare Pages under
+   Settings → Environment variables):
+   `PUBLIC_POSTHOG_KEY=<key>` and `PUBLIC_POSTHOG_HOST=https://us.i.posthog.com`
+   (or `https://eu.i.posthog.com`).
+3. In PostHog: Project settings → Autocapture & heatmaps → enable
+   **Web vitals autocapture**.
+
+Without `PUBLIC_POSTHOG_KEY` the site builds and runs with analytics
+disabled. Session recording stays off and Do Not Track is respected.
+
 ## Search
 
 `npm run build` runs Pagefind after Astro to index pages marked `data-pagefind-body`;
