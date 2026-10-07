@@ -32,7 +32,7 @@ export interface MowerModel {
   priceLow: number;
   priceHigh: number;
   /** Coverage tiers within a series, cheapest first — used by the size matcher. */
-  tiers?: { name: string; sqft: number; price: number }[];
+  tiers?: { name: string; sqft: number; price: number; asin?: string }[];
   /** Caveats shown under the spec table (variant differences, unverified figures). */
   specNotes?: string[];
   /** Amazon search query for the buy link */
@@ -78,7 +78,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 3299,
     tiers: [
       { name: "LUBA 3 AWD 1500", sqft: 16146, price: 2399 },
-      { name: "LUBA 3 AWD 3000", sqft: 32292, price: 2109 },
+      { name: "LUBA 3 AWD 3000", sqft: 32292, price: 2109, asin: "B0GSVPQSBQ" },
       { name: "LUBA 3 AWD 5000", sqft: 53820, price: 3299 },
     ],
     specNotes: [
@@ -87,6 +87,7 @@ export const MODELS: MowerModel[] = [
       "The 3000 tier is often discounted below the 1500's list price, so compare tiers before buying.",
     ],
     query: "Mammotion LUBA 3 AWD robot lawn mower",
+    asin: "B0GSVPQSBQ",
     bestFor: "Large, steep or tree-heavy lawns up to 1.25 acres. Climbs 80% slopes with no base station.",
     pros: [
       "80% slope rating with all-wheel drive and suspension",
@@ -181,7 +182,7 @@ export const MODELS: MowerModel[] = [
     priceLow: 1699,
     priceHigh: 2799,
     tiers: [
-      { name: "A3 AWD Pro 2500", sqft: 27007, price: 1699 },
+      { name: "A3 AWD Pro 2500", sqft: 27007, price: 1699, asin: "B0GT5CBH8H" },
       { name: "A3 AWD Pro 3500", sqft: 37897, price: 1899 },
       { name: "A3 AWD Pro 5000", sqft: 53820, price: 2799 },
     ],
@@ -189,6 +190,7 @@ export const MODELS: MowerModel[] = [
       "Tiers: 2500 (0.62 ac), 3500 (0.87 ac), 5000 (1.24 ac). List prices are $3,099–$3,499; October 2026 sale prices are shown.",
     ],
     query: "Dreame A3 AWD Pro robot lawn mower",
+    asin: "B0GT5CBH8H",
     bestFor: "Big, steep, tree-shaded yards where satellite RTK struggles.",
     pros: [
       "LiDAR navigation needs no satellites, so it works well under trees",
@@ -234,14 +236,15 @@ export const MODELS: MowerModel[] = [
     priceLow: 1399,
     priceHigh: 1849,
     tiers: [
-      { name: "GOAT A2000 LiDAR Pro", sqft: 21780, price: 1399 },
-      { name: "GOAT A3000 LiDAR Pro", sqft: 32670, price: 1849 },
+      { name: "GOAT A2000 LiDAR Pro", sqft: 21780, price: 1399, asin: "B0GGZQTY2N" },
+      { name: "GOAT A3000 LiDAR Pro", sqft: 32670, price: 1849, asin: "B0GGYYQLXL" },
     ],
     specNotes: [
       "A2000 covers 0.5 acre, A3000 covers 0.75 acre. Slope limit is 50% inside the work area and 20% across virtual boundaries.",
       "The built-in edge trimmer runs at about 82 dB.",
     ],
     query: "ECOVACS GOAT A3000 LiDAR PRO",
+    asin: "B0GGZQTY2N",
     bestFor: "Half- to three-quarter-acre lawns where you want edges trimmed automatically.",
     pros: [
       "Only mainstream mower line with a true built-in edge string trimmer",
@@ -288,6 +291,7 @@ export const MODELS: MowerModel[] = [
       "Fixed-height 4.7\" side edge disc cuts to about 2.1\" from walls.",
     ],
     query: "Mammotion LUBA mini 2 AWD 1500",
+    asin: "B0GSQVFFBW",
     bestFor: "Small but hilly or cluttered yards up to about a third of an acre.",
     pros: [
       "Real edge-cutting disc",
@@ -332,14 +336,15 @@ export const MODELS: MowerModel[] = [
     priceLow: 849,
     priceHigh: 1099,
     tiers: [
-      { name: "Navimow i206 AWD", sqft: 6534, price: 849 },
-      { name: "Navimow i210 AWD", sqft: 10890, price: 1099 },
+      { name: "Navimow i206 AWD", sqft: 6534, price: 849, asin: "B0G814F6Z4" },
+      { name: "Navimow i210 AWD", sqft: 10890, price: 1099, asin: "B0G8173C6Y" },
     ],
     specNotes: [
       "i206 covers 0.15 acre, i210 covers 0.25 acre. Cutting height is set by hand.",
       "Noise, IP rating and deck width are taken from EU/AU spec sheets.",
     ],
     query: "Segway Navimow i210 AWD",
+    asin: "B0G814F6Z4",
     bestFor: "Small sloped or bumpy yards on a mid budget.",
     pros: [
       "Cheapest AWD wire-free mower from a major brand",
@@ -426,6 +431,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 1599,
     specNotes: ["Covers 0.37 acre. Slope is 45% per Navimow EU, though one secondary source lists 30%. IP rating not published for the US model."],
     query: "Segway Navimow i215 LiDAR",
+    asin: "B0G8DDG35Z",
     bestFor: "Tree-covered yards of a quarter to a third of an acre.",
     pros: ["One of the simplest setups (automatic LiDAR mapping)", "Works under trees and in shade", "Motorized height adjustment"],
     cons: ["2WD only", "Edges and drop-offs may need map edits", "4G fee after year one"],
@@ -460,12 +466,13 @@ export const MODELS: MowerModel[] = [
     priceLow: 669,
     priceHigh: 789,
     tiers: [
-      { name: "Navimow i105N", sqft: 5445, price: 669 },
+      { name: "Navimow i105N", sqft: 5445, price: 669, asin: "B0CX8LL2PC" },
       { name: "Navimow i110N", sqft: 10890, price: 789 },
     ],
     specNotes: [
       "Uses network RTK where coverage exists. Reviewed and Tom's Guide both staked the included antenna during setup, so plan for it.","i105N covers 0.125 acre, i110N covers 0.25 acre. Cutting height is set by hand."],
     query: "Segway Navimow i105N robot mower",
+    asin: "B0CX8LL2PC",
     bestFor: "Budget buyers with small, flat lawns.",
     pros: ["Lowest-cost credible RTK + vision mower", "Very quiet (58 dB), fine for night mowing", "Proven, widely reviewed platform"],
     cons: ["Struggles on slopes and in mud", "Small coverage and a narrow deck", "Cutting height is set by hand"],
@@ -502,6 +509,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 1599,
     specNotes: ["Covers 0.25 acre. Slope, width and height are from retailer listings.", "Sunseeker says it is not compatible with St. Augustine or Zoysia grass.", "Minimum edge distance is about 4.3\" (110 mm), so expect to trim borders.", "Launch SRP was $1,599; Costco and Amazon have sold it for about $984–$1,000 in fall 2026."],
     query: "Sunseeker S4 LiDAR robot lawn mower",
+    asin: "B0G7ZFMQZ5",
     bestFor: "Small, heavily shaded yards.",
     pros: ["Excellent under dense tree canopy", "Maps in minutes, with an even cut", "Quiet, with US warranty support; CES 2026 Innovation honoree"],
     cons: ["Weak at edges, so fence lines need a trim about every two weeks", "Narrow 7\" deck", "Not compatible with St. Augustine or Zoysia grass"],
@@ -536,11 +544,12 @@ export const MODELS: MowerModel[] = [
     priceLow: 1099,
     priceHigh: 1539,
     tiers: [
-      { name: "Dreame A3 AWD 1000", sqft: 10890, price: 1099 },
+      { name: "Dreame A3 AWD 1000", sqft: 10890, price: 1099, asin: "B0H8XPKK9L" },
       { name: "Dreame A3 AWD 2000", sqft: 21780, price: 1539 },
     ],
     specNotes: ["1000 covers 0.25 acre, 2000 covers 0.5 acre. List prices are $1,999–$2,199; October 2026 sale prices are shown. EdgeMaster cuts to about 1.9\" from edges."],
     query: "Dreame A3 AWD robot lawn mower",
+    asin: "B0H8XPKK9L",
     bestFor: "The cheapest way to get LiDAR plus AWD on a hilly small-to-mid lawn.",
     pros: ["LiDAR + AWD + 80% slope rating for about $1,100 on sale", "No antenna or base station", "EdgeMaster gets closer to borders than most"],
     cons: ["Narrow 7.9\" deck", "Sale prices fluctuate a lot", "Obstacle avoidance trails the flagships"],
@@ -570,11 +579,12 @@ export const MODELS: MowerModel[] = [
     priceLow: 850,
     priceHigh: 1840,
     tiers: [
-      { name: "Landroid Vision Cloud ¼ acre", sqft: 10890, price: 850 },
+      { name: "Landroid Vision Cloud ¼ acre", sqft: 10890, price: 850, asin: "B0GNZHMD9Q" },
       { name: "Landroid Vision Cloud 1 acre", sqft: 43560, price: 1840 },
     ],
     specNotes: ["Sizes from ¼ to 1 acre. Cut-to-Zero edge trimmer is an add-on on some SKUs. Noise and IP rating not published.", "WORX advertises lifetime free RTK Cloud corrections and free 4G. Confirm the current terms before buying."],
     query: "WORX Landroid Vision Cloud robotic mower",
+    asin: "B0GN8KK8XW",
     bestFor: "Easy setup from a brand sold at every big-box store.",
     pros: [
       "No antenna, with a simple setup and app",
@@ -609,6 +619,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 3699,
     specNotes: ["Models WR341–WR346 cover ¼ to 1.5 acres. The 1-acre model was about $2,400 in spring 2026. Noise and IP rating not published.", "WORX lists the Cut-to-Zero blade for the 4WD, but at least one review says it ships separately. Check the box contents.", "WORX advertises lifetime free RTK Cloud corrections and free 4G. Confirm the current terms before buying."],
     query: "WORX Landroid Vision Cloud 4WD",
+    asin: "B0GQBR2P79",
     bestFor: "Hilly lawns up to 1.5 acres, from a big-box brand.",
     pros: ["84% slope rating with 4WD", "Antenna-free network RTK; WORX advertises free RTK Cloud and 4G", "Wide retail availability and Power Share batteries"],
     cons: ["Narrow 8.7\" deck for 1.5 acres", "Top tiers are pricey", "Short runtime per charge"],
@@ -641,6 +652,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 1499,
     specNotes: ["Covers 0.25 acre. Built-in TruEdge trimmer runs at about 81 dB."],
     query: "ECOVACS GOAT O1000 LiDAR PRO",
+    asin: "B0GJ4F8MLF",
     bestFor: "Small yards that want trimmed edges on a budget.",
     pros: ["Built-in edge trimmer at around $1,000", "LiDAR works under trees", "Automatic mapping"],
     cons: ["Small coverage", "Loud trimmer (~81 dB)", "No 4G, so no GPS theft tracking"],
@@ -714,7 +726,7 @@ export const MODELS: MowerModel[] = [
     priceLow: 1999,
     priceHigh: 3399,
     tiers: [
-      { name: "Automower 410 iQ", sqft: 21780, price: 1999 },
+      { name: "Automower 410 iQ", sqft: 21780, price: 1999, asin: "B0DTV7TR6W" },
       { name: "Automower 420 iQ", sqft: 43560, price: 2599 },
       { name: "Automower 440 iQ", sqft: 87120, price: 3399 },
     ],
@@ -724,6 +736,7 @@ export const MODELS: MowerModel[] = [
       "October 2026 campaign prices are shown; list prices are $2,600–$4,300.",
     ],
     query: "Husqvarna Automower 420 iQ",
+    asin: "B0DTV7TR6W",
     bestFor: "Buyers who want a legacy brand with local dealer service.",
     pros: ["Brand reliability, dealer network and a 4-year warranty (3 years on the battery)", "Covers up to 2 acres", "Can fall back to boundary wire in yards with poor sky view"],
     cons: ["Reference station needs its own power outlet", "Radar avoidance trails LiDAR and vision, and can catch on roots", "RWD traction issues and boundary errors reported"],
@@ -758,11 +771,12 @@ export const MODELS: MowerModel[] = [
     priceLow: 2499,
     priceHigh: 2799,
     tiers: [
-      { name: "Lymow One Plus 5A", sqft: 47916, price: 2499 },
-      { name: "Lymow One Plus 10A", sqft: 75359, price: 2799 },
+      { name: "Lymow One Plus 5A", sqft: 47916, price: 2499, asin: "B0HCTVKD7B" },
+      { name: "Lymow One Plus 10A", sqft: 75359, price: 2799, asin: "B0GR8NT35N" },
     ],
     specNotes: ["Area is a per-day rating (1.1 / 1.73 ac); about 0.57 acre per charge. Slope is stated as 45° (~100% grade), a marketing claim. Noise not published.", "Mapping takes 30–45 minutes per Lymow's guidance; Tom's Guide mapped a 6,800 sq ft yard in 20–30 minutes."],
     query: "Lymow One Plus robotic lawn mower",
+    asin: "B0HCTVKD7B",
     bestFor: "Rough, steep, overgrown rural acreage.",
     pros: ["Tank tracks handle extreme slopes and rough ground", "Powerful 16\" deck for big, rough lots", "Aluminum frame and LiFePO4 battery"],
     cons: ["Needs an RTK base; manual mapping takes 30–45 minutes", "Heavier and louder than wheeled robots", "Left patches in Tom's Guide testing"],
@@ -794,6 +808,7 @@ export const MODELS: MowerModel[] = [
     priceHigh: 899,
     specNotes: ["Covers about 0.25 acre (some reviews say 0.3). Needs an RTK antenna near the dock. The M9 Pro adds LiDAR. IP rating not published.", "Reviews disagree on mapping: New Atlas describes a manual drive-around, Reviewed calls it automatic."],
     query: "ANTHBOT M9 robot lawn mower",
+    asin: "B0GCHGYF8C",
     bestFor: "The cheapest dependable wire-free option for small, open lawns.",
     pros: ["RTK + vision for under $800", "About a 10-minute setup", "Compact for tight spaces, and quiet"],
     cons: ["Manual drive-around mapping", "Max 2.8\" cut height", "Needs an RTK antenna"],
@@ -856,11 +871,12 @@ export const MODELS: MowerModel[] = [
     priceLow: 999,
     priceHigh: 1399,
     tiers: [
-      { name: "eufy E15", sqft: 8712, price: 999 },
+      { name: "eufy E15", sqft: 8712, price: 999, asin: "B0DRVYDXWX" },
       { name: "eufy E18", sqft: 12917, price: 1399 },
     ],
     specNotes: ["E15 covers 0.2 acre, E18 covers 0.3 acre. Slope is stated as 18° (about 32% grade)."],
     query: "eufy robot lawn mower E18",
+    asin: "B0DRVYDXWX",
     bestFor: "Simple, flat small lawns and owners who want the easiest setup.",
     pros: ["Easiest setup of all, with no antenna or base", "Very quiet (56 dB)", "Polished app"],
     cons: ["Camera-only navigation gets lost on complex lawns and in poor light", "Slips on damp grass; 18° slope limit", "Real-world coverage falls short of the rating"],

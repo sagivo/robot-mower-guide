@@ -53,7 +53,11 @@ const jsonLd = [
 ];
 
 const modelsJson = JSON.stringify(
-  MODELS.map((m) => ({ id: m.id, name: m.name, maxSqFt: m.maxSqFt, maxSlopePct: m.maxSlopePct, nav: m.nav, navTech: m.navTech, drive: m.drive, priceLow: m.priceLow, priceHigh: m.priceHigh, bestFor: m.bestFor, score: m.score, tiers: m.tiers ?? [{ name: m.name, sqft: m.maxSqFt, price: m.priceLow }], link: amazonLink(m.query, m.asin) }))
+  MODELS.map((m) => ({ id: m.id, name: m.name, maxSqFt: m.maxSqFt, maxSlopePct: m.maxSlopePct, nav: m.nav, navTech: m.navTech, drive: m.drive, priceLow: m.priceLow, priceHigh: m.priceHigh, bestFor: m.bestFor, score: m.score, tiers: (m.tiers ?? [{ name: m.name, sqft: m.maxSqFt, price: m.priceLow, asin: m.asin }]).map((t) => ({
+    ...t,
+    // Exact listing for this size when known, else a search for the tier name.
+    link: t.asin ? amazonLink(m.query, t.asin) : m.tiers ? amazonLink(`${t.name} robot lawn mower`) : amazonLink(m.query, m.asin),
+  })), link: amazonLink(m.query, m.asin) }))
 );
 ---
 
@@ -162,7 +166,7 @@ const modelsJson = JSON.stringify(
             <h4>${i === 0 ? "⭐ Best match: " : ""}<a href="/mowers/${m.id}/">${m.name}</a></h4>
             <p class="specs">Get the <strong>${m.tier.name}</strong> (${(m.tier.sqft / 43560).toFixed(2)} ac) · ~$${fmt(m.tier.price)} · climbs ${m.maxSlopePct}% grade · ${m.drive} · ${m.nav}</p>
             <p>${m.bestFor}</p>
-            <div class="pc-actions"><a class="btn buy btn-sm" href="${m.link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
+            <div class="pc-actions"><a class="btn buy btn-sm" href="${m.tier.link}" rel="sponsored nofollow noopener" target="_blank">Check ${m.tier.name} price</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
           </div>`).join("");
         result.innerHTML = `<h3>Top ${Math.min(3, picks.length)} matches for your lawn</h3>${cards}
           <p class="disclosure">As an Amazon Associate ${siteName} earns from qualifying purchases. Prices change — verify on Amazon.</p>`;
