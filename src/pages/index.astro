@@ -1,211 +1,104 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ProductCard from "../components/ProductCard.astro";
-import PostCard from "../components/PostCard.astro";
-import ComparisonTable from "../components/ComparisonTable.astro";
-import ProductImage from "../components/ProductImage.astro";
-import BuyButton from "../components/BuyButton.astro";
-import StickyCta from "../components/StickyCta.astro";
-import PriceTier from "../components/PriceTier.astro";
+import { getCollection } from "astro:content";
+import { MODELS, formatMoney } from "../data/models";
+import { amazonLink } from "../lib/amazon";
 import { SITE_NAME, SITE_DESCRIPTION } from "../lib/site";
-import { MODELS, getModel, priceTier } from "../data/models";
-import { getPosts } from "../lib/posts";
-import { websiteLd, faqLd, itemListLd } from "../lib/schema";
-import { HOME_PICKS } from "../data/picks";
 
-const posts = await getPosts();
-const latest = [...posts].sort(
-  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
+const posts = (await getCollection("posts")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
-const guides = latest.filter((p) => p.data.category !== "best").slice(0, 6);
-const topModels = [...MODELS].sort((a, b) => b.score - a.score).slice(0, 6);
-const picks = HOME_PICKS.map((p) => ({ ...p, model: getModel(p.id) }));
 
-const top = picks[0].model;
-// Award colours for the four homepage picks (overall, hills, trees, budget).
-const ACCENTS = ["#c8f03c", "#ff9a6b", "#7fd8c6", "#ffd34f"];
+const tags: Record<string, string> = {
+  "best-robot-lawn-mowers-2026": "Flagship guide",
+  "mammotion-luba-3-vs-segway-navimow-x4": "Head-to-head",
+  "robot-mower-vs-lawn-service-cost": "Cost breakdown",
+  "robot-mower-slope-limits": "Buying advice",
+  "robot-mower-navigation-explained": "Explainer",
+};
 
-// Each yard tile shows the #1 pick from its guide, so readers can buy straight from the homepage.
-const yardTypes = [
-  { slug: "best-robot-mower-for-small-yards", icon: "🏡", title: "Small yards", text: "Under ¼ acre: compact, affordable, easy to store." },
-  { slug: "best-robot-mower-for-large-lawns", icon: "🌾", title: "Large lawns", text: "1 acre and up: big batteries, wide decks, multi-zone maps." },
-  { slug: "best-robot-mower-for-hills", icon: "⛰️", title: "Hills & slopes", text: "AWD mowers rated for steep, uneven ground." },
-  { slug: "best-budget-robot-lawn-mower", icon: "💵", title: "On a budget", text: "The best wire-free mowers you can buy for less." },
-  { slug: "best-robot-mower-for-complex-yards", icon: "🌳", title: "Trees & tricky layouts", text: "LiDAR and vision for shade, beds and narrow passages." },
-  { slug: "robot-mower-without-boundary-wire", icon: "📡", title: "No boundary wire", text: "How wire-free mowers work and which tech to pick." },
-].map((y) => {
-  const first = posts.find((p) => p.id === y.slug)?.data.picks?.[0];
-  return { ...y, href: `/posts/${y.slug}/`, pick: first ? getModel(first.id) : undefined };
-});
-
-const faq = [
-  {
-    q: "What is the best robot lawn mower in 2026?",
-    a: `It depends on your yard. Our top-rated pick overall is the ${picks[0].model.name}. For steep slopes, choose an all-wheel-drive model; for small flat lawns, a budget vision or RTK model saves you a lot of money. Our best robot mowers guide ranks them by yard type.`,
-  },
-  {
-    q: "Do I need a boundary wire for a robot mower?",
-    a: "Not anymore. Every mower we cover is wire-free: it navigates with RTK-GPS, LiDAR, AI cameras or a combination, and you set boundaries by driving the mower around the edge in an app.",
-  },
-  {
-    q: "How much does a good robot lawn mower cost?",
-    a: "Wire-free models start around $700–$1,000 for small lawns. Mid-range models for half-acre to one-acre lawns run about $1,500–$2,500, and premium AWD or multi-acre models cost $2,500–$4,000+.",
-  },
-  {
-    q: "Are robot lawn mowers worth it?",
-    a: "For most lawns over about 3,000 sq ft, yes. Compared with a weekly lawn service, a robot mower typically pays for itself in two to three seasons. Our cost calculator shows the payback for your numbers.",
-  },
-];
-
-const jsonLd = [websiteLd(), itemListLd("Top wire-free robot lawn mowers of 2026", picks.map((p) => p.model)), faqLd(faq)];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  description: SITE_DESCRIPTION,
+  url: "https://robot-mower-guide.pages.dev",
+};
 ---
 
-<BaseLayout
-  title={`${SITE_NAME}: Best Wire-Free Robot Lawn Mowers of 2026, Compared`}
-  description={SITE_DESCRIPTION}
-  jsonLd={jsonLd}
-  hidePromo
->
+<BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION} jsonLd={jsonLd}>
   <section class="hero">
-    <div class="wrap wide hero-grid">
-      <div>
-        <span class="hero-kicker"><span class="dot" aria-hidden="true"></span>Updated October 2026</span>
-        <h1>The best robot lawn mowers of 2026, <em>ranked.</em></h1>
-        <p class="lead">
-          We compared {MODELS.length} wire-free GPS, LiDAR and vision mowers on slope, coverage,
-          navigation and price, so you can skip the research and get your weekends back.
-        </p>
-        <div class="cta-row">
-          <a class="btn btn-lg" href="/posts/best-robot-lawn-mowers-2026/">See the ranking</a>
-          <a class="btn secondary btn-lg" href="#match">Match my yard</a>
-        </div>
-        <div class="hero-proof">
-          <div><strong>{MODELS.length}</strong><span>wire-free models</span></div>
-          <div><strong>{new Set(MODELS.map((m) => m.brand)).size}</strong><span>brands compared</span></div>
-          <div><strong>0</strong><span>boundary wires needed</span></div>
-        </div>
+    <div class="wrap hero-inner">
+      <span class="hero-kicker">Wire-free only · No boundary wire</span>
+      <svg class="mower-illo" viewBox="0 0 160 110" aria-hidden="true">
+        <!-- signal waves -->
+        <g stroke="#b8e62e" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round">
+          <path d="M118 34a22 22 0 0 1 14-8" />
+          <path d="M122 46a34 34 0 0 1 22-12" opacity="0.6"/>
+          <path d="M42 34a22 22 0 0 0-14-8" opacity="0.6"/>
+        </g>
+        <!-- mower body -->
+        <rect x="40" y="52" width="80" height="34" rx="17" fill="#2f9e44"/>
+        <rect x="40" y="52" width="80" height="14" rx="7" fill="#40b955"/>
+        <circle cx="80" cy="59" r="5" fill="#0e2413"/>
+        <circle cx="80" cy="59" r="2" fill="#b8e62e"/>
+        <!-- wheels -->
+        <circle cx="58" cy="90" r="14" fill="#152419"/>
+        <circle cx="58" cy="90" r="6" fill="#5c6f60"/>
+        <circle cx="102" cy="90" r="14" fill="#152419"/>
+        <circle cx="102" cy="90" r="6" fill="#5c6f60"/>
+        <!-- cut grass lines -->
+        <g stroke="#b8e62e" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+          <path d="M20 100l6-8M32 102l6-8M128 100l6-8M140 102l6-8" />
+        </g>
+      </svg>
+      <h1>Find the right <em>wire-free</em> robot lawn mower</h1>
+      <p class="lead">
+        No boundary wires. No guesswork. Independent comparisons, sizing tools,
+        and real cost math for the GPS and vision-guided mowers of 2026.
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="/tools/size-matcher/">Match a mower to my lawn</a>
+        <a class="btn secondary" href="/posts/best-robot-lawn-mowers-2026/">Best mowers of 2026</a>
       </div>
-
-      <aside class="spotlight" aria-label="Our top pick">
-        <div class="sp-ribbon"><span>🏆 #1 {picks[0].label}</span><span>2026</span></div>
-        <div class="sp-media"><ProductImage model={top} size={260} eager /></div>
-        <div class="sp-body">
-          <h2 class="sp-name"><a href={`/mowers/${top.id}/`}>{top.name}</a></h2>
-          <div class="sp-meta">
-            <span class="ring" style={`--v:${top.score * 10}`}><span>{top.score.toFixed(1)}</span></span>
-            <span class="ring-label"><strong>Guide score</strong>out of 10</span>
-            <span class="sp-price"><PriceTier model={top} label={false} /><small>{priceTier(top).label} price tier</small></span>
-          </div>
-          <ul class="sp-points">{top.pros.slice(0, 3).map((p) => <li>{p}</li>)}</ul>
-          <BuyButton model={top} size="lg" block />
-          <div class="sp-links">
-            <a href={`/mowers/${top.id}/`}>Read the review →</a>
-            <a href="/mowers/">Compare all {MODELS.length}</a>
-          </div>
-        </div>
-      </aside>
+      <div class="hero-stats">
+        <div><strong>7</strong><span>models tracked</span></div>
+        <div><strong>3</strong><span>free calculators</span></div>
+        <div><strong>5</strong><span>in-depth guides</span></div>
+      </div>
     </div>
-  </section>
-
-  <section class="trust-bar" aria-label="Why readers trust us">
-    <ul>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Commissions never decide rankings</li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Specs cross-checked across sources</li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Specs refreshed October 2026</li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9M12 19V5M19 19v-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>Free sizing &amp; cost calculators</li>
-    </ul>
+    <svg class="hero-hills" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,55 C240,20 480,80 720,50 C960,20 1200,75 1440,45 L1440,90 L0,90 Z" fill="#f6faf3"/>
+      <path d="M0,70 C260,45 520,85 780,65 C1040,45 1240,80 1440,62 L1440,90 L0,90 Z" fill="#eef5e9" opacity="0.7"/>
+    </svg>
   </section>
 
   <div class="wrap wide">
     <div class="section-head">
-      <div>
-        <span class="eyebrow">Editor's picks</span>
-        <h2 class="section-title">The 4 robot mowers we'd buy in 2026</h2>
-        <p class="section-sub">One clear winner for each kind of yard. Tap a card for the full review.</p>
-      </div>
-      <a class="section-link" href="/posts/best-robot-lawn-mowers-2026/">Full ranking →</a>
+      <h2 class="section-title">The mowers we track</h2>
+      <a class="section-link" href="/posts/best-robot-lawn-mowers-2026/">Full comparison →</a>
     </div>
-    <div class="tp-grid four">
-      {picks.map((p, i) => <ProductCard model={p.model} label={p.label} featured={i === 0} accent={ACCENTS[i]} />)}
-    </div>
-    <p class="swipe-hint">Swipe for more picks →</p>
-
-    <form class="matcher" id="match" action="/tools/size-matcher/" method="get">
-      <div>
-        <span class="eyebrow" style="color:var(--ink)">30-second matcher</span>
-        <h2>Which robot mower fits your yard?</h2>
-        <p>Two quick answers and we'll show the models rated for your lawn size and your steepest slope, with headroom built in.</p>
-      </div>
-      <div class="mq">
-        <fieldset>
-          <legend>How big is your lawn?</legend>
-          <div class="mq-opts">
-            <label><input type="radio" name="sqft" value="5000" /><span>Under ¼ acre</span></label>
-            <label><input type="radio" name="sqft" value="15000" checked /><span>¼–½ acre</span></label>
-            <label><input type="radio" name="sqft" value="35000" /><span>½–1 acre</span></label>
-            <label><input type="radio" name="sqft" value="65000" /><span>1+ acre</span></label>
+    <div class="model-strip">
+      {MODELS.map((m) => (
+        <a class="model-strip-card" href={amazonLink(m.query)} rel="nofollow sponsored noopener" target="_blank">
+          <img src={m.image} alt={m.imageAlt} loading="lazy" width="400" height="300" />
+          <div class="model-strip-body">
+            <h3>{m.name}</h3>
+            <p>{(m.maxSqFt / 43560).toFixed(2)} acres · {m.maxSlopePct}% slope</p>
+            <strong>{formatMoney(m.priceLow)}–{formatMoney(m.priceHigh)}</strong>
           </div>
-        </fieldset>
-        <fieldset>
-          <legend>How steep is your steepest spot?</legend>
-          <div class="mq-opts">
-            <label><input type="radio" name="slope" value="10" checked /><span>Flat</span></label>
-            <label><input type="radio" name="slope" value="30" /><span>Gentle slope</span></label>
-            <label><input type="radio" name="slope" value="50" /><span>Steep hill</span></label>
-            <label><input type="radio" name="slope" value="75" /><span>Very steep</span></label>
-          </div>
-        </fieldset>
-        <button class="btn dark btn-lg" type="submit">Show my matches →</button>
-      </div>
-    </form>
-
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Shop by yard</span>
-        <h2 class="section-title">Best robot mower for your yard</h2>
-      </div>
-      <a class="section-link" href="/guides/">All guides →</a>
-    </div>
-    <div class="yard-grid">
-      {yardTypes.map((y) => (
-        <div class="yard">
-          <div class="yard-top">
-            <div class="yard-icon" aria-hidden="true">{y.icon}</div>
-            <h3><a href={y.href}>{y.title}</a></h3>
-          </div>
-          <p>{y.text}</p>
-          {y.pick && (
-            <div class="yard-pick">
-              <span><small>Top pick</small><strong>{y.pick.shortName}</strong></span>
-              <BuyButton model={y.pick} label="Check price" size="sm" />
-            </div>
-          )}
-          <span class="go">See every pick</span>
-        </div>
+        </a>
       ))}
     </div>
 
     <div class="section-head">
-      <div>
-        <span class="eyebrow">Side by side</span>
-        <h2 class="section-title">Highest-rated models at a glance</h2>
-      </div>
-      <a class="section-link" href="/mowers/">Compare all {MODELS.length} →</a>
-    </div>
-    <ComparisonTable models={topModels} />
-
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Free tools</span>
-        <h2 class="section-title">Don't guess. Calculate.</h2>
-      </div>
-      <a class="section-link" href="/tools/">All tools →</a>
+      <h2 class="section-title">Free tools</h2>
     </div>
     <div class="tool-grid">
       <a class="tool-card" href="/tools/size-matcher/">
         <div class="tool-icon">📐</div>
         <h3>Mower Size Matcher</h3>
-        <p>Enter your lawn size, slope and obstacles to get the models that actually fit your yard.</p>
+        <p>Enter your lawn size, slope, and obstacles — get the models that actually fit your yard.</p>
         <span class="go">Find my mower</span>
       </a>
       <a class="tool-card" href="/tools/cost-calculator/">
@@ -217,40 +110,31 @@ const jsonLd = [websiteLd(), itemListLd("Top wire-free robot lawn mowers of 2026
       <a class="tool-card" href="/tools/slope-checker/">
         <div class="tool-icon">⛰️</div>
         <h3>Slope Checker</h3>
-        <p>Measure your steepest hill once and find every mower rated to climb it.</p>
+        <p>Measure your steepest hill once — find every mower rated to climb it.</p>
         <span class="go">Check my hill</span>
       </a>
     </div>
 
     <div class="section-head">
-      <div>
-        <span class="eyebrow">Buying advice</span>
-        <h2 class="section-title">Comparisons &amp; guides</h2>
-      </div>
-      <a class="section-link" href="/guides/">All guides →</a>
+      <h2 class="section-title">Buying guides</h2>
     </div>
     <div class="post-grid">
-      {guides.map((post) => <PostCard post={post} />)}
+      {posts.map((post) => (
+        <a class="post-card" href={`/posts/${post.id}/`}>
+          <span class="post-tag">{tags[post.id] ?? "Guide"}</span>
+          <h3>{post.data.title}</h3>
+          <p>{post.data.description}</p>
+          <time datetime={post.data.pubDate.toISOString()}>
+            {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          </time>
+        </a>
+      ))}
     </div>
 
     <section class="strip" aria-label="Why trust this guide">
-      <div>
-        <h2>Research you can actually check.</h2>
-        <p>We earn a commission when you buy through our links, but it never changes which mower we recommend.</p>
-        <a class="btn" href="/how-we-research/">How we score mowers</a>
-      </div>
-      <div class="strip-items">
-        <div><div class="n">01</div><h3>Wire-free only</h3><p>Every model we cover navigates by GPS, vision or LiDAR. No buried boundary wire, ever.</p></div>
-        <div><div class="n">02</div><h3>Specs, cross-checked</h3><p>Slope ratings and coverage claims verified across manufacturers, reviews and owner reports.</p></div>
-        <div><div class="n">03</div><h3>Tools, not just words</h3><p>Calculators built from real specs turn "which mower?" into a number, not a guess.</p></div>
-      </div>
-    </section>
-
-    <section class="faq home-faq" aria-label="Frequently asked questions">
-      <h2 class="section-title">Robot mower FAQ</h2>
-      {faq.map((f) => <details><summary>{f.q}</summary><div>{f.a}</div></details>)}
+      <div><div class="n">01</div><h3>Wire-free only</h3><p>Every model we cover navigates by GPS, vision, or LiDAR. No buried boundary wire, ever.</p></div>
+      <div><div class="n">02</div><h3>Specs, cross-checked</h3><p>Slope ratings and coverage claims verified across manufacturers, reviews, and owner reports.</p></div>
+      <div><div class="n">03</div><h3>Tools, not just words</h3><p>Calculators built from real specs turn "which mower?" into a number, not a guess.</p></div>
     </section>
   </div>
-
-  <StickyCta model={top} label={`#1 ${picks[0].label}`} showAfter={1400} />
 </BaseLayout>

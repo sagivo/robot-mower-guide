@@ -1,213 +1,153 @@
 ---
-title: "Robot Mower Slope Limits: Every 2026 Model's Real Rating, Ranked"
-seoTitle: "Robot Mower Slope Limits: All 2026 Models Ranked"
-description: "Robot mower slope limits for all 30 wire-free models, in percent and degrees, from 30% (17°) to 84% (40°). Plus boundary slopes, wet grass and AWD vs 2WD."
+title: "Can Robot Mowers Handle Slopes? Every Type's Real Limit (2026)"
+description: "Can robot lawn mowers handle slopes and hills? Real slope limits by drive type, why AWD wins on grades, and how to measure your yard's slope before buying."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
-category: guide
-tag: "Buying advice"
-order: 21
-heroKeywords: ["robot mower slope limits", "robot lawn mower for slopes", "robot mower steep slope", "robot mower max slope"]
-picks:
-  - id: mammotion-luba-3-awd
-    label: "Best for steep, tree-heavy hills"
-  - id: segway-navimow-x4
-    label: "Highest-rated wheeled mower (84%)"
-  - id: dreame-a3-awd
-    label: "Cheapest 80% climber"
-  - id: segway-navimow-i2-awd
-    label: "Budget AWD for small sloped yards"
-takeaways:
-  - "Wire-free robot mower slope limits range from <strong>30% (17°)</strong> on budget 2WD models to <strong>84% (40°)</strong> on the AWD flagships. The tracked Lymow claims 100%."
-  - "Ratings assume dry, short grass. Leave a <strong>20% safety margin</strong> below the rating, and more if your lawn stays wet."
-  - "Some brands publish a much lower <strong>boundary slope</strong>: Husqvarna's 410/420/440 iQ are rated 45% inside the lawn but only 15% at the edge of the map."
-  - "Side-slopes are harder than straight climbs. A mower can climb a grade it can't safely traverse."
-  - "Measure your steepest 10 feet, then check it in our <a href=\"/tools/slope-checker/\">slope checker</a>."
+heroKeywords: ["robot mower for slopes", "robot lawn mower for hills", "robot mower steep slope"]
 faq:
+  - q: "Can robot lawn mowers mow steep slopes?"
+    a: "Standard models handle moderate grades. For genuinely steep slopes, you need an all-wheel-drive model like the Mammotion LUBA 2/3 AWD, which is built specifically for hills and rough terrain. Always verify the manufacturer's slope spec for your exact model."
   - q: "What is the maximum slope a robot mower can handle?"
-    a: "Among 2026 wire-free models, the Segway Navimow X4 and WORX Landroid Vision Cloud 4WD are rated highest for wheeled mowers at 84% grade (about 40°). Mammotion LUBA 3 AWD and Dreame's A3 AWD models are rated 80% (about 39°). The tracked Lymow One Plus claims 45°, roughly 100%, though that's a marketing figure. Budget 2WD models stop at 30–45%."
-  - q: "Can a robot mower mow a 30 degree slope?"
-    a: "Only an all-wheel-drive or tracked model. Thirty degrees is about 58% grade, which is beyond nearly every 2WD mower we track (most top out at 50%; the Airseekers TRON's 65% claim is the lone exception). AWD models rated 80–84% clear it on paper, but leave a margin: on dew or long grass, 30° is demanding even for the LUBA 3 AWD or Navimow X4."
-  - q: "Is slope percent the same as degrees?"
-    a: "No. Percent grade is rise over run times 100, so a 45% slope rises 4.5 feet over 10 feet of horizontal distance, which is about 24°. A 100% grade is 45°, not 90°. Manufacturers usually quote percent, which makes the numbers look bigger than degrees. Our slope checker converts between the two."
-  - q: "Why do robot mowers struggle on wet slopes?"
-    a: "Robot mowers weigh roughly 20–45 lb and rely entirely on tire grip. Wet grass cuts that grip sharply, so wheels spin on climbs and the mower slides sideways on cross-slopes. Manufacturer ratings are measured on dry, short turf, so treat them as a best case and schedule mowing for after the dew burns off."
-  - q: "Do I need an AWD robot mower for my hill?"
-    a: "If your steepest section is above about 35% grade (19°), yes. Below that, a good 2WD model rated 45–50% usually copes if the grass is kept short and dry. Above 50% (27°), there's almost no 2WD option, and AWD models like the Dreame A3 AWD or Navimow i2 AWD are the entry point."
+    a: "It varies by model and drive type — AWD mowers are rated far higher than standard two-wheel models. Published specs are measured on dry, short grass; wet or long grass reduces real-world capability. Check the manual for your specific model."
+  - q: "Why do robot mowers struggle on hills?"
+    a: "Traction. Small drive wheels spin on wet or long grass, the mower slides sideways on cross-slopes, and steep grades drain the battery faster. AWD platforms solve the traction part, which is the main failure mode."
+  - q: "How do I measure my lawn's slope?"
+    a: "Use your phone: most smartphones have a level/inclinometer app, or use a free slope-measurement app and walk your steepest section. Our slope checker tool walks you through it in about a minute."
+  - q: "Is it safe to use a robot mower on a slope?"
+    a: "Within the manufacturer's rated grade, yes — robot mowers are light and low to the ground, so they can't tip onto an operator the way a riding mower can. Never use one beyond its rated slope, and keep children and pets clear of steep sections while it works."
 ---
 
-Robot mower slope limits run from **30% grade (about 17°)** on budget two-wheel-drive models to **84% (about 40°)** on the best all-wheel-drive mowers of 2026, the Segway Navimow X4 and WORX Landroid Vision Cloud 4WD. If your steepest section is above about 35% (19°), plan on AWD. And because every rating assumes dry, short grass, buy a mower rated at least 20% above what you measure.
+# Can Robot Mowers Handle Slopes? Every Type's Real Limit (2026)
 
-Slope is the number one reason people buy the wrong robot mower. A machine that glides across a flat demo lawn can spin its wheels on a dewy hillside, and by then the return window is closing. Below is every model we track, ranked by its rated slope, plus the fine print most spec sheets bury. Not sure how steep your yard is? The [slope checker](/tools/slope-checker/) gives you a go/no-go in about a minute.
+Slope is the #1 reason people buy the wrong robot mower. A machine that glides across a flat demo lawn can spin its wheels uselessly on a wet 20-degree grade — and by the time you find out, it's bolted to your yard (figuratively; the return window is not).
 
-## Every 2026 robot mower's slope rating, ranked
+As an Amazon Associate we earn from qualifying purchases. Prices are approximate — check the current price on Amazon.
 
-These are manufacturer ratings from our [model database](/mowers/), sorted from steepest to gentlest. Degrees are converted from percent grade. Where a brand publishes a separate, lower limit at the map boundary, it's listed too.
+**The short version:** flat lawns can use anything. Moderate slopes need a capable standard mower. Steep slopes need all-wheel drive — in 2026 that means the [Mammotion LUBA 2/3 AWD](https://www.amazon.com/s?k=mammotion+luba+3+awd) (roughly $2,099–$2,899).
 
-[[chart:slope]]
+Not sure how steep your yard is? Our [slope checker](/tools/slope-checker/) gives you a go/no-go in about a minute.
 
-| Model | Drive | Max slope (in-area) | Degrees | Boundary limit | Price tier |
-|---|---|---|---|---|---|
-| [Lymow One Plus](/mowers/lymow-one-plus/) | Tracks | 100%* | 45°* | Not published | $$$ |
-| [Segway Navimow X4](/mowers/segway-navimow-x4/) | AWD | 84% | 40.0° | Not published | $$$ |
-| [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | AWD | 84% | 40.0° | Not published | $$ |
-| [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) | AWD | 80% | 38.7° | Not published | $$$ |
-| [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | AWD | 80% | 38.7° | Not published | $$ |
-| [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | AWD | 80% | 38.7° | Not published | $$ |
-| [Dreame A3 AWD](/mowers/dreame-a3-awd/) | AWD | 80% | 38.7° | Not published | $$ |
-| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | AWD | 80% | 38.7° | Not published | $$ |
-| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | AWD | 80% | 38.7° | Not published | $$ |
-| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | AWD | 80% | 38.7° | Not published | $$ |
-| [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | AWD | 70% | 35.0° | Not published | $$$ |
-| [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | AWD | 70% | 35.0° | 50% (26.6°) | $$$$ |
-| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | Tracks | 70% | 35.0° | Not published | $$$$ |
-| [Airseekers TRON](/mowers/airseekers-tron/) | 2WD | 60%† | 31.0° | Not published | $$ |
-| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | AWD | 58%‡ | 30.1° (stated 30°) | Not published | $$ |
-| [ECOVACS GOAT A2000/A3000 LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) | 2WD | 50% | 26.6° | 20% (11.3°) | $$ |
-| [Segway Navimow X3](/mowers/segway-navimow-x3/) | 2WD | 50% | 26.6° | Not published | $$ |
-| [Segway Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) | AWD | 45% | 24.2° | Not published | $ |
-| [Segway Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/) | 2WD | 45%** | 24.2° | Not published | $$ |
-| [Husqvarna Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) | 2WD | 45% | 24.2° | 15% (8.5°) | $$ |
-| [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | 2WD | 45% | 24.2° | Not published | $ |
-| [ANTHBOT M9](/mowers/anthbot-m9/) | 2WD | 45% | 24.2° | Not published | $ |
-| [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | 2WD | 45% | 24.2° | Not published | $$ |
-| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | 2WD | 45% | 24.2° | Not published | $ |
-| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | 2WD | 45% | 24.2° | Not published | $ |
-| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | 2WD | 45% | 24.2° | Not published | $$ |
-| [Sunseeker S4](/mowers/sunseeker-s4/) | 2WD | 42%*** | 22.8° | Not published | $ |
-| [eufy E15 / E18](/mowers/eufy-e15-e18/) | 2WD | 32% | 17.7° (stated 18°) | Not published | $ |
-| [Segway Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) | 2WD | 30% | 16.7° | Not published | $ |
-| [WORX Landroid Vision Cloud](/mowers/worx-landroid-vision-cloud/) | 2WD | 30% | 16.7° | Not published | $ |
+## Why slopes are hard for robot mowers
 
-\*Lymow states 45°, which is a marketing claim rather than an independently verified figure. \*\*Navimow EU lists 45%; one secondary source lists 30%. \*\*\*From retailer listings. †Airseekers rates all TRON tiers at 60% (31°) while mowing and 65% (33°) while driving between zones. ‡Sunseeker lists "60% / 30°"; 30° is about 58% grade, which is the figure we use. The 80% ratings for the MOVA and Roborock models, and every rating for the newest arrivals, are manufacturer claims with little independent testing behind them yet. Price tiers ($ budget to $$$$ flagship) reflect each model's lowest listed configuration. Prices change weekly, so check today's price before you buy.
+Three physics problems, in order of importance:
 
-Two patterns jump out. First, drive type matters more than brand or price: every model rated above 50% has AWD or tracks, except the 2WD Airseekers TRON, whose 60% rating we'd treat with caution. Second, a "45%" sticker covers a huge spread of real ability, from the AWD Navimow i2 to 2WD machines with very different tires and weights.
+**1. Traction.** Robot mowers are light (typically 20–40 lbs) with small drive wheels. On dry, short grass that's fine. On wet grass, dew, or long turf, the wheels spin. Once a mower loses traction on a grade, it slides — sideways on cross-slopes, backwards on uphills.
 
-## Percent grade vs degrees (why the numbers look so big)
+**2. Navigation drift.** RTK-GPS positioning degrades slightly when the mower is tilted, and wheel-slip makes odometry unreliable. Wire-free mowers compensate with sensor fusion, but a sliding mower is a confused mower.
 
-Manufacturers usually quote percent grade: vertical rise divided by horizontal run, times 100. It's not a percentage of vertical. A 100% grade is 45°, the angle where you rise one foot for every foot forward.
+**3. Battery drain.** Climbing uses far more energy than flat mowing. A mower rated for an acre on flat ground may only manage half that on hilly terrain — it spends more time climbing and more time recharging.
 
-[[diagram:slope]]
+Wet grass is the multiplier. Everything below assumes dry conditions; subtract a healthy margin for morning dew, rain, and thick spring growth.
 
-| Percent grade | Degrees | What it feels like |
+## Slope capability by mower type
+
+| Mower type | Typical grade handling | Example |
 |---|---|---|
-| 15% | 8.5° | A noticeable driveway slope |
-| 30% | 16.7° | A steep lawn you'd push-mow carefully |
-| 45% | 24.2° | Hard to walk up in wet shoes |
-| 60% | 31.0° | You'd lean into it and use your hands on wet grass |
-| 80% | 38.7° | Steep embankment; push-mowing is unsafe |
-| 100% | 45.0° | A roof-pitch hillside |
+| Entry wire-free (camera nav) | Gentle slopes only | [WORX Landroid Vision](https://www.amazon.com/s?k=worx+landroid+vision) (~$600–$1,200) |
+| Standard RTK wire-free | Moderate slopes | [Segway Navimow X4](https://www.amazon.com/s?k=segway+navimow+x4) (~$800–$2,500) |
+| Premium standard | Moderate-to-steep | [Husqvarna Automower](https://www.amazon.com/s?k=husqvarna+automower+ai+vision) (~$1,500–$3,000+) |
+| All-wheel drive | Steep grades, rough terrain | [Mammotion LUBA 2/3 AWD](https://www.amazon.com/s?k=mammotion+luba+3+awd) (~$2,099–$2,899) |
 
-The upshot: a mower "rated for 45%" handles about 24°, which is steep for a lawn but not extreme. If your phone's level app says 25°, you're already past every 2WD mower except the 50% models and the 65%-rated Airseekers TRON.
+Treat manufacturer slope claims with the skepticism they deserve: they're measured on dry, closely-cut turf with a fully charged battery. Your lawn in April is none of those things. If a spec says the mower handles a grade and your steepest section matches it, size up a tier.
 
-## Boundary slope vs in-area slope (the Husqvarna fine print)
+## The AWD difference
 
-A few brands publish two slope numbers, and the lower one is the one that bites.
+All-wheel drive is the only meaningful step-change in slope capability. Four driven wheels distribute torque so no single wheel spins out; the mower climbs instead of sliding. This is also why AWD mowers handle rough, bumpy, rutted ground that stops standard mowers — traction, again.
 
-- **In-area slope** is what the mower can handle while mowing inside the lawn.
-- **Boundary slope** is the steepest grade allowed *at the edge of the map*, where the mower must stop, turn and keep itself from rolling past the line.
+Mammotion owns this segment in 2026: the LUBA 2 AWD established it, and the LUBA 3 AWD (announced January 2026) keeps the platform with upgraded multi-sensor navigation. For smaller steep yards, the LUBA Mini 2 AWD 1500H bundle (~$1,699) brings AWD down a price tier.
 
-Husqvarna is the clearest example. The [Automower 410/420/440 iQ](/mowers/husqvarna-automower-iq/) handles 45% (24°) inside the lawn but only 15% (8.5°) at the boundary. The [435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) is rated 70% inside and 50% at the boundary. ECOVACS does the same with the [GOAT A-series LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/): 50% inside, 20% across virtual boundaries.
+[Check current price for the Mammotion LUBA 3 AWD on Amazon](https://www.amazon.com/s?k=mammotion+luba+3+awd)
 
-Why it matters: if your lawn ends at the bottom of a hill, beside a driveway or along a street, the boundary runs across a slope. A mower turning on a slope slides a little downhill each time. The lower boundary rating is the manufacturer telling you how much slope it trusts at that moment. Most other brands don't publish a boundary figure at all, which doesn't mean they don't have one. Whatever you buy, keep map edges off the steepest grade where you can, and leave extra margin at the downhill edge.
+## How to measure your slope (2 minutes)
 
-## Side-slopes, wet grass and real-world limits
+You don't need a surveyor. Two methods:
 
-### Climbing vs traversing
+**Phone method.** Open your phone's built-in level/inclinometer app (iOS Measure app, or any free Android level app). Lay the phone on a straight board on your steepest section and read the angle. Do it in 2–3 spots — the steepest 10 feet is what matters, not the average.
 
-A single slope number hides direction. Climbing straight up or down is a traction problem: the wheels need grip along the direction of travel, and AWD solves most of it. Traversing across a slope is a stability problem: the whole mower wants to slide sideways downhill, and drive type helps less. Owners commonly report mowers that climb a bank fine but slew sideways when the mowing pattern runs across it.
+**Stake-and-string method.** Drive two stakes 10 feet apart on the slope, run a level string between them, and measure the vertical drop at the downhill stake. Drop in feet ÷ 10 × 100 = percent grade. (Rough conversion: 20% ≈ 11°, 35% ≈ 19°, 45% ≈ 24°.)
 
-Practical fix: most apps let you set the stripe direction per zone. Set stripes to run up and down the steepest section so the mower climbs rather than traverses. That converts a stability problem into a traction problem, which is the one AWD is built for.
+Then run the numbers through our [slope checker](/tools/slope-checker/) — it maps your grade to mower types.
 
-### Wet grass is a multiplier
+## Cross-slopes vs. uphills: not the same problem
 
-Every slope rating is measured on dry, short turf. Dew, rain and thick spring growth all cut tire grip. Reviewers and owners repeatedly note this: the [eufy E15/E18](/mowers/eufy-e15-e18/) slips on damp grass, and the [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) collects grass underneath in wet conditions. Our rule of thumb:
+Manufacturers quote one slope number, but direction matters enormously:
 
-- **Dry climate, short grass:** stay within 80% of the rating (a 45% mower on slopes up to 36%).
-- **Wet springs or heavy dew:** stay within about 65–70%, or schedule mowing for midday.
-- **Slopes that stay soggy after rain:** fix the drainage first. No robot copes with saturated turf on a grade.
+- **Uphill/downhill:** the mower fights gravity along its drive axis. AWD helps most here — it's a pure traction problem.
+- **Cross-slope (traversing):** the mower slides sideways, downhill. This is the harder problem and the more common failure. A mower can climb a grade it can't traverse.
+- **Diagonal:** what your yard actually is. The worst case combines both.
 
-See [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/) for scheduling and rain-sensor tips.
+When assessing your yard, find the steepest *traverse*, not just the steepest climb. Mowing patterns can be set to go up-and-down instead of across (most apps allow pattern direction control), which converts a cross-slope problem into a climbing problem — one AWD solves easily. This single setting change rescues many "too steep" lawns.
 
-### Battery and coverage shrink on hills
+## How slope specs are measured (and gamed)
 
-Climbing uses more energy than flat mowing, so a mower spends more time recharging on a hilly lot. Coverage ratings assume ideal conditions, and Husqvarna is unusually candid that irregular yards get roughly half the rated area. On a steep property, size up a tier. The [size matcher](/tools/size-matcher/) helps you compare tiers.
+There is no standard test. Each manufacturer measures differently:
 
-## AWD vs 2WD vs tracks
+- Surface: dry, short turf on a test rig — not your dewy April lawn.
+- Duration: a short climb proves nothing about an hour of mowing.
+- Battery: full charge, which you'll rarely have mid-session.
 
-### Two-wheel drive (rear-drive)
+So treat every published slope rating as a best case. Rule of thumb: if your measured grade is within 80% of the mower's rated max, you're fine. If it matches or exceeds the rating, size up to AWD or rethink. And always verify the *exact model's* spec — ratings vary within a brand's lineup, and marketing pages sometimes quote the flagship's number next to the base model's price.
 
-Most budget and mid-range mowers drive the rear wheels and let small front casters follow. That's cheap and efficient on flat ground, but on a climb the front lifts weight off the drive wheels and grip drops. Realistic 2WD ceiling: 30–50%, and the 50% models (Navimow X3, GOAT A-series) are the best of the group. Airseekers claims 65% for its 2WD TRON, an outlier we'd treat cautiously. Owners of the Husqvarna 410/420/440 iQ, for example, report rear-wheel traction issues.
+## Mower weight, soil, and ruts
 
-**Good for:** flat to moderate lawns, under about 35% (19°) at the steepest point.
+Light weight is a robot mower's advantage on slopes — a 30-lb machine doesn't tear turf the way heavy equipment does. But there's a tradeoff: on soft, wet soil, even light mowers can carve ruts along their regular paths, especially on slopes where wheels work hardest.
 
-### All-wheel drive
+Mitigations that actually work:
 
-Driving all four wheels spreads torque so no single tire spins out. AWD also helps on roots, ruts and small steps: the [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) handles 1.5" steps on off-road tires. The 2026 lineup has AWD at every price:
-
-- **Lowest cost:** [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) (45%, budget tier) and [Dreame A3 AWD](/mowers/dreame-a3-awd/) (80%, mid-range and often on sale), plus the [Roborock RockMow X115H](/mowers/roborock-rockmow-x1/) (80%, mid-range, RTK base station required).
-- **Mid-range:** [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/), all 80%, and the [Sunseeker X5](/mowers/sunseeker-x5-awd/) (about 58%).
-- **Top end:** [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) (80%), [Navimow X4](/mowers/segway-navimow-x4/) and [Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) (84%), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) (70%).
-
-AWD has trade-offs. These mowers are heavier (the LUBA 3 AWD weighs 41 lb), and reviewers note both the LUBA 3 and the X4 can scuff turf on tight turns or raised edges. On a flat lawn you're paying for capability you won't use.
-
-**Good for:** anything from about 35% to 80% grade, plus bumpy or rooty ground.
-
-### Tracks
-
-The [Lymow One Plus](/mowers/lymow-one-plus/) runs on tank tracks, which spread weight over a large contact patch. It's the only mainstream wire-free option built for rough, steep, overgrown rural ground, and its 45° claim tops the chart. The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) also runs on tracks (70%, up to 6 acres), but it's a modular yard platform sold as a flagship-priced bundle and needs a base station. The catches: it needs an RTK base station, manual mapping takes 30–45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches. On a manicured suburban lawn it's the wrong tool.
-
-**Good for:** rough acreage and embankments that defeat wheels.
-
-## How to measure your slope in 2 minutes
-
-You don't need a surveyor.
-
-1. **Phone method.** Lay a straight 4-foot board on your steepest section, set your phone on it and read the angle in a level or inclinometer app (iPhone's Measure app has one). Check 2–3 spots. The steepest 10 feet is what matters, not the average.
-2. **Stake-and-string method.** Drive two stakes 10 feet apart down the slope, run a string between them with a line level, and measure the drop at the downhill stake. Drop in inches ÷ 120 × 100 = percent grade.
-3. **Check both directions.** Measure straight down the hill and across it, especially where your lawn boundary will run.
-
-Then enter the number in the [slope checker](/tools/slope-checker/), which adds a safety margin and lists every model that clears it.
-
-## Which mower for your slope?
-
-| Your steepest section | What to buy | Example picks |
-|---|---|---|
-| Under 20% (11°) | Anything; pick on size and navigation | [Navimow i105N](/mowers/segway-navimow-i105n-i110n/), [eufy E18](/mowers/eufy-e15-e18/) |
-| 20–35% (11–19°) | A 2WD model rated 45–50%, or entry AWD | [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), [GOAT A3000](/mowers/ecovacs-goat-a-lidar-pro/), [Navimow i2 AWD](/mowers/segway-navimow-i2-awd/) |
-| 35–60% (19–31°) | AWD rated 70% or more | [Dreame A3 AWD](amazon:dreame-a3-awd), [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) |
-| 60–70% (31–35°) | Top AWD (80–84%), stripes running up and down | [Navimow X4](amazon:segway-navimow-x4), [LUBA 3 AWD](amazon:mammotion-luba-3-awd), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) |
-| Over 70% (35°) | Tracks, or rethink the grass | [Lymow One Plus](/mowers/lymow-one-plus/), ground cover, terracing |
-
-For a deeper shortlist with full write-ups, see our [best robot mowers for hills](/posts/best-robot-mower-for-hills/). If the hill is also shaded or cluttered, factor in navigation: LiDAR models such as the Dreame A3 AWD Pro keep their position under trees where satellite-only mowers drift. Our [navigation explainer](/posts/robot-mower-navigation-explained/) covers why.
-
-**[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)** · [Read our full review](/mowers/dreame-a3-awd/)
+- **Vary the mowing pattern** periodically so wheels don't follow identical tracks.
+- **Avoid mowing waterlogged ground.** If the slope squishes underfoot, park the mower.
+- **Keep blades sharp.** Dull blades tear instead of cutting, and torn grass on a slope invites disease.
 
 ## Setup tips for sloped lawns
 
-- **Put the dock on flat ground near the middle of the lawn.** A dock at the top of a steep bank makes the mower climb home on a low battery. Docks need level ground to charge reliably.
-- **Keep the grass short.** Long grass is slippery. During spring surges, mow more often rather than letting growth outrun the robot.
-- **Smooth sharp transitions.** The lip at the top or bottom of a slope is where mowers high-center. Fill or round off abrupt edges.
-- **Leave margin at downhill edges.** A mower that slips a few inches shouldn't end up in a ditch, pond or street. See our [setup guide](/posts/robot-mower-setup-guide/) for mapping tips.
-- **Vary the pattern.** Robots repeating the same track on soft, sloped soil can rut the lawn. Most apps let you rotate stripe angles.
-- **Keep wheels clean.** Caked mud kills traction. Our [maintenance guide](/posts/robot-mower-maintenance/) covers wheel and deck cleaning.
+**Mow across, not up and down.** Set your mowing pattern perpendicular to the slope where the app allows it. Sideways sliding is the failure mode; traversing reduces it.
 
-## When no robot mower is the answer
+**Keep the grass short.** Long grass is slippery grass. During spring growth surges, increase mowing frequency rather than letting it get ahead of the mower.
 
-Be honest about this before spending $2,000. If your worst section is over 70% (35°), or it stays wet most of the season, the realistic options are:
+**Mind the edges.** The transition at the top and bottom of a slope — where grade changes suddenly — is where mowers high-center or tip. Walk your boundary and smooth any sharp lips.
 
-- **Hybrid approach:** a robot for the mowable 80–90% of the yard, and a string trimmer or occasional service visit for the bank. This is what most steep-yard owners end up doing, and the [cost calculator](/tools/cost-calculator/) can model it.
-- **Ground cover** on the steepest strip, so nothing needs mowing.
-- **Terracing or regrading**, which is expensive but permanent.
+**Drainage matters.** A slope that stays soggy after rain will defeat any mower. If sections of your hill hold water, fix the drainage before blaming the machine.
 
-Robot mowers are also a poor fit if you need to mow a slope that drops off into water or a road with no flat buffer. Our [safety guide](/posts/robot-mower-safety-pets-kids-wildlife/) covers what the sensors can and can't catch.
+**Winter and wet seasons.** If your region gets months of wet grass, be realistic: even an AWD mower will struggle on saturated turf. Some owners park the mower during the wettest weeks and do one manual cut.
+
+## What if my slope is too steep for any robot mower?
+
+Be honest about this before spending $2,000. Options:
+
+- **Terrace or regrade** the worst section (expensive, permanent).
+- **Ground cover instead of grass** on the steepest part — no mowing needed, ever.
+- **Hybrid approach:** robot mower for the flat 80% of the yard, a string trimmer or a single monthly service visit for the hill. This is what most steep-yard owners actually do, and our [cost calculator](/tools/cost-calculator/) can model it.
+
+## Real owner mistakes (learn from forums, not from experience)
+
+**Buying for the average, not the maximum.** The classic error: "my yard is mostly flat" — except the one 30-foot section by the driveway that's a ski slope. The mower doesn't care about your average. It cares about the worst 10 feet.
+
+**Ignoring the wet season.** Plenty of owners report their mower handles slopes fine in July and struggles in April. If your region has a wet season, test your slope assumption against wet grass, not dry. Morning dew alone cuts traction noticeably.
+
+**Skipping the boundary margin on slopes.** On flat ground you can map close to edges. On slopes, leave extra margin at the bottom — a mower that slips slightly downhill shouldn't end up in the street or the neighbor's petunias.
+
+**Forgetting the charging station placement.** The dock needs flat, stable ground with power. On hilly properties, people mount the dock at the top of the slope and wonder why the mower struggles to dock uphill on a low battery. Put the dock on flat ground near the middle of the mowing area when possible.
+
+Browse r/lawncare before buying — the slope threads are full of these lessons, and owners name exact models and grades.
+
+## Quick decision guide
+
+| Your steepest section | Verdict |
+|---|---|
+| Gentle, barely noticeable | Any wire-free mower works |
+| Noticeable but walkable comfortably | Standard RTK mower ([Navimow X4](https://www.amazon.com/s?k=segway+navimow+x4), [Automower](https://www.amazon.com/s?k=husqvarna+automower+ai+vision)) |
+| You'd hesitate to push-mow it | AWD required ([LUBA 2/3 AWD](https://www.amazon.com/s?k=mammotion+luba+3+awd)) |
+| You wouldn't walk it in the rain | Rethink the grass — consider ground cover or terracing |
+
+When in doubt, measure. Guessing wrong costs either $1,000 in unnecessary AWD or a $2,000 mower that can't finish your lawn.
 
 ## Bottom line
 
-Match the mower to your steepest 10 feet, not your average lawn. Under about 35%, a well-rated 2WD mower is fine. From 35% to 60%, AWD is essential, and the [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the cheapest way in. Beyond that, buy an 84%-rated [Navimow X4](/mowers/segway-navimow-x4/) or the 80% [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/), set stripes to run up the hill, and mow when the grass is dry. Measure first with the [slope checker](/tools/slope-checker/), then compare finalists in our [full comparison chart](/mowers/) or the [best robot lawn mowers of 2026](/posts/best-robot-lawn-mowers-2026/).
+Match the mower to your steepest section, not your average lawn. Gentle grades: any wire-free mower from our [best robot mowers guide](/posts/best-robot-lawn-mowers-2026/) works. Real hills: AWD or nothing. Measure first with the [slope checker](/tools/slope-checker/), then buy once.
 
-**Sources**
+## Sources & further reading
 
-- Manufacturer specs: [Husqvarna Automower 420 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-420-iq/), [Husqvarna 435 iQ AWD](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435-iq-awd/), [ECOVACS GOAT A3000 LiDAR Pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro), [Mammotion LUBA 3 AWD](https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower), [Segway Navimow X4](https://navimow.com/products/navimow-x4-robot-lawn-mower)
-- Reviews: [TechAeris LUBA 3 AWD review](https://techaeris.com/2026/07/10/mammotion-luba-3-awd-review/), [Tom's Guide Lymow One Plus review](https://www.tomsguide.com/home/smart-home/lymow-one-plus-robot-mower-review), [GearDiary Automower 420 iQ review](https://geardiary.com/2026/08/25/husqvarna-automower-420-iq-review/)
-- How we compile ratings: [our research methodology](/how-we-research/)
+- https://www.techradar.com/home/small-appliances/mammotion-luba-2-awd-robot-lawn-mower-review?rand=12330
+- https://therobotmower.co.uk/mammotion-luba-3-awd-review-2026-the-lab-test-verdict/
+- https://www.androidauthority.com/best-robot-mowers-of-2026-3673460/
+- https://www.gardenninja.co.uk/best-robot-lawn-mower-uk-2026-a-garden-designers-honest-guide/
