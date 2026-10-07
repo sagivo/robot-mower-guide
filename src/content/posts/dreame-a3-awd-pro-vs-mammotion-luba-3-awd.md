@@ -63,7 +63,7 @@ Prices on both have swung by hundreds of dollars this year, so check the current
 | Warranty | 3 years | 3 years |
 | Guide score | 8.7 / 10 | 9.2 / 10 |
 
-On our research-based subscores, the LUBA 3 leads on navigation (9.5 vs 8.5) and terrain (10 vs 9.5), they tie on coverage (9), and the Dreame wins clearly on value (9 vs 7.5). The Dreame's lower navigation score reflects split reviews: Bob Vila named it best for steep slopes and Gizmodo was positive, but Reviewed reported a difficult setup, boundary crossings into mulch beds and turf scalping when it got stuck. Full spec sheets live on our [Dreame A3 AWD Pro review](/mowers/dreame-a3-awd-pro/) and [LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/), and you can line both up against the other 19 models on the [comparison chart](/mowers/).
+On our research-based subscores, the LUBA 3 leads on navigation (9.5 vs 8.5) and terrain (10 vs 9.5), they tie on coverage (9), and the Dreame wins clearly on value (9 vs 7.5). The Dreame's lower navigation score reflects split reviews: Bob Vila named it best for steep slopes and Gizmodo was positive, but Reviewed reported a difficult setup, boundary crossings into mulch beds and turf scalping when it got stuck. Full spec sheets live on our [Dreame A3 AWD Pro review](/mowers/dreame-a3-awd-pro/) and [LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/), and you can line both up against the other 28 models on the [comparison chart](/mowers/).
 
 ## Navigation: pure LiDAR vs Tri-Fusion
 
@@ -165,6 +165,7 @@ To see how either purchase stacks up against paying a crew, run your numbers thr
 ## Consider instead
 
 - **[Segway Navimow X4](/mowers/segway-navimow-x4/)** (about $2,499–$2,999, 1–1.5 acres, 84% slopes): our top-scored mower overall. Its 17" deck is the widest in the class, and Davis found it gentler on turf than the Dreame. It leans on network RTK and cameras, so dense canopy is its weak spot. See the [LUBA 3 vs Navimow X4 comparison](/posts/mammotion-luba-3-vs-segway-navimow-x4/). **[Check the Navimow X4 price on Amazon](amazon:segway-navimow-x4)**
+- **[MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/)** (about $1,799–$2,199, up to 0.75 acre, 80% slopes): essentially the Dreame A3 AWD Pro platform under a MOVA badge, with the same 15.8" deck, LiDAR-plus-vision navigation and three years of 4G. SlashGear called it the best robot mower it has tested, and it scores 8.8/10 with us. It tops out at 0.75 acre and has no published IP rating for the AWD models. **[Check the LiDAX Ultra AWD price on Amazon](amazon:mova-lidax-ultra-awd)**
 - **[Dreame A3 AWD](/mowers/dreame-a3-awd/)** (about $1,099–$1,539, up to 0.5 acre): the same LiDAR-plus-AWD idea with an 80% rating and a narrower 7.9" deck. If your lawn is half an acre or less, it saves you about $600.
 - **[Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/)** (about $1,699–$1,999, 0.37 acre): flagship terrain ability for small, steep or cluttered yards, plus a real edge disc.
 

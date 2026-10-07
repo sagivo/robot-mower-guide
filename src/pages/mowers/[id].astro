@@ -4,6 +4,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import BuyButton from "../../components/BuyButton.astro";
 import ProductImage from "../../components/ProductImage.astro";
+import AccessoryList from "../../components/AccessoryList.astro";
+import { AFFILIATE_REL, tagAmazonUrl } from "../../lib/amazon";
 import ProductCard from "../../components/ProductCard.astro";
 import PostCard from "../../components/PostCard.astro";
 import StickyCta from "../../components/StickyCta.astro";
@@ -67,7 +69,7 @@ const specs: [string, string][] = [
   ["Navigation", m.nav],
   ["RTK base station", m.needsRtkStation ? "Required" : "Not required"],
   ["Drive", m.drive === "AWD" ? "All-wheel drive" : m.drive === "Tracks" ? "Tank tracks" : "Two-wheel drive"],
-  ["Cutting width", `${m.cutWidthIn}"`],
+  ["Cutting width", m.cutWidthIn ? `${m.cutWidthIn}"` : "Not published"],
   ["Cutting height", `${m.cutHeightIn[0]}"–${m.cutHeightIn[1]}"`],
   ...(m.noiseDb ? ([["Noise", `${m.noiseDb} dB(A)`]] as [string, string][]) : []),
   ...(m.ipRating ? ([["Weather rating", m.ipRating]] as [string, string][]) : []),
@@ -170,6 +172,8 @@ const bars: [string, number][] = [
         <BuyButton model={m} />
       </div>
 
+      <AccessoryList model={m} />
+
       {mentionedIn.length > 0 && (
         <>
           <h2 id="featured-in">Featured in our guides</h2>
@@ -193,7 +197,10 @@ const bars: [string, number][] = [
         <>
           <h2 id="sources">Sources</h2>
           <ul class="sources">
-            {m.sources.map((s) => <li><a href={s} rel="noopener nofollow" target="_blank">{new URL(s).hostname.replace(/^www\./, "")}</a></li>)}
+            {m.sources.map((s) => {
+              const isAmazon = /^https?:\/\/(www\.)?amazon\.com\//.test(s);
+              return <li><a href={isAmazon ? tagAmazonUrl(s) : s} rel={isAmazon ? AFFILIATE_REL : "noopener nofollow"} target="_blank">{new URL(s).hostname.replace(/^www\./, "")}</a></li>;
+            })}
           </ul>
         </>
       )}

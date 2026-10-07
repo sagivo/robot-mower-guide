@@ -1,7 +1,7 @@
 ---
 title: "Robot Mower Theft Protection: Are Robot Mowers Stolen? (2026)"
 seoTitle: "Robot Mower Theft Protection: GPS, 4G & PIN (2026)"
-description: "Robot mower theft protection for 21 models: 4G GPS tracking, PIN locks, lift alarms, subscription costs, and the physical steps that keep your mower home."
+description: "Robot mower theft protection for 30 models: 4G GPS tracking, PIN locks, lift alarms, subscription costs, and the physical steps that keep your mower home."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: guide
@@ -19,7 +19,7 @@ takeaways:
   - "Robot mower theft is <strong>uncommon but real</strong>. A mower parked on a street-facing lawn is the easiest target."
   - "<strong>4G GPS tracking</strong> is the feature that matters most. Wi-Fi and Bluetooth can't report a location once the mower leaves your yard."
   - "A PIN lock plus account binding makes a stolen mower close to worthless to a thief. A lift alarm makes noise while it's happening."
-  - "Check whether 4G is included: Mammotion and Dreame bundle 3 years, while Segway's i-series includes 1 year (the i2 AWD is then about $33/yr)."
+  - "Check whether 4G is included: Mammotion, Dreame and MOVA bundle 3 years, while Segway's i-series includes 1 year (the i2 AWD is then about $33/yr)."
   - "Call your insurer before you need to. Coverage, limits and deductibles vary, so <a href=\"#insurance-what-to-check-in-your-own-policy\">check your own policy</a>."
 faq:
   - q: "Are robot lawn mowers stolen often?"
@@ -27,7 +27,7 @@ faq:
   - q: "Do robot mowers have GPS tracking?"
     a: "Most 2026 wire-free models do, but tracking only works away from home if the mower has a cellular (4G) connection. Models with Wi-Fi and Bluetooth only, such as the ECOVACS GOAT O1000 LiDAR Pro, can't report their location once they leave your network's range."
   - q: "Do I have to pay for 4G on a robot mower?"
-    a: "It depends on the brand. Mammotion's LUBA 3 AWD and LUBA mini 2 AWD and Dreame's A3 AWD Pro include 3 years of 4G. Segway's i2 AWD includes 1 year, then costs about $33 a year. Some models, like the Mammotion YUKA mini 2, need an optional 4G module (about $129)."
+    a: "It depends on the brand. Mammotion's LUBA 3 AWD and LUBA mini 2 AWD, Dreame's A3 AWD Pro and the MOVA LiDAX Ultra AWD include 3 years of 4G. Segway's i2 AWD includes 1 year, then costs about $33 a year. Some models, like the Mammotion YUKA mini 2, need an optional 4G module (about $129)."
   - q: "Can a stolen robot mower be used by someone else?"
     a: "Usually not easily. Most major brands bind the mower to the owner's app account and lock it with a PIN, so a thief can't pair it to a new phone or run it without the code. That makes resale hard, but it doesn't stop someone from taking it, so tracking and physical security still matter."
   - q: "Does homeowners insurance cover a stolen robot mower?"
@@ -73,12 +73,21 @@ This table lists the anti-theft features and connectivity each manufacturer publ
 | [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | Tracking only with the optional 4G module | Wi-Fi, Bluetooth; optional 4G module ($129) |
 | [eufy E15 / E18](/mowers/eufy-e15-e18/) | GPS + 4G tracking | Wi-Fi, Bluetooth, 4G |
 | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | GPS tracking, alarm, PIN, geofence | Cellular, Bluetooth |
+| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | Location tracking, off-map alarm, lift alerts, camera patrol with human detection, live video, AirTag compatible | 4G (3 years included), Wi-Fi, Bluetooth |
+| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | 4G real-time tracking, PIN lockout, high-decibel alarm, third-party tracker compatible | 4G, Wi-Fi, Bluetooth |
+| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | 4G real-time tracking, PIN lockout, high-decibel alarm, third-party tracker compatible | 4G, app control |
+| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | GPS tracking, alarm, admin-only app access, Find My Device, offline theft alerts | 4G, app control |
+| [Airseekers TRON](/mowers/airseekers-tron/) | Real-time GPS tracking with location alerts | 4G, Wi-Fi, Bluetooth |
+| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | Tracking and boundary alerts only with the optional 4G-GPS module | Wi-Fi, Bluetooth; optional 4G module |
+| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | Not detailed by ANTHBOT | 4G, Wi-Fi, Bluetooth (4G terms unconfirmed) |
+| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | Account-based lock; 4G alarm and location tracking once activated | 4G, Wi-Fi, Bluetooth |
+| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | Not detailed by Yarbo | App control; 4G service sold separately |
 
 A few notes on reading this table:
 
 - **"Not listed" doesn't always mean "doesn't exist."** ECOVACS's own anti-theft blog describes PIN protection and alarms for its GOAT line, but the US spec sheets for the LiDAR Pro models don't list them. Confirm on the current product page before buying if theft is a concern.
 - **Spec sheets are terse.** Several brands that list only "GPS tracking" also use a PIN at power-on and bind the mower to your account. The table shows what's published, not the full story.
-- **The weakest options for theft-prone yards** are the GOAT O1000 LiDAR Pro (no 4G), the ANTHBOT M9 (unconfirmed) and the YUKA mini 2 unless you add the module.
+- **The weakest options for theft-prone yards** are the GOAT O1000 LiDAR Pro (no 4G), the ANTHBOT M9 and M5 LiDAR (features unconfirmed), the Yarbo (not detailed, 4G sold separately), and the YUKA mini 2 and Sunseeker X5 unless you add their modules.
 
 ## Why 4G GPS tracking is the feature that matters
 
@@ -92,7 +101,7 @@ That's why we treat 4G as the real line between "has anti-theft" and "has a PIN.
 
 Two limits worth knowing. First, tracking depends on battery and cell coverage, so a thief who keeps the mower in a basement or drains it can defeat it. Second, a tracker tells you where the mower is; it doesn't get it back. If you locate a stolen mower, give the location to the police rather than going to retrieve it yourself.
 
-**A backup option:** the [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) has a dedicated slot for an Apple AirTag. That gives you a second, independent tracker on Apple's Find My network that keeps working even if the mower's own 4G is off.
+**A backup option:** the [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) has a dedicated slot for an Apple AirTag. That gives you a second, independent tracker on Apple's Find My network that keeps working even if the mower's own 4G is off. The [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) is also AirTag compatible, and Roborock says its RockMow X1 models work with third-party trackers.
 
 ## 4G subscriptions: what's included and what it costs
 
@@ -100,13 +109,13 @@ Cellular data isn't free, and brands handle it differently. As of October 2026:
 
 | Approach | Models | What you pay |
 |---|---|---|
-| 3 years included | LUBA 3 AWD, LUBA mini 2 AWD, Dreame A3 AWD Pro | Nothing extra for the first 3 years |
+| 3 years included | LUBA 3 AWD, LUBA mini 2 AWD, Dreame A3 AWD Pro, MOVA LiDAX Ultra AWD | Nothing extra for the first 3 years (SlashGear reports MOVA charges €99/yr after that in Europe; US renewal pricing is unconfirmed) |
 | 1 year included | Navimow i2 AWD, Navimow i215 LiDAR | i2 AWD is about $33/yr after year one; check Segway's current rate for the i215 |
 | Long anti-theft service | Sunseeker X7 Plus Gen 2 | 5-year anti-theft service listed by Sunseeker |
-| Optional hardware | YUKA mini 2 (4G module ~$129), GOAT A-series LiDAR Pro (cellular module) | Module price, plus any data plan |
+| Optional hardware or service | YUKA mini 2 (4G module ~$129), GOAT A-series LiDAR Pro (cellular module), Sunseeker X5 (4G-GPS module), Yarbo (4G service sold separately) | Module or service price, plus any data plan |
 | No 4G | GOAT O1000 LiDAR Pro | Not available |
 
-For brands that list 4G without terms (WORX, eufy, Segway X-series, Husqvarna), check the current plan before you buy. Fees and included periods change, and that cost belongs in your total ownership math. Our [robot mower cost calculator](/tools/cost-calculator/) lets you add it in.
+For brands that list 4G without terms (WORX, eufy, Segway X-series, Husqvarna, Roborock, HOOKII, Airseekers, Greenworks and the ANTHBOT M5 LiDAR), check the current plan before you buy. Fees and included periods change, and that cost belongs in your total ownership math. Our [robot mower cost calculator](/tools/cost-calculator/) lets you add it in.
 
 Is the subscription worth it? On a front lawn or an unfenced lot, yes. Thirty-odd dollars a year is small next to a $1,000 to $3,000 mower. In a fenced backyard where the mower parks in a garage, letting it lapse is a reasonable call, though you'll lose remote access and possibly network RTK on some models.
 
@@ -116,11 +125,11 @@ These features don't track a stolen mower. They make stealing it unappealing.
 
 **PIN lock and account binding.** The mower won't run without a code, and it's tied to your app account. Most major brands use some form of this, and Mammotion describes a remote lock and account lock for its LUBA line. A thief can't pair it to a new phone, which kills resale value. Always set a PIN that isn't 0000 or 1234, and keep your app login secure.
 
-**Lift alarm.** Tilt sensors detect when the mower is picked up, and the mower sounds a siren and pushes an alert to your phone. Dreame lists it on both A3 AWD models. Husqvarna and WORX list an "alarm," and Segway lists a "geofence alarm." The siren won't stop a determined thief, but it turns a quiet grab into a noisy one.
+**Lift alarm.** Tilt sensors detect when the mower is picked up, and the mower sounds a siren and pushes an alert to your phone. Dreame lists it on both A3 AWD models, and MOVA lists lift alerts on the LiDAX Ultra AWD. Husqvarna and WORX list an "alarm," Roborock a "high-decibel alarm," and Segway lists a "geofence alarm." The siren won't stop a determined thief, but it turns a quiet grab into a noisy one.
 
 **Geofence alerts.** You get a notification when the mower leaves its mapped area. Combined with 4G, this is your early warning: you know it's moving before you'd notice it's missing.
 
-**Camera security patrol.** The Dreame A3 AWD Pro can patrol the yard with its cameras, and the LUBA 3 AWD and LUBA mini 2 AWD offer a live camera view in the app.
+**Camera security patrol.** The Dreame A3 AWD Pro can patrol the yard with its cameras, the MOVA LiDAX Ultra AWD adds human detection to its camera patrol and live video, and the LUBA 3 AWD and LUBA mini 2 AWD offer a live camera view in the app.
 
 ## Physical protection: garages, dock placement and cameras
 

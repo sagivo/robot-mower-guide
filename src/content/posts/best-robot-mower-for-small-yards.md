@@ -123,13 +123,20 @@ Prices are typical US street prices as of October 2026 for the smallest tier, an
 
 **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)** · [Read our full review](/mowers/dreame-a3-awd/)
 
+### Also consider: two new budget LiDAR mowers
+
+Both are 2026 arrivals with little independent testing so far, so they sit outside our main picks for now.
+
+- **[ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/)** (about $799, 1/8 acre): the cheapest LiDAR mower we track, with dual cameras and no antenna, so it suits tiny lots under trees where RTK can't hold a fix. It's quiet (58 dB), IPX6 and compact enough for 26" passages, but coverage is only 5,382 sq ft, the max cut is 2.8", and we found no independent reviews. **[Check the M5 LiDAR price on Amazon](amazon:anthbot-m5-lidar)**
+- **[HOOKII Neomow X2 Air](/mowers/hookii-neomow-x2/)** (about $849, 0.37 acre): antenna-free 3D LiDAR, an 11" deck and enough coverage to give a true quarter acre real headroom. Camera obstacle avoidance and auto-mapping need the $339 vision module, it's 2WD with a 45% rating, and X2 reviews are still thin.
+
 ## What's the minimum lawn size for a robot mower?
 
 There's no technical minimum. A robot doesn't care if your lawn is smaller than its rating, but below a certain size the value case gets thin. Our view: under about 1,500 to 2,000 sq ft of turf, a cordless push mower costs a fraction of the price and takes 10 minutes a week. Above that, a robot starts to earn its keep, because it mows little and often, keeps the grass even, and gives you back every weekend of the season.
 
 [[diagram:lawn-sizes]]
 
-A robot can still make sense on a very small lawn if mowing is physically hard for you, if you travel a lot, or if the lawn is awkward to reach with a push mower (a terraced or fenced patch). The smallest tier among our picks is the Navimow i105N at 1/8 acre, and there's no penalty for buying it for less grass.
+A robot can still make sense on a very small lawn if mowing is physically hard for you, if you travel a lot, or if the lawn is awkward to reach with a push mower (a terraced or fenced patch). The smallest tier among our picks is the Navimow i105N at 1/8 acre (the newer ANTHBOT M5 LiDAR is rated for a similar 5,382 sq ft), and there's no penalty for buying it for less grass.
 
 ## How to size a robot mower for a small lawn
 
@@ -139,7 +146,7 @@ Size by mowable turf, not lot size. A quarter-acre lot (10,890 sq ft) with a hou
 |---|---|---|---|
 | 1/8 acre | 5,445 | ~6,300–6,500 sq ft | Navimow i206 AWD (0.15 ac), eufy E15, any 1/4-acre model |
 | 1/5 acre | 8,712 | ~10,000–10,500 sq ft | Navimow i110N, i210 AWD, S4, GOAT O1000, A3 AWD 1000 |
-| 1/4 acre | 10,890 | ~12,500–13,000 sq ft | eufy E18 (0.3 ac), LUBA mini 2 AWD (0.37 ac), A3 AWD 2000 (0.5 ac) |
+| 1/4 acre | 10,890 | ~12,500–13,000 sq ft | eufy E18 (0.3 ac), LUBA mini 2 AWD (0.37 ac), Neomow X2 Air (0.37 ac), A3 AWD 2000 (0.5 ac) |
 | 1/3 acre | 14,520 | ~16,700–17,400 sq ft | A3 AWD 2000; or see our [large-lawn picks](/posts/best-robot-mower-for-large-lawns/) |
 
 Notice that several popular small-yard mowers are rated for exactly 1/4 acre. They're a great fit for a quarter-acre lot, but tight for a quarter acre of actual grass, especially with slopes. The LUBA mini 2 AWD's 0.37 acre (16,146 sq ft) sits just under the 1/3-acre headroom line, so it's fine for a simple third-acre lawn but tight for a hilly one.

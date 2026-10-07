@@ -64,9 +64,9 @@ There are three underlying technologies (satellite RTK, LiDAR and vision) but fo
 
 | Type | How it finds its position | Extra hardware | Under trees | Example models | Price from |
 |---|---|---|---|---|---|
-| **RTK with base station** | Satellites, corrected by an antenna in your yard | Base station or antenna, often with its own outlet | Weak | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/), [ANTHBOT M9](/mowers/anthbot-m9/) | ~$769 |
+| **RTK with base station** | Satellites, corrected by an antenna in your yard | Base station or antenna, often with its own outlet | Weak | [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/), [ANTHBOT M9](/mowers/anthbot-m9/), [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | ~$769 |
 | **Network RTK** | Satellites, corrected over cellular from a station network | None in most yards | Weak | [Navimow X4](/mowers/segway-navimow-x4/), [Navimow i105N](/mowers/segway-navimow-i105n-i110n/), [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) | ~$669 |
-| **LiDAR** | Laser scans of trees, walls and fences, matched to a map | None | Strong | [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [Sunseeker S4](/mowers/sunseeker-s4/), [GOAT O1000](/mowers/ecovacs-goat-o1000-lidar-pro/) | ~$999 |
+| **LiDAR** | Laser scans of trees, walls and fences, matched to a map | None | Strong | [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/), [Sunseeker S4](/mowers/sunseeker-s4/), [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | ~$799 |
 | **Vision only** | Cameras and AI recognizing grass and landmarks | None | Fair in daylight | [eufy E15 / E18](/mowers/eufy-e15-e18/) | ~$999 |
 
 Prices are the cheapest model of each type in our database. Most RTK mowers also carry cameras for obstacle avoidance, and the flagship [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) fuses LiDAR, network RTK and vision.
@@ -81,7 +81,7 @@ The same idea, but the corrections come over cellular from a network of permanen
 
 ### LiDAR
 
-A LiDAR mower scans its surroundings with lasers and recognizes where it is from fixed features: trunks, fences, walls, the house. No satellites are involved, so trees and buildings help rather than hurt. It also works in shade and darkness. LiDAR used to be a premium feature, but it now starts around $999 (GOAT O1000) and reaches AWD hill-climbers like the Dreame A3 AWD at about $1,099 on sale.
+A LiDAR mower scans its surroundings with lasers and recognizes where it is from fixed features: trunks, fences, walls, the house. No satellites are involved, so trees and buildings help rather than hurt. It also works in shade and darkness. LiDAR used to be a premium feature, but 13 of the 30 models we track now use it. It starts around $799 with the ANTHBOT M5 LiDAR (for lawns under about 1/8 acre) and $899 with the HOOKII Neomow X2 Air, and reaches AWD hill-climbers like the Dreame A3 AWD at about $1,099 on sale. Newer AWD entrants such as the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) and [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) look strong on paper, though they have less independent testing behind them so far.
 
 ### Vision only
 
@@ -159,7 +159,7 @@ At about $669 (0.125 acre) or $789 (0.25 acre), the i105N / i110N is the cheapes
 
 **[Check the Navimow i105N / i110N price on Amazon](amazon:segway-navimow-i105n-i110n)** · [Read our full review](/mowers/segway-navimow-i105n-i110n/)
 
-**Also worth knowing:** the [eufy E15 / E18](/mowers/eufy-e15-e18/) (from about $999) is the simplest vision-only option for flat, open lawns, and the [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) (from about $1,999) is the base-station RTK pick for buyers who value dealer service.
+**Also worth knowing:** the [MOVA LiDAX Ultra AWD](amazon:mova-lidax-ultra-awd) (from about $1,799) is a close LiDAR alternative to the Dreame, built on essentially the same platform and rated 8.8/10 with us. The [eufy E15 / E18](/mowers/eufy-e15-e18/) (from about $999) is the simplest vision-only option for flat, open lawns, and the [Husqvarna Automower iQ](/mowers/husqvarna-automower-iq/) (from about $1,999) is the base-station RTK pick for buyers who value dealer service.
 
 ## Common wire-free problems (and quick fixes)
 

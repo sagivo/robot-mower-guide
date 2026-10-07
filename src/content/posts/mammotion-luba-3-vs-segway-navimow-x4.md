@@ -62,7 +62,7 @@ Mammotion LUBA 3 vs Segway Navimow X4 comes down to one question: how much sky c
 | Connectivity | 4G, Wi-Fi, Bluetooth | 4G (3 years included), Wi-Fi, Bluetooth |
 | Anti-theft | GPS/4G tracking, geofence alarm | 4G GPS tracking, live camera view, PIN |
 
-Specs come from manufacturer US pages and reviews; see the full [Navimow X4 review](/mowers/segway-navimow-x4/) and [LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/) for sources. Our [comparison chart](/mowers/) puts both next to the other 19 models we track.
+Specs come from manufacturer US pages and reviews; see the full [Navimow X4 review](/mowers/segway-navimow-x4/) and [LUBA 3 AWD review](/mowers/mammotion-luba-3-awd/) for sources. Our [comparison chart](/mowers/) puts both next to the other 28 models we track.
 
 ## Price: tier-by-tier matchups
 

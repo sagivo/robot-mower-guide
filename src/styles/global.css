@@ -552,3 +552,22 @@ a.pr-name:hover { color: var(--green-700); text-decoration: underline; }
 .amazon-photo img { display: block; height: auto; max-height: 220px; object-fit: contain; }
 .pc-top .amazon-photo img { max-height: 90px; }
 .pr-img .amazon-photo img { max-height: 70px; width: auto; max-width: 76px; }
+
+/* accessories */
+.acc { margin: 2.5rem 0; }
+.acc-intro { color: var(--muted) !important; font-size: .95rem; }
+.acc-list { list-style: none; padding: 0; margin: 1rem 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); overflow: hidden; }
+.acc-row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) auto; gap: 1rem; align-items: center; padding: .9rem 1.1rem; margin: 0 !important; }
+.acc-row + .acc-row { border-top: 1px solid var(--line); }
+.acc-kind { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--green-700); }
+.acc-main strong { font-family: var(--font-display); font-size: .97rem; margin-right: .5rem; }
+.acc-tag { font-size: .72rem; font-weight: 700; background: var(--bg-soft); color: var(--green-900); border-radius: 6px; padding: .12rem .45rem; }
+.acc-main p { margin: .25rem 0 0; font-size: .87rem; line-height: 1.45; color: var(--muted) !important; }
+.acc-buy { display: flex; flex-direction: column; align-items: flex-end; gap: .3rem; font-size: .82rem; font-weight: 700; color: var(--green-900); }
+.prose .acc .btn, .prose .acc-table .btn { color: #1d1300; }
+@media (max-width: 640px) { .acc-row { grid-template-columns: 1fr; gap: .4rem; } .acc-buy { flex-direction: row; justify-content: space-between; align-items: center; } }
+.acc-table td, .acc-table tbody th { white-space: normal; }
+.acc-filter button { font: inherit; font-weight: 700; font-size: .85rem; color: var(--green-900); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: .4rem .9rem; cursor: pointer; }
+.acc-filter button.active, .acc-filter button:hover { background: var(--green-900); color: #fff; border-color: var(--green-900); }
+.acc-row[hidden], .acc-section[hidden] { display: none; }
+.acc-main p a { color: var(--green-700); font-weight: 600; }

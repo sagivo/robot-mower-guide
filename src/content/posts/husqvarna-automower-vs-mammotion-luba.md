@@ -131,7 +131,7 @@ Mammotion backs the LUBA 3 AWD with a **3-year warranty** (per TechAeris) and ha
 
 Our value subscores put the LUBA 3 AWD, LUBA mini 2 AWD and Automower iQ level at 7.5 each, with the Automower 435 iQ AWD well behind at 5.5. That tie needs context. The iQ earns it at Husqvarna's October campaign prices ($1,999–$3,399, against list prices of $2,600–$4,300) and only on open, gentle lawns. At list price, or on a yard with slopes and trees, the Mammotions deliver far more mower per dollar. If you go Husqvarna, time your purchase to a campaign.
 
-The 435 iQ AWD is the hardest to justify on specs. At about $4,999 it's the most expensive per acre of any model we track, and a LUBA 3 AWD 5000 climbs steeper ground and cuts taller for about $1,700 less. You're paying for the dealer and the warranty, not the hardware.
+The 435 iQ AWD is the hardest to justify on specs. At about $4,999 it's one of the most expensive per acre of any model we track, and a LUBA 3 AWD 5000 climbs steeper ground and cuts taller for about $1,700 less. You're paying for the dealer and the warranty, not the hardware.
 
 To see whether any of these pays off against a lawn crew, use the [cost calculator](/tools/cost-calculator/) or read our [robot mower vs lawn service cost](/posts/robot-mower-vs-lawn-service-cost/) breakdown.
 

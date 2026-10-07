@@ -127,7 +127,7 @@ Manufacturer robot ratings assume dry, short grass, so plan for less on wet morn
 
 Robots don't scale like riding mowers. The largest mainstream wire-free model we track, the [Segway Navimow X390](amazon:segway-navimow-x3), is rated for 2.5 acres. The Husqvarna Automower 440 iQ is rated for 2 acres in open, systematic layouts, and Husqvarna's figures for irregular yards are roughly half that. Coverage ratings are best-case numbers.
 
-Beyond about 2.5 acres you'd need multiple robots, each with its own dock and map, which gets expensive fast. Large rural lots also bring challenges robots handle poorly: long grass, rough ground, ditches and spotty cell coverage. The tracked [Lymow One Plus](/mowers/lymow-one-plus/) is built for rough acreage but is a niche machine. Our [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) covers the realistic options up to 2.5 acres.
+Beyond about 2.5 acres you'd need multiple robots, each with its own dock and map, which gets expensive fast. Large rural lots also bring challenges robots handle poorly: long grass, rough ground, ditches and spotty cell coverage. The tracked [Lymow One Plus](/mowers/lymow-one-plus/) is built for rough acreage but is a niche machine. So is the tracked [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/), the one robot we track rated beyond 2.5 acres (up to 6), which also takes a snow blower module, much like a tractor's attachments. It costs about $4,899 as a bundle, needs a base station and, per Freshly Charged, struggles in tight, cluttered areas. Our [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/) covers the realistic options up to 2.5 acres.
 
 ## Noise, storage and everyday hassle
 

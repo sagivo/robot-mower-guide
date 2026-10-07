@@ -165,7 +165,7 @@ Be honest with yourself here. The math is weaker, or doesn't work, if:
 
 ## Which mower gives the fastest payback?
 
-- **Small, flat lawn:** the [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) at $669–$849 pays back fastest. See [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
+- **Small, flat lawn:** the [Navimow i105N / i110N](/mowers/segway-navimow-i105n-i110n/) at $669–$789 pays back fastest. See [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/).
 - **Small but hilly:** the [Dreame A3 AWD](amazon:dreame-a3-awd) (about $1,099 on sale) adds LiDAR and an 80% slope rating.
 - **Half to one acre:** the [Dreame A3 AWD Pro](amazon:dreame-a3-awd-pro) or [Navimow X4](/mowers/segway-navimow-x4/). See [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/).
 - **1.5 to 2.5 acres, gentle ground:** the [Navimow X3](amazon:segway-navimow-x3) series.

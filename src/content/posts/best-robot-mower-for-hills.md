@@ -131,7 +131,7 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 
 **Why we picked it:** Husqvarna's articulated AWD platform is proven on steep, rough ground, and you get a local dealer and warranty support that newer brands can't match. It's rated 70% (35°) inside the work area and, unusually, Husqvarna publishes a separate 50% (26.6°) limit at the boundary. Coverage is 1.3 acres for systematic layouts and 0.9 acre for irregular ones.
 
-**Skip it if:** price matters. At about $4,999, it's the most expensive per acre of any model we track, it needs a reference station, it lacks LiDAR or AI vision, and its 2.8" max cut height is low. The LUBA 3 and A3 AWD Pro climb as well for far less. Our [Husqvarna vs Mammotion comparison](/posts/husqvarna-automower-vs-mammotion-luba/) covers the trade-off.
+**Skip it if:** price matters. At about $4,999, it's one of the most expensive per acre of any model we track, it needs a reference station, it lacks LiDAR or AI vision, and its 2.8" max cut height is low. The LUBA 3 and A3 AWD Pro climb as well for far less. Our [Husqvarna vs Mammotion comparison](/posts/husqvarna-automower-vs-mammotion-luba/) covers the trade-off.
 
 **[Check the Automower 435 iQ AWD price on Amazon](amazon:husqvarna-automower-435-iq-awd)** · [Read our full review](/mowers/husqvarna-automower-435-iq-awd/)
 
@@ -142,6 +142,15 @@ Prices are typical US street prices as of October 2026 and move weekly, often by
 **Skip it if:** you have a manicured suburban lawn. It needs an RTK base, manual mapping takes 30 to 45 minutes, it's heavier and louder than wheeled robots, and Tom's Guide found it left patches.
 
 **[Check the Lymow One Plus price on Amazon](amazon:lymow-one-plus)** · [Read our full review](/mowers/lymow-one-plus/)
+
+## Also consider: newer hill climbers with less track record
+
+Several 2025–26 arrivals post strong slope numbers but have far less independent testing than the picks above, so treat them as promising rather than proven.
+
+- **[MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/)** (80% / 38.7°, about $1,799–$2,199): essentially the Dreame A3 AWD Pro platform under a MOVA badge, with LiDAR plus AI vision, AWD, a 15.8" deck and up to 0.75 acre. It's our highest-scored newcomer at 8.8/10, and SlashGear called it the best robot mower it has tested. The 80% figure comes from MOVA's Amazon listing, no IP rating is published for the AWD models, and at about 52 lb it can scuff soft turf when it turns. **[Check the LiDAX Ultra AWD price on Amazon](amazon:mova-lidax-ultra-awd)**
+- **[Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/)** and **[RockMow X1](/mowers/roborock-rockmow-x1/)** (80% / 38.7°): the same AWD chassis with active steering and suspension, either with antenna-free LiDAR (about $1,999–$2,299, 0.5 acre) or with RTK and an included base station (about $1,499–$2,499, up to 1 acre on the X130H). Neither has long-term independent reviews yet. Choose the LiDAR version if your slope sits under trees.
+- **[Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/)** (70% / 35°, tracks, about $4,899 as a bundle): a tracked yard robot rated for up to 6 acres that swaps to a snow blower module in winter. It needs a base station, setup is complex, and Freshly Charged found cut quality suffers in tight, cluttered areas.
+- **[Sunseeker X5](/mowers/sunseeker-x5-awd/)** (about 58% / 30°, about $1,999): tri-wheel AWD with a neat striped finish for half an acre. It needs an RTK base station (at least on Gen 1), 4G is an optional extra, and the Dreame A3 AWD climbs steeper for less.
 
 ## Percent grade vs degrees: the slope conversion table
 
@@ -157,8 +166,8 @@ Mower makers quote slopes in two different units, and mixing them up is the most
 | 35% | 19.3° | Hard to walk with a mower | Most 2WD at their limit |
 | 45% | 24.2° | Steep lawn bank | Navimow i2 AWD, Automower iQ, many 2WD |
 | 50% | 26.6° | Very steep, mow up and down | Navimow X3, GOAT A-series |
-| 70% | 35.0° | Hard to stand on when wet | Sunseeker X7 Gen 2, Automower 435 iQ AWD |
-| 80% | 38.7° | Scrambling territory | LUBA 3 AWD, Dreame A3 AWD / Pro, LUBA mini 2 AWD |
+| 70% | 35.0° | Hard to stand on when wet | Sunseeker X7 Gen 2, Automower 435 iQ AWD, Yarbo Mower Pro (tracks) |
+| 80% | 38.7° | Scrambling territory | LUBA 3 AWD, Dreame A3 AWD / Pro, LUBA mini 2 AWD, MOVA LiDAX Ultra AWD, Roborock RockMow X1 / X1 LiDAR |
 | 84% | 40.0° | Near the wheeled limit | Navimow X4, Landroid Vision Cloud 4WD |
 | 100% | 45.0° | Extreme | Lymow One Plus (claimed) |
 
@@ -201,15 +210,15 @@ Our rule of thumb: buy a mower rated at least **20% above** your steepest measur
 ## What to look for in a robot mower for steep slopes
 
 - **Drive type.** AWD or tracks for anything over about 35% (19°). Two-wheel drive is fine on gentle rolls. Our [guide to choosing a robot mower](/posts/how-to-choose-a-robot-lawn-mower/) covers the other trade-offs.
-- **Navigation under cover.** Hilly lots often have trees. LiDAR models (Dreame A3 AWD Pro, LUBA 3 AWD, LUBA mini 2 AWD) keep their position under canopy better than RTK-plus-camera designs. Our [navigation explainer](/posts/robot-mower-navigation-explained/) goes deeper.
+- **Navigation under cover.** Hilly lots often have trees. LiDAR models (Dreame A3 AWD Pro, MOVA LiDAX Ultra AWD, LUBA 3 AWD, LUBA mini 2 AWD, RockMow X1 LiDAR) keep their position under canopy better than RTK-plus-camera designs. Our [navigation explainer](/posts/robot-mower-navigation-explained/) goes deeper.
 - **Published boundary limit.** If the maker lists one, compare it to the slope at your lawn edges.
-- **Deck width and coverage headroom.** Slopes cost runtime. A wide deck (17" on the X4, 16" on the Lymow, 15.7"–15.8" on the LUBA 3 and A3 AWD Pro) claws that time back.
+- **Deck width and coverage headroom.** Slopes cost runtime. A wide deck (17" on the X4, 16" on the Lymow, 15.7"–15.8" on the LUBA 3, A3 AWD Pro and LiDAX Ultra AWD) claws that time back.
 - **Turf impact.** Heavier AWD mowers can scuff soft turf on tight turns. Gentle U-turn settings and mowing in dry conditions help.
 - **Cutting height.** Slopes look and hold better with longer grass. The Husqvarna 435's 2.8" max is a real limit; most AWD rivals reach about 4".
 - **Anti-theft.** A $2,000-plus mower on a visible hillside needs 4G tracking. Read our [robot mower theft protection guide](/posts/robot-mower-theft-protection/).
 
 ## How we chose the best robot mowers for hills
 
-We don't hands-on test mowers. We compiled manufacturer US spec sheets, dated retailer listings and published reviews from outlets including TechAeris, Gizmodo, How-To Geek, Tom's Guide and Reviewed, then scored each model on navigation, terrain, coverage and value. For this list, terrain carried the most weight: rated slope, drive type, any published boundary limit, and owner reports about traction on wet or uneven ground. We excluded two-wheel-drive models unless they offered something hill owners need, and we flag every slope rating as a manufacturer claim. Full methodology is on our [how we research page](/how-we-research/).
+We don't hands-on test mowers. We compiled manufacturer US spec sheets, dated retailer listings and published reviews from outlets including TechAeris, Gizmodo, How-To Geek, Tom's Guide, Reviewed and SlashGear, then scored each model on navigation, terrain, coverage and value. For this list, terrain carried the most weight: rated slope, drive type, any published boundary limit, and owner reports about traction on wet or uneven ground. We excluded two-wheel-drive models unless they offered something hill owners need, and we flag every slope rating as a manufacturer claim. Full methodology is on our [how we research page](/how-we-research/).
 
 If your hill isn't the only challenge, see our picks for [large lawns](/posts/best-robot-mower-for-large-lawns/) and [complex yards with trees and narrow passages](/posts/best-robot-mower-for-complex-yards/), or start with the [best robot lawn mowers of 2026](/posts/best-robot-lawn-mowers-2026/).

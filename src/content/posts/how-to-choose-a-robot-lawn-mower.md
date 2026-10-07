@@ -20,7 +20,7 @@ takeaways:
   - "Buy a coverage tier with 20–30% headroom. Ratings assume open, flat, simple lawns."
   - "Over about 45% grade (24°), get <strong>AWD</strong>. Under heavy trees, get <strong>LiDAR</strong>. Open sky and a gentle lawn? Network RTK is cheaper."
   - "Check what happens after the free 4G period ends, and who fixes the mower when it breaks."
-  - "Not sure where you land? The <a href=\"/tools/size-matcher/\">size matcher</a> filters all 21 models we track in about 30 seconds."
+  - "Not sure where you land? The <a href=\"/tools/size-matcher/\">size matcher</a> filters all 30 models we track in about 30 seconds."
 faq:
   - q: "What should I look for when buying a robot lawn mower?"
     a: "Start with three facts about your yard: mowable area, steepest slope and how much tree cover you have. Those decide the coverage tier, whether you need all-wheel drive, and whether to pick RTK or LiDAR navigation. After that, compare cutting height range, edge handling, 4G anti-theft, weather rating, noise, warranty and price."
@@ -36,7 +36,7 @@ faq:
 
 To choose a robot lawn mower, measure three things first: how many square feet of grass you mow, how steep your steepest section is, and how much of the lawn sits under trees. Those numbers pick your coverage tier, your drive type (2WD or AWD) and your navigation type (RTK or LiDAR). Then use cutting height, edge handling, anti-theft, support and price to choose between the two or three models that are left.
 
-This robot lawn mower buying guide walks through that order step by step. It's based on manufacturer specs, published reviews and owner reports for the 21 wire-free models in our [comparison chart](/mowers/), not hands-on testing ([here's how we research](/how-we-research/)). If you'd rather skip ahead, the [size matcher](/tools/size-matcher/) does the filtering for you.
+This robot lawn mower buying guide walks through that order step by step. It's based on manufacturer specs, published reviews and owner reports for the 30 wire-free models in our [comparison chart](/mowers/), not hands-on testing ([here's how we research](/how-we-research/)). If you'd rather skip ahead, the [size matcher](/tools/size-matcher/) does the filtering for you.
 
 ## Step 1: Measure your lawn (not your lot)
 
@@ -97,8 +97,8 @@ All the models we cover are wire-free, so the question is how they know where th
 | Navigation | Works best | Weak spot | Examples |
 |---|---|---|---|
 | Network RTK + vision | Open lawns with good cell or Wi-Fi coverage | Dense canopy, tall walls | Navimow X4, i105N, WORX Vision Cloud |
-| RTK with a base station | Open lawns, poor network-RTK coverage | Antenna install, needs its own outlet (Husqvarna) | Automower iQ, Anthbot M9, Lymow One Plus |
-| LiDAR + vision | Shaded, cluttered yards | Very large open fields with few landmarks | Dreame A3 AWD, Navimow i215, Sunseeker S4 |
+| RTK with a base station | Open lawns, poor network-RTK coverage | Antenna install, needs its own outlet (Husqvarna) | Automower iQ, Anthbot M9, Lymow One Plus, Roborock RockMow X1 |
+| LiDAR + vision | Shaded, cluttered yards | Very large open fields with few landmarks | Dreame A3 AWD, MOVA LiDAX Ultra AWD, Navimow i215, Sunseeker S4 |
 | Hybrid (LiDAR + RTK + vision) | Anything | Price | Mammotion LUBA 3 AWD |
 | Vision only | Simple, flat, well-lit rectangles | Shade, poor light, complex layouts | eufy E15 / E18 |
 
@@ -110,13 +110,13 @@ This follows directly from Step 2.
 
 - **2WD** is fine up to about 30–45% on paper. It's cheaper and lighter. Skip it if your slopes are steep, your ground is lumpy, or your lawn stays wet.
 - **AWD** handles 70–84% ratings and rough, rooty ground. The Dreame A3 AWD has brought it down to about $1,100 on sale, and the Navimow i2 AWD sits at about $849–$1,099 for small yards (45% rating). Some heavier AWD models, like the 41-lb LUBA 3, can scuff turf on tight turns.
-- **Tracks** (Lymow One Plus) are for rough, steep rural ground. On a manicured suburban lawn, they're the wrong tool.
+- **Tracks** (Lymow One Plus, Yarbo Mower Pro) are for rough, steep rural ground. On a manicured suburban lawn, they're the wrong tool.
 
 For a ranked shortlist, see the [best robot mowers for hills](/posts/best-robot-mower-for-hills/).
 
 ## Step 6: Match deck width and runtime to your area
 
-Deck width decides how fast a mower covers ground. Small-yard models cut 7–9 inches. Flagships cut 14–17 inches, with the Navimow X4 widest at 17". On half an acre or more, a wide deck means fewer hours of mowing, less wear and more slack in the schedule.
+Deck width decides how fast a mower covers ground. Small-yard models cut 7–9 inches. Flagships cut 14–17 inches, with the Navimow X4 widest among mainstream mowers at 17" (the multi-acre Yarbo's original mower module is 20"). On half an acre or more, a wide deck means fewer hours of mowing, less wear and more slack in the schedule.
 
 Runtime per charge matters less than total daily coverage, because mowers recharge and resume on their own. Watch out for small decks paired with big ratings. The WORX Vision Cloud 4WD covers up to 1.5 acres with an 8.7" deck and a short runtime per charge, which makes it slower than the X4 on big lawns. For acreage picks, see [best robot mowers for large lawns](/posts/best-robot-mower-for-large-lawns/).
 
@@ -125,7 +125,7 @@ Runtime per charge matters less than total daily coverage, because mowers rechar
 Match the mower's maximum height to your grass. Cool-season lawns (fescue, bluegrass, rye) are usually kept around 3–4 inches in summer, so a 2.8" maximum is too short. Warm-season grasses like Bermuda and zoysia are cut lower, so almost anything works.
 
 - **Up to 4.0":** Navimow X4 and X3, Sunseeker X7 Gen 2, Automower iQ, LUBA 3 (H version), LUBA mini 2 (1500H)
-- **Low ceiling (2.8–3.0"):** Anthbot M9, Navimow i215, Automower 435 iQ AWD, eufy E15 / E18
+- **Low ceiling (2.8–3.0"):** Anthbot M9 and M5 LiDAR, Navimow i215, Automower 435 iQ AWD, eufy E15 / E18
 
 Also check how height is set. Budget Navimows (i105N, i2 AWD) are adjusted by hand, while the i215 has motorized adjustment. If you change height through the season, that convenience matters.
 
@@ -143,9 +143,9 @@ If you hate string trimming, this criterion can outrank everything else on a fla
 
 **4G and anti-theft.** A mower visible from the street needs cellular GPS tracking. Read the fine print on subscriptions: the LUBA 3 AWD and Dreame A3 AWD Pro include 3 years of 4G, while the Navimow i2 AWD includes 1 year and then costs about $33/yr. The GOAT O1000 lists no 4G at all, and the YUKA mini 2 needs a $129 module. Our [theft protection guide](/posts/robot-mower-theft-protection/) covers what actually works.
 
-**Weather rating.** IPX6 or IP66 means the body resists powerful water jets. That covers most 2026 models. The Sunseeker X7 Gen 2 and Automower iQ are IPX5, and the 435 iQ AWD is IPX4. For heavy-rain regions, read [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
+**Weather rating.** IPX6 or IP66 means the body resists powerful water jets. That covers most 2026 models. The Sunseeker X7 Gen 2, Sunseeker X5 and Automower iQ are IPX5, and the 435 iQ AWD is IPX4. For heavy-rain regions, read [do robot mowers work in rain](/posts/do-robot-mowers-work-in-rain/).
 
-**Noise.** Most models are rated 56–65 dB, quiet enough for evening mowing. The eufy E15/E18 (56 dB) and Navimow i105N (58 dB) are the quietest. The Navimow X4 is about 68 dB per a third-party listing.
+**Noise.** Most models are rated 54–65 dB, quiet enough for evening mowing. The Greenworks AiMowbot C30Z (54 dB), eufy E15/E18 (56 dB) and Navimow i105N (58 dB) are the quietest. The Navimow X4 is about 68 dB per a third-party listing.
 
 **App.** Reviewers rate eufy and WORX apps as simple and polished. Some Mammotion owners report app lag. Look for zone editing, no-go zones you can draw on a phone, and scheduling by zone.
 
@@ -157,10 +157,10 @@ If you hate string trimming, this criterion can outrank everything else on a fla
 
 | Budget | What you get | Examples |
 |---|---|---|
-| Under $1,000 | Small, flat, open lawns | Navimow i105N/i110N ($669–$789), Anthbot M9 (~$769), GOAT O1000 (~$999) |
+| Under $1,000 | Small, mostly flat lawns (LiDAR from ~$799) | Navimow i105N/i110N ($669–$789), Anthbot M9 (~$769), Anthbot M5 LiDAR (~$799), HOOKII Neomow X2 Air (~$899), GOAT O1000 (~$999) |
 | $1,000–$2,000 | LiDAR and/or AWD up to ~0.75 ac | Dreame A3 AWD ($1,099–$1,539), Navimow i215 (~$1,399), GOAT A3000 (~$1,849) |
 | $2,000–$3,300 | Acre-plus, steep or tree-heavy | Navimow X4 ($2,499–$2,999), LUBA 3 AWD ($2,109–$3,299) |
-| $3,300+ | Dealer-backed or extreme acreage | Automower 440 iQ (~$3,399), Navimow X390 (~$4,499), Automower 435 iQ AWD (~$4,999) |
+| $3,300+ | Dealer-backed or extreme acreage | Automower 440 iQ (~$3,399), Navimow X390 (~$4,499), Yarbo Mower Pro (~$4,899, up to 6 ac), Automower 435 iQ AWD (~$4,999) |
 
 Budget-only shoppers should start with the [best budget robot lawn mowers](/posts/best-budget-robot-lawn-mower/). To check whether the spend pays off, run your numbers through the [cost calculator](/tools/cost-calculator/).
 

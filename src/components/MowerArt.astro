@@ -22,9 +22,15 @@ const COLORS: Record<string, [string, string]> = {
   Dreame: ["#d9dde3", "#475569"],
   eufy: ["#f1f5f9", "#22c55e"],
   Sunseeker: ["#111827", "#facc15"],
+  Roborock: ["#e5e7eb", "#ef4444"],
+  MOVA: ["#1f2937", "#a3e635"],
+  HOOKII: ["#14532d", "#fde047"],
+  Yarbo: ["#f97316", "#1f2937"],
+  AIRSEEKERS: ["#0f172a", "#38bdf8"],
+  Greenworks: ["#3f6212", "#bef264"],
 };
 const [body, accent] = COLORS[m.brand] ?? ["#2f9e44", "#b8e62e"];
-const light = ["ECOVACS", "Dreame", "eufy"].includes(m.brand);
+const light = ["ECOVACS", "Dreame", "eufy", "Roborock"].includes(m.brand);
 const hub = light ? "#94a3b8" : "#4b5563";
 const lidar = m.navTech.includes("lidar");
 const rtk = m.navTech.includes("rtk");

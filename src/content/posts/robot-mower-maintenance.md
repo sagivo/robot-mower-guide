@@ -90,10 +90,10 @@ An IP rating has two digits. The first is dust protection (6 means dust-tight, X
 | Rating | Water protection | Safe cleaning | 2026 models we track |
 |---|---|---|---|
 | IPX4 | Splashing from any direction | Brush and damp cloth only | Automower 435 iQ AWD |
-| IPX5 | Water jets from a 6.3 mm nozzle | Brush; a light hose rinse if the manual allows | Sunseeker X7 Gen 2, Automower iQ |
-| IPX6 / IP66 | Powerful jets from a 12.5 mm nozzle | Brush plus a garden hose | LUBA 3 AWD, Navimow X4, Dreame A3 AWD and A3 AWD Pro, GOAT A and O1000, Sunseeker S4, eufy E15/E18, Lymow (IPX6); Navimow i2 AWD, i105N, X3 (IP66) |
+| IPX5 | Water jets from a 6.3 mm nozzle | Brush; a light hose rinse if the manual allows | Sunseeker X7 Gen 2, Sunseeker X5, Automower iQ |
+| IPX6 / IP66 | Powerful jets from a 12.5 mm nozzle | Brush plus a garden hose | LUBA 3 AWD, Navimow X4, Dreame A3 AWD and A3 AWD Pro, GOAT A and O1000, Sunseeker S4, eufy E15/E18, Lymow, Roborock RockMow X1 and X1 LiDAR, HOOKII Neomow X2, Airseekers TRON, ANTHBOT M5 LiDAR, Greenworks AiMowbot C30Z (IPX6); Navimow i2 AWD, i105N, X3 (IP66) |
 | IP67 | Temporary immersion up to 1 m | Brush plus a garden hose | Mammotion YUKA mini 2 |
-| Not published | Unknown | Treat as IPX4 | WORX Landroid Vision Cloud models, US Navimow i215, Anthbot M9 |
+| Not published | Unknown | Treat as IPX4 | WORX Landroid Vision Cloud models, US Navimow i215, Anthbot M9, MOVA LiDAX Ultra AWD, Yarbo Mower Pro |
 
 **Pressure washers:** don't use one on a mower rated below IPX6. Even on IPX6, IP66 and IP67 models, a pressure washer is far more forceful than the rating test, and Mammotion's own care guidance says to avoid them. If your manual specifically allows it, use the lowest setting from a distance and keep it away from the LiDAR, cameras, charging contacts and seams. A brush and a garden hose do the job without the risk.
 

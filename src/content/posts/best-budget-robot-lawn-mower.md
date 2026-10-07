@@ -67,8 +67,8 @@ Two years ago, a wire-free robot mower started around $2,000 and anything cheape
 
 What you give up at this price is mostly size and muscle:
 
-- **Coverage.** Nearly every budget model is rated for about a quarter acre or less. The Dreame A3 AWD 2000 (half an acre) is the exception.
-- **Deck width.** Budget decks run 7 to 8.7 inches, against 15 to 17 inches on flagships. That means longer mowing hours, though for a small lawn it rarely matters.
+- **Coverage.** Nearly every budget model is rated for about a quarter acre or less. The Dreame A3 AWD 2000 (half an acre) and HOOKII Neomow X2 Air (0.37 acre) are the exceptions.
+- **Deck width.** Budget decks mostly run 7 to 8.7 inches (the HOOKII X2 Air's 11 inches is an outlier), against 15 to 17 inches on flagships. That means longer mowing hours, though for a small lawn it rarely matters.
 - **Drive and slopes.** Most cheap robots are two-wheel drive and rated for 30% to 45% grade. Only the Navimow i2 AWD and Dreame A3 AWD add all-wheel drive.
 - **Extras.** Motorized height adjustment, edge trimming and multi-year 4G plans are rare under $1,200.
 
@@ -109,6 +109,13 @@ This band covers small, simple lawns. Expect a 7 to 9 inch deck, about a quarter
 **Skip it if:** your lawn slopes. It's rated for only 30% grade, runtime is a short 60 to 80 minutes per charge, and the Cut-to-Zero edge trimmer costs extra on some SKUs.
 
 **[Check the Landroid Vision Cloud price on Amazon](amazon:worx-landroid-vision-cloud)** · [Read our full review](/mowers/worx-landroid-vision-cloud/)
+
+### Also worth a look under $900: cheap LiDAR newcomers
+
+Two 2026 models bring LiDAR into this band, but neither has much independent testing yet, so treat them as promising rather than proven.
+
+- **[ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/)** (about $799): the cheapest LiDAR mower we track, with dual cameras, no antenna, 58 dB and IPX6. It's built for very small, shaded plots: coverage is only about 1/8 acre (5,382 sq ft), the maximum cut is 2.8 inches, and we found no independent reviews. **[Check the M5 LiDAR price on Amazon](amazon:anthbot-m5-lidar)**
+- **[HOOKII Neomow X2 Air](/mowers/hookii-neomow-x2/)** (about $849): antenna-free 3D LiDAR, an 11-inch deck and 0.37 acre of coverage, which is a lot of mower for the money. The catch is that camera obstacle avoidance and auto-mapping need a $339 vision module, it's 2WD with a 45% rating, and reviews of the X2 are still thin.
 
 ## Best robot mower under $1,200
 
@@ -189,7 +196,7 @@ To see how these costs compare with paying a lawn service, plug your numbers int
 A cheap robot is a great deal when it fits your yard and a waste of money when it doesn't. These are the common traps.
 
 - **Your lawn has hills.** A 30%-rated mower on a 35% slope doesn't mow slower, it gets stuck. If any part of your yard is steep, the [Dreame A3 AWD](/mowers/dreame-a3-awd/) is the cheapest safe answer. Our [hills guide](/posts/best-robot-mower-for-hills/) goes deeper.
-- **You have big trees.** Under dense canopy, RTK mowers lose their satellite fix and camera-only mowers struggle in shade. Pay for LiDAR (S4, A3 AWD, GOAT O1000) or read our [complex-yard picks](/posts/best-robot-mower-for-complex-yards/).
+- **You have big trees.** Under dense canopy, RTK mowers lose their satellite fix and camera-only mowers struggle in shade. Pay for LiDAR (S4, A3 AWD, GOAT O1000, or the M5 LiDAR on a tiny lot) or read our [complex-yard picks](/posts/best-robot-mower-for-complex-yards/).
 - **Your lawn is right at the rating.** Manufacturer coverage assumes ideal conditions. If your lawn is 10,000 sq ft, a 10,890 sq ft mower will be running at its limit with no slack for rain delays. Buy the next tier up or a model with headroom.
 - **Theft is a real risk.** A mower without 4G tracking is easy to walk off with. See our [theft protection guide](/posts/robot-mower-theft-protection/).
 - **You'll outgrow it.** Planning to reclaim a weedy back corner next year? Size for that lawn now.
@@ -216,6 +223,6 @@ We don't hands-on test mowers. Our picks come from manufacturer US spec sheets, 
 - **Small and bumpy:** Navimow i206 or i210 AWD, about $849–$1,099.
 - **Hills, trees or up to half an acre:** Dreame A3 AWD on sale, about $1,099–$1,539.
 - **You hate edging:** GOAT O1000 LiDAR Pro, about $999.
-- **Heavy shade on a small lot:** Sunseeker S4, about $1,000.
+- **Heavy shade on a small lot:** Sunseeker S4, about $1,000, or the lightly reviewed ANTHBOT M5 LiDAR, about $799, for plots under 1/8 acre.
 
 Not sure a budget model fits your yard? Our [guide to choosing a robot lawn mower](/posts/how-to-choose-a-robot-lawn-mower/) walks through every factor, and our [best robot lawn mowers of 2026](/posts/best-robot-lawn-mowers-2026/) covers the full price range.

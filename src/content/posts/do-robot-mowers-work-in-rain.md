@@ -1,7 +1,7 @@
 ---
 title: "Do Robot Mowers Work in the Rain? IP Ratings, Rain Sensors and Wet Grass (2026)"
 seoTitle: "Do Robot Mowers Work in the Rain? (2026 Guide)"
-description: "Do robot mowers work in the rain? They can get wet, but mowing wet grass hurts your lawn. IP ratings for 21 models, rain sensor settings and storm tips."
+description: "Do robot mowers work in the rain? They can get wet, but mowing wet grass hurts your lawn. IP ratings for 30 models, rain sensor settings and storm tips."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: guide
@@ -17,7 +17,7 @@ picks:
     label: "IP66 + AWD on a budget"
 takeaways:
   - "Robot mowers <strong>can get wet</strong> and live outside, but most are set to <strong>stop mowing when it rains</strong> and wait a few hours after."
-  - "<strong>IPX6 is the 2026 norm.</strong> The Husqvarna 435 iQ AWD (IPX4), Automower iQ and Sunseeker X7 Gen 2 (both IPX5) sit lower, and four models don't publish a rating."
+  - "<strong>IPX6 is the 2026 norm.</strong> The Husqvarna 435 iQ AWD (IPX4), Automower iQ, Sunseeker X7 Gen 2 and Sunseeker X5 (all IPX5) sit lower, and six models don't publish a rating."
   - "Wet grass means ragged cuts, clumping, ruts and lost traction. Slope ratings assume dry grass, so wet hills are where mowers get stuck."
   - "During thunderstorms, unplug the dock. Husqvarna recommends disconnecting power before a storm."
   - "A garage or covered dock adds years of life, especially for models rated below IPX6."
@@ -87,6 +87,15 @@ Here's the published water rating for each model in our database. "Not published
 | [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | IP67 | Highest rating in our database |
 | [eufy E15 / E18](/mowers/eufy-e15-e18/) | IPX6 | Owners report slipping on damp grass |
 | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | IPX4 | Lowest published rating here |
+| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | Not published | Not listed for the AWD models; the 2WD LiDAX Ultra 1000 is IPX6 |
+| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | IPX6 | |
+| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | IPX6 | |
+| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | IPX6 | |
+| [Airseekers TRON](/mowers/airseekers-tron/) | IPX6 | Reviewers report it handles tall grass and wet slopes |
+| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | IPX5 | From The Register's Gen 1 review |
+| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | IPX6 | |
+| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | IPX6 | |
+| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | Not published | |
 
 Two things stand out. First, a lower IP rating doesn't mean a mower is fragile. Husqvarna's Automowers have a long track record outdoors in wet climates. Second, if a rating isn't published, ask the seller or check the manual before buying, especially if your dock will sit unprotected. See every spec side by side on the [comparison chart](/mowers/).
 
@@ -140,7 +149,7 @@ Lightning damage may not be covered by a standard warranty, so check your manufa
 
 A robot mower can live outside all season, but shelter helps:
 
-- **Dock covers ("mower garages").** A simple roof over the dock keeps rain, sun and leaves off the mower. It protects the plastic shell from UV and keeps the rain sensor from getting soaked while charging. Leave enough clearance for the mower to enter and exit, and keep metal roofs away from RTK antennas and cameras.
+- **Dock covers ("mower garages").** A simple roof over the dock keeps rain, sun and leaves off the mower. It protects the plastic shell from UV and keeps the rain sensor from getting soaked while charging. Leave enough clearance for the mower to enter and exit, and keep metal roofs away from RTK antennas and cameras. Our [robot mower garage guide](/posts/best-robot-mower-garages/) compares options.
 - **High, well-drained dock placement.** Never put the dock in a low spot where water pools. Our [setup guide](/posts/robot-mower-setup-guide/) covers placement in detail.
 - **Winter storage indoors.** In freezing climates, bring the mower in for the off-season, charge the battery to the level your manual recommends, and store it dry. Our [maintenance guide](/posts/robot-mower-maintenance/) and [how long robot mowers last](/posts/how-long-do-robot-mowers-last/) cover storage and battery life.
 

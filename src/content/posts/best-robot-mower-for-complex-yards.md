@@ -132,6 +132,14 @@ When RTK degrades, mowers slow down, wander off their stripes, stop with a posit
 
 **[Check the Dreame A3 AWD price on Amazon](amazon:dreame-a3-awd)** · [Read our full review](/mowers/dreame-a3-awd/)
 
+### Also consider: newer LiDAR mowers for complex yards
+
+These 2026 arrivals use antenna-free LiDAR too, but they have less independent testing behind them than the picks above.
+
+- **[MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/)** (about $1,799–$2,199, up to 0.75 acre, 80%): essentially the Dreame A3 AWD Pro platform with a MOVA badge, pairing 360° LiDAR and AI vision with AWD and a 15.8-inch deck. SlashGear called it the best robot mower it has tested and never got it stuck, but it's lightly reviewed so far, and at about 52 lb it can wear turf on tight turns around beds. **[Check the LiDAX Ultra AWD price on Amazon](amazon:mova-lidax-ultra-awd)**
+- **[Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/)** (about $1,999–$2,299, 0.5 acre, 80%): 3D LiDAR with vision-LiDAR obstacle avoidance, AWD and active steering. Early hands-on impressions praise its avoidance, but there's no long-term testing yet, and without the extra-cost edge module it leaves about 4 inches uncut along borders, which adds up in a yard full of beds.
+- **[HOOKII Neomow X2](/mowers/hookii-neomow-x2/)** (about $849–$2,499, 0.37 to 1.5 acres, 45%): the cheapest way into LiDAR for bigger, gentler wooded lots. Below the Pro, though, it navigates on LiDAR alone unless you add the $339 vision module, so small-obstacle avoidance and auto-mapping cost extra. It's 2WD and still lightly reviewed.
+
 ## Setting up a robot mower for multiple zones and corridors
 
 Most complex yards aren't one lawn. They're a front yard, a backyard, a side strip and maybe a patch behind the garage. Every pick above supports multi-zone maps. Here's how to set them up so they actually work.

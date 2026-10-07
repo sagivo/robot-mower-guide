@@ -1,7 +1,7 @@
 ---
 title: "Robot Mower Navigation Explained: RTK vs LiDAR vs Vision (2026)"
 seoTitle: "Robot Mower Navigation: RTK vs LiDAR vs Vision (2026)"
-description: "Robot mower navigation explained: base-station RTK vs network RTK vs LiDAR vs camera-only, which works under trees, and what all 21 current models use."
+description: "Robot mower navigation explained: base-station RTK vs network RTK vs LiDAR vs camera-only, which works under trees, and what all 30 current models use."
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
 category: explainer
@@ -19,7 +19,7 @@ picks:
     label: "Most affordable easy-setup LiDAR"
 takeaways:
   - "<strong>Network RTK</strong> (Navimow, WORX, Mammotion, Sunseeker Gen 2) gets satellite corrections over the internet, so there's no base station. It still needs open sky."
-  - "<strong>LiDAR</strong> (Dreame, ECOVACS, Navimow i215, Sunseeker S4, Mammotion) navigates by laser scans, not satellites, so it's the best choice under trees and next to buildings."
+  - "<strong>LiDAR</strong> (Dreame, MOVA, ECOVACS, Roborock X1 LiDAR, HOOKII, Navimow i215, Sunseeker S4, Mammotion, ANTHBOT M5 LiDAR) navigates by laser scans, not satellites, so it's the best choice under trees and next to buildings."
   - "<strong>Camera-only</strong> navigation (eufy E15/E18) is the simplest to set up but struggles with complex layouts and poor light."
   - "Husqvarna's US Automower iQ line uses <strong>EPOS RTK with a reference station</strong>, and the 410/420/440 iQ add radar object detection."
   - "Open, sunny lawn? Network RTK is enough. Lots of trees? Buy LiDAR. See the <a href=\"/mowers/\">full comparison chart</a>."
@@ -60,6 +60,11 @@ RTK (real-time kinematic) positioning is the most common navigation in wire-free
 - [Lymow One Plus](/mowers/lymow-one-plus/): RTK base plus VSLAM, vision and ultrasonic sensors.
 - [ANTHBOT M9](/mowers/anthbot-m9/): an RTK antenna mounted near the dock.
 - The original Sunseeker X7 (Gen 1, sold at Costco). The [X7 Gen 2](/mowers/sunseeker-x7-gen-2/) dropped the base station.
+- [Sunseeker X5](/mowers/sunseeker-x5-awd/): the original ships with an RTK base station. Gen 2 is marketed with network RTK in Europe, but the US page doesn't confirm it.
+- [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) (X115H / X130H): full-band RTK with a reference station in the box, plus quad-camera VSLAM. Its sibling, the X1 LiDAR, drops RTK entirely.
+- [Airseekers TRON](/mowers/airseekers-tron/): Airseekers advertises network RTK, but New Atlas and Android Headlines both set up the included base station.
+- [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/): an RTK reference antenna kit with its own power supply.
+- [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/): Yarbo's "Data Center" base station, which has to be placed carefully, since reviewers found placement errors force a remap.
 
 **Strengths:** very accurate in open areas, works at night, and doesn't depend on cell coverage.
 
@@ -95,6 +100,7 @@ Most network-RTK mowers pair satellites with cameras running **VSLAM** (visual s
 - **Segway:** [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), with a solid-state LiDAR and a 140° camera.
 - **Sunseeker:** [S4](/mowers/sunseeker-s4/), a 360° 3D LiDAR model and CES 2026 Innovation honoree.
 - **Mammotion:** [LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/), [YUKA mini 2](/mowers/mammotion-yuka-mini-2/) and the LUBA 3 AWD.
+- **Newer 2026 entrants:** the [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) (360° 3D LiDAR plus AI dual vision, essentially the Dreame A3 AWD Pro platform), the [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) (3D LiDAR with vision-LiDAR fusion obstacle avoidance), the [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) (3D LiDAR, with cameras only on the Pro or via a $339 module) and the [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/), the cheapest LiDAR mower we track at about $799. All four are lightly reviewed so far, the M5 not at all.
 
 **Strengths:** works under dense canopy and right up against buildings, where RTK loses its fix. Mapping is often automatic: the i215 is reviewed as one of the simplest setups of any mower, close to drop-and-go. Lasers don't need daylight, and close-range obstacle detection is strong.
 
@@ -119,7 +125,8 @@ Most network-RTK mowers pair satellites with cameras running **VSLAM** (visual s
 Nearly every 2026 mower fuses at least two systems so one covers the other's gaps. The main recipes:
 
 - **Network RTK + vision:** Navimow X4, X3, i2 AWD and i105N; WORX Vision Cloud; Sunseeker X7 Gen 2. Satellites handle open areas, cameras handle obstacles and brief signal dropouts.
-- **LiDAR + vision:** Dreame, ECOVACS, Navimow i215, Sunseeker S4, Mammotion's LUBA mini 2 and YUKA mini 2. LiDAR handles position, cameras identify obstacles.
+- **Base-station RTK + vision:** Roborock RockMow X1, Airseekers TRON, Sunseeker X5, Greenworks AiMowbot C30Z, Yarbo, Lymow and ANTHBOT M9. Same idea, with a station in your yard supplying corrections.
+- **LiDAR + vision:** Dreame, MOVA, ECOVACS, Roborock X1 LiDAR, Navimow i215, Sunseeker S4, ANTHBOT M5 LiDAR, Mammotion's LUBA mini 2 and YUKA mini 2, and the HOOKII Neomow X2 Pro. LiDAR handles position, cameras identify obstacles. The cheaper Neomow X2 tiers run on LiDAR alone unless you add the camera module.
 - **LiDAR + network RTK + vision:** the [Mammotion LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) and its Tri-Fusion system, the only model we track that combines all three. That's why it scores highest on navigation in our database, and part of why it costs $2,109–$3,299.
 
 Fusion adds cost, so it's worth paying for only when your yard has the problems it solves. An open, sunny half-acre doesn't need three sensor systems.
@@ -146,17 +153,26 @@ The reasons to buy Husqvarna are support and longevity: a dealer network, a 4-ye
 | [WORX Landroid Vision Cloud 4WD](/mowers/worx-landroid-vision-cloud-4wd/) | Yes | No | No | V-SLAM | |
 | [Sunseeker X7 Gen 2](/mowers/sunseeker-x7-gen-2/) | Yes | No (Gen 1: yes) | No | Binocular 3D | |
 | [Sunseeker S4](/mowers/sunseeker-s4/) | No | No | 360° 3D | Yes | |
+| [Sunseeker X5](/mowers/sunseeker-x5-awd/) | Gen 2: unconfirmed in US | Yes (Gen 1; Gen 2 unclear) | No | VSLAM | |
 | [Dreame A3 AWD Pro](/mowers/dreame-a3-awd-pro/) | No | No | 360° 3D | Binocular | |
 | [Dreame A3 AWD](/mowers/dreame-a3-awd/) | No | No | 360° 3D | Yes | |
+| [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/) | No | No | 360° 3D | AI dual vision | |
+| [Roborock RockMow X1 LiDAR](/mowers/roborock-rockmow-x1-lidar/) | No | No | 360° 3D | VSLAM | Vision-LiDAR fusion avoidance |
 | [ECOVACS GOAT A LiDAR Pro](/mowers/ecovacs-goat-a-lidar-pro/) | No | No | Dual (360° + 3D ToF) | Yes | |
 | [ECOVACS GOAT O1000 LiDAR Pro](/mowers/ecovacs-goat-o1000-lidar-pro/) | No | No | Dual | 3D avoidance | |
 | [Mammotion LUBA mini 2 AWD](/mowers/mammotion-luba-mini-2-awd/) | No | No | 360° | Dual | |
 | [Mammotion YUKA mini 2](/mowers/mammotion-yuka-mini-2/) | No | No | 360° | Dual | |
+| [HOOKII Neomow X2](/mowers/hookii-neomow-x2/) | No | No | 360° 3D | Pro only (others: optional module) | |
+| [ANTHBOT M5 LiDAR](/mowers/anthbot-m5-lidar/) | No | No | 360° | Dual | |
 | [eufy E15 / E18](/mowers/eufy-e15-e18/) | No | No | No | V-FSD only | |
 | [Husqvarna 410/420/440 iQ](/mowers/husqvarna-automower-iq/) | No | Yes (EPOS) | No | No | Radar |
 | [Husqvarna 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | No | Yes (EPOS) | No | No | |
 | [Lymow One Plus](/mowers/lymow-one-plus/) | No | Yes | No | VSLAM + AI | Ultrasonic |
 | [ANTHBOT M9](/mowers/anthbot-m9/) | No | Yes (antenna) | No (Pro: yes) | Dual HDR | |
+| [Roborock RockMow X1](/mowers/roborock-rockmow-x1/) | No | Yes (included) | No | Quad VSLAM | |
+| [Airseekers TRON](/mowers/airseekers-tron/) | Advertised | Yes (included) | No | 5-camera (SE: 1) | |
+| [Greenworks AiMowbot C30Z](/mowers/greenworks-aimowbot-c30z/) | No | Yes (antenna) | No | AI cameras | Night-vision sensors |
+| [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) | No | Yes (Data Center) | No | Dual | Onboard sensors |
 
 "Some yards" means the mower is designed for antenna-free network RTK, but Segway says the included antenna may be needed depending on local coverage.
 
@@ -165,11 +181,12 @@ The reasons to buy Husqvarna are support and longevity: a dealer network, a 4-ye
 | Your yard | Best tech | Good picks |
 |---|---|---|
 | Open, sunny, few trees | Network RTK + vision | [Navimow X4](amazon:segway-navimow-x4), [Navimow i105N](/mowers/segway-navimow-i105n-i110n/), [WORX Vision Cloud](/mowers/worx-landroid-vision-cloud/) |
-| Mature trees, heavy shade | LiDAR | [Dreame A3 AWD Pro](amazon:dreame-a3-awd-pro), [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), [Sunseeker S4](/mowers/sunseeker-s4/) |
+| Mature trees, heavy shade | LiDAR | [Dreame A3 AWD Pro](amazon:dreame-a3-awd-pro), [MOVA LiDAX Ultra AWD](/mowers/mova-lidax-ultra-awd/), [Navimow i215 LiDAR](/mowers/segway-navimow-i215-lidar/), [Sunseeker S4](/mowers/sunseeker-s4/) |
 | Mix of open lawn and tree cover, large | LiDAR + RTK fusion | [LUBA 3 AWD](/mowers/mammotion-luba-3-awd/) |
 | Simple, flat rectangle, easiest setup | Camera-only or LiDAR | [eufy E18](/mowers/eufy-e15-e18/), [GOAT O1000](/mowers/ecovacs-goat-o1000-lidar-pro/) |
-| Weak cell coverage at your address | LiDAR, or base-station RTK | Dreame, ECOVACS, [Automower iQ](/mowers/husqvarna-automower-iq/) |
+| Weak cell coverage at your address | LiDAR, or base-station RTK | Dreame, MOVA, ECOVACS, [Automower iQ](/mowers/husqvarna-automower-iq/) |
 | Over 1.5 acres, gentle | Network RTK | [Navimow X3 (X390)](/mowers/segway-navimow-x3/) |
+| Several acres, plus winter snow clearing | Base-station RTK + vision | [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) |
 
 Navigation is only half the decision. Slope is a drivetrain question, covered in our [slope limits guide](/posts/robot-mower-slope-limits/), and coverage is a sizing question the [size matcher](/tools/size-matcher/) answers in seconds.
 

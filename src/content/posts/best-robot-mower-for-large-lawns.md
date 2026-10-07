@@ -29,7 +29,7 @@ faq:
   - q: "What is the best robot mower for 1 acre?"
     a: "For a full acre, buy a mower rated above an acre so it has headroom. The Mammotion LUBA 3 AWD 5000 (1.25 acres) and Dreame A3 AWD Pro 5000 (1.24 acres) fit well, as does the Segway Navimow X450 (1.5 acres). The Navimow X430 is rated for exactly 1 acre, so it's best for lawns closer to 0.85 acre."
   - q: "Can a robot mower handle 2 acres?"
-    a: "Yes, but only a few wire-free models are rated that high. The Segway Navimow X390 covers 2.5 acres, and the Husqvarna Automower 440 iQ is rated for 2 acres on open, systematic layouts. Husqvarna notes irregular yards get roughly half the rating, so a complex 2-acre property may need the X390 or two mowers."
+    a: "Yes, but only a few wire-free models are rated that high. The Segway Navimow X390 covers 2.5 acres, and the Husqvarna Automower 440 iQ is rated for 2 acres on open, systematic layouts. The tracked Yarbo Mower Pro claims up to 6 acres, but costs about $4,899. Husqvarna notes irregular yards get roughly half the rating, so a complex 2-acre property may need the X390 or two mowers."
   - q: "How long does it take a robot mower to mow an acre?"
     a: "Robot mowers don't mow an acre in one go. They cut a little at a time across the week and return to charge between runs. Deck width is the biggest factor: a 17-inch deck covers about 83% more ground per pass than a 9.3-inch deck at the same speed. Slopes, obstacles and many small zones add more time."
   - q: "Should I buy one big robot mower or two smaller ones?"
@@ -84,9 +84,11 @@ A one-acre lawn is 43,560 sq ft. With 15–20% headroom, you want a mower rated 
 
 **[Check the A3 AWD Pro price on Amazon](amazon:dreame-a3-awd-pro)** · [Read our full review](/mowers/dreame-a3-awd-pro/)
 
+**Also consider for lawns a bit under an acre:** the [Roborock RockMow X130H](/mowers/roborock-rockmow-x1/) (1 acre, about $2,499) brings AWD and an 80% rating but needs its included RTK base station and hasn't been independently reviewed. The [Airseekers TRON PLUS](/mowers/airseekers-tron/) (1 acre, about $2,099) mulches thick grass better than anything reviewers have tried, but New Atlas found weak obstacle avoidance. Both are rated for exactly 1 acre, so treat them as fits for lawns closer to 0.85 acre.
+
 ## Best robot mower for 1.5 acres
 
-For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This band has the most choice, including the Navimow X350 (1.5 acres, about $2,799) and the WORX Landroid Vision Cloud 4WD (up to 1.5 acres), though its 8.7" deck is narrow for this much grass.
+For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This band has the most choice, including the Navimow X350 (1.5 acres, about $2,799) and the WORX Landroid Vision Cloud 4WD (up to 1.5 acres), though its 8.7" deck is narrow for this much grass. The [HOOKII Neomow X2 Pro](/mowers/hookii-neomow-x2/) (about 1.5 acres, about $2,499) is a newer LiDAR option with an 11" deck and no antenna, but it's 2WD with a 45% limit and still lightly reviewed.
 
 ### Segway Navimow X450: best for 1.25 to 1.5 acres
 
@@ -114,7 +116,7 @@ For 1.25 to 1.5 acres, you need a mower rated around 1.5 acres or more. This ban
 
 ## Best robot mower for 2 acres and up
 
-Above 1.5 acres, the field narrows to two serious options. With headroom, a 2-acre lawn needs a mower rated for about 2.3 to 2.4 acres, and only one mainstream wire-free model clears that.
+Above 1.5 acres, the field narrows to two serious options, plus one niche platform. With headroom, a 2-acre lawn needs a mower rated for about 2.3 to 2.4 acres, and only one mainstream wire-free model clears that.
 
 ### Segway Navimow X3 X390: best robot mower for 2+ acres
 
@@ -132,7 +134,11 @@ Above 1.5 acres, the field narrows to two serious options. With headroom, a 2-ac
 
 **[Check the Automower iQ price on Amazon](amazon:husqvarna-automower-iq)** · [Read our full review](/mowers/husqvarna-automower-iq/)
 
-**Over 2.5 acres?** No mainstream wire-free robot is rated beyond the X390. Split the property into two maps with two mowers, or let a robot handle the most-used acres and mow the rest occasionally. Our [robot mower vs riding mower guide](/posts/robot-mower-vs-riding-mower/) helps with that call.
+### Also consider: Yarbo Mower Pro for 3 to 6 acres
+
+The [Yarbo Mower Pro](/mowers/yarbo-y40-lawn-mower-pro/) is rated for up to 6 acres, far beyond any other consumer robot we track. It's a tracked yard platform (70% slopes, 20" deck on the original mower module) that swaps to snow blower and other modules, and the Y40 Core plus Mower Pro bundle runs about $4,899 on sale. It needs a base station, setup takes a weekend according to reviews, and Freshly Charged found cut quality suffers in tight, cluttered areas. Buy it for open acreage and winter snow clearing, not as a better mower. **[Check the Yarbo Mower Pro price on Amazon](amazon:yarbo-y40-lawn-mower-pro)**
+
+**Over 2.5 acres?** No mainstream wire-free robot is rated beyond the X390; the Yarbo above is the only exception we track. Split the property into two maps with two mowers, or let a robot handle the most-used acres and mow the rest occasionally. Our [robot mower vs riding mower guide](/posts/robot-mower-vs-riding-mower/) helps with that call.
 
 ## Rated coverage vs real coverage
 
@@ -156,6 +162,7 @@ On a small lawn, deck width barely matters. On a big one, it's the difference be
 | 16" | Lymow One Plus | ~6.2 miles |
 | 15.7"–15.8" | LUBA 3 AWD, Dreame A3 AWD Pro | ~6.3 miles |
 | 14" | Sunseeker X7 Gen 2 | ~7.1 miles |
+| 11" | HOOKII Neomow X2 | ~9.0 miles |
 | 9.3"–9.4" | Navimow X3, Automower iQ | ~10.5–10.6 miles |
 | 8.7" | Landroid Vision Cloud 4WD | ~11.4 miles |
 
@@ -183,15 +190,15 @@ Our rule: buy at least 15–20% more rated area than your mowable lawn (not your
 
 | Mowable lawn | Buy a mower rated for at least | Picks that fit |
 |---|---|---|
-| 1 acre (43,560 sq ft) | 1.15–1.2 ac | LUBA 3 AWD 5000, A3 AWD Pro 5000, Navimow X450 |
-| 1.25 acres | 1.44–1.5 ac | Navimow X450, X7 Plus Gen 2, Navimow X350 |
-| 1.5 acres | 1.72–1.8 ac | Navimow X390, Automower 440 iQ (open layouts only) |
-| 2 acres | 2.3–2.4 ac | Navimow X390 |
+| 1 acre (43,560 sq ft) | 1.15–1.2 ac | LUBA 3 AWD 5000, A3 AWD Pro 5000, Navimow X450, Neomow X2 Pro |
+| 1.25 acres | 1.44–1.5 ac | Navimow X450, X7 Plus Gen 2, Navimow X350, Neomow X2 Pro (1.48 ac) |
+| 1.5 acres | 1.72–1.8 ac | Navimow X390, Automower 440 iQ (open layouts only), Yarbo Mower Pro |
+| 2 acres | 2.3–2.4 ac | Navimow X390, Yarbo Mower Pro |
 
 Measure your actual turf, not the deed. Subtract the house, driveway, beds and woods, and many "two-acre lots" turn out to have an acre of grass. Satellite map tools work well for this, and our [size matcher](/tools/size-matcher/) does the headroom math for you. To check whether the spend makes sense, our [cost calculator](/tools/cost-calculator/) compares a robot with a lawn service or riding mower over time.
 
 ## How we chose the best robot mowers for large lawns
 
-We don't hands-on test mowers. We compiled manufacturer US spec sheets, dated retailer and deal listings, and published reviews from outlets including Reviewed, Tom's Guide, TechRadar, Bob Vila and How-To Geek, then scored each model on navigation, terrain, coverage and value. For this list, coverage carried the most weight: rated area by tier, any published real-world caveats (like Husqvarna's irregular-yard figure), deck width, slope rating, and whether navigation holds up across a big, varied property. We only included wire-free models rated for at least about 1.25 acres in their top tier. Read the full methodology on our [how we research page](/how-we-research/).
+We don't hands-on test mowers. We compiled manufacturer US spec sheets, dated retailer and deal listings, and published reviews from outlets including Reviewed, Tom's Guide, TechRadar, Bob Vila and How-To Geek, then scored each model on navigation, terrain, coverage and value. For this list, coverage carried the most weight: rated area by tier, any published real-world caveats (like Husqvarna's irregular-yard figure), deck width, slope rating, and whether navigation holds up across a big, varied property. Our main picks are wire-free models rated for at least about 1.25 acres in their top tier; the 1-acre Roborock and Airseekers options and the newer HOOKII and Yarbo models are listed as alternatives because they have less independent testing. Read the full methodology on our [how we research page](/how-we-research/).
 
 Got hills as well as acreage? See our [best robot mowers for hills](/posts/best-robot-mower-for-hills/). Otherwise, compare everything in our [best robot lawn mowers of 2026](/posts/best-robot-lawn-mowers-2026/) roundup.
