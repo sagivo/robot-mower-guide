@@ -1,22 +1,31 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { MODELS } from "../../data/models";
+import { MODELS, priceTierOf } from "../../data/models";
 import { amazonLink } from "../../lib/amazon";
 import { SITE_NAME, SITE_URL } from "../../lib/site";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import Visual from "../../components/Visual.astro";
+import { breadcrumbLd } from "../../lib/schema";
 
 const title = "Robot Mower Size Matcher — What Size Robot Lawn Mower Do I Need?";
 const description =
   "Enter your lawn size, slope, and obstacles to find which wire-free robot lawn mowers actually fit your yard. Free sizing tool with model recommendations.";
 const url = `${SITE_URL}/tools/size-matcher/`;
 
+const crumbs = [
+  { name: "Home", href: "/" },
+  { name: "Tools", href: "/tools/" },
+  { name: "Size matcher", href: "/tools/size-matcher/" },
+];
 const jsonLd = [
+  breadcrumbLd(crumbs),
   {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Robot Mower Size Matcher",
     applicationCategory: "UtilitiesApplication",
     operatingSystem: "Any",
-    offers: { "@type": "Offer", price: "0" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     url,
   },
   {
@@ -36,7 +45,7 @@ const jsonLd = [
         name: "Can one robot mower handle a full acre?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — models like the Segway Navimow X4 Pro and Mammotion LUBA 2 AWD 5000H are rated for up to an acre or more. Larger areas mean longer mowing schedules, so buy headroom above your actual lawn size.",
+          text: "Yes — models like the Segway Navimow X450 (1.5 acres), Navimow X390 (2.5 acres) and Husqvarna Automower 440 iQ (2 acres) are rated for an acre or more. Larger areas mean longer mowing schedules, so buy headroom above your actual lawn size.",
         },
       },
     ],
@@ -44,12 +53,18 @@ const jsonLd = [
 ];
 
 const modelsJson = JSON.stringify(
-  MODELS.map((m) => ({ ...m, link: amazonLink(m.query) }))
+  MODELS.map((m) => ({ id: m.id, name: m.name, maxSqFt: m.maxSqFt, maxSlopePct: m.maxSlopePct, nav: m.nav, navTech: m.navTech, drive: m.drive, priceLow: m.priceLow, priceHigh: m.priceHigh, bestFor: m.bestFor, score: m.score, tiers: (m.tiers ?? [{ name: m.name, sqft: m.maxSqFt, price: m.priceLow, asin: m.asin }]).map((t) => ({
+    ...t,
+    band: `${priceTierOf(t.price).sym} ${priceTierOf(t.price).label}`,
+    // Exact listing for this size when known, else a search for the tier name.
+    link: t.asin ? amazonLink(m.query, t.asin) : m.tiers ? amazonLink(`${t.name} robot lawn mower`) : amazonLink(m.query, m.asin),
+  })), link: amazonLink(m.query, m.asin) }))
 );
 ---
 
 <BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
   <div class="wrap">
+    <Breadcrumbs crumbs={crumbs} />
     <div class="calc-hero">
       <h1>What size robot lawn mower do I need?</h1>
       <p>
@@ -62,11 +77,11 @@ const modelsJson = JSON.stringify(
     <div class="calc" id="size-calc">
       <div>
         <label for="area">Lawn area <output id="area-out">10,000 sq ft</output></label>
-        <input id="area" type="range" min="1000" max="50000" step="500" value="10000" />
+        <input id="area" type="range" min="1000" max="110000" step="500" value="10000" />
       </div>
       <div>
         <label for="slope">Steepest slope <output id="slope-out">15% grade</output></label>
-        <input id="slope" type="range" min="0" max="70" step="5" value="15" />
+        <input id="slope" type="range" min="0" max="100" step="5" value="15" />
       </div>
       <div class="row">
         <div>
@@ -79,14 +94,15 @@ const modelsJson = JSON.stringify(
         </div>
         <div>
           <label for="budget">Max budget <output id="budget-out">no limit</output></label>
-          <input id="budget" type="range" min="800" max="3200" step="100" value="3200" />
+          <input id="budget" type="range" min="600" max="5000" step="100" value="5000" />
         </div>
       </div>
       <p style="margin-top:1.5rem;"><button class="btn" id="match-btn" type="button">Find my mower 🌱</button></p>
       <div class="calc-result" id="size-result" aria-live="polite"></div>
     </div>
 
-    <article class="prose">
+    <article class="prose" data-pagefind-body>
+      <Visual name="diagram:lawn-sizes" />
       <h2>How the matching works</h2>
       <p>
         We filter for mowers rated at least 15% above your lawn size (headroom for
@@ -117,7 +133,7 @@ const modelsJson = JSON.stringify(
       [area, slope, budget].forEach(paint);
       $("area-out").textContent = fmt(area.value) + " sq ft";
       $("slope-out").textContent = slope.value + "% grade";
-      $("budget-out").textContent = +budget.value >= 3200 ? "no limit" : "$" + fmt(budget.value);
+      $("budget-out").textContent = +budget.value >= 5000 ? "no limit" : "$" + fmt(budget.value);
     }
     [area, slope, budget].forEach((el) => el.addEventListener("input", sync));
     sync();
@@ -126,14 +142,21 @@ const modelsJson = JSON.stringify(
       const need = parseFloat(area.value) * 1.15;
       const hill = parseFloat(slope.value);
       const obstacles = $("obstacles").value;
-      const maxBudget = +budget.value >= 3200 ? Infinity : parseFloat(budget.value);
+      const maxBudget = +budget.value >= 5000 ? Infinity : parseFloat(budget.value);
 
-      let picks = MODELS.filter((m) => m.maxSqFt >= need && m.maxSlopePct >= hill && m.priceLow <= maxBudget);
+      // For each model, the cheapest version (tier) that covers the lawn with headroom.
+      let picks = MODELS.map((m) => {
+        const tier = m.tiers.filter((t) => t.sqft >= need).sort((a, b) => a.price - b.price)[0];
+        return tier ? { ...m, tier } : null;
+      }).filter((m) => m && m.maxSlopePct >= hill && m.tier.price <= maxBudget);
       if (obstacles === "many") {
-        const vision = picks.filter((m) => /vision/i.test(m.nav));
-        if (vision.length) picks = vision;
+        const lidar = picks.filter((m) => m.navTech.includes("lidar"));
+        if (lidar.length) picks = lidar;
+      } else if (obstacles === "some") {
+        picks.forEach((m) => { if (m.navTech.includes("lidar")) m.score += 0.3; });
       }
-      picks.sort((a, b) => a.priceLow - b.priceLow);
+      // Rank by score, nudged toward cheaper options that do the job.
+      picks.sort((a, b) => (b.score - b.tier.price / 2500) - (a.score - a.tier.price / 2500));
       const result = $("size-result");
 
       if (!picks.length) {
@@ -141,21 +164,25 @@ const modelsJson = JSON.stringify(
       } else {
         const cards = picks.slice(0, 3).map((m, i) => `
           <div class="model-pick">
-            <div class="pick-layout">
-              <img src="${m.image}" alt="${m.imageAlt}" loading="lazy" width="220" height="160" />
-              <div>
-                <h4>${i === 0 ? "⭐ Best match: " : ""}${m.name}</h4>
-                <p class="specs">Covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres · climbs ${m.maxSlopePct}% grade · ${m.nav} · ~$${fmt(m.priceLow)}–$${fmt(m.priceHigh)}</p>
-                <p>${m.bestFor}</p>
-                <a class="btn" href="${m.link}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a>
-              </div>
-            </div>
+            <h4>${i === 0 ? "⭐ Best match: " : ""}<a href="/mowers/${m.id}/">${m.name}</a></h4>
+            <p class="specs">Get the <strong>${m.tier.name}</strong> (${(m.tier.sqft / 43560).toFixed(2)} ac) · ${m.tier.band} price tier · climbs ${m.maxSlopePct}% grade · ${m.drive} · ${m.nav}</p>
+            <p>${m.bestFor}</p>
+            <div class="pc-actions"><a class="btn buy btn-sm" href="${m.tier.link}" rel="sponsored nofollow noopener" target="_blank">Check ${m.tier.name} price</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
           </div>`).join("");
         result.innerHTML = `<h3>Top ${Math.min(3, picks.length)} matches for your lawn</h3>${cards}
-          <p class="disclosure">As an Amazon Associate ${siteName} earns from qualifying purchases. Prices change — verify on Amazon.</p>`;
+          <p class="disclosure">As an Amazon Associate ${siteName} earns from qualifying purchases. Check Amazon for today’s price.</p>`;
       }
       result.classList.add("show");
       result.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
+
+    // Arriving from the homepage quick matcher (?sqft=…&slope=…): prefill and show matches.
+    const params = new URLSearchParams(location.search);
+    if (params.has("sqft") || params.has("slope")) {
+      if (params.has("sqft")) area.value = params.get("sqft");
+      if (params.has("slope")) slope.value = params.get("slope");
+      sync();
+      $("match-btn").click();
+    }
   </script>
 </BaseLayout>

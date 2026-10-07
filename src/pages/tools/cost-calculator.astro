@@ -1,25 +1,39 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL } from "../../lib/site";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { breadcrumbLd } from "../../lib/schema";
+import { MODELS, priceTier } from "../../data/models";
+import { amazonLink } from "../../lib/amazon";
+
+const modelsJson = JSON.stringify(
+  MODELS.map((m) => ({ id: m.id, name: m.name, priceLow: m.priceLow, tier: `${priceTier(m).sym} ${priceTier(m).label}`, maxSqFt: m.maxSqFt, score: m.score, link: amazonLink(m.query, m.asin) }))
+);
 
 const title = "Robot Mower vs. Lawn Service Cost Calculator — Is It Worth It?";
 const description =
   "Compare the true cost of a robot lawn mower vs. paying a lawn service. Enter your mowing price to see payback time and 5-year savings.";
 const url = `${SITE_URL}/tools/cost-calculator/`;
 
-const jsonLd = {
+const crumbs = [
+  { name: "Home", href: "/" },
+  { name: "Tools", href: "/tools/" },
+  { name: "Cost calculator", href: "/tools/cost-calculator/" },
+];
+const jsonLd = [breadcrumbLd(crumbs), {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Robot Mower vs Lawn Service Cost Calculator",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
-  offers: { "@type": "Offer", price: "0" },
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   url,
-};
+}];
 ---
 
 <BaseLayout title={title} description={description} canonical={url} jsonLd={jsonLd}>
   <div class="wrap">
+    <Breadcrumbs crumbs={crumbs} />
     <div class="calc-hero">
       <h1>Is a robot mower worth it? Do the math.</h1>
       <p>
@@ -32,7 +46,7 @@ const jsonLd = {
     <div class="calc">
       <div>
         <label for="mower-price">Robot mower price <output id="mower-price-out">$1,500</output></label>
-        <input id="mower-price" type="range" min="500" max="3500" step="50" value="1500" />
+        <input id="mower-price" type="range" min="500" max="5000" step="50" value="1500" />
       </div>
       <div>
         <label for="service-price">Lawn service per visit <output id="service-price-out">$60</output></label>
@@ -52,7 +66,7 @@ const jsonLd = {
       <div class="calc-result" id="cost-result" aria-live="polite"></div>
     </div>
 
-    <article class="prose">
+    <article class="prose" data-pagefind-body>
       <h2>What the numbers usually show</h2>
       <p>
         At typical US mowing rates ($50–$80 per visit, ~28 visits a year), a
@@ -68,7 +82,8 @@ const jsonLd = {
     </article>
   </div>
 
-  <script>
+  <script define:vars={{ modelsJson }}>
+    const MODELS = JSON.parse(modelsJson);
     const $ = (id) => document.getElementById(id);
     const els = ["mower-price", "service-price", "visits", "years"].map($);
     const fmt = (n) => "$" + Math.round(n).toLocaleString("en-US");
@@ -86,6 +101,22 @@ const jsonLd = {
     }
     els.forEach((el) => el.addEventListener("input", sync));
     sync();
+
+    // Best-scoring models at or under the chosen budget (within 15%).
+    function budgetPicks(budget) {
+      const picks = MODELS.filter((m) => m.priceLow <= budget * 1.15)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3);
+      if (!picks.length) return "";
+      const cards = picks.map((m) => `
+        <div class="model-pick">
+          <h4><a href="/mowers/${m.id}/">${m.name}</a> <span class="score sm">${m.score.toFixed(1)}</span></h4>
+          <p class="specs">${m.tier} price tier · covers up to ${(m.maxSqFt / 43560).toFixed(2)} acres</p>
+          <div class="pc-actions"><a class="btn buy btn-sm" href="${m.link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><a class="pc-review" href="/mowers/${m.id}/">Full review</a></div>
+        </div>`).join("");
+      return `<h3 style="margin-top:1.5rem;">Top-rated mowers around ${fmt(budget)}</h3>${cards}
+        <p class="fine">As an Amazon Associate we earn from qualifying purchases.</p>`;
+    }
 
     $("calc-btn").addEventListener("click", () => {
       const price = +$("mower-price").value;
@@ -108,7 +139,8 @@ const jsonLd = {
           <tr><td>${years}-year robot mower cost</td><td><strong>${fmt(price + upkeep * years)}</strong> <span style="color:#5c6f60;font-size:.85rem;">(mower + ~$80/yr blades &amp; power)</span></td></tr>
           <tr><td>You save</td><td><strong style="color:#1e6b32;font-size:1.3rem;">${fmt(Math.max(0, savings))}</strong></td></tr>
         </table>
-        <p style="font-size:.87rem;color:#5c6f60;">Service prices tend to rise while the mower cost is fixed — real savings are usually higher.</p>`;
+        <p style="font-size:.87rem;color:#5c6f60;">Service prices tend to rise while the mower cost is fixed, so real savings are usually higher.</p>
+        ${budgetPicks(price)}`;
       result.classList.add("show");
       result.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
