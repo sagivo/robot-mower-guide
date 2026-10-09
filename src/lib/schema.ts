@@ -98,7 +98,7 @@ export function itemListLd(name: string, models: MowerModel[]): Ld {
   };
 }
 
-/** Product + editorial review for a model page. */
+/** Research-based product summary, without invented review ratings. */
 export function productLd(m: MowerModel, url: string, reviewDate: Date, image: string = OG_DEFAULT): Ld {
   return {
     "@context": "https://schema.org",
@@ -108,21 +108,5 @@ export function productLd(m: MowerModel, url: string, reviewDate: Date, image: s
     description: m.bestFor,
     image,
     url,
-    review: {
-      "@type": "Review",
-      name: `${m.name} review`,
-      author: { "@type": "Organization", name: `${SITE_NAME} Editorial Team`, url: `${SITE_URL}/about/` },
-      datePublished: reviewDate.toISOString(),
-      reviewBody: m.verdict,
-      reviewRating: { "@type": "Rating", ratingValue: m.score, bestRating: 10, worstRating: 0 },
-      positiveNotes: {
-        "@type": "ItemList",
-        itemListElement: m.pros.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p })),
-      },
-      negativeNotes: {
-        "@type": "ItemList",
-        itemListElement: m.cons.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c })),
-      },
-    },
   };
 }
