@@ -34,7 +34,9 @@ const host = (
               (p.crossOrigin = "anonymous"),
               (p.async = !0),
               (p.src = s.api_host + "/static/array.js"),
-              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);
+              function loadAnalytics(){ (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); }
+            if (t.readyState === "complete") { setTimeout(loadAnalytics, 2500); }
+            else { window.addEventListener("load", function(){ setTimeout(loadAnalytics, 2500); }, {once:true}); }
             var u = e;
             for (
               void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
@@ -72,6 +74,7 @@ const host = (
         capture_performance: true,
         // Privacy-friendly defaults: no replays, respect DNT.
         disable_session_recording: true,
+        disable_surveys: true,
         respect_dnt: true,
         person_profiles: "identified_only",
       });
