@@ -121,7 +121,7 @@ const [brandFirst, ...brandRest] = SITE_NAME.split(" ");
       <slot />
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer"><p class="fine">Updated <time datetime={article?.updatedDate ?? article?.pubDate ?? "2026-10-07"}>{new Date(article?.updatedDate ?? article?.pubDate ?? "2026-10-07").toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric",timeZone:"UTC"})}</time></p>
       <div class="wrap wide">
         <div class="footer-cta">
           <div>
