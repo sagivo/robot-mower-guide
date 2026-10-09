@@ -26,7 +26,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     sitemap({
-      filter: (page) => !/\/(contact|privacy|404)\/?$/.test(page),
+      filter: (page) => !/\/(contact|privacy|404|search)\/?$/.test(page),
       serialize(item) {
         const lastmod = LASTMOD.get(item.url);
         if (lastmod) item.lastmod = lastmod;
