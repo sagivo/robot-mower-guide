@@ -132,7 +132,8 @@ const bars: [string, number][] = [
       a hands-on lab test.
     </div>
 
-    <section class="review-grid">
+    <nav class="toc" aria-label="Jump to a section"><ol><li><a href="#verdict">Verdict</a></li><li><a href="#specs">Specifications</a></li>{mentionedIn.length > 0 && <li><a href="#featured-in">Related guides</a></li>}<li><a href="#sources">Sources</a></li><li><a href="#alternatives">Alternatives</a></li></ol></nav>
+    <section class="review-grid" id="verdict">
       <div class="verdict-box">
         <h2>The verdict</h2>
         <p>{m.verdict}</p>
