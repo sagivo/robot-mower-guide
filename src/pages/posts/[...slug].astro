@@ -23,6 +23,7 @@ const url = `${SITE_URL}/posts/${post.id}/`;
 const ogImage = `${SITE_URL}/og/posts/${post.id}.png`;
 const updated = d.updatedDate ?? d.pubDate;
 const fmtDate = (x: Date) => x.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+const longPage = (post.body ?? "").split(/\s+/).length > 3000;
 const toc = headings.filter((h) => h.depth === 2);
 const picks = d.picks ?? [];
 const pickModels = picks.map((p) => getModel(p.id));
@@ -71,7 +72,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
       {d.takeaways?.length ? (
         <aside class="takeaways" aria-label="Key takeaways">
           <h2>Key takeaways</h2>
-          <ul>{d.takeaways.map((t) => <li set:html={t} />)}</ul>
+          <ul>{d.takeaways.slice(0, longPage ? 3 : d.takeaways.length).map((t) => <li set:html={t} />)}</ul>
         </aside>
       ) : null}
 
@@ -79,7 +80,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
 
       {toc.length >= 3 && (
         <nav class="toc" aria-label="Table of contents">
-          <details>
+          <details open={longPage}>
             <summary>On this page <span>{toc.length + (d.faq?.length ? 1 : 0)} sections</span></summary>
             <ol>
               {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
