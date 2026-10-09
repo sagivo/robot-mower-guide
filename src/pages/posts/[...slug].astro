@@ -90,6 +90,7 @@ if (d.faq?.length) jsonLd.push(faqLd(d.faq));
         </nav>
       )}
 
+      {related.length > 0 && <aside class="related-tools" aria-label="Related reading"><h2>Before you choose</h2><ul>{related.slice(0,3).map(p => <li><a href={'/posts/'+p.id+'/'}>{p.data.title}</a></li>)}</ul></aside>}
       <Content />
 
       <aside class="related-tools" aria-label="Related tools" data-pagefind-ignore>
