@@ -100,6 +100,7 @@ export function itemListLd(name: string, models: MowerModel[]): Ld {
 
 /** Research-based product summary, without invented review ratings. */
 export function productLd(m: MowerModel, url: string, reviewDate: Date, image: string = OG_DEFAULT): Ld {
+  void reviewDate;
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -108,5 +109,11 @@ export function productLd(m: MowerModel, url: string, reviewDate: Date, image: s
     description: m.bestFor,
     image,
     url,
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "USD",
+      lowPrice: m.priceLow,
+      highPrice: m.priceHigh,
+    },
   };
 }
