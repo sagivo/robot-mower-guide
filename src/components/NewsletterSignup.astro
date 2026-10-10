@@ -1,0 +1,38 @@
+---
+interface Props { title?: string; copy: string; contact: string; download?: string; }
+const { title = 'Free planning checklist', copy, contact, download } = Astro.props;
+---
+<section class="newsletter-signup" aria-label="Email newsletter">
+  <h2>{title}</h2><p>{copy}</p>
+  <form class="newsletter-form">
+    <label>Email address <input type="email" name="email" autocomplete="email" required maxlength="254" placeholder="you@example.com" /></label>
+    <label class="newsletter-trap" aria-hidden="true">Leave this blank <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+    <button type="submit">Join the list</button>
+    <p class="newsletter-status" role="status" aria-live="polite"></p>
+  </form>
+  <p class="newsletter-small">By joining, you ask for the printable and at most one short email a week. Unsubscribe in any email. <a href="/privacy/">Privacy</a>. Contact: <a href={'mailto:' + contact}>{contact}</a>.</p>
+  {download && <p><a href={download}>Download the checklist now (PDF)</a>. Email delivery is not active yet.</p>}
+</section>
+<style>
+.newsletter-signup{max-width:760px;margin:2rem auto;padding:1.5rem;border:1px solid currentColor;border-radius:16px;background:var(--paper,#fffdf7);color:var(--ink,#17241b)}
+.newsletter-signup h2{margin:0 0 .5rem;font-size:1.5rem}.newsletter-signup p{line-height:1.6}.newsletter-form{display:flex;gap:.75rem;flex-wrap:wrap;align-items:end}.newsletter-form label{flex:1 1 240px;font-weight:600}.newsletter-form input{display:block;box-sizing:border-box;width:100%;font:inherit;padding:.8rem;margin-top:.3rem;border:1px solid #777;border-radius:8px;background:white;color:#17241b}.newsletter-form button{min-height:48px;font:inherit;font-weight:700;padding:.8rem 1.25rem;border:0;border-radius:8px;background:var(--accent,#16472d);color:white;cursor:pointer}.newsletter-form button:disabled{opacity:.6}.newsletter-trap{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden}.newsletter-status{flex-basis:100%;margin:0}.newsletter-small{font-size:.85rem}.newsletter-signup a{text-decoration:underline}
+@media(max-width:500px){.newsletter-signup{margin:1rem;padding:1.2rem}.newsletter-form button{width:100%}}
+</style>
+<script>
+for (const form of document.querySelectorAll<HTMLFormElement>('.newsletter-form')) {
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const status = form.querySelector<HTMLElement>('.newsletter-status')!;
+    const button = form.querySelector<HTMLButtonElement>('button')!;
+    const data = new FormData(form);
+    button.disabled = true; status.textContent = 'Saving your signup...';
+    try {
+      const response = await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: data.get('email'), website: data.get('website') }) });
+      const result = await response.json();
+      if (!response.ok || !result.ok) throw new Error(result.error || 'Signup could not be saved. Please try again later.');
+      status.textContent = 'Thanks. Your request has been received. No email will be sent until the newsletter launches.'; form.reset();
+    } catch (error) { status.textContent = error instanceof Error ? error.message : 'Please try again later.'; }
+    finally { button.disabled = false; }
+  });
+}
+</script>
