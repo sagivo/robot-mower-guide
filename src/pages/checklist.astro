@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+---
+<BaseLayout title="Spring robot mower buying checklist" description="A free printable checklist for lawn size, slopes, obstacles, boundary choices and running costs before buying a robot mower." canonical="https://robotlawnmowerguide.com/checklist/">
+  <div class="wrap checklist-page">
+    <p>Free printable planning guide</p><h1>Spring robot mower buying checklist</h1>
+    <p>Measure your yard, check slopes and obstacles, and ask the right questions before you pay. Work through seven short sections with a tape measure and your phone.</p>
+    <p><a class="download" href="/downloads/spring-robot-mower-checklist.pdf">Download the free checklist (PDF)</a></p>
+    <ul><li>Lawn size, separate areas and narrow passages</li><li>Slopes, hazards and boundary choices</li><li>Returns, repairs, running costs and spring setup</li></ul>
+    <p>Research-based planning guidance, not a hands-on test. Confirm safety limits and installation requirements in your mower's manual.</p>
+    <NewsletterSignup title="Get future mower planning guides" copy="Join for free planning printables and at most one short email a week. The checklist is available above now; email delivery will start after launch." contact="sam@robotlawnmowerguide.com" />
+    <p><a href="/tools/size-matcher/">Mower Size Matcher</a> · <a href="/tools/slope-checker/">Slope Checker</a> · <a href="/tools/cost-calculator/">Cost Calculator</a></p>
+  </div>
+</BaseLayout>
+<style>.checklist-page{max-width:850px;padding-block:2rem}.checklist-page h1{font-size:clamp(2rem,7vw,3.5rem);line-height:1.1}.checklist-page p,.checklist-page li{line-height:1.7}.download{display:inline-block;padding:1rem;background:#173425;color:#fff;border-radius:10px;font-weight:700}.checklist-page ul{padding-left:1.5rem}</style>
