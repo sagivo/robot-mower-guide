@@ -44,3 +44,7 @@ Before publishing, check mobile layout, table overflow, source URLs, date consis
 ## Collection fields for this site
 
 `pubDate` and optional `updatedDate`. Use `takeaways`, `picks` with existing model IDs, and `faq`. Include source links in the article body; reviews require their own `updatedDate`.
+
+## Newsletter launch gate
+
+The signup backend uses server-only RESEND_API_KEY and a site-specific RESEND_SEGMENT_ID. NEWSLETTER_ENABLED controls contact collection, not email delivery. A signup never sends mail or triggers an automation. Keep sending disabled until the owner approves launch and the postal contact footer, unsubscribe route and suppression checks are complete. Re-deploy after changing Pages bindings.
